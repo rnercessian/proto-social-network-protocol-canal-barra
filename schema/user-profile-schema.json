@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/schema/user-profile-schema.json",
+  "title": "CanalBarraHistoricalNicknameProfile",
+  "description": "Validation schema for nickname-level Canal Barra historical JSON-LD profile documents. This schema avoids civil identity inference and models historical pseudonymous participation.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "@context",
+    "@type",
+    "@id",
+    "name",
+    "identifier",
+    "isPartOf",
+    "about",
+    "evidenceStatus",
+    "privacyTier"
+  ],
+  "properties": {
+    "@context": {
+      "oneOf": [
+        { "type": "string", "const": "https://schema.org" },
+        {
+          "type": "object",
+          "required": ["schema", "cb"],
+          "properties": {
+            "schema": { "type": "string", "const": "https://schema.org/" },
+            "cb": { "type": "string" }
+          },
+          "additionalProperties": true
+        }
+      ]
+    },
+    "@type": {
+      "type": "string",
+      "const": "DigitalDocument"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Stable URI-style identifier for this profile document."
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable title of the profile document."
+    },
+    "identifier": {
+      "type": "string",
+      "description": "Historical IRC nickname used as a pseudonymous identifier."
+    },
+    "alternateName": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "description": {
+      "type": "string"
+    },
+    "isPartOf": {
+      "type": "object",
+      "required": ["@type", "name"],
+      "properties": {
+        "@type": { "type": "string", "const": "Dataset" },
+        "name": { "type": "string", "const": "Canal Barra Digital Archaeology Dataset" },
+        "url": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "about": {
+      "type": "object",
+      "required": ["@type", "name"],
+      "properties": {
+        "@type": { "type": "string", "const": "Organization" },
+        "name": { "type": "string", "const": "Canal Barra" },
+        "additionalType": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "roleName": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "founder",
+          "master",
+          "operator",
+          "voiced_user",
+          "registered_user",
+          "webmaster",
+          "event_participant",
+          "musician",
+          "participant_statement_subject"
+        ]
+      }
+    },
+    "sameAsNicknameInSources": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Source files where the nickname appears."
+    },
+    "evidenceStatus": {
+      "type": "string",
+      "enum": [
+        "archived_web_capture",
+        "primary_document",
+        "founder_statement",
+        "participant_statement",
+        "dataset_match",
+        "pending_verification"
+      ]
+    },
+    "privacyTier": {
+      "type": "string",
+      "enum": [
+        "nickname_level_only",
+        "public_historical_access_list",
+        "restricted_identity",
+        "requires_consent_before_publication"
+      ]
+    },
+    "civilIdentityLinked": {
+      "type": "boolean",
+      "const": false
+    },
+    "sensitiveDataIncluded": {
+      "type": "boolean",
+      "const": false
+    }
+  }
+}
