@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this digital archive or methodology in your research, please cite it as below."
+authors:
+  - name: "Canal Barra Digital Archaeology Community"
+title: "Proto-Social-Network-Protocol-Canal-Barra: A Semantic Web Archive of a 1996 Brazilian IRC Community"
+version: 1.0.0
+date-released: 2026-05-28
+url: "https://github.com/rnercessian/proto-social-network-protocol-canal-barra"
+keywords:
+  - "digital archaeology"
+  - "internet history"
+  - "irc preservation"
+  - "social graph"
+  - "semantic web"
+  - "brasnet"
+  - "Brazilian internet history"
