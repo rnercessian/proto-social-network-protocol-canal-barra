@@ -1,0 +1,75 @@
+{
+  "project": "proto-social-network-protocol-canal-barra",
+  "description": "Initial data dictionary for structuring historical evidence about Canal Barra.",
+  "entities": {
+    "nickname": {
+      "description": "Historical IRC nickname used as a pseudonymous public/community identifier.",
+      "fields": {
+        "nickname_id": "Stable internal identifier, e.g. cb_nk_000001.",
+        "display_nick": "Original visible nickname when safe to publish.",
+        "known_variants": "Optional list of known spelling/case variants.",
+        "first_observed_year": "First year in which the nickname is observed or documented.",
+        "last_observed_year": "Last year in which the nickname is observed or documented.",
+        "source_id": "Evidence source for the record.",
+        "privacy_classification": "Usually historical_public_nickname.",
+        "civil_identity_linked": "Boolean. Must be false in public datasets unless explicitly authorized and historically necessary.",
+        "sensitive_data_included": "Boolean. Must be false in public datasets."
+      }
+    },
+    "ircontro": {
+      "description": "Dated physical gathering associated with Canal Barra.",
+      "fields": {
+        "event_id": "Stable internal identifier, e.g. cb_ev_2001_001.",
+        "title": "Event title.",
+        "date": "Event date in ISO format when known.",
+        "location_name": "Public venue or general location.",
+        "city": "City.",
+        "country": "Country.",
+        "attendance_estimated": "Optional estimate; use null when unknown.",
+        "source_id": "Evidence source for the event.",
+        "certainty": "documented, observed, inferred or remembered."
+      }
+    },
+    "vip_list": {
+      "description": "Historical list documenting social recognition or event access.",
+      "fields": {
+        "vip_list_id": "Stable internal identifier.",
+        "event_id": "Related event identifier.",
+        "nickname_id": "Related nickname identifier.",
+        "display_nick": "Visible nickname when safe to publish.",
+        "entry_type": "guest, staff, vip, listed or unknown.",
+        "attendance_confirmed": "Boolean or null. A VIP entry alone should not imply attendance.",
+        "source_id": "Evidence source for the list."
+      }
+    },
+    "operator_history": {
+      "description": "Historical channel status, governance or access-level record.",
+      "fields": {
+        "record_id": "Stable internal identifier.",
+        "nickname_id": "Related nickname identifier.",
+        "display_nick": "Visible nickname when safe to publish.",
+        "channel": "Usually #barra.",
+        "network": "Usually BRASnet.",
+        "role": "operator, founder, access_level_holder or other historically documented role.",
+        "access_level": "Numeric or symbolic access level when documented.",
+        "period_start": "Start date or year when known.",
+        "period_end": "End date or year when known.",
+        "source_id": "Evidence source for the record.",
+        "certainty": "documented, observed, inferred or remembered."
+      }
+    },
+    "source": {
+      "description": "Evidence item used to support a record.",
+      "fields": {
+        "source_id": "Stable internal identifier.",
+        "source_type": "screenshot, website_page, book, academic_work, archive_url, oral_memory or other.",
+        "title": "Human-readable source title.",
+        "date": "Source date when known.",
+        "url": "Public URL when available.",
+        "file_path": "Repository path when stored in the archive.",
+        "privacy_status": "safe_for_public_archive, redacted, restricted or private.",
+        "notes": "Short contextual note."
+      }
+    }
+  }
+}
