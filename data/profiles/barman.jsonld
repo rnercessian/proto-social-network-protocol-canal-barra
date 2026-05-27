@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "cb": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/schema#",
+    "evidenceStatus": "cb:evidenceStatus",
+    "privacyTier": "cb:privacyTier",
+    "civilIdentityLinked": "cb:civilIdentityLinked",
+    "sensitiveDataIncluded": "cb:sensitiveDataIncluded",
+    "sameAsNicknameInSources": "cb:sameAsNicknameInSources"
+  },
+  "@type": "DigitalDocument",
+  "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/data/profiles/barman.jsonld",
+  "name": "Historical nickname profile: BarMan",
+  "identifier": "BarMan",
+  "alternateName": [
+    "Barra"
+  ],
+  "description": "Nickname-level historical profile for BarMan in the Canal Barra archive. The profile records pseudonymous community role evidence and does not infer private civil identity data.",
+  "isPartOf": {
+    "@type": "Dataset",
+    "name": "Canal Barra Digital Archaeology Dataset",
+    "url": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra"
+  },
+  "about": {
+    "@type": "Organization",
+    "name": "Canal Barra",
+    "additionalType": "IRC/BRASnet hybrid online-offline community"
+  },
+  "roleName": [
+    "founder",
+    "operator",
+    "registered_user",
+    "event_participant"
+  ],
+  "sameAsNicknameInSources": [
+    "data/raw/governance/access-list-2000-12.csv",
+    "data/raw/2002-11-28/nicknames-2002-11-28-cadastros.csv",
+    "data/raw/ircontros/rosa-dos-ventos-2001-02-21.csv"
+  ],
+  "evidenceStatus": "dataset_match",
+  "privacyTier": "nickname_level_only",
+  "civilIdentityLinked": false,
+  "sensitiveDataIncluded": false
+}
