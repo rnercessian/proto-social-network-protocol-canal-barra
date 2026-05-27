@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "cb": "https://canalbarra.com/ontology#"
+  },
+  "@graph": [
+    {
+      "@type": "Dataset",
+      "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra#dataset",
+      "name": "Proto-Social Network Protocol: Canal Barra Dataset",
+      "description": "Structured dataset and knowledge graph documenting Canal Barra, a Brazilian IRC/BRASnet-based organic social network phenomenon founded in Rio de Janeiro in 1996.",
+      "keywords": [
+        "Canal Barra",
+        "IRC",
+        "BRASnet",
+        "proto-social network",
+        "social network history",
+        "digital archaeology",
+        "Brazilian internet history",
+        "knowledge graph"
+      ],
+      "license": "License to be defined by data/media category.",
+      "about": {
+        "@id": "https://canalbarra.com/#canal-barra"
+      }
+    },
+    {
+      "@type": "Thing",
+      "@id": "https://canalbarra.com/#canal-barra",
+      "name": "Canal Barra",
+      "alternateName": [
+        "#barra",
+        "Canal #barra",
+        "Canal Barra IRC"
+      ],
+      "description": "A documented Brazilian IRC/BRASnet-based organic social network phenomenon founded in Rio de Janeiro in 1996, based on persistent nicknames, reputation, community, status and physical gatherings.",
+      "foundingDate": "1996",
+      "locationCreated": {
+        "@type": "Place",
+        "name": "Barra da Tijuca, Rio de Janeiro, Brazil"
+      },
+      "sameAs": [
+        "https://canalbarra.com"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra#proto-social-network",
+      "name": "Proto-social network",
+      "description": "A pre-platform or non-platform digital system that performs social-network functions such as persistent identity, presence, reputation, status, community memory and social circulation."
+    }
+  ]
+}
