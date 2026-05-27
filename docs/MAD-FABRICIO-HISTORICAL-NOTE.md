@@ -26,15 +26,45 @@ Founder statement: Mad recorded two songs in studio through channel-by-channel r
 
 Founder statement further says **Eu e Você** later entered the soundtrack of **Solteira Quase Surtando**, a film released in 2020 and described by the founder as co-produced by Metro Goldwyn Mayer.
 
-This soundtrack/film claim is important, but it needs external verification before being treated as confirmed public evidence in this repository.
+Important correction from the founder: the soundtrack placement was credited under **Johnny Baja**, not under **Malucos da Ponte**.
+
+This distinction matters because **Malucos da Ponte** is the Canal Barra-derived band layer, while **Johnny Baja** is the later artist/credit identity under which the track entered the film context.
 
 Current status:
 
 ```text
 founder_statement
 studio_recording_context_reported
+johnny_baja_soundtrack_credit_reported
 soundtrack_claim_pending_external_verification
 film_coproduction_claim_pending_external_verification
+abramus_document_reported_by_founder
+```
+
+## ABRAMUS Documentation
+
+Founder statement: an ABRAMUS document exists and may support the musical work/credit chain.
+
+This is potentially strong documentary evidence, but it should be reviewed before publication.
+
+Recommended handling:
+
+- preserve only work-level metadata if public-safe;
+- avoid publishing personal IDs, addresses, membership numbers, signatures or private registration data;
+- extract only fields relevant to historical authorship/recording/soundtrack evidence;
+- keep a redacted copy or metadata-only record in the repository if needed.
+
+Potential fields to extract after review:
+
+```text
+work_title
+credited_artist_or_interpreter
+composer_author_fields_if_safe
+publisher_or_collecting_society
+registration_date
+work_code_or_identifier_if safe
+source_document_type
+privacy_redaction_status
 ```
 
 ## Rehearsal Recordings and Bass Contributions
@@ -60,13 +90,16 @@ Founder statement: a public visual reference to Fabrício exists in the music vi
 
 Founder statement further identifies this as connected to **Warner Music**.
 
+Founder statement also identifies the instrument in the photograph as an imposing **Warwick bass**.
+
 This should be treated as public legacy evidence, but the repository still needs:
 
 - public video URL;
 - timestamp;
 - screenshot reference;
 - publisher/rightsholder metadata;
-- confirmation of the image context.
+- confirmation of the image context;
+- visual confirmation of the Warwick bass detail.
 
 Current evidence status:
 
@@ -74,6 +107,7 @@ Current evidence status:
 founder_statement
 public_video_reference_pending_metadata
 warner_music_context_reported_by_founder
+warwick_bass_detail_reported_by_founder
 ```
 
 ## Press Reference Pending Recovery
@@ -101,12 +135,14 @@ The correct scope is historical and cultural legacy.
 
 To strengthen this record, the repository should later add:
 
+- redacted ABRAMUS metadata for **Eu e Você**, if safe;
 - public URL and timestamp for **O Dia que Não Terminou**;
 - screenshot or still frame showing the public photo reference;
+- visual confirmation of the Warwick bass detail;
 - Warner Music / official channel metadata, if applicable;
 - audio files or session notes for **Eu e Você** and **Só Por Querer**;
 - rehearsal recordings where Mad's bass is present;
-- documentation of **Eu e Você** in the **Solteira Quase Surtando** soundtrack;
+- documentation of **Eu e Você** in the **Solteira Quase Surtando** soundtrack under the **Johnny Baja** credit;
 - film credits or distributor/co-production metadata for **Solteira Quase Surtando**;
 - setlist, audio or testimony confirming **Corpo Dourado** as the encore at the 5th anniversary party;
 - press clipping or archive of the week-of-death statement;
@@ -114,4 +150,4 @@ To strengthen this record, the repository should later add:
 
 ## Core Sentence
 
-**Fabrício, historically known as |Mad|, should be documented as a recurring Canal Barra identity and Malucos da Ponte musical figure, with his studio recordings, bass contributions and public legacy evidence handled soberly and without private biographical exposure.**
+**Fabrício, historically known as |Mad|, should be documented as a recurring Canal Barra identity and Malucos da Ponte musical figure, while later soundtrack/public credit evidence involving Eu e Você should be tracked under the correct Johnny Baja credit chain.**
