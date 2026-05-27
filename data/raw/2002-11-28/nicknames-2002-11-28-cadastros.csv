@@ -1,0 +1,6 @@
+record_id,snapshot_date,segment,source_id,list_position,irc_status_prefixes,display_nickname,raw_line,privacy_classification,civil_identity_linked,sensitive_data_included,normalized_duplicate_count
+cb_20021128_0001,2002-11-28,male,canalbarra_cadastros_20021128_male,1,@,BarMan,@ BarMan,historical_public_nickname,false,false,1
+cb_20021128_0002,2002-11-28,male,canalbarra_cadastros_20021128_male,2,@,Biano-,@ Biano-,historical_public_nickname,false,false,1
+cb_20021128_0003,2002-11-28,male,canalbarra_cadastros_20021128_male,3,@,Brumarx,@ Brumarx,historical_public_nickname,false,false,1
+cb_20021128_0004,2002-11-28,male,canalbarra_cadastros_20021128_male,4,@,Daniel_Recreio,@ Daniel_Recreio,historical_public_nickname,false,false,1
+cb_20021128_0005,2002-11-28,male,canalbarra_cadastros_20021128_male,5,@,DrNando,@ DrNando,historical_public_nickname,false,false,1
