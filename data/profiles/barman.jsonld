@@ -6,7 +6,9 @@
     "privacyTier": "cb:privacyTier",
     "civilIdentityLinked": "cb:civilIdentityLinked",
     "sensitiveDataIncluded": "cb:sensitiveDataIncluded",
-    "sameAsNicknameInSources": "cb:sameAsNicknameInSources"
+    "sameAsNicknameInSources": "cb:sameAsNicknameInSources",
+    "imageEvidence": "cb:imageEvidence",
+    "physicalHostRole": "cb:physicalHostRole"
   },
   "@type": "DigitalDocument",
   "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/data/profiles/barman.jsonld",
@@ -15,7 +17,7 @@
   "alternateName": [
     "Barra"
   ],
-  "description": "Nickname-level historical profile for BarMan in the Canal Barra archive. The profile records pseudonymous community role evidence and does not infer private civil identity data.",
+  "description": "Nickname-level historical profile for BarMan in the Canal Barra archive. BarMan is documented as founder/operator and as a recurring physical host of IRContros, including gatherings in restaurants such as Parme and a founder-owned home photograph. The profile records pseudonymous community role evidence and does not infer private civil identity data.",
   "isPartOf": {
     "@type": "Dataset",
     "name": "Canal Barra Digital Archaeology Dataset",
@@ -32,10 +34,46 @@
     "registered_user",
     "event_participant"
   ],
+  "physicalHostRole": [
+    {
+      "@type": "Event",
+      "name": "Canal Barra IRContros at Parme pizzeria",
+      "description": "Founder statement: BarMan organized Canal Barra IRContros at Parme pizzeria that could fill almost one third of the venue. This is a scale statement pending independent source confirmation.",
+      "location": {
+        "@type": "Place",
+        "name": "Parme pizzeria"
+      },
+      "evidenceStatus": "founder_statement",
+      "privacyTier": "nickname_level_only"
+    },
+    {
+      "@type": "Event",
+      "name": "Canal Barra private-home IRContro photograph",
+      "description": "Founder statement: the referenced group photograph belongs to BarMan and was taken at BarMan's home. No private address is published.",
+      "location": {
+        "@type": "Place",
+        "name": "BarMan home",
+        "address": "not published"
+      },
+      "evidenceStatus": "founder_statement",
+      "privacyTier": "requires_consent_before_publication"
+    }
+  ],
   "sameAsNicknameInSources": [
     "data/raw/governance/access-list-2000-12.csv",
     "data/raw/2002-11-28/nicknames-2002-11-28-cadastros.csv",
     "data/raw/ircontros/rosa-dos-ventos-2001-02-21.csv"
+  ],
+  "subjectOf": [
+    {
+      "@type": "ImageObject",
+      "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/docs/IMAGE-MANIFEST-IRCONTRO-HOME-01.md",
+      "name": "IRContro photo metadata: private-home group photograph",
+      "contentUrl": "media/ircontros/ircontro-home-photo-01.jpg",
+      "description": "Founder-owned historical IRContro group photograph taken at BarMan's home. The image can be included in the repository, but person-level identification should remain nickname-level and consent-aware.",
+      "evidenceStatus": "founder_statement",
+      "privacyTier": "requires_consent_before_publication"
+    }
   ],
   "evidenceStatus": "dataset_match",
   "privacyTier": "nickname_level_only",
