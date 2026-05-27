@@ -32,7 +32,7 @@ Canal Barra social ecosystem
 | Fabrício is listed as a musician on Eu e Você | ABRAMUS metadata provided by founder |
 | Johnny Baja received cinema-related ECAD reporting | ECAD payment/reporting document provided by founder |
 | Solteira Quase Surtando appears in ECAD cinema exhibition/reporting details | founder-provided ECAD detail text; source document should be archived/redacted |
-| Public video evidence reportedly shows film playback and Johnny Baja credit/name | public YouTube URL provided by founder; content verification still needed |
+| Public video evidence reportedly shows film playback and Johnny Baja credit/name | public YouTube URL + timestamp provided by founder; content verification still needed |
 | Specific cue/sync relationship tying Eu e Você to each reported cinema line | requires cue sheet, contract, film credits or full ECAD work-level report |
 
 ## Public Video Evidence
@@ -43,10 +43,17 @@ Founder provided the following public YouTube URL as evidence that a relative fi
 https://www.youtube.com/watch?v=XNwtChWTqjY
 ```
 
+Founder-provided timestamp:
+
+```text
+00:05
+```
+
 Repository status:
 
 ```text
 public_url_provided
+timestamp_provided_by_founder
 content_verification_pending
 copyright_sensitive_do_not_download_or_republish
 ```
@@ -115,7 +122,7 @@ To close the chain more strongly, the repository should later add redacted or me
 - film credits showing the exact song title;
 - distributor or production metadata for the film;
 - documentation of the film association with MGM / Metro Goldwyn Mayer;
-- timestamp in the public YouTube evidence where Johnny Baja appears;
+- independent verification of the public YouTube evidence timestamp;
 - timestamp or copy of the film scene/end credits if legally safe.
 
 ## Privacy and Copyright Boundary
