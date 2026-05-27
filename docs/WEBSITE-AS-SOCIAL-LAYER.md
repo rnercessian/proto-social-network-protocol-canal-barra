@@ -28,6 +28,37 @@ Weak wording:
 The website by itself was the whole social network.
 ```
 
+## Topic and Entry Message Visibility
+
+Founder statement: during BarMan's administration, the Canal Barra website was not hidden outside the IRC channel. It was visible inside the channel itself through the topic and entry message / entrymsg.
+
+Reported channel message:
+
+```text
+Sorria! Você está no #barra! www.CanalBarra.com
+```
+
+This matters because the website was not merely an external archive. It was presented to users at the point of channel entry and channel presence.
+
+In practical IRC terms:
+
+```text
+#barra topic / entry message
+→ direct visibility of canalbarra.com
+→ user registration / photos / events / rules / operators
+→ return to #barra social interaction
+```
+
+This supports the hybrid-system argument: the website was advertised from inside the live IRC environment and functioned as a persistent extension of the channel.
+
+Evidence status:
+
+```text
+founder_statement
+needs_log_or_screenshot_confirmation
+irc_topic_entrymsg_context
+```
+
 ## What the Website Added
 
 The website added persistence and public memory to the real-time IRC network.
@@ -82,7 +113,8 @@ The repository tracks evidence such as:
 - externally hosted event pages promoted through #barra;
 - rules page documenting allowed and prohibited behavior;
 - operator-page evidence;
-- best-cadastro voting evidence.
+- best-cadastro voting evidence;
+- founder statement that canalbarra.com appeared in the #barra topic and entry message during BarMan's administration.
 
 ## Response to Narrow Interpretations
 
