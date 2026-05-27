@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IRContro Event",
+  "description": "Basic schema for documenting Canal Barra online-to-offline meetup events.",
+  "type": "object",
+  "required": ["event_id", "event_name", "source_channel", "online_to_offline_bridge", "evidence_status"],
+  "properties": {
+    "event_id": { "type": "string" },
+    "event_name": { "type": "string" },
+    "event_date": { "type": ["string", "null"] },
+    "event_date_text": { "type": ["string", "null"] },
+    "venue_name": { "type": ["string", "null"] },
+    "city": { "type": ["string", "null"] },
+    "state": { "type": ["string", "null"] },
+    "country": { "type": ["string", "null"] },
+    "source_channel": { "type": "string" },
+    "network": { "type": ["string", "null"] },
+    "online_to_offline_bridge": { "type": "boolean" },
+    "associated_nicknames": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "evidence_sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source_type": { "type": "string" },
+          "source_path": { "type": ["string", "null"] },
+          "source_url": { "type": ["string", "null"] },
+          "evidence_level": { "type": "string" }
+        }
+      }
+    },
+    "privacy_tier": { "type": ["string", "null"] },
+    "evidence_status": { "type": "string" },
+    "notes": { "type": ["string", "null"] }
+  }
+}
