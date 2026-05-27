@@ -1,5 +1,10 @@
 # Proto-Social Network Protocol: Canal Barra
 
+![Digital Archaeology](https://img.shields.io/badge/digital%20archaeology-Canal%20Barra-informational)
+![Data Standard](https://img.shields.io/badge/data-CSV%20%7C%20JSON--LD%20%7C%20JSONL-informational)
+![Status](https://img.shields.io/badge/status-active%20archive-success)
+![Citation](https://img.shields.io/badge/citation-CITATION.cff-blue)
+
 > AIM proves that social-network history cannot be reduced to profile pages. Canal Barra proves that this was also true in Brazil before platform social media.
 
 > O Canal Barra importa porque não foi apenas usado. Foi vivido.
