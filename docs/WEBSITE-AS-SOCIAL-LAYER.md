@@ -32,6 +32,14 @@ The website by itself was the whole social network.
 
 Founder statement: during BarMan's administration, the Canal Barra website was not hidden outside the IRC channel. It was visible inside the channel itself through the topic and entry message / entrymsg.
 
+Definition:
+
+```text
+The ChanServ ENTRYMSG command allows a channel founder/operator to configure an automatic message, usually an announcement or notice, sent to users when they enter the channel.
+```
+
+This means the website URL could be delivered automatically at the exact moment a user entered #barra, not only after manual promotion by users.
+
 Reported channel message:
 
 ```text
@@ -43,8 +51,8 @@ This matters because the website was not merely an external archive. It was pres
 In practical IRC terms:
 
 ```text
-#barra topic / entry message
-→ direct visibility of canalbarra.com
+user joins #barra
+→ ChanServ entry message / topic exposes canalbarra.com
 → user registration / photos / events / rules / operators
 → return to #barra social interaction
 ```
@@ -55,7 +63,8 @@ Evidence status:
 
 ```text
 founder_statement
-needs_log_or_screenshot_confirmation
+entrymsg_definition_supported_by_external_irc_documentation_or_user_provided_reference
+needs_log_or_screenshot_confirmation_for_exact_message
 irc_topic_entrymsg_context
 ```
 
