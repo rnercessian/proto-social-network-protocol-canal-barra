@@ -55,12 +55,6 @@ chat_log_dossier_status: public_anexo_2_extract_available_for_audit
 | `BM_` | 108 | combined public extract count across short dossier + Anexo 2 chat-log dossier; count still unaudited | founder_provided_count_pending_repository_verification | `data/profiles/bm_.jsonld` |
 | `Biano` | 80 | combined public extract count across short dossier + Anexo 2 chat-log dossier; count still unaudited | founder_provided_count_pending_repository_verification | TODO |
 
-## Identity Boundary
-
-`BM_` is a separate nickname-level participant and must not be merged with BarMan.
-
-BarMan is not currently represented in this index as appearing in the UFF dissertation conversation material.
-
 ## Interpretation
 
 These counts matter because they indicate recurring presence inside the dissertation-derived public extract set.
