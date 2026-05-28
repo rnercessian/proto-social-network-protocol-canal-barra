@@ -27,7 +27,8 @@ title: IRC e ICQ: uma análise sócio-comunicativa das plataformas de comunicaç
 author: Flaviana Rangel Pesset Gonzaga
 institution: Universidade Federal Fluminense
 year: 2004
-source_status: direct URL / PDF text still pending repository verification
+source_status: public dossier available; official/institutional PDF still pending repository verification
+public_dossier_url: https://canalbarra.com/documents/dossie-canal-barra-monografia-uff-2004-curto.pdf
 ```
 
 ## Methodological Status
@@ -44,8 +45,15 @@ privacy_tier: nickname_level_academic_chat_log_reference
 
 | Nickname | Reported occurrences | Evidence context | Status | Linked repository record |
 |---|---:|---|---|---|
-| `VaNZaN` | 119 | pasted Canal Barra channel conversation excerpts | founder_provided_count_pending_repository_verification | `docs/ARCHIVED-PROFILE-VANZAN-USERID-40-2002.md` |
-| `Biano` | 80 | pasted Canal Barra channel conversation excerpts | founder_provided_count_pending_repository_verification | TODO |
+| `VaNZaN` | 119 | pasted Canal Barra channel conversations reproduced in the UFF dissertation | founder_provided_count_pending_repository_verification | `docs/ARCHIVED-PROFILE-VANZAN-USERID-40-2002.md`; `data/profiles/vanzan.jsonld` |
+| `BM_` | 108 | pasted Canal Barra channel conversations reproduced in the UFF dissertation | founder_provided_count_pending_repository_verification | `data/profiles/bm_.jsonld` |
+| `Biano` | 80 | pasted Canal Barra channel conversations reproduced in the UFF dissertation | founder_provided_count_pending_repository_verification | TODO |
+
+## Identity Boundary
+
+`BM_` is a separate nickname-level participant and must not be merged with BarMan.
+
+BarMan is not currently represented in this index as appearing in the UFF dissertation conversation material.
 
 ## Interpretation
 
@@ -65,7 +73,7 @@ IRC nickname
 
 ## Next Steps
 
-1. Add the direct URL or PDF citation for the UFF dissertation.
+1. Add the direct official/institutional URL or PDF citation for the UFF dissertation.
 2. Extract a searchable text layer if legally and technically safe.
 3. Verify each reported occurrence count.
 4. Create linked profile records for nicknames that also have archived Canalbarra.com cadastro pages.
