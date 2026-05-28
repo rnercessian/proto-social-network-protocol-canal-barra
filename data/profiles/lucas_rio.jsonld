@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "cb": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/schema#",
+    "evidenceStatus": "cb:evidenceStatus",
+    "privacyTier": "cb:privacyTier",
+    "civilIdentityLinked": "cb:civilIdentityLinked",
+    "sensitiveDataIncluded": "cb:sensitiveDataIncluded",
+    "sameAsNicknameInSources": "cb:sameAsNicknameInSources",
+    "technicalContribution": "cb:technicalContribution"
+  },
+  "@type": "DigitalDocument",
+  "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/data/profiles/lucas_rio.jsonld",
+  "name": "Historical nickname profile: Lucas_Rio",
+  "identifier": "Lucas_Rio",
+  "description": "Nickname-level historical profile for Lucas_Rio in the Canal Barra archive. Lucas_Rio is preserved as a family-connected and technically relevant participant who helped transform the Canal Barra website from a static page into a dynamic ColdFusion-powered web layer. No private civil identity details are published.",
+  "isPartOf": {
+    "@type": "Dataset",
+    "name": "Canal Barra Digital Archaeology Dataset",
+    "url": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra"
+  },
+  "about": {
+    "@type": "Organization",
+    "name": "Canal Barra",
+    "additionalType": "IRC/BRASnet hybrid online-offline community"
+  },
+  "roleName": [
+    "registered_user",
+    "family_trust_bridge",
+    "technical_contributor",
+    "web_layer_contributor"
+  ],
+  "technicalContribution": [
+    {
+      "@type": "CreativeWork",
+      "name": "Canal Barra dynamic website layer",
+      "description": "Founder statement: Lucas_Rio helped transform the Canal Barra website into a dynamic ColdFusion-powered system, strengthening the bridge between IRC community and web profile/cadastro infrastructure.",
+      "programmingLanguage": "ColdFusion",
+      "evidenceStatus": "founder_statement"
+    }
+  ],
+  "sameAsNicknameInSources": [
+    "founder_statement_lucas_rio_coldfusion_dynamic_site",
+    "docs/WEB-STACK-COLDFUSION-ACCESS-2000.md"
+  ],
+  "historicalRelevance": "Lucas_Rio documents the technical and family-trust layer behind Canal Barra's web evolution: the community was not only an IRC channel, but also gained dynamic web infrastructure through trusted personal networks.",
+  "evidenceStatus": "founder_statement_pending_structured_source_mapping",
+  "privacyTier": "nickname_level_with_family_connection_caution",
+  "civilIdentityLinked": false,
+  "sensitiveDataIncluded": false
+}
