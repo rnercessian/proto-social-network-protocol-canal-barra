@@ -1,0 +1,63 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "cb": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/schema#",
+    "evidenceStatus": "cb:evidenceStatus",
+    "privacyTier": "cb:privacyTier",
+    "civilIdentityLinked": "cb:civilIdentityLinked",
+    "sensitiveDataIncluded": "cb:sensitiveDataIncluded",
+    "sameAsNicknameInSources": "cb:sameAsNicknameInSources",
+    "imageEvidence": "cb:imageEvidence"
+  },
+  "@type": "DigitalDocument",
+  "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/data/profiles/mad.jsonld",
+  "name": "Historical nickname profile: Mad",
+  "identifier": "Mad",
+  "alternateName": [
+    "mad_irc"
+  ],
+  "description": "Nickname-level historical profile for Mad in the Canal Barra archive. Mad is documented through an archived Canalbarra.com user profile, profile media metadata and founder-provided nickname identification. This profile preserves Mad as a participant in the Canal Barra online-offline social field without publishing civil identity or private biographical data.",
+  "isPartOf": {
+    "@type": "Dataset",
+    "name": "Canal Barra Digital Archaeology Dataset",
+    "url": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra"
+  },
+  "about": {
+    "@type": "Organization",
+    "name": "Canal Barra",
+    "additionalType": "IRC/BRASnet hybrid online-offline community"
+  },
+  "roleName": [
+    "registered_user",
+    "event_participant",
+    "profile_subject",
+    "music_context_participant"
+  ],
+  "sameAsNicknameInSources": [
+    "https://web.archive.org/web/20010412232630/http://www.canalbarra.com/cadastros/user.cfm?userID=14",
+    "docs/IMAGE-MANIFEST-MAD-REHEARSAL-BASS-2001.md",
+    "docs/ARCHIVED-PROFILE-BARMAN-USERID-25-2001.md"
+  ],
+  "subjectOf": [
+    {
+      "@type": "WebPage",
+      "@id": "https://web.archive.org/web/20010412232630/http://www.canalbarra.com/cadastros/user.cfm?userID=14",
+      "name": "Archived Canal Barra user profile: userID=14",
+      "evidenceStatus": "archived_web_capture",
+      "privacyTier": "nickname_level_public_profile"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/docs/IMAGE-MANIFEST-MAD-REHEARSAL-BASS-2001.md",
+      "name": "Mad rehearsal-room bass photograph metadata",
+      "description": "Archived profile image metadata describing Mad in a music rehearsal-room context, with image republication restricted to privacy and consent-aware review.",
+      "evidenceStatus": "archived_web_capture",
+      "privacyTier": "public_archived_profile_metadata_with_identity_caution"
+    }
+  ],
+  "historicalRelevance": "Mad connects the Canal Barra archive to nickname identity, archived user profiles, profile media, music-related offline culture and remembered online-offline sociability.",
+  "evidenceStatus": "archived_web_capture_and_founder_provided_identification",
+  "privacyTier": "nickname_level_memorial_reference",
+  "civilIdentityLinked": false,
+  "sensitiveDataIncluded": false
+}
