@@ -26,7 +26,7 @@ Its importance is chronological and cultural: the dissertation was produced whil
 
 This repository uses the dissertation in a narrower documentary sense. Its value here is that it preserves or reproduces Canal Barra-related conversation material from the period, helping anchor nickname persistence, interaction patterns and community presence in the historical record. Any broader interpretation of Canal Barra as an organic, territorialized pre-platform social network is an analytical claim made by this repository, not a claim attributed to the dissertation author.
 
-Reported nickname occurrence counts, including VaNZaN with 119 occurrences and Biano with 80 occurrences, are currently treated as preliminary inventory data. These metrics reflect the dense and rapid-turn structure of real-time IRC logs preserved within the study's appendices, where substantial interaction volumes could accumulate within a single chat session. These numbers remain flagged as `founder_provided_count_pending_repository_verification` until fully audited and cross-referenced against the complete dissertation text, page references or extracted occurrence tables.
+Reported nickname occurrence counts, including VaNZaN with 119 occurrences, BM_ with 108 occurrences and Biano with 80 occurrences, are currently treated as preliminary inventory data. These metrics reflect the dense and rapid-turn structure of real-time IRC logs preserved within the study's appendices, where substantial interaction volumes could accumulate within a single chat session. These numbers remain flagged as `founder_provided_count_pending_repository_verification` until fully audited and cross-referenced against the complete dissertation text, page references or extracted occurrence tables.
 
 ## Evidence Meaning
 
@@ -45,7 +45,12 @@ This matters because a pasted channel excerpt preserves traces of live IRC inter
 | Nickname | Reported occurrences | Evidence context | Verification status | Linked repo record |
 |---|---:|---|---|---|
 | `VaNZaN` | 119 | pasted Canal Barra channel conversation excerpts | founder_provided_count_pending_repository_verification | `docs/ARCHIVED-PROFILE-VANZAN-USERID-40-2002.md` |
+| `BM_` | 108 | pasted Canal Barra channel conversation excerpts | founder_provided_count_pending_repository_verification | `data/profiles/bm_.jsonld` |
 | `Biano` | 80 | pasted Canal Barra channel conversation excerpts | founder_provided_count_pending_repository_verification | TODO |
+
+## Identity Boundary
+
+`BM_` is treated as a separate nickname-level participant and must not be merged with BarMan. BarMan is not currently represented in this index as appearing in the UFF dissertation conversation material.
 
 ## Methodological Note
 
