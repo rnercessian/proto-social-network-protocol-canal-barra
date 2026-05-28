@@ -38,13 +38,19 @@ Recalled possible participants:
 ```text
 Negaum
 Candynha
-Lost Princess
+LostPrincess / Lost Princess
 Isa
 JD, uncertain
-Carol Etchegoen, uncertain
+LostPrincess, uncertain alternate-reference check needed
 ```
 
 Uncertainty must be preserved. Do not treat uncertain names as confirmed attendance.
+
+Privacy note:
+
+```text
+Use nicknames only. Do not publish civil names from private conversation unless explicit consent and archival policy allow it.
+```
 
 ## Backup Material Mentioned
 
@@ -73,7 +79,7 @@ This participant statement supports three useful lines of investigation:
 Correct wording:
 
 ```text
-Participant WaterHand recalls arriving late to the Canal Barra fifth anniversary party, with the show already underway, and remembers participants such as Negaum, Candynha, Lost Princess and possibly Isa/JD/Carol Etchegoen.
+Participant WaterHand recalls arriving late to the Canal Barra fifth anniversary party, with the show already underway, and remembers participants such as Negaum, Candynha, LostPrincess/Lost Princess and possibly Isa/JD.
 ```
 
 Incorrect wording:
@@ -88,9 +94,16 @@ Incorrect wording:
 WaterHand's backups have been recovered.
 ```
 
+Incorrect wording:
+
+```text
+Civil names from private recollections can be published as-is.
+```
+
 ## Follow-up Tasks
 
 ```text
+- Search for LostPrincess / Lost Princess spellings in recovered logs and caption datasets.
 - Ask WaterHand for permission before publishing any raw conversation or recovered logs.
 - If backups are recovered, separate private logs from publication-safe metadata.
 - If photos are recovered, create image manifests before publishing images.
