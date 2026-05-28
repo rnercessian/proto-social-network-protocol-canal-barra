@@ -32,6 +32,12 @@ The persistent web layer of Canal Barra. It preserved and displayed cadastros, p
 
 Historical pseudonymous identifier used in IRC. Nicknames should be treated as archival identifiers, not automatically as civil identities.
 
+The repository distinguishes between an observed/display nickname and a syntactically valid IRC nickname. Website cadastro pages, photo captions and ornamental labels may contain spaces, accents, punctuation or decorative text that would not be accepted as a literal IRC nick.
+
+For archival validation, an IRC-compatible nickname may use letters, numbers after the first character, hyphen after the first character, and IRC special characters such as `[`, `]`, `\`, `` ` ``, `_`, `^`, `{`, `|` and `}`. Spaces, `@`, `#`, `/`, `.`, accented letters and decorative symbols should be treated as not IRC-syntax-valid unless a source documents a network-specific exception.
+
+Invalid IRC syntax does not make a record historically invalid. It means the value should be interpreted as a display label, caption text, website alias, OCR artifact or pending cleanup candidate until corroborated.
+
 ### Cadastro
 
 Website registration/profile-like record. A cadastro can indicate nickname persistence, self-presentation and social visibility.

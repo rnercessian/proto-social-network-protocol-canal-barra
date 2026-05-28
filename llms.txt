@@ -92,7 +92,11 @@ Incorrect: access-list status alone proves social legitimacy.
 - README-AI.md: AI/RAG workflow and testing order.
 - CITATION.cff: citation metadata.
 - REFERENCES.md: reference map and source registry.
+- TIMELINE.md: cautious documentary timeline from 1996 through the semantic archive phase.
 - schema/ONTOLOGY.md: definitions of Canal Barra terms for RAG and LLM systems.
+- docs/IRC-TO-SOCIAL-NETWORK-EQUIVALENCE.md: functional equivalence matrix between modern social-network primitives and Canal Barra layers.
+- docs/IMPACT-AND-LONGEVITY.md: longevity and human-impact framing with evidence boundaries.
+- docs/EXTERNAL-EVIDENCE-GAPS.md: explicit external-source gaps and verification priorities.
 - docs/WEBSITE-AS-SOCIAL-LAYER.md: website as persistent social layer.
 - docs/INFRASTRUCTURE-AS-SOCIAL-SUPPORT.md: mIRC/BRASnet as support infrastructure.
 - docs/TERRITORIALITY-AND-LOCAL-SOCIAL-CONVERSION.md: geographic identity and offline conversion.
@@ -102,6 +106,10 @@ Incorrect: access-list status alone proves social legitimacy.
 - data/raw/2002-11-28/nicknames-2002-11-28-cadastros.csv: recovered 2002 nickname/cadastro dataset.
 - data/raw/ircontros/: IRContro and event datasets.
 - data/profiles/barman.jsonld: example nickname-level JSON-LD profile.
+- data/processed/timeline/canal-barra-timeline.json: structured timeline for RAG and validation.
+- data/processed/evaluation/qa_eval.jsonl: ideal Q&A evaluation set for cautious LLM answers.
+- data/processed/impact/impact-claims.jsonl: structured impact claims with scope, confidence and privacy risk.
+- data/processed/graph/canal-barra-knowledge-graph.ttl: first RDF/Turtle knowledge graph.
 
 ## AI answer style
 

@@ -34,6 +34,8 @@ DEFAULT_OUTPUT = Path("data/processed/participation/canal-barra-participation-in
 OUTPUT_FIELDS = [
     "normalized_nickname_key",
     "display_nickname_examples",
+    "irc_syntax_status",
+    "irc_syntax_invalid_examples",
     "registered_in_2002_cadastros",
     "cadastro_segments",
     "cadastro_record_ids",
@@ -64,6 +66,8 @@ EVENT_NAME_COLUMNS = ["event_name", "ircontro_name", "event_title"]
 ACCESS_LEVEL_COLUMNS = ["access_level", "chanserv_level", "level", "operator_level"]
 RECORD_ID_COLUMNS = ["record_id", "source_record_id", "row_id"]
 
+IRC_NICKNAME_PATTERN = re.compile(r"^[A-Za-z\[\]\\`_^{|}][A-Za-z0-9\-\[\]\\`_^{|}]{0,29}$")
+
 
 def strip_accents(value: str) -> str:
     normalized = unicodedata.normalize("NFKD", value)
@@ -77,6 +81,27 @@ def normalize_nickname(value: str) -> str:
     value = re.sub(r"\s+", "_", value)
     value = re.sub(r"[^a-z0-9_\-\[\]\|{}^`]+", "", value)
     return value.strip("_")
+
+
+def is_valid_irc_nickname(value: str) -> bool:
+    """Return whether a value is syntactically compatible with an IRC nickname.
+
+    This is an archival syntax check only. Invalid display values may still be
+    historically meaningful website labels, captions, ornamental aliases or OCR
+    artifacts.
+    """
+    return bool(IRC_NICKNAME_PATTERN.fullmatch(value.strip()))
+
+
+def irc_syntax_status(examples: Set[str]) -> str:
+    if not examples:
+        return "no_examples"
+    valid_count = sum(1 for example in examples if is_valid_irc_nickname(example))
+    if valid_count == len(examples):
+        return "all_examples_valid"
+    if valid_count > 0:
+        return "mixed_examples"
+    return "no_examples_valid"
 
 
 def read_csv(path: Path) -> Iterable[Dict[str, str]]:
@@ -181,6 +206,10 @@ def main() -> int:
                 {
                     "normalized_nickname_key": key,
                     "display_nickname_examples": " | ".join(sorted(item.get("display_examples", []))),
+                    "irc_syntax_status": irc_syntax_status(item.get("display_examples", set())),
+                    "irc_syntax_invalid_examples": " | ".join(
+                        sorted(example for example in item.get("display_examples", set()) if not is_valid_irc_nickname(example))
+                    ),
                     "registered_in_2002_cadastros": registered,
                     "cadastro_segments": " | ".join(sorted(item.get("cadastro_segments", []))),
                     "cadastro_record_ids": " | ".join(sorted(item.get("cadastro_record_ids", []))),

@@ -1,0 +1,207 @@
+@prefix cb: <https://github.com/rnercessian/proto-social-network-protocol-canal-barra/schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cb:CanalBarra
+    a schema:Organization ;
+    schema:name "Canal Barra" ;
+    schema:alternateName "#barra" ;
+    schema:description "Brazilian hybrid IRC + web + offline meetup proto-social-network phenomenon centered on #barra on BRASnet and CanalBarra.com." ;
+    cb:usesInfrastructure cb:BRASnet, cb:IRC, cb:ChannelBarra ;
+    cb:hasPersistentLayer cb:CanalBarraCom ;
+    cb:hasOfflineEvent cb:Reveillon2000_2001, cb:RosaDosVentos2001_02_21, cb:FifthAnniversaryParty ;
+    cb:documentedBy cb:Readme, cb:LlmsTxt, cb:Timeline, cb:Ontology ;
+    cb:evidenceStatus "dataset_match; founder_statement; archived_web_capture; inference" .
+
+cb:IRC
+    a schema:Thing ;
+    schema:name "Internet Relay Chat" ;
+    schema:description "Protocol and communication environment used by Canal Barra participants." ;
+    cb:evidenceStatus "technical_context" .
+
+cb:BRASnet
+    a schema:Thing ;
+    schema:name "BRASnet" ;
+    schema:description "Brazilian IRC network where #barra existed." ;
+    cb:evidenceStatus "historical_context; external_source_needed_for_shutdown" .
+
+cb:ChannelBarra
+    a schema:Conversation ;
+    schema:name "#barra" ;
+    schema:alternateName "Canal #barra" ;
+    schema:description "Live IRC channel that functioned as Canal Barra's synchronous social core." ;
+    cb:usesInfrastructure cb:IRC, cb:BRASnet ;
+    cb:documentedBy cb:Lifecycle, cb:InfrastructureSupport ;
+    cb:evidenceStatus "founder_statement; dataset_match" .
+
+cb:CanalBarraCom
+    a schema:WebSite ;
+    schema:name "CanalBarra.com" ;
+    schema:url "https://canalbarra.com/" ;
+    schema:description "Persistent website layer that represented cadastros, rules, operators, events, photos, voting and public memory." ;
+    cb:documentedBy cb:WebsiteSocialLayer, cb:HomepageSocialPortal2002, cb:PrimarySources ;
+    cb:evidenceStatus "archived_web_capture; dataset_match; founder_statement" .
+
+cb:BarMan
+    a schema:Thing ;
+    schema:name "BarMan" ;
+    schema:alternateName "Barra" ;
+    schema:description "Historical IRC nickname associated in the repository with founder/operator/cadastro/event-participant roles. This is a nickname-level archival identifier, not a civil-identity assertion." ;
+    cb:hasGovernanceRole cb:FounderRole ;
+    cb:documentedBy cb:BarManProfile, cb:AccessList2000 ;
+    cb:evidenceStatus "dataset_match; founder_statement" ;
+    cb:privacyTier "nickname_level_only" .
+
+cb:FounderRole
+    a cb:GovernanceRole ;
+    schema:name "Founder" ;
+    schema:description "Highest channel ownership/control role in IRC service structures, interpreted with evidence labels and founder statements." ;
+    cb:evidenceStatus "founder_statement; dataset_match" .
+
+cb:OperatorRole
+    a cb:GovernanceRole ;
+    schema:name "Operator" ;
+    schema:alternateName "Op; @" ;
+    schema:description "IRC operator status; technical channel permission with social meanings such as trust, responsibility and recognition in Canal Barra context." ;
+    cb:documentedBy cb:AccessList2000, cb:OperatorsPage2002 ;
+    cb:evidenceStatus "dataset_match; archived_web_capture; inference" .
+
+cb:MasterRole
+    a cb:GovernanceRole ;
+    schema:name "Master" ;
+    schema:description "High-level access-list role in ChanServ-style governance." ;
+    cb:documentedBy cb:AccessList2000 ;
+    cb:evidenceStatus "dataset_match" .
+
+cb:AccessList2000
+    a schema:Dataset ;
+    schema:name "Canal Barra access list, December 2000" ;
+    schema:encodingFormat "text/csv" ;
+    schema:url "data/raw/governance/access-list-2000-12.csv" ;
+    cb:hasEvidence cb:OperatorRole, cb:MasterRole, cb:FounderRole .
+
+cb:OperatorsPage2002
+    a schema:Dataset ;
+    schema:name "Canal Barra public operators page dataset, 2002-08-06" ;
+    schema:encodingFormat "text/csv" ;
+    schema:url "data/raw/2002-08-06/operators-page-2002-08-06.csv" ;
+    cb:hasEvidence cb:OperatorRole .
+
+cb:Cadastros2002
+    a schema:Dataset ;
+    schema:name "Canal Barra recovered nickname/cadastro dataset, 2002-11-28" ;
+    schema:encodingFormat "text/csv" ;
+    schema:url "data/raw/2002-11-28/nicknames-2002-11-28-cadastros.csv" ;
+    cb:hasEvidence cb:CanalBarraCom ;
+    cb:evidenceStatus "dataset_match" .
+
+cb:Reveillon2000_2001
+    a schema:Event ;
+    schema:name "Canal Barra Reveillon 2000-2001 / post-Reveillon social context" ;
+    schema:startDate "2000-12-31"^^xsd:date ;
+    schema:endDate "2001-01-01"^^xsd:date ;
+    cb:occurredDuring "2000-12-31/2001-01-01" ;
+    cb:documentedBy cb:ReveillonManifest, cb:ReveillonDataset ;
+    cb:evidenceStatus "founder_statement; dataset_match" ;
+    cb:privacyTier "requires_consent_before_image_publication" .
+
+cb:RosaDosVentos2001_02_21
+    a schema:Event ;
+    schema:name "Rosa dos Ventos IRContro" ;
+    schema:startDate "2001-02-21"^^xsd:date ;
+    cb:occurredDuring "2001-02-21" ;
+    cb:documentedBy cb:RosaDosVentosDataset ;
+    cb:evidenceStatus "dataset_match" .
+
+cb:FifthAnniversaryParty
+    a schema:Event ;
+    schema:name "Canal Barra 5th Anniversary Party" ;
+    schema:location "Ilha dos Pescadores" ;
+    cb:occurredDuring "2001/2002" ;
+    cb:documentedBy cb:FifthAnniversaryMusic, cb:FifthAnniversaryPhotosMetadata ;
+    cb:evidenceStatus "founder_statement; dataset_match; pending_verification" .
+
+cb:MalucosDaPonte
+    a schema:MusicGroup ;
+    schema:name "Malucos da Ponte" ;
+    schema:description "Band associated by founder statement and music metadata with the Canal Barra fifth anniversary event and earlier Canal Barra cultural-production layer." ;
+    cb:documentedBy cb:FifthAnniversaryMusic ;
+    cb:evidenceStatus "founder_statement; dataset_match; pending_verification" .
+
+cb:FifthAnniversaryParty
+    schema:performer cb:MalucosDaPonte .
+
+cb:Readme
+    a schema:DigitalDocument ;
+    schema:name "README.md" ;
+    schema:url "README.md" .
+
+cb:LlmsTxt
+    a schema:DigitalDocument ;
+    schema:name "llms.txt" ;
+    schema:url "llms.txt" .
+
+cb:Timeline
+    a schema:DigitalDocument ;
+    schema:name "TIMELINE.md" ;
+    schema:url "TIMELINE.md" .
+
+cb:Ontology
+    a schema:DigitalDocument ;
+    schema:name "schema/ONTOLOGY.md" ;
+    schema:url "schema/ONTOLOGY.md" .
+
+cb:Lifecycle
+    a schema:DigitalDocument ;
+    schema:name "docs/CANAL-BARRA-LIFECYCLE-AND-IRC-CORE-END.md" ;
+    schema:url "docs/CANAL-BARRA-LIFECYCLE-AND-IRC-CORE-END.md" .
+
+cb:InfrastructureSupport
+    a schema:DigitalDocument ;
+    schema:name "docs/INFRASTRUCTURE-AS-SOCIAL-SUPPORT.md" ;
+    schema:url "docs/INFRASTRUCTURE-AS-SOCIAL-SUPPORT.md" .
+
+cb:WebsiteSocialLayer
+    a schema:DigitalDocument ;
+    schema:name "docs/WEBSITE-AS-SOCIAL-LAYER.md" ;
+    schema:url "docs/WEBSITE-AS-SOCIAL-LAYER.md" .
+
+cb:HomepageSocialPortal2002
+    a schema:DigitalDocument ;
+    schema:name "docs/HOMEPAGE-AS-SOCIAL-PORTAL-2002.md" ;
+    schema:url "docs/HOMEPAGE-AS-SOCIAL-PORTAL-2002.md" .
+
+cb:PrimarySources
+    a schema:DigitalDocument ;
+    schema:name "docs/PRIMARY-SOURCES.md" ;
+    schema:url "docs/PRIMARY-SOURCES.md" .
+
+cb:ReveillonManifest
+    a schema:DigitalDocument ;
+    schema:name "docs/IMAGE-MANIFEST-REVEILLON-2000-2001.md" ;
+    schema:url "docs/IMAGE-MANIFEST-REVEILLON-2000-2001.md" .
+
+cb:ReveillonDataset
+    a schema:Dataset ;
+    schema:name "Reveillon 2000-2001 post-Reveillon dataset" ;
+    schema:url "data/raw/ircontros/reveillon-2000-2001-post-reveillon.csv" .
+
+cb:RosaDosVentosDataset
+    a schema:Dataset ;
+    schema:name "Rosa dos Ventos IRContro dataset" ;
+    schema:url "data/raw/ircontros/rosa-dos-ventos-2001-02-21.csv" .
+
+cb:FifthAnniversaryMusic
+    a schema:DigitalDocument ;
+    schema:name "docs/FIFTH-ANNIVERSARY-MUSIC-2002.md" ;
+    schema:url "docs/FIFTH-ANNIVERSARY-MUSIC-2002.md" .
+
+cb:FifthAnniversaryPhotosMetadata
+    a schema:Dataset ;
+    schema:name "Fifth anniversary photo metadata" ;
+    schema:url "data/media-metadata/2002-11-28-fifth-anniversary-photos.csv" .
+
+cb:BarManProfile
+    a schema:DigitalDocument ;
+    schema:name "BarMan JSON-LD profile" ;
+    schema:url "data/profiles/barman.jsonld" .

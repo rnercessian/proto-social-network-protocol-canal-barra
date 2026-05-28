@@ -28,6 +28,10 @@ DEFAULT_PATHS = [
     Path("data/raw/2002-11-28"),
     Path("data/processed/geography"),
     Path("data/processed/participation"),
+    Path("data/processed/timeline"),
+    Path("data/processed/evaluation"),
+    Path("data/processed/impact"),
+    Path("data/processed/graph"),
 ]
 
 TEXT_SUFFIXES = {".md", ".txt", ".json", ".jsonld", ".jsonl", ".csv", ".cff", ".yaml", ".yml"}

@@ -8,6 +8,8 @@
         "nickname_id": "Stable internal identifier, e.g. cb_nk_000001.",
         "display_nick": "Original visible nickname when safe to publish.",
         "known_variants": "Optional list of known spelling/case variants.",
+        "irc_syntax_valid": "Boolean or null. Whether display_nick is syntactically compatible with an IRC nickname.",
+        "irc_syntax_notes": "Optional note explaining why a value is or is not IRC-syntax-valid. Invalid syntax may indicate a website display label, caption text, ornamental alias, OCR artifact or pending cleanup candidate.",
         "first_observed_year": "First year in which the nickname is observed or documented.",
         "last_observed_year": "Last year in which the nickname is observed or documented.",
         "source_id": "Evidence source for the record.",
