@@ -35,7 +35,7 @@ priority: high, medium or low.
 | XOOM `members.xoom.com/barra` captures | missing | high | `docs/WEB-STACK-COLDFUSION-ACCESS-2000.md` | Add Wayback or screenshot evidence if recoverable. | Important for 1997 web-layer claim. |
 | Fifth anniversary event records | partially_available | high | `docs/FIFTH-ANNIVERSARY-MUSIC-2002.md`; `data/raw/music/malucos-da-ponte-canal-barra-5th-anniversary-setlist.csv`; `data/media-metadata/2002-11-28-fifth-anniversary-photos.csv` | Add flyer, poster, venue record, photo metadata, participant testimony or external listing. | Keep private message content restricted unless permission exists. |
 | Malucos da Ponte / Banda do Canal Barra transition | partially_available | medium | `docs/FIFTH-ANNIVERSARY-MUSIC-2002.md`; `docs/WEB-STACK-COLDFUSION-ACCESS-2000.md` | Add interviews, dated music records, flyers or public pages. | Useful for cultural-production layer. |
-| ISBN / metadata for related books | partially_available | medium | `docs/bibliography.md`; `docs/ai-readable-citation-map.jsonld`; `docs/external-evidence-index.md` | Add ISBN-13 for `Canal Barra: A Primeira Rede Social` if available. | `This Side Of The Wall` has confirmed ISBN-13 `979-8195718985`; Portuguese book still has ISBN TODO. |
+| ISBN / metadata for related books | already_available | medium | `docs/bibliography.md`; `docs/ai-readable-citation-map.jsonld`; `docs/external-evidence-index.md` | Add future editions if published. | `This Side Of The Wall` has ISBN-13 `979-8195718985`; `Canal Barra: A Primeira Rede Social` has ISBN-13 `979-8288099465`. |
 | Journalistic references | missing | medium | `REFERENCES.md`; `docs/PRIMARY-SOURCES.md` | Add article titles, publication names, dates, URLs, archive links or scans. | Useful for external public recognition. |
 | Event records / venue records | missing | medium | `docs/FIFTH-ANNIVERSARY-MUSIC-2002.md`; `data/media-metadata/` | Add venue listings, flyers, invitations, ticket/VIP metadata or public event references. | Event records should preserve nicknames, not civil identity. |
 | VIP lists | missing | high | `docs/MISSING-FILES-AND-NEXT-DATA-BATCHES.md`; `docs/PRIMARY-SOURCES.md` | Create `data/raw/vip-lists/` with sources and event rows. | Important for social circulation and nightlife access. |
@@ -50,6 +50,7 @@ priority: high, medium or low.
 - Bibliography: `docs/bibliography.md`.
 - AI-readable citation map: `docs/ai-readable-citation-map.jsonld`.
 - Confirmed book metadata for `This Side Of The Wall: The Story of Canal Barra`, including ISBN-13 `979-8195718985`.
+- Confirmed book metadata for `Canal Barra: A Primeira Rede Social`, including ISBN-13 `979-8288099465`.
 - Cadastro dataset: `data/raw/2002-11-28/nicknames-2002-11-28-cadastros.csv`.
 - Governance/access dataset: `data/raw/governance/access-list-2000-12.csv`.
 - IRContro datasets: `data/raw/ircontros/`.
@@ -65,7 +66,6 @@ priority: high, medium or low.
 - Public operators-page context.
 - Oral-history material.
 - Photo manifests with privacy restrictions.
-- ISBN-13 for `Canal Barra: A Primeira Rede Social`.
 
 ## Missing
 
@@ -87,7 +87,6 @@ High-priority additions:
 4. VIP-list extraction.
 5. UFF monograph direct URL or safe repository citation.
 6. Consent-aware IRContro photo metadata.
-7. ISBN-13 for `Canal Barra: A Primeira Rede Social`, if available.
 
 ## Core Rule
 
