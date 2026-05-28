@@ -8,7 +8,8 @@
     "sensitiveDataIncluded": "cb:sensitiveDataIncluded",
     "sameAsNicknameInSources": "cb:sameAsNicknameInSources",
     "imageEvidence": "cb:imageEvidence",
-    "physicalHostRole": "cb:physicalHostRole"
+    "physicalHostRole": "cb:physicalHostRole",
+    "provenanceRecords": "cb:provenanceRecords"
   },
   "@type": "DigitalDocument",
   "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/data/profiles/barman.jsonld",
@@ -62,7 +63,8 @@
   "sameAsNicknameInSources": [
     "data/raw/governance/access-list-2000-12.csv",
     "data/raw/2002-11-28/nicknames-2002-11-28-cadastros.csv",
-    "data/raw/ircontros/rosa-dos-ventos-2001-02-21.csv"
+    "data/raw/ircontros/rosa-dos-ventos-2001-02-21.csv",
+    "https://web.archive.org/web/20010415193809/http://www.canalbarra.com/cadastros/user.cfm?userID=25"
   ],
   "subjectOf": [
     {
@@ -73,6 +75,48 @@
       "description": "Founder-owned historical IRContro group photograph taken at BarMan's home. The image can be included in the repository, but person-level identification should remain nickname-level and consent-aware.",
       "evidenceStatus": "founder_statement",
       "privacyTier": "requires_consent_before_publication"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://web.archive.org/web/20010415193809/http://www.canalbarra.com/cadastros/user.cfm?userID=25",
+      "name": "Archived Canal Barra user profile: userID=25",
+      "evidenceStatus": "archived_web_capture",
+      "privacyTier": "nickname_level_public_profile"
+    }
+  ],
+  "provenanceRecords": [
+    {
+      "@type": "PropertyValue",
+      "sourceType": "archived_web_capture",
+      "sourceUrl": "https://web.archive.org/web/20010415193809/http://www.canalbarra.com/cadastros/user.cfm?userID=25",
+      "sourceDate": "2001-04-15",
+      "sourcePath": "Canalbarra.com archived user profile userID=25",
+      "extractedClaim": "Nickname-level profile associated with BarMan appears in an archived Canal Barra cadastro page.",
+      "extractionMethod": "manual_archive_review",
+      "verificationStatus": "verified_source_url_pending_local_hash",
+      "relatedEvidenceFile": "docs/ARCHIVED-PROFILE-BARMAN-USERID-25-2001.md"
+    },
+    {
+      "@type": "PropertyValue",
+      "sourceType": "dataset_match",
+      "sourceUrl": null,
+      "sourceDate": "2000-12",
+      "sourcePath": "data/raw/governance/access-list-2000-12.csv",
+      "extractedClaim": "BarMan is mapped to governance/access-list evidence in the Canal Barra archive.",
+      "extractionMethod": "manual_dataset_mapping",
+      "verificationStatus": "repository_dataset_present_pending_source_hash",
+      "relatedEvidenceFile": "docs/PRIMARY-SOURCES.md"
+    },
+    {
+      "@type": "PropertyValue",
+      "sourceType": "founder_statement",
+      "sourceUrl": null,
+      "sourceDate": "2026",
+      "sourcePath": null,
+      "extractedClaim": "BarMan is identified as the original founder and recurring IRContro host; scale and private-home context remain founder-memory unless independently corroborated.",
+      "extractionMethod": "manual_founder_deposition",
+      "verificationStatus": "pending_external_corroboration",
+      "relatedEvidenceFile": "docs/IMAGE-MANIFEST-IRCONTRO-HOME-01.md"
     }
   ],
   "evidenceStatus": "dataset_match",
