@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "cb": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/schema#",
+    "evidenceStatus": "cb:evidenceStatus",
+    "privacyTier": "cb:privacyTier",
+    "civilIdentityLinked": "cb:civilIdentityLinked",
+    "sensitiveDataIncluded": "cb:sensitiveDataIncluded",
+    "sameAsNicknameInSources": "cb:sameAsNicknameInSources"
+  },
+  "@type": "DigitalDocument",
+  "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/data/profiles/waterhand.jsonld",
+  "name": "Historical nickname profile: WaterHand",
+  "identifier": "WaterHand",
+  "description": "Nickname-level historical profile for WaterHand in the Canal Barra archive. WaterHand is preserved as a historically relevant Canal Barra participant and bridge figure in founder memory, especially in the expanded RioSul / Praia Vermelha / Urca-Botafogo geography where #barra and #rio social circles intersected. No civil identity is published.",
+  "isPartOf": {
+    "@type": "Dataset",
+    "name": "Canal Barra Digital Archaeology Dataset",
+    "url": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra"
+  },
+  "about": {
+    "@type": "Organization",
+    "name": "Canal Barra",
+    "additionalType": "IRC/BRASnet hybrid online-offline community"
+  },
+  "roleName": [
+    "registered_user",
+    "event_participant",
+    "bridge_figure",
+    "expanded_geography_participant"
+  ],
+  "sameAsNicknameInSources": [
+    "founder_statement_waterhand_rio_sul_praia_vermelha_bridge",
+    "founder_statement_waterhand_claram_rio_bridge",
+    "founder_statement_ircontros_outside_barra"
+  ],
+  "associatedGeography": [
+    {
+      "@type": "Place",
+      "name": "Praia Vermelha / Urca-Botafogo area",
+      "description": "Founder statement: WaterHand and BarMan studied around Praia Vermelha, creating a bridge between Canal Barra and expanded Rio de Janeiro social geography."
+    },
+    {
+      "@type": "Place",
+      "name": "RioSul Shopping",
+      "description": "Founder statement: some #barra meetups happened around RioSul, sometimes receiving people from #rio."
+    }
+  ],
+  "historicalRelevance": "WaterHand helps document that Canal Barra's social geography expanded beyond Barra da Tijuca, connecting #barra with #rio participants and meetups outside the neighborhood core.",
+  "evidenceStatus": "founder_statement_pending_structured_source_mapping",
+  "privacyTier": "nickname_level_only",
+  "civilIdentityLinked": false,
+  "sensitiveDataIncluded": false
+}
