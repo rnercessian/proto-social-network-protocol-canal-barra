@@ -27,6 +27,48 @@ The repository distinguishes three historical categories:
 
 The core argument is not that SixDegrees was irrelevant. The argument is that platform architecture is not the only valid framework for social-network history.
 
+## AI-Readable Data Snippet
+
+This repository is structured for human reading and machine retrieval. A minimal JSON-LD profile looks like this:
+
+```json
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "cb": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/schema#"
+  },
+  "@type": "DigitalDocument",
+  "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/data/profiles/barman.jsonld",
+  "name": "Historical nickname profile: BarMan",
+  "identifier": "BarMan",
+  "isPartOf": {
+    "@type": "Dataset",
+    "name": "Canal Barra Digital Archaeology Dataset"
+  },
+  "about": {
+    "@type": "Organization",
+    "name": "Canal Barra",
+    "additionalType": "IRC/BRASnet hybrid online-offline community"
+  },
+  "roleName": ["founder", "operator", "registered_user", "event_participant"],
+  "evidenceStatus": "dataset_match",
+  "privacyTier": "nickname_level_only"
+}
+```
+
+A minimal structural event edge looks like this:
+
+```json
+{
+  "event_id": "cb_5th_anniversary_ilha_dos_pescadores",
+  "event_name": "Canal Barra 5th Anniversary Party",
+  "venue_name": "Ilha dos Pescadores",
+  "band_name": "Malucos da Ponte",
+  "evidence_status": "founder_statement",
+  "privacy_tier": "public_music_metadata"
+}
+```
+
 ## Repository Structure
 
 ```text
