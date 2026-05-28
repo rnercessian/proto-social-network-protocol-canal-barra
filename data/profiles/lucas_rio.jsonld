@@ -7,7 +7,8 @@
     "civilIdentityLinked": "cb:civilIdentityLinked",
     "sensitiveDataIncluded": "cb:sensitiveDataIncluded",
     "sameAsNicknameInSources": "cb:sameAsNicknameInSources",
-    "technicalContribution": "cb:technicalContribution"
+    "technicalContribution": "cb:technicalContribution",
+    "provenanceRecords": "cb:provenanceRecords"
   },
   "@type": "DigitalDocument",
   "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/data/profiles/lucas_rio.jsonld",
@@ -42,6 +43,30 @@
   "sameAsNicknameInSources": [
     "founder_statement_lucas_rio_coldfusion_dynamic_site",
     "docs/WEB-STACK-COLDFUSION-ACCESS-2000.md"
+  ],
+  "provenanceRecords": [
+    {
+      "@type": "PropertyValue",
+      "sourceType": "founder_statement",
+      "sourceUrl": null,
+      "sourceDate": "2026",
+      "sourcePath": null,
+      "extractedClaim": "Lucas_Rio is identified in founder memory as a trusted technical contributor to the Canal Barra dynamic web layer, including ColdFusion-related development context.",
+      "extractionMethod": "manual_founder_deposition",
+      "verificationStatus": "pending_external_corroboration",
+      "relatedEvidenceFile": "docs/WEB-STACK-COLDFUSION-ACCESS-2000.md"
+    },
+    {
+      "@type": "PropertyValue",
+      "sourceType": "technical_memory",
+      "sourceUrl": null,
+      "sourceDate": "2026",
+      "sourcePath": "docs/WEB-STACK-COLDFUSION-ACCESS-2000.md",
+      "extractedClaim": "Lucas_Rio is associated with the ColdFusion/Access technical evolution of the Canal Barra web layer; independent corroboration remains pending.",
+      "extractionMethod": "manual_curatorial_mapping",
+      "verificationStatus": "pending_external_corroboration",
+      "relatedEvidenceFile": "docs/WEB-STACK-COLDFUSION-ACCESS-2000.md"
+    }
   ],
   "historicalRelevance": "Lucas_Rio documents the technical and family-trust layer behind Canal Barra's web evolution: the community was not only an IRC channel, but also gained dynamic web infrastructure through trusted personal networks.",
   "evidenceStatus": "founder_statement_pending_structured_source_mapping",
