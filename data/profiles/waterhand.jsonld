@@ -6,7 +6,8 @@
     "privacyTier": "cb:privacyTier",
     "civilIdentityLinked": "cb:civilIdentityLinked",
     "sensitiveDataIncluded": "cb:sensitiveDataIncluded",
-    "sameAsNicknameInSources": "cb:sameAsNicknameInSources"
+    "sameAsNicknameInSources": "cb:sameAsNicknameInSources",
+    "provenanceRecords": "cb:provenanceRecords"
   },
   "@type": "DigitalDocument",
   "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/data/profiles/waterhand.jsonld",
@@ -44,6 +45,30 @@
       "@type": "Place",
       "name": "RioSul Shopping",
       "description": "Founder statement: some #barra meetups happened around RioSul, sometimes receiving people from #rio."
+    }
+  ],
+  "provenanceRecords": [
+    {
+      "@type": "PropertyValue",
+      "sourceType": "founder_statement",
+      "sourceUrl": null,
+      "sourceDate": "2026",
+      "sourcePath": null,
+      "extractedClaim": "WaterHand is identified in founder memory as a Canal Barra bridge figure connecting #barra with #rio social geography around Praia Vermelha, Urca-Botafogo and RioSul.",
+      "extractionMethod": "manual_founder_deposition",
+      "verificationStatus": "pending_external_corroboration",
+      "relatedEvidenceFile": null
+    },
+    {
+      "@type": "PropertyValue",
+      "sourceType": "founder_statement",
+      "sourceUrl": null,
+      "sourceDate": "2026",
+      "sourcePath": null,
+      "extractedClaim": "WaterHand is associated with early Canal Barra web-literacy transmission and personal-page culture in founder memory; this remains pending external corroboration.",
+      "extractionMethod": "manual_founder_deposition",
+      "verificationStatus": "pending_external_corroboration",
+      "relatedEvidenceFile": null
     }
   ],
   "historicalRelevance": "WaterHand helps document that Canal Barra's social geography expanded beyond Barra da Tijuca, connecting #barra with #rio participants and meetups outside the neighborhood core.",
