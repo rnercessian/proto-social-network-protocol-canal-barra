@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "cb": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/schema#",
+    "evidenceStatus": "cb:evidenceStatus",
+    "privacyTier": "cb:privacyTier",
+    "civilIdentityLinked": "cb:civilIdentityLinked",
+    "sensitiveDataIncluded": "cb:sensitiveDataIncluded",
+    "sameAsNicknameInSources": "cb:sameAsNicknameInSources",
+    "provenanceRecords": "cb:provenanceRecords"
+  },
+  "@type": "DigitalDocument",
+  "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/data/profiles/bm_.jsonld",
+  "name": "Historical nickname profile: BM_",
+  "identifier": "BM_",
+  "description": "Nickname-level historical profile for BM_ in the Canal Barra archive. BM_ is treated as a separate participant from BarMan. The current evidence basis is reported recurrence inside UFF 2004 Canal Barra conversation material, including operator-command behavior such as unban/deban actions, pending repository verification by page or excerpt.",
+  "isPartOf": {
+    "@type": "Dataset",
+    "name": "Canal Barra Digital Archaeology Dataset",
+    "url": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra"
+  },
+  "about": {
+    "@type": "Organization",
+    "name": "Canal Barra",
+    "additionalType": "IRC/BRASnet hybrid online-offline community"
+  },
+  "roleName": [
+    "reported_academic_chat_log_participant",
+    "reported_channel_operator"
+  ],
+  "sameAsNicknameInSources": [
+    "docs/uff-2004-index.md",
+    "docs/UFF-2004-NICKNAME-OCCURRENCE-INDEX.md"
+  ],
+  "identityBoundary": "BM_ is a separate nickname-level participant and must not be merged with BarMan. No archived Canalbarra.com cadastro profile is currently known for BM_ in this repository.",
+  "provenanceRecords": [
+    {
+      "@type": "PropertyValue",
+      "sourceType": "pasted_academic_chat_log_excerpt",
+      "sourceUrl": "https://canalbarra.com/documents/dossie-canal-barra-monografia-uff-2004-curto.pdf",
+      "sourceDate": "2004",
+      "sourcePath": "public Canal Barra UFF 2004 dossier extract; official full PDF pending",
+      "extractedClaim": "BM_ is reported as appearing in Canal Barra conversation excerpts reproduced in the UFF 2004 dissertation material.",
+      "reportedOccurrences": 108,
+      "extractionMethod": "founder_reported_count_pending_text_audit",
+      "verificationStatus": "founder_provided_count_pending_repository_verification",
+      "relatedEvidenceFile": "docs/uff-2004-index.md"
+    },
+    {
+      "@type": "PropertyValue",
+      "sourceType": "operator_command_behavior_in_academic_chat_log_excerpt",
+      "sourceUrl": "https://canalbarra.com/documents/dossie-canal-barra-monografia-uff-2004-curto.pdf",
+      "sourceDate": "2004",
+      "sourcePath": "UFF reproduced Canal Barra conversation material; page/excerpt pending",
+      "extractedClaim": "BM_ is reported as executing operator-level commands in the reproduced Canal Barra logs, including unban/deban behavior. This supports reported_channel_operator status pending exact page or excerpt verification.",
+      "extractionMethod": "manual_log_observation_pending_excerpt_mapping",
+      "verificationStatus": "pending_repository_verification",
+      "relatedEvidenceFile": "docs/uff-2004-index.md"
+    }
+  ],
+  "historicalRelevance": "BM_ helps document that the UFF-preserved Canal Barra material includes not only nick presence, but also operator-level action inside real-time IRC interaction.",
+  "evidenceStatus": "reported_academic_chat_log_occurrence_and_operator_command_behavior_pending_verification",
+  "privacyTier": "nickname_level_academic_chat_log_reference",
+  "civilIdentityLinked": false,
+  "sensitiveDataIncluded": false
+}
