@@ -52,13 +52,14 @@
       "repositoryPath": "docs/bibliography.md"
     },
     {
-      "@id": "https://www.amazon.com/Canal-Barra-Primeira-Social-Portuguese/dp/B0FD8KFR6K",
+      "@id": "urn:isbn:9798288099465",
       "@type": "schema:Book",
       "schema:name": "Canal Barra: A Primeira Rede Social",
       "schema:author": {
         "@type": "schema:Person",
         "schema:name": "Raphael Nercessian"
       },
+      "schema:isbn": "979-8288099465",
       "schema:datePublished": "2025-06-14",
       "schema:inLanguage": "pt",
       "schema:numberOfPages": 84,
@@ -76,7 +77,7 @@
         {
           "@type": "schema:PropertyValue",
           "schema:propertyID": "ISBN-13",
-          "schema:value": "TODO"
+          "schema:value": "979-8288099465"
         }
       ],
       "schema:about": {
