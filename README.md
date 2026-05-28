@@ -73,12 +73,30 @@ A minimal structural event edge looks like this:
 
 ```text
 .
-├── docs/       Historiographical argument and comparative analysis
+├── docs/       Historiographical argument, external evidence and comparative analysis
 ├── data/       Raw and processed datasets: nicknames, IRContros, VIP lists, operators
 ├── schema/     Data dictionary, JSON schemas and JSON-LD knowledge graph
 ├── business/   Product and investor thesis for a reusable digital memory protocol
 └── media/      Future screenshot and media metadata, without exposing private civil identities
 ```
+
+## External Evidence and Citation Map
+
+The repository now separates historical claims by evidence category and links external bibliographic anchors to structured repository data.
+
+Key documents:
+
+- `docs/external-evidence-index.md` — maps academic, bibliographic, archival, tertiary and repository evidence.
+- `docs/evidence-methodology.md` — defines evidence levels such as `archived_web_capture`, `academic_secondary_source`, `published_book`, `founder_statement` and `dataset_match`.
+- `docs/bibliography.md` — records book, academic, public-reference and archive citations.
+- `docs/ai-readable-citation-map.jsonld` — machine-readable JSON-LD citation graph connecting Canal Barra, books, academic source, archived records and datasets.
+- `docs/EXTERNAL-EVIDENCE-GAPS.md` — tracks missing or incomplete external evidence without inventing data.
+- `docs/IMAGE-MANIFEST-IRCONTRO-HOME-01.md` — privacy-aware manifest for a founder-owned IRContro home photograph record.
+
+Confirmed book anchors include:
+
+- *This Side Of The Wall: The Story of Canal Barra* — ISBN-13 `979-8195718985`.
+- *Canal Barra: A Primeira Rede Social* — ISBN-13 `979-8288099465`.
 
 ## Evidence Categories
 
