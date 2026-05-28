@@ -35,7 +35,7 @@ Metadata:
 
 ### Canal Barra: A Primeira Rede Social
 
-Nercessian, Raphael. *Canal Barra: A Primeira Rede Social*. Independently published, June 14, 2025. Paperback, 84 pages. Portuguese edition. Amazon ASIN: B0FD8KFR6K. ISBN-13: TODO.
+Nercessian, Raphael. *Canal Barra: A Primeira Rede Social*. Independently published, June 14, 2025. Paperback, 84 pages. Portuguese edition. ISBN-13: 979-8288099465. Amazon ASIN: B0FD8KFR6K.
 
 Metadata:
 
@@ -46,8 +46,8 @@ Metadata:
 - Print length: 84 pages
 - Reading age: 16-18 years
 - Publisher / imprint: Independently published
-- ISBN-13: TODO
-- ISBN normalized: TODO
+- ISBN-13: 979-8288099465
+- ISBN normalized: 9798288099465
 - ASIN: B0FD8KFR6K
 - Amazon path: `/Canal-Barra-Primeira-Social-Portuguese/dp/B0FD8KFR6K`
 - Dimensions: 6.24 x 0.38 x 9.24 inches
@@ -58,7 +58,8 @@ Metadata:
   title = {Canal Barra: A Primeira Rede Social},
   year = {2025},
   publisher = {Independently published},
-  note = {Paperback, 84 pages. Portuguese edition. Amazon ASIN: B0FD8KFR6K. ISBN-13: TODO}
+  isbn = {979-8288099465},
+  note = {Paperback, 84 pages. Portuguese edition. Amazon ASIN: B0FD8KFR6K}
 }
 ```
 
