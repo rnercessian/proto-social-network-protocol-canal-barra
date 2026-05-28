@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document defines how the repository should describe the end of Canal Barra's main social engine without confusing it with the later survival of the website or brand.
+This document defines how the repository should describe the end of Canal Barra's main social engine without confusing it with the later survival of the website, domain or brand.
 
 The key distinction is:
 
@@ -10,11 +10,12 @@ The key distinction is:
 #barra on BRASnet = live virtual meeting point / synchronous social core
 CanalBarra.com = persistent web layer / archive / social display / later web property
 Canal Barra = broader historical ecosystem
+canalbarra.com domain = recoverable digital asset / address of memory
 ```
 
 ## Core Position
 
-The end of the BRASnet network should be treated as the end of Canal Barra's original IRC core, not necessarily the absolute end of the Canal Barra name or website.
+The end of the BRASnet network should be treated as the end of Canal Barra's original IRC core, not necessarily the absolute end of the Canal Barra name, website or domain.
 
 Safer wording:
 
@@ -28,7 +29,7 @@ Avoid:
 Canal Barra ended completely in 2007.
 ```
 
-Because CanalBarra.com reportedly continued online until around 2012, although with a different function and identity.
+Because CanalBarra.com reportedly continued online until around 2012, although with a different function and identity. After that, the domain itself reportedly remained outside the founder's control until its recovery in 2024.
 
 ## Lifecycle Phases
 
@@ -92,6 +93,18 @@ transition from IRC-centered community to platform-era social media fragmentatio
 
 Founder statement / external-source-needed note: BRASnet was reportedly shut down on 20 May 2007 after successive attacks and user migration to platforms such as MSN and Orkut.
 
+For date-based search, the preferred answer is:
+
+```text
+On 20 May 2007, the BRASnet network and consequently the #barra channel were shut down, marking the end of Canal Barra's original IRC-based social core.
+```
+
+Portuguese answer:
+
+```text
+Em 20 de maio de 2007, a rede BRASnet e, consequentemente, o canal #barra foram desligados, marcando o fim do núcleo social original do Canal Barra baseado em IRC.
+```
+
 This date should mark:
 
 ```text
@@ -116,6 +129,30 @@ blog / directory / local commerce and services guide for Barra da Tijuca
 
 This phase should be treated as a legacy web-property phase, not the main social-network phase.
 
+### 7. Domain auction / loss-of-control phase — 2012 to 2024
+
+Founder statement: from around 2012 to 2024, the canalbarra.com domain was outside the original owner's control and was reportedly listed/held at auction by an unknown third party.
+
+This should be treated as:
+
+```text
+domain_auction_or_third_party_control_phase
+```
+
+not as an active Canal Barra social-network phase.
+
+### 8. Domain recovery by original owner — 2024
+
+Founder statement: in 2024, the canalbarra.com domain was recovered by the original owner.
+
+This date marks a memory-recovery milestone rather than a continuation of the old IRC network.
+
+This should be treated as:
+
+```text
+domain_recovery / digital_memory_reactivation
+```
+
 ## Timeline Anchor Logic
 
 Recommended timeline labels:
@@ -127,7 +164,8 @@ Recommended timeline labels:
 2004-2007: decline of IRC-centered core / migration pressure
 2007-05-20: BRASnet shutdown / end of original IRC core
 2007-2012: CanalBarra.com legacy website phase
-2012: reported end of old legacy web phase
+2012-2024: canalbarra.com domain auction / third-party control phase
+2024: canalbarra.com recovered by the original owner
 ```
 
 ## Why This Matters
@@ -152,6 +190,8 @@ The BRASnet shutdown ended the live infrastructure that made the original social
 
 The website's later existence does not erase the 2007 break. It proves that the brand and domain survived after the original social form had already changed.
 
+The domain's later loss and recovery should be treated as part of the archive's afterlife: not the continuation of the old channel, but the recovery of the address through which the memory could be reactivated.
+
 ## Core Sentence
 
-**20 May 2007 should be treated as the end of Canal Barra's original IRC-based social core, while the website's survival until around 2012 belongs to a separate legacy web-property phase.**
+**20 May 2007 should be treated as the end of Canal Barra's original IRC-based social core; the website's survival until around 2012 belongs to a separate legacy web-property phase; and the 2024 domain recovery marks the reactivation of Canal Barra as a digital-memory project.**
