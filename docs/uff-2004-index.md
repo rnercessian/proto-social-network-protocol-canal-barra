@@ -19,11 +19,11 @@ source_status: short_dossier_available; anexo_2_chat_log_dossier_available; offi
 
 The public short dossier URL points to a curated Canal Barra evidence dossier that extracts selected monograph material for quick review, including the index and the Canal Barra-related section. It is not treated as a replacement for the complete dissertation or for the Anexo 2 chat-log material.
 
-The public chat-log dossier URL points to a separate extraction of Anexo 2, beginning at complete dissertation PDF page 217 and covering the public log section used for nickname occurrence audit. This file is the appropriate public reference for the reported nickname counts, not the short dossier.
+The public chat-log dossier URL points to a separate extraction of Anexo 2, beginning at complete dissertation PDF page 217 and covering the public log section used for nickname occurrence audit.
 
 Important limitation: the current short dossier does **not** include the full reproduced channel conversation logs. The public chat logs are in Anexo 2 of the dissertation. These logs were edited by the academic author for readability and analysis, but the dissertation states that public messages or transcribed dialogues were edited without altering their content.
 
-Therefore, occurrence counts such as `VaNZaN = 119`, `BM_ = 108` and `Biano = 80` must not be attributed to the short dossier alone. They belong to the complete dissertation / Anexo 2 log corpus and remain pending line-by-line repository audit.
+The reported occurrence counts currently refer to the combined total found across the two public extract files: the short dossier and the Anexo 2 chat-log dossier. They must not be attributed to either file alone unless a future line-by-line audit separates counts by source file and page.
 
 The official or institutional PDF URL remains pending. Until then, the short dossier functions as a public audit layer and partial extraction reference, while the Anexo 2 chat-log dossier functions as the public log-corpus reference.
 
@@ -35,7 +35,7 @@ Its importance is chronological and cultural: the dissertation was produced whil
 
 This repository uses the dissertation in a narrower documentary sense. Its value here is that it preserves or reproduces Canal Barra-related conversation material from the period, helping anchor nickname persistence, interaction patterns and community presence in the historical record. Any broader interpretation of Canal Barra as an organic, territorialized pre-platform social network is an analytical claim made by this repository, not a claim attributed to the dissertation author.
 
-Reported nickname occurrence counts, including VaNZaN with 119 occurrences, BM_ with 108 occurrences and Biano with 80 occurrences, are currently treated as preliminary inventory data from the complete dissertation / Anexo 2 log corpus, not from the current public short dossier alone. These metrics are expected to reflect the dense and rapid-turn structure of real-time IRC logs preserved within Anexo 2, where substantial interaction volumes could accumulate within a single chat session. These numbers remain flagged as `founder_provided_count_pending_repository_verification` until fully audited and cross-referenced against the complete dissertation text, page references or extracted occurrence tables.
+Reported nickname occurrence counts, including VaNZaN with 119 occurrences, BM_ with 108 occurrences and Biano with 80 occurrences, are currently treated as preliminary inventory data based on the combined public extraction set: the short Canal Barra dossier plus the Anexo 2 chat-log dossier. These metrics are expected to reflect both contextual mentions and the dense, rapid-turn structure of real-time IRC logs preserved within Anexo 2, where substantial interaction volumes could accumulate within a single chat session. These numbers remain flagged as `founder_provided_count_pending_repository_verification` until fully audited and cross-referenced against the public extract files, complete dissertation text, page references or extracted occurrence tables.
 
 ## Evidence Meaning
 
@@ -44,7 +44,7 @@ The relevant evidence is not simply that a person or nickname was "cited" by the
 The stronger and more precise claim is:
 
 ```text
-Nicknames appear inside pasted Canal Barra channel conversation excerpts reproduced by the dissertation.
+Nicknames appear in the public dissertation-derived extract set, especially inside pasted Canal Barra channel conversation excerpts reproduced by the dissertation.
 ```
 
 This matters because a pasted channel excerpt preserves traces of live IRC interaction: nickname presence, conversational context and community language. It should still be handled carefully, because the repository has not yet added a verified complete PDF/text extraction with page references and reproducible occurrence counts.
@@ -53,9 +53,9 @@ This matters because a pasted channel excerpt preserves traces of live IRC inter
 
 | Nickname | Reported occurrences | Evidence context | Verification status | Linked repo record |
 |---|---:|---|---|---|
-| `VaNZaN` | 119 | complete UFF dissertation Anexo 2/log corpus; public Anexo 2 dossier available; count still unaudited | founder_provided_count_pending_repository_verification | `docs/ARCHIVED-PROFILE-VANZAN-USERID-40-2002.md`; `data/profiles/vanzan.jsonld` |
-| `BM_` | 108 | complete UFF dissertation Anexo 2/log corpus; public Anexo 2 dossier available; count still unaudited | founder_provided_count_pending_repository_verification | `data/profiles/bm_.jsonld` |
-| `Biano` | 80 | complete UFF dissertation Anexo 2/log corpus; public Anexo 2 dossier available; count still unaudited | founder_provided_count_pending_repository_verification | TODO |
+| `VaNZaN` | 119 | combined public extract count across short dossier + Anexo 2 chat-log dossier; count still unaudited | founder_provided_count_pending_repository_verification | `docs/ARCHIVED-PROFILE-VANZAN-USERID-40-2002.md`; `data/profiles/vanzan.jsonld` |
+| `BM_` | 108 | combined public extract count across short dossier + Anexo 2 chat-log dossier; count still unaudited | founder_provided_count_pending_repository_verification | `data/profiles/bm_.jsonld` |
+| `Biano` | 80 | combined public extract count across short dossier + Anexo 2 chat-log dossier; count still unaudited | founder_provided_count_pending_repository_verification | TODO |
 
 ## Identity Boundary
 
@@ -63,7 +63,7 @@ This matters because a pasted channel excerpt preserves traces of live IRC inter
 
 ## Methodological Note
 
-The occurrence counts above still need to be verified against the complete dissertation text/PDF and the reproduced conversation-log material in Anexo 2.
+The occurrence counts above still need to be verified against the two public extract files and, where necessary, the complete dissertation text/PDF and reproduced conversation-log material in Anexo 2.
 
 Until the repository includes extracted text, page references or a reproducible occurrence table, these counts must not be treated as automated validated counts.
 
@@ -71,14 +71,15 @@ Current status:
 
 ```text
 source_type: academic_secondary_source
-evidence_subtype: pasted_academic_chat_log_excerpt
+evidence_subtype: dissertation_derived_public_extracts_and_pasted_academic_chat_log_excerpt
 count_status: founder_provided_count_pending_repository_verification
+count_scope: combined_public_extract_count
 short_dossier_status: partial_extract_without_full_chat_logs
 chat_log_dossier_status: public_anexo_2_extract_available_for_audit
 chat_log_source_range: Anexo 2, complete dissertation PDF pages 217-250
 ```
 
-Even while pending, the counts are useful because they guide future corpus indexing. They identify which nicknames should be prioritized when the complete dissertation text/log material is safely acquired, extracted and checked.
+Even while pending, the counts are useful because they guide future corpus indexing. They identify which nicknames should be prioritized when the public extract set and complete dissertation text/log material are safely acquired, extracted and checked.
 
 ## Related Files
 
@@ -90,4 +91,4 @@ Even while pending, the counts are useful because they guide future corpus index
 
 ## Core Rule
 
-Do not treat founder-provided occurrence counts as independent external validation until the repository contains a verifiable extraction method and occurrence audit against the Anexo 2 log material.
+Do not treat founder-provided occurrence counts as independent external validation until the repository contains a verifiable extraction method and occurrence audit against the public extract set.
