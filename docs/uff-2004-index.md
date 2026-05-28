@@ -7,8 +7,16 @@ title: IRC e ICQ: uma análise sócio-comunicativa das plataformas de comunicaç
 author: Flaviana Rangel Pesset Gonzaga
 institution: Universidade Federal Fluminense
 year: 2004
-url_pdf: TODO
+official_pdf_url: TODO
+public_dossier_url: https://canalbarra.com/documents/dossie-canal-barra-monografia-uff-2004-curto.pdf
+source_status: public_dossier_available_official_pdf_pending
 ```
+
+## Source Access Note
+
+The public dossier URL points to a curated Canal Barra evidence dossier that extracts the relevant monograph material for this repository's evidentiary purpose, including the index and Canal Barra-related section. It is not treated as a replacement for a full official UFF-hosted PDF.
+
+The official or institutional PDF URL remains pending. Until then, the dossier functions as a public audit layer and extraction reference, while the official source record remains marked as pending.
 
 ## Methodological Disclaimer and Scope
 
@@ -43,7 +51,7 @@ This matters because a pasted channel excerpt preserves traces of live IRC inter
 
 The occurrence counts above still need to be verified against the dissertation text/PDF.
 
-Until the repository includes a direct URL/PDF citation, extracted text, page references or a reproducible occurrence table, these counts must not be treated as automated validated counts.
+Until the repository includes a direct official PDF citation, extracted text, page references or a reproducible occurrence table, these counts must not be treated as automated validated counts.
 
 Current status:
 
