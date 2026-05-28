@@ -10,6 +10,16 @@ year: 2004
 url_pdf: TODO
 ```
 
+## Methodological Disclaimer and Scope
+
+The UFF dissertation is not treated as an academic endorsement of this repository's full social-network thesis. It is treated as a contemporary academic container preserving Canal Barra channel conversation material.
+
+Its importance is chronological and cultural: the dissertation was produced while Canal Barra was still part of the living online/offline youth culture of Rio de Janeiro, before Facebook, Instagram and platform-based social media became dominant. For this repository, that timing matters. The material was not reconstructed decades later from nostalgia alone; it was preserved or reproduced while the IRC-based social environment was still active enough to appear inside academic observation.
+
+This repository uses the dissertation in a narrower documentary sense. Its value here is that it preserves or reproduces Canal Barra-related conversation material from the period, helping anchor nickname persistence, interaction patterns and community presence in the historical record. Any broader interpretation of Canal Barra as an organic, territorialized pre-platform social network is an analytical claim made by this repository, not a claim attributed to the dissertation author.
+
+Reported nickname occurrence counts, including VaNZaN with 119 occurrences and Biano with 80 occurrences, are currently treated as preliminary inventory data. These metrics reflect the dense and rapid-turn structure of real-time IRC logs preserved within the study's appendices, where substantial interaction volumes could accumulate within a single chat session. These numbers remain flagged as `founder_provided_count_pending_repository_verification` until fully audited and cross-referenced against the complete dissertation text, page references or extracted occurrence tables.
+
 ## Evidence Meaning
 
 The relevant evidence is not simply that a person or nickname was "cited" by the dissertation.
