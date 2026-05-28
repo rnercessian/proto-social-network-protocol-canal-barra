@@ -8,16 +8,16 @@ The main methodological source record is:
 docs/uff-2004-index.md
 ```
 
-This file is the tabular nickname-occurrence companion. It should not be read as an independently validated extraction until the dissertation PDF/text and page-level references are added to the repository.
+This file is the tabular nickname-occurrence companion. It should not be read as an independently validated extraction until the repository contains a reproducible occurrence table or page-level references.
 
 ## Purpose
 
-This document tracks reported nickname occurrences inside the 2004 Universidade Federal Fluminense dissertation corpus related to IRC/ICQ online communication and Canal Barra.
+This document tracks reported nickname occurrences inside the 2004 Universidade Federal Fluminense dissertation-derived public extract set related to IRC/ICQ online communication and Canal Barra.
 
 The goal is to separate a vague claim such as "mentioned in the dissertation" from a more precise evidence category:
 
 ```text
-nickname appearing inside pasted Canal Barra channel conversation excerpts reproduced by the dissertation
+nickname appearing in the public dissertation-derived extract set, especially inside pasted Canal Barra channel conversation excerpts reproduced by the dissertation
 ```
 
 ## Source To Confirm
@@ -36,11 +36,12 @@ chat_log_dossier_sha256: 69065faabc1a07d7ae003e31efd01b79ae183ba5b627f1d856c7f36
 
 ## Methodological Status
 
-The counts below are founder-provided counts until the repository contains a reproducible occurrence table or a line-by-line audit against the Anexo 2 chat-log dossier.
+The counts below are founder-provided counts until the repository contains a reproducible occurrence table or a line-by-line audit against the combined public extract set.
 
 ```text
 count_status: founder_provided_count_pending_repository_verification
-expected_evidence_type: pasted_channel_conversation_excerpt
+count_scope: combined_public_extract_count
+expected_evidence_type: dissertation_derived_public_extracts_and_pasted_channel_conversation_excerpt
 privacy_tier: nickname_level_academic_chat_log_reference
 short_dossier_status: partial_extract_without_full_chat_logs
 chat_log_dossier_status: public_anexo_2_extract_available_for_audit
@@ -50,9 +51,9 @@ chat_log_dossier_status: public_anexo_2_extract_available_for_audit
 
 | Nickname | Reported occurrences | Evidence context | Status | Linked repository record |
 |---|---:|---|---|---|
-| `VaNZaN` | 119 | complete UFF dissertation Anexo 2/log corpus; public Anexo 2 dossier available; count still unaudited | founder_provided_count_pending_repository_verification | `docs/ARCHIVED-PROFILE-VANZAN-USERID-40-2002.md`; `data/profiles/vanzan.jsonld` |
-| `BM_` | 108 | complete UFF dissertation Anexo 2/log corpus; public Anexo 2 dossier available; count still unaudited | founder_provided_count_pending_repository_verification | `data/profiles/bm_.jsonld` |
-| `Biano` | 80 | complete UFF dissertation Anexo 2/log corpus; public Anexo 2 dossier available; count still unaudited | founder_provided_count_pending_repository_verification | TODO |
+| `VaNZaN` | 119 | combined public extract count across short dossier + Anexo 2 chat-log dossier; count still unaudited | founder_provided_count_pending_repository_verification | `docs/ARCHIVED-PROFILE-VANZAN-USERID-40-2002.md`; `data/profiles/vanzan.jsonld` |
+| `BM_` | 108 | combined public extract count across short dossier + Anexo 2 chat-log dossier; count still unaudited | founder_provided_count_pending_repository_verification | `data/profiles/bm_.jsonld` |
+| `Biano` | 80 | combined public extract count across short dossier + Anexo 2 chat-log dossier; count still unaudited | founder_provided_count_pending_repository_verification | TODO |
 
 ## Identity Boundary
 
@@ -62,25 +63,26 @@ BarMan is not currently represented in this index as appearing in the UFF disser
 
 ## Interpretation
 
-These counts matter because they indicate recurring presence inside academic-preserved channel material.
+These counts matter because they indicate recurring presence inside the dissertation-derived public extract set.
 
-A nickname with dozens or hundreds of occurrences is not merely named by an external author. It appears as part of the living conversation corpus reproduced in an academic work.
+A nickname with dozens or hundreds of occurrences is not merely named by an external author. It appears repeatedly across contextual dissertation material and/or as part of the living conversation corpus reproduced in an academic work.
 
 This strengthens the archival chain:
 
 ```text
 IRC nickname
 → live channel interaction
-→ pasted chat excerpt
+→ dissertation observation / pasted chat excerpt
 → academic dissertation corpus
+→ public extract set
 → repository nickname occurrence index
 ```
 
 ## Next Steps
 
 1. Add the direct official/institutional URL or PDF citation for the UFF dissertation.
-2. Extract a searchable text layer if legally and technically safe.
-3. Verify each reported occurrence count against the public Anexo 2 chat-log dossier.
+2. Extract a searchable text layer from the public extract set if legally and technically safe.
+3. Verify each reported occurrence count against the short dossier and public Anexo 2 chat-log dossier.
 4. Create linked profile records for nicknames that also have archived Canalbarra.com cadastro pages.
 5. Add page numbers or excerpt IDs for each nickname occurrence cluster.
 
@@ -91,5 +93,5 @@ Do not treat the numbers in this document as fully verified until the repository
 The correct current status is:
 
 ```text
-reported by founder; pending repository verification against Anexo 2
+reported by founder; pending repository verification against the combined public extract set
 ```
