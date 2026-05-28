@@ -1,0 +1,3 @@
+source_id,source_file,source_url,sha256,status,notes
+short_dossier,data/uff-2004/sources/dossie-canal-barra-monografia-uff-2004-curto.pdf,https://canalbarra.com/documents/dossie-canal-barra-monografia-uff-2004-curto.pdf,,pending_local_file,Short Canal Barra UFF dossier; does not include full chat logs.
+anexo_2_logs,data/uff-2004/sources/dossie-canal-barra-monografia-uff-2004-anexo-2-logs.pdf,https://canalbarra.com/documents/dossie-canal-barra-monografia-uff-2004-anexo-2-logs.pdf,69065faabc1a07d7ae003e31efd01b79ae183ba5b627f1d856c7f363754b038b,pending_local_file,Public Anexo 2 chat-log dossier; intended for nickname occurrence audit.
