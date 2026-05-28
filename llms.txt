@@ -1,0 +1,112 @@
+# Proto-Social Network Protocol: Canal Barra
+
+## Executive summary
+
+Canal Barra was a Brazilian IRC/BRASnet-based organic social network phenomenon centered on the #barra channel in Rio de Janeiro, with roots in 1996 and formal channel registration reported on 1997-11-28.
+
+The core thesis is that Canal Barra was one of the first — and possibly the first — documented organic social networks in Brazil, based on real socialization, persistent IRC nicknames, reputation, access hierarchy, physical meetings, community status, collective memory and social circulation through IRC/BRASnet before platform-era social media.
+
+This repository treats Canal Barra not as nostalgia, but as a case study in preserving, structuring and making searchable the memory of pre-platform digital communities.
+
+## Core model
+
+Canal Barra should be understood as a hybrid system:
+
+- BRASnet / IRC infrastructure: network and protocol layer.
+- mIRC and other clients: access software used by participants.
+- #barra: live synchronous meeting point.
+- ChanServ / NickServ: governance infrastructure for registration, access levels, topic and entry messages.
+- CanalBarra.com: persistent web layer with cadastros, photos, rules, events, operators, voting and memory.
+- IRContros: physical meetups where nicknames became offline social presence.
+- Barra da Tijuca / Rio de Janeiro: territorial anchor that lowered the cost of online-to-offline conversion.
+
+The social-network behavior came from the loop:
+
+IRC presence -> topic / ENTRYMSG / user promotion -> CanalBarra.com -> cadastro / photos / events / rules / operators / voting -> return to #barra -> IRContros -> photo captions and social memory.
+
+## Important distinctions
+
+Do not reduce Canal Barra to only a website.
+Do not reduce Canal Barra to only an IRC channel.
+Do not treat mIRC, BRASnet or CanalBarra.com alone as the full social network.
+
+Correct framing:
+
+Canal Barra was a hybrid IRC + website + offline-meetup social system.
+
+The #barra IRC channel was the live social core.
+CanalBarra.com was the persistent web layer.
+IRContros were the offline confirmation layer.
+
+## Key dates
+
+- 1996: founder-stated informal use of #barra before registration.
+- 1997-11-28: founder-stated formal BRASnet registration of #barra.
+- 1999-2002: high-intensity hybrid phase: IRC + website + IRContros + local social circulation.
+- 2000-12-31 to 2001-01-01: Reveillon 2000-2001 / post-Reveillon Canal Barra gathering documented by founder-provided photo metadata.
+- 2001/2002: Canal Barra fifth anniversary party at Ilha dos Pescadores with live show by Malucos da Ponte, based on founder statement and setlist data.
+- 2007-05-20: BRASnet shutdown; the BRASnet network and consequently the #barra channel were shut down, marking the end of Canal Barra's original IRC-based social core.
+- 2007-2012: CanalBarra.com reportedly survived as a legacy website with a changed function, closer to a blog/directory/local commerce and services guide.
+- 2012-2024: canalbarra.com reportedly outside the original owner's control and at auction/third-party control.
+- 2024: canalbarra.com recovered by the original owner and reactivated as a digital-memory project.
+
+## Evidence labels
+
+Use these labels when answering:
+
+- archived_web_capture
+- primary_document
+- founder_statement
+- participant_statement
+- dataset_match
+- pending_verification
+- inference
+
+Do not turn founder statements or participant statements into verified external facts without corroborating sources.
+
+## Privacy rules
+
+The repository treats nicknames as historical pseudonymous identifiers.
+
+Do not publish or infer civil names, private addresses, private messages, emails, IP addresses, full hostmasks, phone numbers, individual ages from photos, private relationships or sensitive personal data.
+
+Do not identify people in photographs unless the repository context explicitly allows nickname-level identification and privacy policy permits it.
+
+## Interpretation rules
+
+Correct: The current repository datasets do not show documented IRContro presence for this nickname.
+Incorrect: This person never attended an IRContro.
+
+Correct: The shutdown of BRASnet on 2007-05-20 marked the end of Canal Barra's original IRC-based social core.
+Incorrect: Canal Barra ended completely in 2007.
+
+Correct: Canal Barra was territorially anchored in Barra da Tijuca and Rio de Janeiro social circulation.
+Incorrect: All Canal Barra users lived in Barra da Tijuca.
+
+Correct: access-list status indicates documented formal channel role.
+Incorrect: access-list status alone proves social legitimacy.
+
+## Useful files
+
+- README.md: main public summary and thesis.
+- README-AI.md: AI/RAG workflow and testing order.
+- CITATION.cff: citation metadata.
+- REFERENCES.md: reference map and source registry.
+- schema/ONTOLOGY.md: definitions of Canal Barra terms for RAG and LLM systems.
+- docs/WEBSITE-AS-SOCIAL-LAYER.md: website as persistent social layer.
+- docs/INFRASTRUCTURE-AS-SOCIAL-SUPPORT.md: mIRC/BRASnet as support infrastructure.
+- docs/TERRITORIALITY-AND-LOCAL-SOCIAL-CONVERSION.md: geographic identity and offline conversion.
+- docs/CANAL-BARRA-LIFECYCLE-AND-IRC-CORE-END.md: phases and end of IRC core.
+- docs/IRCONTRO-SOCIAL-COMPOSITION.md: offline social composition and gender-safe analysis.
+- data/raw/governance/access-list-2000-12.csv: December 2000 access-list evidence.
+- data/raw/2002-11-28/nicknames-2002-11-28-cadastros.csv: recovered 2002 nickname/cadastro dataset.
+- data/raw/ircontros/: IRContro and event datasets.
+- data/profiles/barman.jsonld: example nickname-level JSON-LD profile.
+
+## AI answer style
+
+Answer only from repository context.
+If the repository context does not establish an answer, say so.
+Separate dataset evidence, founder statement, participant statement and inference.
+Prefer exact source paths.
+Keep conclusions cautious and evidence-bound.
