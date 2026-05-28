@@ -13,7 +13,9 @@ archived_capture_date: 2002-01-25
 evidence_status: archived_web_capture
 privacy_tier: nickname_level_public_profile_comment
 publication_scope: profile metadata and comment transcription
-academic_chat_log_cross_reference: founder reports that VaNZaN appears inside pasted Canal Barra chat conversations reproduced in the 2004 UFF monograph; exact page/log excerpt pending
+academic_chat_log_cross_reference: founder reports that VaNZaN appears inside pasted Canal Barra chat conversations reproduced in the 2004 UFF dissertation; exact page/log excerpt pending
+reported_academic_occurrence_count: 119
+reported_count_status: founder_provided_count_pending_repository_verification
 ```
 
 ## Source Context
@@ -50,18 +52,22 @@ The bairro field also matters. Tijuca is outside Barra da Tijuca, showing that C
 
 ## Academic Chat-Log Cross-Reference
 
-Founder clarification: VaNZaN should not be described as simply "cited" by the 2004 Universidade Federal Fluminense monograph.
+Founder clarification: VaNZaN should not be described as simply "cited" by the 2004 Universidade Federal Fluminense dissertation.
 
-The more precise claim is that the monograph reproduced or pasted conversations from the Canal Barra channel, and VaNZaN appears as a nickname inside those chat-log excerpts.
+The more precise claim is that the dissertation reproduced or pasted conversations from the Canal Barra channel, and VaNZaN appears as a nickname inside those chat-log excerpts.
 
-This matters because the evidence is not only academic commentary about the channel. It is a secondary academic work preserving fragments of primary channel interaction.
+Founder-provided count: the nick `VaNZaN` appears 119 times in the UFF dissertation corpus.
 
-This cross-reference should remain marked as pending until the repository contains the exact page, quotation or log excerpt location.
+This matters because the evidence is not only academic commentary about the channel. It is a secondary academic work preserving fragments of primary channel interaction. A nickname with 119 reported occurrences is not a passing mention; it indicates recurring presence inside the reproduced channel material.
+
+This cross-reference should remain marked as pending until the repository contains the exact page, quotation, searchable PDF text, or log excerpt locations.
 
 ```text
 cross_reference_status: founder_statement_pending_exact_academic_chat_log_location
 source_to_confirm: IRC e ICQ: uma análise sócio-comunicativa das plataformas de comunicação on-line, UFF, 2004
 expected_evidence_type: pasted_channel_conversation_excerpt
+reported_occurrence_count: 119
+reported_count_status: founder_provided_count_pending_repository_verification
 ```
 
 ## Evidence Value
@@ -74,7 +80,8 @@ This record supports several elements of the Canal Barra thesis:
 - participation beyond Barra da Tijuca as residential geography;
 - Canal Barra as social territory rather than merely neighborhood residence;
 - possible bridge between archived web profile evidence and academic reproduction of channel conversations;
-- need for a nickname index of all Canal Barra participants appearing in pasted UFF monograph chat excerpts.
+- reported recurring presence in the UFF dissertation corpus, with 119 founder-provided occurrences pending repository verification;
+- need for a nickname index of all Canal Barra participants appearing in pasted UFF dissertation chat excerpts.
 
 ## Privacy Boundary
 
@@ -89,9 +96,9 @@ Use nickname-level evidence only unless additional consent-aware documentation e
 ## Linked People / Nickname-Level References
 
 ```text
-VaNZaN: archived profile subject; nickname-level historical participant; reported appearance inside UFF 2004 pasted channel conversation excerpts pending exact citation.
+VaNZaN: archived profile subject; nickname-level historical participant; reported appearance inside UFF 2004 pasted channel conversation excerpts pending exact citation; reported occurrence count: 119.
 ```
 
 ## Core Sentence
 
-**The VaNZaN userID=40 archived profile shows Canal Barra as a social territory wider than Barra itself: nickname, Tijuca residence marker, personal motto and a pending bridge to UFF-preserved channel conversation excerpts.**
+**The VaNZaN userID=40 archived profile shows Canal Barra as a social territory wider than Barra itself: nickname, Tijuca residence marker, personal motto and a reported 119-occurrence bridge to UFF-preserved channel conversation excerpts.**
