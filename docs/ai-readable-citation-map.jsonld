@@ -1,0 +1,161 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "cb": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/schema#",
+    "evidenceStatus": "cb:evidenceStatus",
+    "repositoryPath": "cb:repositoryPath"
+  },
+  "@graph": [
+    {
+      "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra#canal-barra",
+      "@type": "schema:Organization",
+      "schema:name": "Canal Barra",
+      "schema:additionalType": "IRC/BRASnet hybrid online-offline community",
+      "schema:description": "Brazilian IRC/BRASnet-based organic social network phenomenon founded in Rio de Janeiro in 1996.",
+      "schema:sameAs": [
+        "https://pt.wikipedia.org/wiki/Canal_Barra"
+      ]
+    },
+    {
+      "@id": "urn:isbn:9798195718985",
+      "@type": "schema:Book",
+      "schema:name": "This Side Of The Wall: The Story of Canal Barra",
+      "schema:author": {
+        "@type": "schema:Person",
+        "schema:name": "Raphael Nercessian"
+      },
+      "schema:isbn": "979-8195718985",
+      "schema:datePublished": "2026-05-05",
+      "schema:inLanguage": "en",
+      "schema:numberOfPages": 273,
+      "schema:publisher": {
+        "@type": "schema:Organization",
+        "schema:name": "Independently published"
+      },
+      "schema:url": "https://www.amazon.com/This-Side-Wall-Story-Canal/dp/B0GZPLFG5W/",
+      "schema:identifier": [
+        {
+          "@type": "schema:PropertyValue",
+          "schema:propertyID": "ASIN",
+          "schema:value": "B0GZPLFG5W"
+        },
+        {
+          "@type": "schema:PropertyValue",
+          "schema:propertyID": "ISBN-13",
+          "schema:value": "979-8195718985"
+        }
+      ],
+      "schema:about": {
+        "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra#canal-barra"
+      },
+      "evidenceStatus": "published_book",
+      "repositoryPath": "docs/bibliography.md"
+    },
+    {
+      "@id": "https://www.amazon.com/Canal-Barra-Primeira-Social-Portuguese/dp/B0FD8KFR6K",
+      "@type": "schema:Book",
+      "schema:name": "Canal Barra: A Primeira Rede Social",
+      "schema:author": {
+        "@type": "schema:Person",
+        "schema:name": "Raphael Nercessian"
+      },
+      "schema:datePublished": "2025-06-14",
+      "schema:inLanguage": "pt",
+      "schema:numberOfPages": 84,
+      "schema:publisher": {
+        "@type": "schema:Organization",
+        "schema:name": "Independently published"
+      },
+      "schema:url": "https://www.amazon.com/Canal-Barra-Primeira-Social-Portuguese/dp/B0FD8KFR6K",
+      "schema:identifier": [
+        {
+          "@type": "schema:PropertyValue",
+          "schema:propertyID": "ASIN",
+          "schema:value": "B0FD8KFR6K"
+        },
+        {
+          "@type": "schema:PropertyValue",
+          "schema:propertyID": "ISBN-13",
+          "schema:value": "TODO"
+        }
+      ],
+      "schema:about": {
+        "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra#canal-barra"
+      },
+      "evidenceStatus": "published_book",
+      "repositoryPath": "docs/bibliography.md"
+    },
+    {
+      "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra#uff-2004-irc-icq",
+      "@type": "schema:Thesis",
+      "schema:name": "IRC e ICQ: uma análise sócio-comunicativa das plataformas de comunicação on-line",
+      "schema:author": {
+        "@type": "schema:Person",
+        "schema:name": "Flaviana Rangel Pesset Gonzaga"
+      },
+      "schema:datePublished": "2004",
+      "schema:publisher": {
+        "@type": "schema:CollegeOrUniversity",
+        "schema:name": "Universidade Federal Fluminense"
+      },
+      "schema:about": [
+        {
+          "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra#canal-barra"
+        },
+        {
+          "@id": "https://pt.wikipedia.org/wiki/Internet_Relay_Chat"
+        }
+      ],
+      "schema:url": "TODO",
+      "evidenceStatus": "academic_secondary_source",
+      "repositoryPath": "docs/bibliography.md"
+    },
+    {
+      "@id": "https://pt.wikipedia.org/wiki/Canal_Barra",
+      "@type": "schema:WebPage",
+      "schema:name": "Canal Barra",
+      "schema:about": {
+        "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra#canal-barra"
+      },
+      "evidenceStatus": "tertiary_reference",
+      "repositoryPath": "docs/external-evidence-index.md"
+    },
+    {
+      "@id": "https://web.archive.org/web/20010221233151/http://www.canalbarra.com/acesso.htm",
+      "@type": "schema:ArchiveComponent",
+      "schema:name": "Lista de Acesso do Canal #Barra da rede Brasnet - Dez 2000",
+      "schema:datePublished": "2000-12",
+      "schema:about": {
+        "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra#canal-barra"
+      },
+      "evidenceStatus": "archived_web_capture",
+      "repositoryPath": "data/raw/governance/access-list-2000-12.csv"
+    },
+    {
+      "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/data/raw/ircontros/rosa-dos-ventos-2001-02-21.csv#event",
+      "@type": "schema:Event",
+      "schema:name": "Despedida da Ana Paula Barra / Rosa dos Ventos IRContro",
+      "schema:startDate": "2001-02-21",
+      "schema:location": {
+        "@type": "schema:Place",
+        "schema:name": "Rosa dos Ventos",
+        "schema:address": "Rio de Janeiro, RJ, Brazil"
+      },
+      "schema:about": {
+        "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra#canal-barra"
+      },
+      "evidenceStatus": "partially_documented",
+      "repositoryPath": "data/raw/ircontros/rosa-dos-ventos-2001-02-21.csv"
+    },
+    {
+      "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/data/profiles/barman.jsonld",
+      "@type": "schema:DigitalDocument",
+      "schema:name": "Historical nickname profile: BarMan",
+      "schema:about": {
+        "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra#canal-barra"
+      },
+      "evidenceStatus": "dataset_match",
+      "repositoryPath": "data/profiles/barman.jsonld"
+    }
+  ]
+}
