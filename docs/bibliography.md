@@ -4,6 +4,18 @@ This bibliography records external and internal bibliographic anchors for the Ca
 
 ## Published Books
 
+Methodological note:
+
+The books below are valuable bibliographic anchors and authorial consolidations of the Canal Barra archive. Because they are authored by the founder/archivist, they should be classified as:
+
+```text
+published_book
+bibliographic_consolidation
+authorial_primary_source
+```
+
+They should not be treated as independent external validation of the repository's central historical thesis.
+
 ### This Side Of The Wall: The Story of Canal Barra
 
 Nercessian, Raphael. *This Side Of The Wall: The Story of Canal Barra*. Independently published, May 5, 2026. Paperback, 273 pages. ISBN-13: 979-8195718985. Amazon ASIN: B0GZPLFG5W.
@@ -21,6 +33,8 @@ Metadata:
 - ASIN: B0GZPLFG5W
 - Amazon path: `/This-Side-Wall-Story-Canal/dp/B0GZPLFG5W/`
 - Dimensions: 6 x 0.62 x 9 inches
+- Evidence classification: `published_book`; `bibliographic_consolidation`; `authorial_primary_source`
+- Independent validation status: not independent external validation
 
 ```bibtex
 @book{nercessian_this_side_of_the_wall_2026,
@@ -51,6 +65,8 @@ Metadata:
 - ASIN: B0FD8KFR6K
 - Amazon path: `/Canal-Barra-Primeira-Social-Portuguese/dp/B0FD8KFR6K`
 - Dimensions: 6.24 x 0.38 x 9.24 inches
+- Evidence classification: `published_book`; `bibliographic_consolidation`; `authorial_primary_source`
+- Independent validation status: not independent external validation
 
 ```bibtex
 @book{nercessian_canal_barra_primeira_rede_social_2025,

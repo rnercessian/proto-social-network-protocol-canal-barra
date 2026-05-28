@@ -48,7 +48,7 @@
       "schema:about": {
         "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra#canal-barra"
       },
-      "evidenceStatus": "published_book",
+      "evidenceStatus": "published_book; bibliographic_consolidation; authorial_primary_source; not_independent_external_validation",
       "repositoryPath": "docs/bibliography.md"
     },
     {
@@ -83,7 +83,7 @@
       "schema:about": {
         "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra#canal-barra"
       },
-      "evidenceStatus": "published_book",
+      "evidenceStatus": "published_book; bibliographic_consolidation; authorial_primary_source; not_independent_external_validation",
       "repositoryPath": "docs/bibliography.md"
     },
     {

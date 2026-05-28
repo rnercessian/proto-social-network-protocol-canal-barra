@@ -64,6 +64,38 @@ A robust claim should ideally connect several layers:
 4. privacy-aware metadata;
 5. explicit evidence status.
 
+## Evidence Weight Matrix
+
+| Evidence type | Methodological weight | Acceptance criteria | Limitations |
+|---|---|---|---|
+| `archived_web_capture` | high | Direct archive URL, capture timestamp, original URL, and repository path or extracted metadata. | Archived pages can be incomplete, broken, missing images or lacking full social context. |
+| `academic_secondary_source` | high when page/citation is exact | Bibliographic metadata plus direct URL/PDF or repository citation; page numbers or excerpt IDs for specific claims. | Academic interpretation is not raw primary data; broad claims still need source-specific mapping. |
+| `pasted_academic_chat_log_excerpt` | high/medium depending on extraction | Verifiable dissertation text/PDF, page references, extraction method and preserved nickname-level excerpt context. | Founder-provided occurrence counts remain pending until text extraction is reproducible. |
+| `dataset_match` | medium/high | Structured row-level evidence, source path, stable identifiers and privacy classification. | A dataset match proves repository-observed evidence, not full historical absence/presence outside the dataset. |
+| `published_book` | medium as bibliographic consolidation; low as independent validation if authored by the founder | ISBN/ASIN/publication metadata and clear relation to the archive. | Books by the founder/author are not independent external validation of the thesis. |
+| `founder_statement` | low when isolated | Clear label, date/context when available, and separation from verified archival facts. | Useful testimony, but not independent proof without corroboration. |
+| `tertiary_reference` | contextual, not primary proof | Stable public reference path and explicit tertiary label. | Useful for orientation and discoverability, not primary historical proof. |
+| `image_manifest` | medium when linked to archived source; low when only founder_statement | Manifest ID, date/context, privacy tier, source path, hash or archive link when available. | Does not authorize image publication; can contain privacy risk and may require consent review. |
+| `archived_profile_based_user_feedback` | medium/high when from Wayback | Direct archived profile URL, timestamp, nickname-level extraction and privacy review. | Public profile evidence does not authorize civil identity inference or private biographical claims. |
+
+## Authorial Source Rule
+
+Books written by the founder/author should be treated as:
+
+```text
+bibliographic_consolidation
+authorial_primary_source
+published_book
+```
+
+They should not be treated as:
+
+```text
+independent_external_validation
+```
+
+This does not reduce their bibliographic value. It prevents circular validation: the archive should not claim that the thesis is independently proven merely because the founder's own book repeats or consolidates it.
+
 ## What this repository avoids
 
 - It does not present founder memory as independent proof.

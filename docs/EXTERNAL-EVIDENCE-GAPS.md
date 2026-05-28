@@ -25,9 +25,12 @@ priority: high, medium or low.
 | Wayback Machine URLs for 2003 homepage/event archive | already_available | high | `docs/PRIMARY-SOURCES.md`; `data/media-metadata/homepage-2003-01-30-event-archive.csv` | Add direct archive URLs to README and structured source registry when possible. | Supports event archive and social memory layer. |
 | 2002 cadastro pages / male and female snapshots | partially_available | high | `data/raw/2002-11-28/nicknames-2002-11-28-cadastros.csv`; `data/raw/2002-11-28/sources-2002-11-28.csv` | Add archive URLs, screenshot metadata and extraction notes. | Important for scale and cadastro/profile-like layer. |
 | 2002 homepage / fifth anniversary callout | partially_available | high | `docs/HOMEPAGE-AS-SOCIAL-PORTAL-2002.md`; `data/media-metadata/2002-11-28-fifth-anniversary-photos.csv` | Add archived HTML, screenshot filename, hash or direct Wayback URL. | Supports homepage as social portal. |
-| UFF monograph 2004 | partially_available | high | `docs/FOUNDER-CULTURAL-CIRCUIT-2004.md`; `REFERENCES.md`; `docs/bibliography.md` | Add direct URL, repository record or PDF citation if legally safe. | Important external academic corroboration. |
+| UFF dissertation 2004 direct URL/PDF | partially_available | high | `docs/uff-2004-index.md`; `docs/UFF-2004-NICKNAME-OCCURRENCE-INDEX.md`; `docs/bibliography.md` | Add direct URL, repository record or PDF citation if legally safe. | Important external academic corroboration. Do not treat reported nickname counts as verified until source text is available. |
+| UFF dissertation exact pages/excerpts | missing | high | `docs/uff-2004-index.md` | Add page numbers, excerpt IDs or safe quoted/extracted references for Canal Barra chat excerpts. | Needed before using specific nickname occurrence claims as strong academic evidence. |
+| Verifiable UFF nickname occurrence extraction | missing | high | `docs/UFF-2004-NICKNAME-OCCURRENCE-INDEX.md` | Add extracted text, script or reproducible occurrence table for nicknames such as VaNZaN and Biano. | Current counts are founder_provided_count_pending_repository_verification. |
 | WHOIS / domain history for canalbarra.com | missing | high | `docs/CANAL-BARRA-LIFECYCLE-AND-IRC-CORE-END.md` | Add WHOIS history, registrar screenshots, domain auction evidence or dated domain records. | Needed for 2012-2024 and 2024 recovery claims. |
 | Old site screenshots and file manifests | partially_available | high | `media/README.md`; `data/media-metadata/`; `docs/PRIMARY-SOURCES.md` | Add screenshot filenames, capture dates, hashes, source URLs and privacy status. | Do not publish private faces or civil data without review. |
+| SHA-256 hashes for Wayback HTML/source captures | missing | medium | `docs/PRIMARY-SOURCES.md`; `data/media-metadata/` | Add SHA-256 hashes for downloaded HTML or screenshot metadata artifacts when legally safe to store. | Strengthens reproducibility and tamper-evidence for source extraction. |
 | Public photo metadata for IRContros | partially_available | high | `data/raw/ircontros/`; `docs/IMAGE-MANIFEST-REVEILLON-2000-2001.md`; `docs/IMAGE-MANIFEST-IRCONTRO-HOME-01.md` | Add event-level manifests, consent status, public-safe captions and source hashes. | Strong online/offline evidence; medium privacy risk. |
 | BRASnet shutdown documentation | missing | high | `docs/CANAL-BARRA-LIFECYCLE-AND-IRC-CORE-END.md` | Add external article, network notice, archived page, mailing-list reference or community documentation for 2007-05-20. | Needed to upgrade shutdown date from founder/external-needed to externally supported. |
 | BRASnet / IRC history references in Brazil | partially_available | medium | `REFERENCES.md`; `docs/HISTORIOGRAPHICAL-PRECEDENTS.md`; `docs/bibliography.md` | Add bibliography, academic papers, archived BRASnet pages and historical references. | Helps contextualize Canal Barra inside Brazilian internet history. |
@@ -40,6 +43,8 @@ priority: high, medium or low.
 | Event records / venue records | missing | medium | `docs/FIFTH-ANNIVERSARY-MUSIC-2002.md`; `data/media-metadata/` | Add venue listings, flyers, invitations, ticket/VIP metadata or public event references. | Event records should preserve nicknames, not civil identity. |
 | VIP lists | missing | high | `docs/MISSING-FILES-AND-NEXT-DATA-BATCHES.md`; `docs/PRIMARY-SOURCES.md` | Create `data/raw/vip-lists/` with sources and event rows. | Important for social circulation and nightlife access. |
 | Participant oral histories | partially_available | high | `docs/ORAL-HISTORY-QUESTIONNAIRE.md`; `data/raw/oral-history/` | Add consent-aware testimony with evidence labels and privacy tiers. | Helps distinguish founder memory from participant memory. |
+| Automated JSON-LD profile validation | partially_available | high | `scripts/validate_profiles.py`; `schema/profile-schema.md`; `data/profiles/` | Run validator in local checks and optionally CI; keep failures visible. | Validates integrity and privacy fields, not historical truth. |
+| Independent sources for founder_statement events | missing | high | `docs/FIFTH-ANNIVERSARY-MUSIC-2002.md`; `docs/CANAL-BARRA-LIFECYCLE-AND-IRC-CORE-END.md`; `docs/WEB-STACK-COLDFUSION-ACCESS-2000.md` | Add flyers, archived event pages, participant testimony, venue records, press references or institutional records. | Founder_statement remains valuable but should not be upgraded without corroboration. |
 
 ## Already Available
 
@@ -62,10 +67,11 @@ priority: high, medium or low.
 
 - Wayback/screenshot metadata for homepage captures.
 - Fifth anniversary music/event materials.
-- UFF 2004 academic context.
+- UFF 2004 academic context, without direct PDF URL/page-level extraction yet.
 - Public operators-page context.
 - Oral-history material.
 - Photo manifests with privacy restrictions.
+- Automated JSON-LD profile validation script and profile schema.
 
 ## Missing
 
@@ -76,6 +82,8 @@ priority: high, medium or low.
 - VIP-list datasets.
 - Full external bibliography for Brazilian IRC/BRASnet.
 - Public event/venue/flyer corroboration.
+- Page-level UFF dissertation excerpt extraction.
+- SHA-256 hashes for downloaded Wayback HTML/source artifacts.
 
 ## Priority
 
@@ -87,6 +95,8 @@ High-priority additions:
 4. VIP-list extraction.
 5. UFF monograph direct URL or safe repository citation.
 6. Consent-aware IRContro photo metadata.
+7. Reproducible UFF nickname occurrence extraction.
+8. Automated profile validation in the normal QA path.
 
 ## Core Rule
 

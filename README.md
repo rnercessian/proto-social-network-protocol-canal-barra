@@ -52,7 +52,9 @@ This repository is structured for human reading and machine retrieval. A minimal
   },
   "roleName": ["founder", "operator", "registered_user", "event_participant"],
   "evidenceStatus": "dataset_match",
-  "privacyTier": "nickname_level_only"
+  "privacyTier": "nickname_level_only",
+  "civilIdentityLinked": false,
+  "sensitiveDataIncluded": false
 }
 ```
 
@@ -97,6 +99,23 @@ Confirmed book anchors include:
 
 - *This Side Of The Wall: The Story of Canal Barra* — ISBN-13 `979-8195718985`.
 - *Canal Barra: A Primeira Rede Social* — ISBN-13 `979-8288099465`.
+
+## Verification and Evidence Discipline
+
+This repository distinguishes archived sources, academic sources, published books, founder testimony, tertiary references and structured dataset matches.
+
+Key verification files:
+
+- `docs/evidence-methodology.md` — evidence weighting, acceptance criteria and limitations.
+- `docs/uff-2004-index.md` — main UFF 2004 dissertation evidence index.
+- `docs/UFF-2004-NICKNAME-OCCURRENCE-INDEX.md` — tabular nickname occurrence companion index.
+- `scripts/validate_profiles.py` — standard-library profile integrity and privacy validator.
+- `schema/profile-schema.md` — minimum archival profile schema.
+- `docs/EXTERNAL-EVIDENCE-GAPS.md` — missing or incomplete external evidence.
+
+Founder statements are preserved as testimony, but they are not used as independent proof of pioneering status. Founder-authored books are treated as bibliographic consolidation and authorial primary sources, not as independent external validation.
+
+JSON-LD profiles have basic integrity and privacy checks: public profile records must keep `civilIdentityLinked` and `sensitiveDataIncluded` set to `false`.
 
 ## Evidence Categories
 

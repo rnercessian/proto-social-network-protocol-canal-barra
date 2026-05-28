@@ -9,8 +9,8 @@ The purpose is to make the historical chain auditable by humans and legible to m
 | Evidence ID | Type | Title | Date | URL / Path | Repository mapping | Evidence status | Notes |
 |---|---|---|---|---|---|---|---|
 | `ext_academic_uff_2004` | Academic evidence | IRC e ICQ: uma análise sócio-comunicativa das plataformas de comunicação on-line | 2004 | TODO | `docs/bibliography.md`; `docs/evidence-methodology.md` | `academic_secondary_source` | Universidade Federal Fluminense source. Direct URL pending confirmation. |
-| `ext_book_wall_2026` | Published book | This Side Of The Wall: The Story of Canal Barra | 2026-05-05 | Amazon ASIN `B0GZPLFG5W`; ISBN-13 `979-8195718985` | `docs/bibliography.md`; `docs/ai-readable-citation-map.jsonld` | `published_book` | English bibliographic consolidation. |
-| `ext_book_primeira_rede_2025` | Published book | Canal Barra: A Primeira Rede Social | 2025-06-14 | Amazon ASIN `B0FD8KFR6K`; ISBN-13 `979-8288099465` | `docs/bibliography.md`; `docs/ai-readable-citation-map.jsonld` | `published_book` | Portuguese bibliographic consolidation. |
+| `ext_book_wall_2026` | Published book / authorial source | This Side Of The Wall: The Story of Canal Barra | 2026-05-05 | Amazon ASIN `B0GZPLFG5W`; ISBN-13 `979-8195718985` | `docs/bibliography.md`; `docs/ai-readable-citation-map.jsonld` | `published_book`; `bibliographic_consolidation`; `authorial_primary_source` | English bibliographic consolidation. Not independent external validation because it is authored by the founder/archivist. |
+| `ext_book_primeira_rede_2025` | Published book / authorial source | Canal Barra: A Primeira Rede Social | 2025-06-14 | Amazon ASIN `B0FD8KFR6K`; ISBN-13 `979-8288099465` | `docs/bibliography.md`; `docs/ai-readable-citation-map.jsonld` | `published_book`; `bibliographic_consolidation`; `authorial_primary_source` | Portuguese bibliographic consolidation. Not independent external validation because it is authored by the founder/archivist. |
 | `ext_wikipedia_canal_barra` | Wikipedia / tertiary reference | Canal Barra | living page | `/wiki/Canal_Barra` | `README.md`; `docs/bibliography.md` | `tertiary_reference` | Useful for public recognition and contextual discovery. Not treated as primary proof. |
 | `ext_wikipedia_brasnet` | Wikipedia / contextual reference | BRASnet | living page | `/wiki/BRASnet` | `README.md`; `docs/bibliography.md` | `tertiary_reference` | Contextual reference for the IRC network environment. |
 | `ext_wikipedia_irc` | Protocol context | Internet Relay Chat | living page | `/wiki/Internet_Relay_Chat` | `README.md`; `docs/bibliography.md` | `tertiary_reference` | Contextual reference for the communication protocol. |
@@ -25,7 +25,7 @@ The purpose is to make the historical chain auditable by humans and legible to m
 This repository uses a layered evidence model.
 
 - Academic evidence provides external scholarly context.
-- Books provide bibliographic consolidation.
+- Books provide bibliographic consolidation. Books by the founder/archivist are authorial primary sources, not independent external validation.
 - Wikipedia provides tertiary recognition and public discoverability.
 - Archived web captures provide stronger historical anchoring.
 - Repository datasets make the archive machine-readable.
@@ -39,4 +39,5 @@ The strongest next improvements are:
 1. confirm the direct URL for the 2004 UFF academic source;
 2. keep mapping every major claim to a source category;
 3. avoid presenting tertiary references or founder statements as primary proof;
-4. add additional archival, journalistic or institutional references when available.
+4. avoid circular validation through founder-authored books;
+5. add additional archival, journalistic or institutional references when available.

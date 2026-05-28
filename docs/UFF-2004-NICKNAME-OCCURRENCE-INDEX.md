@@ -1,5 +1,15 @@
 # UFF 2004 Nickname Occurrence Index
 
+## Relationship to Main UFF Evidence Document
+
+The main methodological source record is:
+
+```text
+docs/uff-2004-index.md
+```
+
+This file is the tabular nickname-occurrence companion. It should not be read as an independently validated extraction until the dissertation PDF/text and page-level references are added to the repository.
+
 ## Purpose
 
 This document tracks reported nickname occurrences inside the 2004 Universidade Federal Fluminense dissertation corpus related to IRC/ICQ online communication and Canal Barra.
@@ -34,8 +44,8 @@ privacy_tier: nickname_level_academic_chat_log_reference
 
 | Nickname | Reported occurrences | Evidence context | Status | Linked repository record |
 |---|---:|---|---|---|
-| `VaNZaN` | 119 | Pasted Canal Barra channel conversations reproduced in the UFF dissertation | pending repository verification | `docs/ARCHIVED-PROFILE-VANZAN-USERID-40-2002.md` |
-| `Biano` | 80 | Pasted Canal Barra channel conversations reproduced in the UFF dissertation | pending repository verification | TODO |
+| `VaNZaN` | 119 | pasted Canal Barra channel conversation excerpts | founder_provided_count_pending_repository_verification | `docs/ARCHIVED-PROFILE-VANZAN-USERID-40-2002.md` |
+| `Biano` | 80 | pasted Canal Barra channel conversation excerpts | founder_provided_count_pending_repository_verification | TODO |
 
 ## Interpretation
 
