@@ -46,6 +46,10 @@ The phrase is short, humorous and reputation-oriented. It functions like a profi
 
 The neighborhood field also matters. `Barra da Tijuca (qse sta cruz)` is not just location data; it carries local humor, territorial identity and an inside way of describing distance or belonging within the city.
 
+The joke depends on the geography and status logic of Barra da Tijuca. Barra is large and internally unequal as a social territory. In Canal Barra context, being closer to the Zona Sul side of Barra could carry more convenience, prestige or symbolic centrality. Saying `Barra da Tijuca (qse sta cruz)` humorously stretches the neighborhood toward the far western edge of the city, turning distance inside Barra into self-deprecating territorial comedy.
+
+This matters because the profile does not merely say where the user lives. It performs a local joke that only makes full sense inside Rio de Janeiro and Barra da Tijuca social geography.
+
 ## Evidence Value
 
 This record supports several elements of the Canal Barra thesis:
@@ -53,6 +57,8 @@ This record supports several elements of the Canal Barra thesis:
 - persistent nickname identity;
 - profile/cadastro structure;
 - territorial self-location through bairro;
+- internal humor about Barra da Tijuca geography;
+- preference/status tension between the Zona Sul side of Barra and farther western areas;
 - humor and persona as profile content;
 - reputation as a social layer;
 - public self-presentation before platform social media.
@@ -75,4 +81,4 @@ NEGAUM: archived profile subject; nickname-level historical participant.
 
 ## Core Sentence
 
-**The NEGAUM userID=76 archived profile shows Canal Barra as a reputation space: nickname, bairro, humor and public persona compressed into one cadastro comment.**
+**The NEGAUM userID=76 archived profile shows Canal Barra as a reputation and territory space: nickname, bairro, local humor, distance inside Barra and public persona compressed into one cadastro comment.**
