@@ -13,7 +13,7 @@ archived_capture_date: 2002-01-25
 evidence_status: archived_web_capture
 privacy_tier: nickname_level_public_profile_comment
 publication_scope: profile metadata and comment transcription
-academic_cross_reference: reported by founder as appearing in the 2004 UFF monograph; exact page/quote citation pending
+academic_chat_log_cross_reference: founder reports that VaNZaN appears inside pasted Canal Barra chat conversations reproduced in the 2004 UFF monograph; exact page/log excerpt pending
 ```
 
 ## Source Context
@@ -48,15 +48,20 @@ Unlike affectionate list-style comments or humorous territorial comments, this p
 
 The bairro field also matters. Tijuca is outside Barra da Tijuca, showing that Canal Barra's social reach was not restricted to residents of Barra. The channel identity could attract and organize participants from other parts of Rio de Janeiro while still using #barra as the central social territory.
 
-## Academic Cross-Reference
+## Academic Chat-Log Cross-Reference
 
-Founder statement: VaNZaN appears in the 2004 Universidade Federal Fluminense monograph related to IRC/ICQ online communication and Canal Barra context.
+Founder clarification: VaNZaN should not be described as simply "cited" by the 2004 Universidade Federal Fluminense monograph.
 
-This cross-reference should remain marked as pending until the repository contains the exact page, quotation or bibliographic citation location.
+The more precise claim is that the monograph reproduced or pasted conversations from the Canal Barra channel, and VaNZaN appears as a nickname inside those chat-log excerpts.
+
+This matters because the evidence is not only academic commentary about the channel. It is a secondary academic work preserving fragments of primary channel interaction.
+
+This cross-reference should remain marked as pending until the repository contains the exact page, quotation or log excerpt location.
 
 ```text
-cross_reference_status: founder_statement_pending_exact_academic_citation
+cross_reference_status: founder_statement_pending_exact_academic_chat_log_location
 source_to_confirm: IRC e ICQ: uma análise sócio-comunicativa das plataformas de comunicação on-line, UFF, 2004
+expected_evidence_type: pasted_channel_conversation_excerpt
 ```
 
 ## Evidence Value
@@ -68,7 +73,8 @@ This record supports several elements of the Canal Barra thesis:
 - public self-presentation through a motto;
 - participation beyond Barra da Tijuca as residential geography;
 - Canal Barra as social territory rather than merely neighborhood residence;
-- potential bridge between archived web profile evidence and academic external reference.
+- possible bridge between archived web profile evidence and academic reproduction of channel conversations;
+- need for a nickname index of all Canal Barra participants appearing in pasted UFF monograph chat excerpts.
 
 ## Privacy Boundary
 
@@ -83,9 +89,9 @@ Use nickname-level evidence only unless additional consent-aware documentation e
 ## Linked People / Nickname-Level References
 
 ```text
-VaNZaN: archived profile subject; nickname-level historical participant; reported academic cross-reference pending exact citation.
+VaNZaN: archived profile subject; nickname-level historical participant; reported appearance inside UFF 2004 pasted channel conversation excerpts pending exact citation.
 ```
 
 ## Core Sentence
 
-**The VaNZaN userID=40 archived profile shows Canal Barra as a social territory wider than Barra itself: nickname, Tijuca residence marker, personal motto and possible academic cross-reference in one cadastro record.**
+**The VaNZaN userID=40 archived profile shows Canal Barra as a social territory wider than Barra itself: nickname, Tijuca residence marker, personal motto and a pending bridge to UFF-preserved channel conversation excerpts.**
