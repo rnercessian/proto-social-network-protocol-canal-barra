@@ -1,0 +1,62 @@
+{
+  "id": "barrinha-bot-policy-brumarx-001-v1",
+  "type": "author_recollection_record",
+  "version": 1,
+  "project": "Canal Barra Historical Evidence Registry",
+  "evidenceCategory": "bot_policy_and_channel_governance_recollection",
+  "eventContext": "Barrinha bot as a governed exception to the general anti-bot policy in Canal #barra",
+  "publicDescription": "The archive records, based on BarMan's recollection, that bots were generally prohibited in Canal #barra. The Barrinha bot was treated as an exception because it was developed by Brumarx, an early Canal #barra participant, and because BarMan had access to edit the bot's periodic messages. This places Barrinha under a governance and editorial-control exception rather than treating it as an unrestricted automation layer.",
+  "indexedNicknames": [
+    "BarMan",
+    "Brumarx",
+    "Barrinha"
+  ],
+  "claims": [
+    {
+      "claim": "Bots were generally prohibited in Canal #barra.",
+      "status": "author_recollection_pending_peer_corroboration"
+    },
+    {
+      "claim": "Barrinha was an exception to the general anti-bot policy.",
+      "status": "author_recollection_pending_peer_corroboration"
+    },
+    {
+      "claim": "Barrinha was developed by Brumarx, identified by the archive as an early Canal #barra participant.",
+      "status": "author_recollection_pending_peer_corroboration"
+    },
+    {
+      "claim": "BarMan had access to edit Barrinha's periodic messages, creating a form of editorial oversight over the bot's channel output.",
+      "status": "author_recollection_pending_peer_corroboration"
+    },
+    {
+      "claim": "Barrinha's messages could appear during live conversations and be mistaken by uninformed users for a human female participant, sometimes leading users to send private messages to the bot.",
+      "status": "author_recollection_pending_peer_corroboration"
+    }
+  ],
+  "exampleRecollection": {
+    "ircLineStyle": "<Barrinha> I think this is a song of hope",
+    "purpose": "Illustrates how the bot's periodic messages appeared inside live channel flow.",
+    "status": "author_recollection_example"
+  },
+  "methodologyAlignment": {
+    "evidenceLevel": "author_recollection_pending_peer_corroboration",
+    "doesNotUpgradeFounderMemoryToIndependentFact": true,
+    "doesNotClaimAutomatedIrcWebsiteSynchronization": true,
+    "supportsInterpretation": "Canal #barra's automation policy was governance-sensitive: bots were not generally allowed, while Barrinha functioned as a trusted and editorially supervised exception.",
+    "privacyBoundary": "nickname_level_only"
+  },
+  "privacy": {
+    "emailPublished": false,
+    "civilNamePublished": false,
+    "privateContact": "held_off_repository",
+    "sensitiveDataIncluded": false,
+    "civilIdentityLinked": false
+  },
+  "recordStatus": "author_recollection_pending_peer_corroboration",
+  "documentGeneration": {
+    "includeInPublicManifest": true,
+    "language": "en",
+    "sectionTitle": "Barrinha Bot as Governed Automation Exception",
+    "documentOrder": 45
+  }
+}
