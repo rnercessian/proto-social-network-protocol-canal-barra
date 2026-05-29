@@ -23,6 +23,8 @@ This means:
 
 Canal Barra did not own or operate the underlying BRASnet IRC server infrastructure.
 
+Canal Barra also did not own or operate BRASnet-provided network services such as ChanServ. Like other registered IRC channels, #barra used BRASnet channel services as the technical enforcement mechanism for access levels decided socially around the channel.
+
 BRASnet should be treated as the third-party IRC substrate: the network transport and service environment that made #barra technically reachable.
 
 Canal Barra should be treated as a logical social and governance overlay on top of that substrate. The social network was not BRASnet itself; it was the #barra-centered stack of live presence, web persistence, in-person recognition and tiered access governance built over BRASnet.
@@ -30,10 +32,13 @@ Canal Barra should be treated as a logical social and governance overlay on top 
 This distinction matters:
 
 - BRASnet provided the IRC transport layer and network services.
+- ChanServ provided BRASnet-side channel access enforcement for registered channels.
 - #barra provided the live social core.
 - CanalBarra.com provided web-backed persistence and portal access.
 - IRContros and gatherings provided in-person identity and reputation anchoring.
 - Founder/Master/Operator roles provided tiered access governance.
+
+In short: the governance decisions belonged to the Canal Barra social system; the technical enforcement mechanism belonged to BRASnet's IRC services.
 
 ## Coupling and state synchronization
 
@@ -66,7 +71,7 @@ The following terms are Canal Barra-specific or IRC-specific and should not be a
 - #barra
 - mIRC
 - IRC channel presence
-- ChanServ
+- ChanServ as a BRASnet-provided channel service, not a Canal Barra-owned service
 - Founder / Master / Operator access hierarchy
 - access lists
 - VIP lists
@@ -83,6 +88,7 @@ Historical claims about Canal Barra may use these case-specific concepts because
 Examples:
 
 - Canal Barra used IRC channel presence as its live social core over the BRASnet substrate.
+- Canal Barra used BRASnet-provided channel services as the technical enforcement layer for socially decided #barra access levels.
 - CanalBarra.com provided web-backed persistence through cadastros, rules, photos, voting and portal access.
 - IRContros connected nickname-level identity to in-person recognition.
 - Tiered access governance structured authority through Founder, Masters and Operators.
