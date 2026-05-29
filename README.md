@@ -17,6 +17,20 @@ The historical thesis is that Canal Barra was one of the first — and possibly 
 
 This project does not treat Canal Barra as nostalgia. It treats Canal Barra as a founding case for a broader methodology: preserving, structuring and making searchable the memory of pre-platform digital social systems.
 
+## Two-Layer Scope
+
+This repository has two separate scopes:
+
+1. **Canal Barra Historical Case Study** — the specific IRC-centered, web-backed, in-person-validated proto-social network stack documented in this repository.
+2. **Reusable Digital Archaeology Data Protocol** — the more general data model extracted from the case, intended to document historical digital communities without assuming that every community used IRC, operators, VIP lists or IRContros.
+
+See:
+
+- `docs/canal-barra-case-study.md`
+- `docs/reusable-digital-archaeology-protocol.md`
+
+Canal Barra is the case. The protocol is the abstraction extracted from the case.
+
 ## Core Framework
 
 The repository distinguishes three historical categories:
@@ -75,7 +89,7 @@ A minimal structural event edge looks like this:
 
 ```text
 .
-├── docs/       Historiographical argument, external evidence and comparative analysis
+├── docs/       Historiographical argument, external evidence, case study and reusable protocol notes
 ├── data/       Raw and processed datasets: nicknames, IRContros, VIP lists, operators
 ├── schema/     Data dictionary, JSON schemas and JSON-LD knowledge graph
 ├── business/   Product and investor thesis for a reusable digital memory protocol
@@ -93,6 +107,8 @@ Primary third-party anchor:
 
 Supporting evidence and methodology files:
 
+- `docs/canal-barra-case-study.md` — separates the specific Canal Barra historical case from the reusable protocol.
+- `docs/reusable-digital-archaeology-protocol.md` — defines the generic protocol layers that can apply to non-IRC communities.
 - `docs/external-evidence-index.md` — maps academic, bibliographic, archival, tertiary and repository evidence.
 - `docs/evidence-methodology.md` — defines evidence levels such as `archived_web_capture`, `academic_secondary_source`, `published_book`, `founder_statement` and `dataset_match`.
 - `docs/bibliography.md` — records book, academic, public-reference and archive citations.
@@ -137,6 +153,12 @@ The project is designed to preserve and structure:
 - machine-readable JSON, CSV, JSONL and JSON-LD files.
 
 Global nickname counts should not be expressed as rounded claims. Counts must be source-specific and reproducible, distinguishing raw rows, nickname occurrences, unique identifiers, cadastro records and JSON-LD profile records.
+
+## Protocol Generalization Rule
+
+Case-specific terms such as `Operator`, `Master`, `VIP list`, `IRContro`, `ChanServ`, `BRASnet` and `guest_hp` are valid inside the Canal Barra case study.
+
+Reusable schemas and protocol documentation should abstract those terms into broader layers such as identity, presence, persistence, governance, reputation, offline interaction, evidence and privacy.
 
 ## Privacy Principle
 
