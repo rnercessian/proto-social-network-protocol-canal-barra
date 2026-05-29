@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/schema/user-profile-schema.json",
   "title": "CanalBarraHistoricalNicknameProfile",
-  "description": "Validation schema for nickname-level Canal Barra historical JSON-LD profile documents. This schema avoids civil identity inference and models historical pseudonymous participation.",
+  "description": "Validation schema for nickname-level Canal Barra historical JSON-LD profile documents. This schema avoids civil identity inference and models historical pseudonymous participation inside an IRC-centered, web-backed, in-person-validated proto-social network stack with tiered access governance.",
   "type": "object",
   "additionalProperties": true,
   "required": [
@@ -90,6 +90,108 @@
           "participant_statement_subject"
         ]
       }
+    },
+    "networkArchitectureLayer": {
+      "type": "array",
+      "description": "Architecture layers where this nickname has evidence inside the Canal Barra stack.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "live_irc_core",
+          "web_persistence_layer",
+          "in_person_identity_layer",
+          "tiered_access_governance_layer"
+        ]
+      }
+    },
+    "accessGovernance": {
+      "type": "object",
+      "description": "Optional tiered access-governance metadata. Does not imply independent verification unless evidenceStatus says so.",
+      "properties": {
+        "accessTier": {
+          "type": "string",
+          "enum": [
+            "founder_level_authority",
+            "master_level_delegation",
+            "operator_level_execution",
+            "registered_participant",
+            "no_privileged_access",
+            "unknown"
+          ]
+        },
+        "authorityScope": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "symbolic_authority",
+              "access_list_management",
+              "master_provisioning",
+              "operator_provisioning",
+              "runtime_moderation",
+              "user_orientation",
+              "webmaster_activity",
+              "none_documented",
+              "unknown"
+            ]
+          }
+        },
+        "delegationSource": { "type": "string" },
+        "evidenceStatus": {
+          "type": "string",
+          "enum": [
+            "archived_web_capture",
+            "primary_document",
+            "founder_statement",
+            "participant_statement",
+            "dataset_match",
+            "pending_verification"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "identityAnchoring": {
+      "type": "object",
+      "description": "Optional out-of-band / in-person identity and reputation anchoring metadata.",
+      "properties": {
+        "outOfBandVerification": { "type": "boolean" },
+        "inPersonEventRefs": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "reputationSignals": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "irc_presence",
+              "web_cadastro",
+              "ircontro_recognition",
+              "vip_list",
+              "operator_status",
+              "peer_recollection",
+              "founder_recollection",
+              "archived_photo_description",
+              "unknown"
+            ]
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "pseudonymousNode": {
+      "type": "object",
+      "description": "Optional privacy-preserving node metadata for graph analysis without exposing civil identity or raw private identifiers.",
+      "properties": {
+        "nodeId": { "type": "string" },
+        "hashMethod": {
+          "type": "string",
+          "enum": ["sha256_salted", "sha256_unsalted_legacy", "none", "not_applicable"]
+        },
+        "publicRawIdentifierIncluded": { "type": "boolean", "const": false }
+      },
+      "additionalProperties": true
     },
     "sameAsNicknameInSources": {
       "type": "array",
