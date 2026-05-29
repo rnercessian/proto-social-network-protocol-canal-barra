@@ -1,0 +1,148 @@
+{
+  "id": "memory-confirmation-lucas-cowebmaster-web-stack-2002-footer-001-v1",
+  "type": "archived_web_capture_participant_memory_confirmation",
+  "version": 1,
+  "project": "Canal Barra Historical Evidence Registry",
+  "evidenceCategory": "technical_custody_and_web_stack_confirmation",
+  "eventContext": "CanalBarra.com archived homepage footer naming Lucas and BarMan as WebMasters",
+  "archivedSource": {
+    "archiveService": "Internet Archive Wayback Machine",
+    "archiveUrl": "https://web.archive.org/web/20021128045841/http://www.canalbarra.com/",
+    "originalUrl": "http://www.canalbarra.com/",
+    "captureTimestamp": "2002-11-28T04:58:41Z",
+    "sourceType": "archived_homepage_footer",
+    "extractionStatus": "user_supplied_transcription_pending_repository_extraction_review"
+  },
+  "translatedSourceSummary": {
+    "navigationItems": [
+      "Home",
+      "Sign up",
+      "Users",
+      "Operators",
+      "Rules",
+      "Brasnet",
+      "Extranet",
+      "Advertise on CanalBarra",
+      "Login / modify registration"
+    ],
+    "footerAttribution": "WebMasters: Lucas BarMan",
+    "copyrightNotice": "2001 CanalBarra.com. All rights reserved.",
+    "counterSummary": {
+      "hitsSinceTimestamp": "2002-06-21T17:54:53",
+      "totalHitsText": "59164 hits since 2002-06-21 17:54:53",
+      "todayHitsText": "75 hits today",
+      "distinctAccessesText": "890 distinct accesses"
+    }
+  },
+  "publicDescription": "An archived CanalBarra.com homepage footer from the Wayback Machine, supplied for repository review, identifies Lucas and BarMan together as WebMasters and shows a navigation structure with sign-up, users, operators, rules, Brasnet, extranet, advertising and login/registration modification links. The same footer includes access counter language, suggesting an active dynamic web layer connected to user registration and community governance.",
+  "participantReference": {
+    "publicName": "Lucas",
+    "roleDescription": "Lucas is identified by the archived footer as co-Webmaster alongside BarMan and is requested to confirm the technical custody, implementation stack and community features of the CanalBarra.com web layer.",
+    "relationshipDisclosure": "Lucas and Raphael/BarMan are cousins; this record treats that relationship as a disclosed provenance context, not as independent external validation.",
+    "identificationStatus": "archived_footer_supports_role_pending_participant_confirmation",
+    "confirmationNeeded": true
+  },
+  "participantQuestions": [
+    {
+      "id": "confirm-webmasters-footer",
+      "question": "Do you confirm that the CanalBarra.com footer around 2001/2002 listed you and BarMan together as WebMasters?",
+      "questionType": "yes_no_unsure",
+      "required": true,
+      "answerStatus": "pending",
+      "publicExportAllowed": true
+    },
+    {
+      "id": "confirm-cowebmaster-role",
+      "question": "Do you confirm that you acted as an original co-Webmaster or technical maintainer of CanalBarra.com together with Raphael/BarMan during the organic period of the channel?",
+      "questionType": "yes_no_unsure",
+      "required": true,
+      "answerStatus": "pending",
+      "publicExportAllowed": true
+    },
+    {
+      "id": "confirm-coldfusion-stack",
+      "question": "Do you confirm that the dynamic CanalBarra.com website used ColdFusion during that period?",
+      "questionType": "yes_no_unsure",
+      "required": true,
+      "answerStatus": "pending",
+      "publicExportAllowed": true
+    },
+    {
+      "id": "confirm-microsoft-access-database",
+      "question": "Do you confirm that the dynamic CanalBarra.com website used a Microsoft Access database or Microsoft Access-backed data storage during that period?",
+      "questionType": "yes_no_unsure",
+      "required": true,
+      "answerStatus": "pending",
+      "publicExportAllowed": true
+    },
+    {
+      "id": "confirm-registration-login-features",
+      "question": "Do you confirm that the website supported user registration, login or registration modification features connected to Canal #barra nicknames or community identity?",
+      "questionType": "yes_no_unsure",
+      "required": true,
+      "answerStatus": "pending",
+      "publicExportAllowed": true
+    },
+    {
+      "id": "confirm-users-operators-rules-pages",
+      "question": "Do you confirm that the website included structured pages or sections for users, operators and rules?",
+      "questionType": "yes_no_unsure",
+      "required": true,
+      "answerStatus": "pending",
+      "publicExportAllowed": true
+    },
+    {
+      "id": "confirm-user-messaging",
+      "question": "Do you confirm whether the website allowed users to exchange messages with each other, send internal messages, leave public messages or interact through registration/profile-related features?",
+      "questionType": "yes_no_unsure_with_free_text",
+      "required": true,
+      "answerStatus": "pending",
+      "publicExportAllowed": true
+    },
+    {
+      "id": "confirm-access-counter",
+      "question": "Do you confirm that the footer counter language reflected a real site access counter or analytics-style access measurement used by CanalBarra.com at the time?",
+      "questionType": "yes_no_unsure_with_free_text",
+      "required": false,
+      "answerStatus": "pending",
+      "publicExportAllowed": true
+    },
+    {
+      "id": "confirm-technical-provenance",
+      "question": "Do you confirm that your technical work on CanalBarra.com helps document the provenance of the dynamic website layer, including how community data, registration and governance pages were structured?",
+      "questionType": "yes_no_unsure_with_free_text",
+      "required": false,
+      "answerStatus": "pending",
+      "publicExportAllowed": true
+    },
+    {
+      "id": "confirm-family-bias-boundary",
+      "question": "Do you understand that your family relationship with Raphael/BarMan will be disclosed as provenance context, and that your confirmation is limited to technical facts and memories you can personally confirm?",
+      "questionType": "yes_no",
+      "required": true,
+      "answerStatus": "pending",
+      "publicExportAllowed": true
+    }
+  ],
+  "methodologyAlignment": {
+    "evidenceLevel": "archived_web_capture_with_participant_memory_confirmation_pending",
+    "doesNotUpgradeToExternalVerifiedFactUntilReviewed": true,
+    "doesNotUseFamilyRelationshipAsIndependentValidation": true,
+    "usesParticipantMemoryOnlyForConfirmableTechnicalClaims": true,
+    "privacyBoundary": "nickname_or_public_role_level_only"
+  },
+  "privacy": {
+    "emailPublished": false,
+    "civilNamePublished": false,
+    "privateContact": "held_off_repository",
+    "sensitiveDataIncluded": false
+  },
+  "recordStatus": "pending_participant_confirmation",
+  "documentGeneration": {
+    "includeInParticipantDocument": true,
+    "includeInPublicManifest": true,
+    "language": "en",
+    "sectionTitle": "Lucas as Co-Webmaster and Dynamic Web Stack Custodian",
+    "documentOrder": 30
+  }
+}
