@@ -1,0 +1,54 @@
+{
+  "id": "memory-confirmation-waterhand-arruda-music-bridge-001-v1",
+  "type": "participant_memory_confirmation",
+  "version": 1,
+  "project": "Canal Barra Historical Evidence Registry",
+  "evidenceCategory": "memory_confirmation",
+  "eventContext": "Connection between Canal #barra, WaterHand, Arruda and the music circle",
+  "publicDescription": "The archive records, based on author memory, that Arruda entered Raphael/BarMan's music circle through WaterHand, connecting someone outside the direct Canal #barra current to the broader social and musical environment around the channel.",
+  "participantReference": {
+    "publicName": "WaterHand",
+    "roleDescription": "WaterHand is identified by the archive as the social bridge through which Arruda became connected to Raphael/BarMan's music circle.",
+    "identificationStatus": "author_memory_pending_participant_confirmation",
+    "confirmationNeeded": true
+  },
+  "participantQuestions": [
+    {
+      "id": "confirm-arruda-through-waterhand",
+      "question": "Do you confirm that Arruda became connected to Raphael/BarMan's music circle through you?",
+      "questionType": "yes_no_unsure",
+      "required": true,
+      "answerStatus": "pending",
+      "publicExportAllowed": true
+    },
+    {
+      "id": "confirm-arruda-not-originally-from-channel",
+      "question": "Do you confirm that Arruda was not originally from Canal #barra, but became connected to that environment through your relationship with Raphael/BarMan?",
+      "questionType": "yes_no_unsure",
+      "required": false,
+      "answerStatus": "pending",
+      "publicExportAllowed": true
+    },
+    {
+      "id": "confirm-waterhand-bridge-role",
+      "question": "Do you confirm that you acted as a bridge between Raphael/BarMan, Canal #barra and the music/band circle at that time?",
+      "questionType": "yes_no_unsure",
+      "required": false,
+      "answerStatus": "pending",
+      "publicExportAllowed": true
+    }
+  ],
+  "privacy": {
+    "emailPublished": false,
+    "civilNamePublished": false,
+    "privateContact": "held_off_repository"
+  },
+  "recordStatus": "pending_participant_confirmation",
+  "documentGeneration": {
+    "includeInParticipantDocument": true,
+    "includeInPublicManifest": true,
+    "language": "en",
+    "sectionTitle": "WaterHand as Bridge to Arruda and the Music Circle",
+    "documentOrder": 20
+  }
+}
