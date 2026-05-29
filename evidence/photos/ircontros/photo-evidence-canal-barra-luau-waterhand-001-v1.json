@@ -1,0 +1,67 @@
+{
+  "id": "photo-evidence-canal-barra-luau-waterhand-001-v1",
+  "type": "private_photo_memory_confirmation",
+  "version": 1,
+  "project": "Canal Barra Historical Evidence Registry",
+  "evidenceCategory": "ircontro_photo_description",
+  "eventContext": "Canal #barra luau",
+  "locationType": "beach_sand",
+  "photoFileInRepository": false,
+  "imageHostedOutsideRepository": true,
+  "imageReferenceUrl": "https://raphaelnercessian.com/uploads/luau-do-canal-barra.jpg",
+  "publicDescription": "Photograph preserved outside the repository showing a nighttime luau associated with Canal #barra. The group appears seated informally on the beach sand, with a guitar visible in the scene, reinforcing the social, face-to-face and musical nature of encounters organized or inspired by the channel outside IRC/BRASnet.",
+  "participantReference": {
+    "publicName": "WaterHand",
+    "presenceDescription": "WaterHand is preliminarily identified by the archive among the luau participants, seated in a beach chair and wearing sunglasses.",
+    "identificationStatus": "author_memory_pending_participant_confirmation",
+    "confirmationNeeded": true
+  },
+  "participantQuestions": [
+    {
+      "id": "confirm-appears-in-photo",
+      "question": "Do you confirm that you appear in this photograph of a Canal #barra luau?",
+      "questionType": "yes_no_unsure",
+      "required": true,
+      "answerStatus": "pending",
+      "publicExportAllowed": true
+    },
+    {
+      "id": "confirm-visual-reference",
+      "question": "Do you confirm that you are the person preliminarily identified by the archive as WaterHand, seated in a beach chair and wearing sunglasses?",
+      "questionType": "yes_no_unsure",
+      "required": true,
+      "answerStatus": "pending",
+      "publicExportAllowed": true
+    },
+    {
+      "id": "confirm-event-context",
+      "question": "Do you confirm that this image records a luau or face-to-face encounter associated with Canal #barra?",
+      "questionType": "yes_no_unsure",
+      "required": true,
+      "answerStatus": "pending",
+      "publicExportAllowed": true
+    },
+    {
+      "id": "authorize-public-description",
+      "question": "Do you authorize the publication of this textual description of the photograph?",
+      "questionType": "yes_no",
+      "required": true,
+      "answerStatus": "pending",
+      "publicExportAllowed": true
+    }
+  ],
+  "privacy": {
+    "privatePhotoPublishedInRepository": false,
+    "emailPublished": false,
+    "civilNamePublished": false,
+    "privateContact": "held_off_repository"
+  },
+  "recordStatus": "pending_participant_confirmation",
+  "documentGeneration": {
+    "includeInParticipantDocument": true,
+    "includeInPublicManifest": true,
+    "language": "en",
+    "sectionTitle": "Canal #barra Luau Photograph",
+    "documentOrder": 10
+  }
+}
