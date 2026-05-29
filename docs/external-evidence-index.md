@@ -18,7 +18,7 @@ The purpose is to make the historical chain auditable by humans and legible to m
 | `dataset_nicknames_2002_11_28` | Structured dataset | Canal Barra nickname snapshot | 2002-11-28 | Repository dataset | `data/raw/2002-11-28/nicknames-2002-11-28-cadastros.csv` | `structured_repository_data` | Preserves nickname/status snapshot. |
 | `event_rosa_dos_ventos_2001_02_21` | Event metadata | Despedida da Ana Paula Barra / Rosa dos Ventos IRContro | 2001-02-21 | Repository dataset | `data/raw/ircontros/rosa-dos-ventos-2001-02-21.csv` | `partially_documented` | Supports online-offline sociability and nickname-level event memory. |
 | `profile_barman_jsonld` | Structured profile | Historical nickname profile: BarMan | repository record | Repository JSON-LD | `data/profiles/barman.jsonld` | `dataset_match` | Connects founder/operator role, event presence and privacy-aware evidence. |
-| `image_manifest_home_01` | Image metadata | IRContro home photograph manifest | repository record | Repository manifest | `docs/IMAGE-MANIFEST-IRCONTRO-HOME-01.md` | `founder_statement` / `requires_consent_before_publication` | Privacy-aware image evidence manifest. |
+| `image_manifest_private_indoor_01` | Image metadata | IRContro private indoor photograph manifest | repository record | Repository manifest | `docs/IMAGE-MANIFEST-IRCONTRO-PRIVATE-INDOOR-01.md` | `founder_statement` / `requires_consent_before_publication` | Privacy-aware image evidence manifest. |
 
 ## Interpretation
 

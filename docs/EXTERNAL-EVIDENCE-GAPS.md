@@ -31,7 +31,7 @@ priority: high, medium or low.
 | WHOIS / domain history for canalbarra.com | missing | high | `docs/CANAL-BARRA-LIFECYCLE-AND-IRC-CORE-END.md` | Add WHOIS history, registrar screenshots, domain auction evidence or dated domain records. | Needed for 2012-2024 and 2024 recovery claims. |
 | Old site screenshots and file manifests | partially_available | high | `media/README.md`; `data/media-metadata/`; `docs/PRIMARY-SOURCES.md` | Add screenshot filenames, capture dates, hashes, source URLs and privacy status. | Do not publish private faces or civil data without review. |
 | SHA-256 hashes for Wayback HTML/source captures | missing | medium | `docs/PRIMARY-SOURCES.md`; `data/media-metadata/` | Add SHA-256 hashes for downloaded HTML or screenshot metadata artifacts when legally safe to store. | Strengthens reproducibility and tamper-evidence for source extraction. |
-| Public photo metadata for IRContros | partially_available | high | `data/raw/ircontros/`; `docs/IMAGE-MANIFEST-REVEILLON-2000-2001.md`; `docs/IMAGE-MANIFEST-IRCONTRO-HOME-01.md` | Add event-level manifests, consent status, public-safe captions and source hashes. | Strong online/offline evidence; medium privacy risk. |
+| Public photo metadata for IRContros | partially_available | high | `data/raw/ircontros/`; `docs/IMAGE-MANIFEST-REVEILLON-2000-2001.md`; `docs/IMAGE-MANIFEST-IRCONTRO-PRIVATE-INDOOR-01.md` | Add event-level manifests, consent status, public-safe captions and source hashes. | Strong online/offline evidence; medium privacy risk. |
 | BRASnet shutdown documentation | missing | high | `docs/CANAL-BARRA-LIFECYCLE-AND-IRC-CORE-END.md` | Add external article, network notice, archived page, mailing-list reference or community documentation for 2007-05-20. | Needed to upgrade shutdown date from founder/external-needed to externally supported. |
 | BRASnet / IRC history references in Brazil | partially_available | medium | `REFERENCES.md`; `docs/HISTORIOGRAPHICAL-PRECEDENTS.md`; `docs/bibliography.md` | Add bibliography, academic papers, archived BRASnet pages and historical references. | Helps contextualize Canal Barra inside Brazilian internet history. |
 | Grupo O Globo magazine mention of XOOM site | missing | medium | `docs/WEB-STACK-COLDFUSION-ACCESS-2000.md` | Add magazine name, issue date, page number, scan or bibliographic citation. | Would strengthen early web-presence claim. |
@@ -61,7 +61,7 @@ priority: high, medium or low.
 - IRContro datasets: `data/raw/ircontros/`.
 - Participation index: `data/processed/participation/canal-barra-participation-index.csv`.
 - RAG corpus: `data/processed/rag/canal-barra-rag-corpus.jsonl`.
-- Privacy-aware home IRContro image manifest: `docs/IMAGE-MANIFEST-IRCONTRO-HOME-01.md`.
+- Privacy-aware private indoor IRContro image manifest: `docs/IMAGE-MANIFEST-IRCONTRO-PRIVATE-INDOOR-01.md`.
 
 ## Partially Available
 

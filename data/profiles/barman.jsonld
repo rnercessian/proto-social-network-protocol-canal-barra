@@ -18,7 +18,7 @@
   "alternateName": [
     "Barra"
   ],
-  "description": "Nickname-level historical profile for BarMan in the Canal Barra archive. BarMan is documented as founder/operator and as a recurring physical host of IRContros, including gatherings in restaurants such as Parme and a founder-owned home photograph. The profile records pseudonymous community role evidence and does not infer private civil identity data.",
+  "description": "Nickname-level historical profile for BarMan in the Canal Barra archive. BarMan is documented as founder/operator and as a recurring physical host of IRContros, including gatherings in restaurants such as Parme and a founder-owned private indoor photograph. The profile records pseudonymous community role evidence and does not infer private civil identity data.",
   "isPartOf": {
     "@type": "Dataset",
     "name": "Canal Barra Digital Archaeology Dataset",
@@ -49,12 +49,11 @@
     },
     {
       "@type": "Event",
-      "name": "Canal Barra private-home IRContro photograph",
-      "description": "Founder statement: the referenced group photograph belongs to BarMan and was taken at BarMan's home. No private address is published.",
+      "name": "Canal Barra private indoor IRContro photograph",
+      "description": "Founder statement: the referenced group photograph belongs to BarMan and was reportedly taken in a private indoor setting associated with Canal Barra participants. No private address, domestic-location detail or civil identity is published.",
       "location": {
         "@type": "Place",
-        "name": "BarMan home",
-        "address": "not published"
+        "name": "private indoor setting"
       },
       "evidenceStatus": "founder_statement",
       "privacyTier": "requires_consent_before_publication"
@@ -69,10 +68,10 @@
   "subjectOf": [
     {
       "@type": "ImageObject",
-      "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/docs/IMAGE-MANIFEST-IRCONTRO-HOME-01.md",
-      "name": "IRContro photo metadata: private-home group photograph",
-      "contentUrl": "media/ircontros/ircontro-home-photo-01.jpg",
-      "description": "Founder-owned historical IRContro group photograph taken at BarMan's home. The image can be included in the repository, but person-level identification should remain nickname-level and consent-aware.",
+      "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/docs/IMAGE-MANIFEST-IRCONTRO-PRIVATE-INDOOR-01.md",
+      "name": "IRContro photo metadata: private indoor group photograph",
+      "contentUrl": "media/ircontros/ircontro-private-indoor-01.jpg",
+      "description": "Founder-owned historical IRContro group photograph reportedly taken in a private indoor setting associated with Canal Barra participants. The image can be catalogued only with nickname-level and consent-aware safeguards.",
       "evidenceStatus": "founder_statement",
       "privacyTier": "requires_consent_before_publication"
     },
@@ -113,10 +112,10 @@
       "sourceUrl": null,
       "sourceDate": "2026",
       "sourcePath": null,
-      "extractedClaim": "BarMan is identified as the original founder and recurring IRContro host; scale and private-home context remain founder-memory unless independently corroborated.",
+      "extractedClaim": "BarMan is identified as the original founder and recurring IRContro host; scale and private indoor context remain founder-memory unless independently corroborated.",
       "extractionMethod": "manual_founder_deposition",
       "verificationStatus": "pending_external_corroboration",
-      "relatedEvidenceFile": "docs/IMAGE-MANIFEST-IRCONTRO-HOME-01.md"
+      "relatedEvidenceFile": "docs/IMAGE-MANIFEST-IRCONTRO-PRIVATE-INDOOR-01.md"
     }
   ],
   "evidenceStatus": "dataset_match",

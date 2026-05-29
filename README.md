@@ -7,13 +7,13 @@
 
 > AIM proves that social-network history cannot be reduced to profile pages. Canal Barra proves that this was also true in Brazil before platform social media.
 
-> O Canal Barra importa porque não foi apenas usado. Foi vivido.
+> Evidence-first archive. Narrative interpretation is separated from source classification.
 
 ## Abstract
 
 This repository documents **Canal Barra** as a Brazilian IRC/BRASnet-based organic social network phenomenon founded in Rio de Janeiro in 1996.
 
-The historical thesis is that Canal Barra was one of the first — and possibly the first — documented organic social networks in Brazil, based on real socialization, persistent identity, reputation, physical meetings, community, status, collective memory and social circulation through IRC/BRASnet since 1996.
+The historical thesis is that Canal Barra was one of the first — and possibly the first — extensively documented and structurally auditable organic social network cases in Brazil, based on real socialization, persistent identity, reputation, physical meetings, community, status, collective memory and social circulation through IRC/BRASnet since 1996.
 
 This project does not treat Canal Barra as nostalgia. It treats Canal Barra as a founding case for a broader methodology: preserving, structuring and making searchable the memory of pre-platform digital communities.
 
@@ -93,7 +93,7 @@ Key documents:
 - `docs/bibliography.md` — records book, academic, public-reference and archive citations.
 - `docs/ai-readable-citation-map.jsonld` — machine-readable JSON-LD citation graph connecting Canal Barra, books, academic source, archived records and datasets.
 - `docs/EXTERNAL-EVIDENCE-GAPS.md` — tracks missing or incomplete external evidence without inventing data.
-- `docs/IMAGE-MANIFEST-IRCONTRO-HOME-01.md` — privacy-aware manifest for a founder-owned IRContro home photograph record.
+- `docs/IMAGE-MANIFEST-IRCONTRO-PRIVATE-INDOOR-01.md` — privacy-aware manifest for a founder-owned IRContro private indoor photograph record.
 
 Confirmed book anchors include:
 
