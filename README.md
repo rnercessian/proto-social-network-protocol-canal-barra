@@ -121,7 +121,7 @@ JSON-LD profiles have basic integrity and privacy checks: public profile records
 
 The project is designed to preserve and structure:
 
-- 1,500+ historical IRC nicknames;
+- source-specific, reproducible nickname-level records extracted from archived and repository-held materials;
 - dated IRContros and physical community gatherings;
 - VIP lists and event-based social status;
 - operator history and channel access levels;
@@ -129,6 +129,8 @@ The project is designed to preserve and structure:
 - screenshots and source metadata;
 - academic and literary sources;
 - machine-readable JSON, CSV, JSONL and JSON-LD files.
+
+Global nickname counts should not be expressed as rounded claims. Counts must be source-specific and reproducible, distinguishing raw rows, nickname occurrences, unique identifiers, cadastro records and JSON-LD profile records.
 
 ## Privacy Principle
 
