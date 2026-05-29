@@ -1,0 +1,39 @@
+{
+  "id": "memory-confirmation-waterhand-html-web-activity-1997-001-v1",
+  "type": "peer_recollection_record",
+  "version": 1,
+  "project": "Canal Barra Historical Evidence Registry",
+  "evidenceCategory": "technical_social_network_recollection",
+  "eventContext": "WaterHand, BarMan, HTML learning and distance-learning web page development context",
+  "historicalDate": "1997",
+  "datePrecision": "year",
+  "publicDescription": "The archive records, based on author recollection, that in 1997 WaterHand taught or helped Raphael/BarMan learn HTML. BarMan's academic context at the time was Social Communication / Editorial Production, while the related technical activity involved developing distance-learning web pages. If corroborated, this supports the interpretation that Canal #barra relationships extended beyond IRC into web learning, early page development and offline technical collaboration.",
+  "indexedNicknames": [
+    "WaterHand",
+    "BarMan"
+  ],
+  "claimStatus": {
+    "status": "author_recollection_pending_peer_response",
+    "todoReference": "evidence/VERIFICATION-TODOS.md#waterhand--html-and-early-web-development-in-1997"
+  },
+  "methodologyAlignment": {
+    "evidenceLevel": "author_recollection_pending_peer_response",
+    "doesNotUpgradeFounderMemoryToIndependentFact": true,
+    "supportsInterpretation": "Canal #barra relationships extended into HTML learning, early web development and offline technical collaboration.",
+    "privacyBoundary": "nickname_or_public_role_level_only"
+  },
+  "privacy": {
+    "emailPublished": false,
+    "civilNamePublished": false,
+    "privateContact": "held_off_repository",
+    "sensitiveDataIncluded": false,
+    "civilIdentityLinked": false
+  },
+  "recordStatus": "author_recollection_pending_peer_response",
+  "documentGeneration": {
+    "includeInPublicManifest": true,
+    "language": "en",
+    "sectionTitle": "WaterHand as HTML and Early Web Development Peer in 1997",
+    "documentOrder": 25
+  }
+}
