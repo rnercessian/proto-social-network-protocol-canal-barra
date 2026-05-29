@@ -11,11 +11,11 @@
 
 ## Abstract
 
-This repository documents **Canal Barra** as a Brazilian IRC/BRASnet-based organic social network phenomenon founded in Rio de Janeiro in 1996.
+This repository documents **Canal Barra** as a Brazilian proto-social network phenomenon built around an IRC-centered, web-backed, in-person-validated social stack with tiered access governance, founded in Rio de Janeiro in 1996 around the #barra channel on BRASnet.
 
-The historical thesis is that Canal Barra was one of the first — and possibly the first — extensively documented and structurally auditable organic social network cases in Brazil, based on real socialization, persistent identity, reputation, physical meetings, community, status, collective memory and social circulation through IRC/BRASnet since 1996.
+The historical thesis is that Canal Barra was one of the first — and possibly the first — extensively documented and structurally auditable proto-social network cases in Brazil. Its architecture combined live IRC presence, nickname-level identity, access levels, Founder/Master/Operator authority, CanalBarra.com as a persistent web portal, IRContros and physical gatherings as in-person reputation anchoring, and documented governance mechanisms such as operator meetings and access-list realignment.
 
-This project does not treat Canal Barra as nostalgia. It treats Canal Barra as a founding case for a broader methodology: preserving, structuring and making searchable the memory of pre-platform digital communities.
+This project does not treat Canal Barra as nostalgia. It treats Canal Barra as a founding case for a broader methodology: preserving, structuring and making searchable the memory of pre-platform digital social systems.
 
 ## Core Framework
 
@@ -23,7 +23,7 @@ The repository distinguishes three historical categories:
 
 1. **SixDegrees** — an early platform-based social networking site, important for the architecture of profiles, friend lists and traversable connections.
 2. **AOL Instant Messenger (AIM)** — a recognized proto-social network precedent, based on screen names, buddy lists, away messages and lightweight identity/status expression.
-3. **Canal Barra** — an organic Brazilian social network phenomenon based on IRC nicknames, channel presence, operators, access levels, reputation, dated physical gatherings, VIP lists, territorial identity and documented collective memory.
+3. **Canal Barra** — an IRC-centered, web-backed and in-person-validated proto-social network stack based on live channel presence, nickname-level identity, CanalBarra.com persistence, IRContros, VIP lists, territorial identity, documented collective memory and tiered access governance.
 
 The core argument is not that SixDegrees was irrelevant. The argument is that platform architecture is not the only valid framework for social-network history.
 
@@ -48,7 +48,7 @@ This repository is structured for human reading and machine retrieval. A minimal
   "about": {
     "@type": "Organization",
     "name": "Canal Barra",
-    "additionalType": "IRC/BRASnet hybrid online-offline community"
+    "additionalType": "IRC-centered, web-backed, in-person-validated proto-social network stack with tiered access governance"
   },
   "roleName": ["founder", "operator", "registered_user", "event_participant"],
   "evidenceStatus": "dataset_match",
@@ -124,7 +124,8 @@ The project is designed to preserve and structure:
 - source-specific, reproducible nickname-level records extracted from archived and repository-held materials;
 - dated IRContros and physical community gatherings;
 - VIP lists and event-based social status;
-- operator history and channel access levels;
+- Founder, Master and Operator access history;
+- access-list turnover, operator meetings and tiered access governance records;
 - community votes and rankings, preferably aggregated;
 - screenshots and source metadata;
 - academic and literary sources;
@@ -140,4 +141,4 @@ It does **not** publish civil names, user photographs, private messages, emails,
 
 ## Project Sentence
 
-**SixDegrees was a platform. AIM was a proto-social precedent. Canal Barra was a lived organic social network in Brazil.**
+**SixDegrees stored profiles. AIM signaled presence. Canal Barra ran an IRC-centered, web-backed, in-person-validated proto-social network stack with tiered access governance in Brazil.**
