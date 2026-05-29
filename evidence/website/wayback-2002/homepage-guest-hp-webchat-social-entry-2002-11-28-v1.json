@@ -41,7 +41,13 @@
       "resultCallout": "Check the result"
     }
   },
-  "publicDescription": "The 2002-11-28 archived CanalBarra.com homepage included a direct webchat entry into Canal #barra with the nickname field pre-filled as guest_hp, alongside a warning not to use a registered nickname on public computers. The same homepage presented event coordination, event photos, an operators meeting reference, a 5th anniversary party callout and a best-cadastro voting module. This supports the interpretation of the homepage as a social portal and onboarding layer: visitors could enter the channel through the site, appear in Canal #barra under a recognizable guest_hp pattern, receive orientation from operators or regular participants, learn how to use mIRC or regular IRC access, register their own nickname to preserve identity, and leave guest_hp available as a shared entry nickname for future visitors.",
+  "authorMemoryAttribution": {
+    "publicName": "BarMan",
+    "roleAtTime": "founder and central operator of Canal #barra",
+    "memoryScope": "BarMan states that he personally oriented guest_hp visitors after they entered Canal #barra through the website, explaining mIRC or regular IRC access, nickname registration for identity persistence, and the need to leave guest_hp available for future visitors.",
+    "status": "founder_operator_memory_pending_corroboration"
+  },
+  "publicDescription": "The 2002-11-28 archived CanalBarra.com homepage included a direct webchat entry into Canal #barra with the nickname field pre-filled as guest_hp, alongside a warning not to use a registered nickname on public computers. The same homepage presented event coordination, event photos, an operators meeting reference, a 5th anniversary party callout and a best-cadastro voting module. Based on BarMan's founder/operator memory, this interface worked as an onboarding layer: visitors could enter the channel through the site, appear in Canal #barra under the recognizable guest_hp pattern, receive orientation from BarMan, learn how to use mIRC or regular IRC access, register their own nickname to preserve identity, and leave guest_hp available as a shared entry nickname for future visitors.",
   "interpretiveClaims": [
     {
       "claim": "The pre-filled guest_hp nickname functioned as a low-friction visitor entry point from the website into Canal #barra.",
@@ -52,8 +58,8 @@
       "status": "author_memory_pending_operator_or_participant_confirmation"
     },
     {
-      "claim": "Operators and regular participants could recognize guest_hp visitors inside Canal #barra as website entrants or newcomers, orient them toward mIRC or regular IRC access, explain nickname registration as a way to preserve persistent identity, and encourage them to stop using guest_hp so that the shared visitor nickname remained available for new people entering through the website.",
-      "status": "author_memory_pending_operator_or_participant_confirmation"
+      "claim": "BarMan states that he personally recognized guest_hp visitors inside Canal #barra as website entrants or newcomers, oriented them toward mIRC or regular IRC access, explained nickname registration as a way to preserve persistent identity, and encouraged them to stop using guest_hp so that the shared visitor nickname remained available for new people entering through the website.",
+      "status": "founder_operator_memory_pending_corroboration"
     },
     {
       "claim": "The guest_hp flow created an onboarding path from anonymous or semi-anonymous website access into persistent nickname identity, community recognition and deeper participation in Canal #barra.",
@@ -84,35 +90,44 @@
       "publicExportAllowed": true
     },
     {
-      "id": "confirm-guest-hp-onboarding",
-      "question": "Do you confirm that users entering Canal #barra as guest_hp were usually understood as website visitors or newcomers being onboarded into the community?",
+      "id": "confirm-barman-guest-hp-onboarding-practice",
+      "question": "BarMan states that he personally oriented guest_hp visitors after they entered Canal #barra through the website. Do you confirm this memory as BarMan/founder/operator?",
       "questionType": "yes_no_unsure_with_free_text",
-      "targetParticipants": ["operators", "historical_participants"],
+      "targetParticipants": ["BarMan"],
+      "required": true,
+      "answerStatus": "pending",
+      "publicExportAllowed": true
+    },
+    {
+      "id": "confirm-barman-guided-mirc",
+      "question": "Do you confirm that you personally guided guest_hp visitors on how to use mIRC or regular IRC access after they entered through the website?",
+      "questionType": "yes_no_unsure_with_free_text",
+      "targetParticipants": ["BarMan"],
       "required": false,
       "answerStatus": "pending",
       "publicExportAllowed": true
     },
     {
-      "id": "confirm-operators-guided-mirc",
-      "question": "Do you confirm that operators or regular participants often guided guest_hp visitors on how to use mIRC or regular IRC access after they entered through the website?",
+      "id": "confirm-barman-nickname-registration-guidance",
+      "question": "Do you confirm that you personally guided guest_hp visitors to register their own nickname so they could preserve identity and become recognizable inside the Canal #barra community?",
       "questionType": "yes_no_unsure_with_free_text",
-      "targetParticipants": ["operators", "historical_participants"],
+      "targetParticipants": ["BarMan"],
       "required": false,
       "answerStatus": "pending",
       "publicExportAllowed": true
     },
     {
-      "id": "confirm-nickname-registration-guidance",
-      "question": "Do you confirm that guest_hp visitors were often guided to register their own nickname so they could preserve identity and become recognizable inside the Canal #barra community?",
+      "id": "confirm-barman-kept-guest-hp-free",
+      "question": "Do you confirm that you personally encouraged visitors not to keep using guest_hp as a permanent identity, so that guest_hp remained available as a shared entry nickname for new people entering through the website?",
       "questionType": "yes_no_unsure_with_free_text",
-      "targetParticipants": ["operators", "historical_participants"],
+      "targetParticipants": ["BarMan"],
       "required": false,
       "answerStatus": "pending",
       "publicExportAllowed": true
     },
     {
-      "id": "confirm-guest-hp-kept-free-for-new-visitors",
-      "question": "Do you confirm that guest_hp was treated as a shared visitor-entry nickname that should remain available for new people entering through the website, rather than becoming a permanent identity for one user?",
+      "id": "corroborate-guest-hp-onboarding-practice",
+      "question": "Do you remember seeing BarMan or other regulars orient guest_hp visitors toward mIRC, nickname registration or deeper Canal #barra participation?",
       "questionType": "yes_no_unsure_with_free_text",
       "targetParticipants": ["operators", "historical_participants"],
       "required": false,
@@ -139,7 +154,7 @@
     }
   ],
   "methodologyAlignment": {
-    "evidenceLevel": "archived_web_capture_with_interpretive_memory_confirmation_pending",
+    "evidenceLevel": "archived_web_capture_with_founder_operator_memory_and_pending_corroboration",
     "doesNotUpgradeAuthorMemoryToIndependentFact": true,
     "separatesArchivedInterfaceFromSocialInterpretation": true,
     "supportsInterpretation": "The CanalBarra.com homepage operated as an onboarding and social-portal layer connected to the real-time IRC channel, physical events, profile/cadastro visibility, nickname persistence and community status systems.",
