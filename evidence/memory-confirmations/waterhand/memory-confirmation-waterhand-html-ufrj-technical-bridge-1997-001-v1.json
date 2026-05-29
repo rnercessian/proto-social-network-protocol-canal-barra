@@ -1,71 +1,72 @@
 {
-  "id": "memory-confirmation-waterhand-html-ufrj-technical-bridge-1997-001-v1",
-  "type": "participant_memory_confirmation",
+  "id": "memory-confirmation-waterhand-html-web-activity-1997-001-v1",
+  "type": "peer_recollection_request",
   "version": 1,
   "project": "Canal Barra Historical Evidence Registry",
   "evidenceCategory": "technical_social_network_memory_confirmation",
-  "eventContext": "WaterHand, BarMan, HTML learning and UFRJ Institute of Economics internship",
+  "eventContext": "WaterHand, BarMan, HTML learning and distance-learning web page development context",
   "historicalDate": "1997",
   "datePrecision": "year",
-  "publicDescription": "The archive records, based on author memory, that in 1997 WaterHand taught or helped Raphael/BarMan learn HTML, and that both had a technical or internship-related experience together at the Institute of Economics of UFRJ. If confirmed, this supports the interpretation that Canal #barra relationships extended beyond IRC into technical learning, web development, institutional circulation and offline collaboration.",
+  "publicDescription": "The archive records, based on author recollection, that in 1997 WaterHand taught or helped Raphael/BarMan learn HTML. BarMan's academic context at the time was Social Communication / Editorial Production, while the related technical activity involved developing distance-learning web pages. If corroborated, this supports the interpretation that Canal #barra relationships extended beyond IRC into web learning, early page development and offline technical collaboration.",
   "participantReference": {
     "publicName": "WaterHand",
-    "roleDescription": "WaterHand is identified by the archive as a technical bridge in Raphael/BarMan's early web learning, including HTML instruction and a shared UFRJ Institute of Economics experience in 1997.",
-    "identificationStatus": "author_memory_pending_participant_confirmation",
+    "roleDescription": "WaterHand is indexed by the archive as a technical peer connected to Raphael/BarMan's early HTML learning and web development activity in 1997.",
+    "identificationStatus": "author_recollection_pending_peer_response",
     "confirmationNeeded": true
   },
   "participantQuestions": [
     {
-      "id": "confirm-html-learning-1997",
-      "question": "Do you confirm that, in or around 1997, you taught or helped Raphael/BarMan learn HTML?",
-      "questionType": "yes_no_unsure",
+      "id": "remember-html-learning-1997",
+      "question": "Do you remember teaching or helping Raphael/BarMan with HTML around 1997?",
+      "questionType": "yes_no_unsure_with_free_text",
       "required": true,
       "answerStatus": "pending",
       "publicExportAllowed": true
     },
     {
-      "id": "confirm-technical-relationship",
-      "question": "Do you confirm that your technical relationship with Raphael/BarMan contributed to the early web layer or webmaster culture around Canal Barra?",
-      "questionType": "yes_no_unsure",
+      "id": "remember-web-development-context-1997",
+      "question": "Do you remember any early web development activity around that period, including pages related to distance-learning or educational content?",
+      "questionType": "yes_no_unsure_with_free_text",
       "required": false,
       "answerStatus": "pending",
       "publicExportAllowed": true
     },
     {
-      "id": "confirm-ufrj-economics-internship-1997",
-      "question": "Do you confirm that, in or around 1997, you and Raphael/BarMan had an internship or technical/work experience together at the Institute of Economics of UFRJ?",
-      "questionType": "yes_no_unsure",
-      "required": true,
+      "id": "remember-technical-relationship",
+      "question": "Do you remember that technical relationship contributing in any way to BarMan's early web layer or webmaster culture around Canal Barra?",
+      "questionType": "yes_no_unsure_with_free_text",
+      "required": false,
       "answerStatus": "pending",
       "publicExportAllowed": true
     },
     {
-      "id": "confirm-offline-network-connection",
-      "question": "Do you confirm that this offline technical collaboration was connected to the same network of relationships formed around Canal #barra, university life and early web development?",
-      "questionType": "yes_no_unsure",
+      "id": "remember-offline-technical-network",
+      "question": "Do you remember this offline technical collaboration as connected, directly or indirectly, to the same network of relationships formed around Canal #barra, university life and early web development?",
+      "questionType": "yes_no_unsure_with_free_text",
       "required": false,
       "answerStatus": "pending",
       "publicExportAllowed": true
     }
   ],
   "methodologyAlignment": {
-    "evidenceLevel": "participant_memory_confirmation_pending",
+    "evidenceLevel": "author_recollection_pending_peer_response",
     "doesNotUpgradeFounderMemoryToIndependentFact": true,
-    "supportsInterpretation": "Canal #barra relationships extended into technical learning, web development, institutional circulation and offline collaboration.",
+    "supportsInterpretation": "Canal #barra relationships extended into HTML learning, early web development and offline technical collaboration.",
     "privacyBoundary": "nickname_or_public_role_level_only"
   },
   "privacy": {
     "emailPublished": false,
     "civilNamePublished": false,
     "privateContact": "held_off_repository",
-    "sensitiveDataIncluded": false
+    "sensitiveDataIncluded": false,
+    "civilIdentityLinked": false
   },
-  "recordStatus": "pending_participant_confirmation",
+  "recordStatus": "pending_peer_response",
   "documentGeneration": {
     "includeInParticipantDocument": true,
     "includeInPublicManifest": true,
     "language": "en",
-    "sectionTitle": "WaterHand as HTML and UFRJ Technical Bridge in 1997",
+    "sectionTitle": "WaterHand as HTML and Early Web Development Peer in 1997",
     "documentOrder": 25
   }
 }
