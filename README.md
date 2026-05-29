@@ -84,9 +84,14 @@ A minimal structural event edge looks like this:
 
 ## External Evidence and Citation Map
 
-The repository now separates historical claims by evidence category and links external bibliographic anchors to structured repository data.
+The repository separates historical claims by evidence category and gives priority to external and independently produced sources over authorial recollection.
 
-Key documents:
+Primary third-party anchor:
+
+- `docs/uff-2004-index.md` — main UFF 2004 dissertation evidence index, treated as the key independent academic anchor because it was produced outside this repository and outside the founder's later authorial reconstruction.
+- `docs/UFF-2004-NICKNAME-OCCURRENCE-INDEX.md` — tabular nickname occurrence companion index derived from the UFF 2004 material.
+
+Supporting evidence and methodology files:
 
 - `docs/external-evidence-index.md` — maps academic, bibliographic, archival, tertiary and repository evidence.
 - `docs/evidence-methodology.md` — defines evidence levels such as `archived_web_capture`, `academic_secondary_source`, `published_book`, `founder_statement` and `dataset_match`.
@@ -95,7 +100,7 @@ Key documents:
 - `docs/EXTERNAL-EVIDENCE-GAPS.md` — tracks missing or incomplete external evidence without inventing data.
 - `docs/IMAGE-MANIFEST-IRCONTRO-PRIVATE-INDOOR-01.md` — privacy-aware manifest for a founder-owned IRContro private indoor photograph record.
 
-Confirmed book anchors include:
+Authorial book anchors are preserved as bibliographic and interpretive consolidation, not as independent external validation:
 
 - *This Side Of The Wall: The Story of Canal Barra* — ISBN-13 `979-8195718985`.
 - *Canal Barra: A Primeira Rede Social* — ISBN-13 `979-8288099465`.
