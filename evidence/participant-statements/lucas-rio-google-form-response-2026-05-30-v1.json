@@ -127,10 +127,17 @@
   ],
   "negativeOrLimitingClaims": [
     {
-      "claim": "It would be exaggerated to say that CanalBarra.com made money.",
+      "claim": "It would be exaggerated to say that CanalBarra.com made money or operated as a profitable commercial project.",
       "response": "Que ele dava dinheiro. Porque não dava.",
       "evidenceStatus": "technical_participant_statement",
-      "methodologicalValue": "prevents monetization overclaiming"
+      "methodologicalValue": "prevents monetization overclaiming",
+      "interpretation": "CanalBarra.com should be described as a social/community infrastructure, not as a profitable web business or commercial platform.",
+      "knownMaterialSupportContext": {
+        "supportType": "in-kind sponsorship / material support",
+        "example": "BarMan obtained an arrangement with Raul Pizzaria that reportedly provided two pizzas per month.",
+        "sourceStatus": "founder_statement_context_pending_independent_confirmation",
+        "boundary": "This may support the existence of limited material sponsorship or community support, but it must not be interpreted as proof that the website generated profit or meaningful revenue."
+      }
     }
   ],
   "notRememberedOrNotCorroboratedByThisStatement": [
@@ -207,10 +214,11 @@
     "rules page",
     "events, IRContros and social-memory publication",
     "nickname-to-profile materialization",
-    "anti-IRC-only characterization"
+    "anti-IRC-only characterization",
+    "limited material support without profit overclaim"
   ],
-  "summaryForUseInThesis": "Lucas Nercessian confirms that Canal Barra should not be reduced to IRC-only. According to his technical participant statement, Canal Barra evolved from a manual homepage updated by Raphael/BarMan into CanalBarra.com, a dynamic ColdFusion/Microsoft Access website whose environment he installed or configured. The dynamic site supported user/nickname cadastro, login/modify-cadastro, profile/biography information and photos, and published rules, events, IRContros and social records. Lucas characterizes Canal Barra as an ecosystem of IRC, site, cadastros, photos, events, reputation and gatherings, and states that CanalBarra.com materialized what were otherwise only nicknames.",
-  "methodologicalNote": "This record is a sanitized public metadata extraction from a private Google Forms CSV. The participant email and raw CSV are not published. Answers marked as 'Não lembro' are explicitly not used as corroboration. The timeline/feed-like answer is preserved as an ambiguity requiring technical clarification and should not be overclaimed.",
+  "summaryForUseInThesis": "Lucas Nercessian confirms that Canal Barra should not be reduced to IRC-only. According to his technical participant statement, Canal Barra evolved from a manual homepage updated by Raphael/BarMan into CanalBarra.com, a dynamic ColdFusion/Microsoft Access website whose environment he installed or configured. The dynamic site supported user/nickname cadastro, login/modify-cadastro, profile/biography information and photos, and published rules, events, IRContros and social records. Lucas characterizes Canal Barra as an ecosystem of IRC, site, cadastros, photos, events, reputation and gatherings, and states that CanalBarra.com materialized what were otherwise only nicknames. Lucas also explicitly limits monetization claims: it would be exaggerated to say that CanalBarra.com made money. At most, the archive currently records limited material support, such as the founder-reported Raul Pizzaria arrangement of two pizzas per month, not profit or meaningful revenue.",
+  "methodologicalNote": "This record is a sanitized public metadata extraction from a private Google Forms CSV. The participant email and raw CSV are not published. Answers marked as 'Não lembro' are explicitly not used as corroboration. The timeline/feed-like answer is preserved as an ambiguity requiring technical clarification and should not be overclaimed. The monetization note is included to prevent commercial-platform overclaiming: limited sponsorship or in-kind support is not treated as profit.",
   "recordStatus": "public_sanitized_technical_participant_statement",
   "documentGeneration": {
     "includeInPublicManifest": true,
