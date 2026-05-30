@@ -1,7 +1,7 @@
 {
   "id": "romantic-rivalry-eye-poking-uff-annex-002-v1",
   "type": "social_dynamics_evidence_record",
-  "version": 1,
+  "version": 2,
   "project": "Canal Barra Historical Evidence Registry",
   "evidenceCategory": "presence_status_and_romantic_rivalry_regulation",
   "sourceContext": {
@@ -12,48 +12,74 @@
     "exactLocationStatus": "pending_full_page_or_annex_indexing",
     "sourceIndependence": "external_academic_source"
   },
-  "logExcerpt": {
-    "timestamp": "02:57",
-    "speakerNickname": "GV",
-    "addressedNickname": "Pedrinho{RJ}",
-    "verbatimLine": "[02:57] <GV> pego cocô, mas você cisma em furar meu olho né Pedrinho{RJ} ?",
-    "language": "pt-BR",
-    "containsExplicitSexualSlang": false,
-    "containsColloquialInsultOrSelfDeprecation": true
-  },
-  "slangExplanation": {
-    "term": "furar meu olho",
-    "literalTranslation": "to poke/pierce my eye",
-    "contextualMeaning": "Brazilian colloquial expression meaning to betray, undercut or disrespect someone by pursuing the same romantic/sexual interest, especially someone the speaker is already interested in, seeing, dating or socially associated with.",
-    "archiveUse": "The phrase is interpreted as public complaint about romantic rivalry or mate-poaching behavior within the channel social field."
-  },
+  "logExchange": [
+    {
+      "timestamp": "02:57",
+      "speakerNickname": "GV",
+      "addressedNickname": "Pedrinho{RJ}",
+      "verbatimLine": "[02:57] <GV> pego cocô, mas você cisma em furar meu olho né Pedrinho{RJ} ?",
+      "lineFunction": "public_accusation_or_complaint",
+      "language": "pt-BR",
+      "containsExplicitSexualSlang": false,
+      "containsColloquialInsultOrSelfDeprecation": true
+    },
+    {
+      "timestamp": "02:57",
+      "speakerNickname": "Pedrinho{RJ}",
+      "addressedNickname": "GV",
+      "verbatimLine": "[02:57] <Pedrinho{RJ}> nunca tomei toco de mulher q você pegou !",
+      "lineFunction": "public_rebuttal_or_provocation",
+      "language": "pt-BR",
+      "containsExplicitSexualSlang": false,
+      "containsRomanticRejectionSlang": true
+    }
+  ],
+  "slangExplanations": [
+    {
+      "term": "furar meu olho",
+      "literalTranslation": "to poke/pierce my eye",
+      "contextualMeaning": "Brazilian colloquial expression meaning to betray, undercut or disrespect someone by pursuing the same romantic/sexual interest, especially someone the speaker is already interested in, seeing, dating or socially associated with.",
+      "archiveUse": "The phrase is interpreted as public complaint about romantic rivalry or mate-poaching behavior within the channel social field."
+    },
+    {
+      "term": "tomar toco",
+      "literalTranslation": "to take a stump/block",
+      "contextualMeaning": "Brazilian colloquial expression meaning to be rejected, turned down or refused by someone in a romantic or sexual approach; roughly 'to get rejected' or 'to be shot down'.",
+      "archiveUse": "The phrase is interpreted as a public rebuttal in which Pedrinho{RJ} challenges the accusation by claiming he was never rejected by a woman associated with GV."
+    }
+  ],
   "indexedNicknames": [
     "GV",
     "Pedrinho{RJ}"
   ],
   "claimsSupported": [
     {
-      "claim": "The Canal #barra archive contains university-preserved evidence of public complaint about romantic rivalry inside the channel.",
+      "claim": "The Canal #barra archive contains university-preserved evidence of public complaint and rebuttal about romantic rivalry inside the channel.",
       "status": "supported_by_external_academic_log_excerpt_pending_exact_annex_indexing"
     },
     {
-      "claim": "Romantic and sexual competition could be publicly negotiated, accused and regulated before the channel audience.",
-      "status": "interpretive_claim_supported_by_log_excerpt"
+      "claim": "Romantic and sexual competition could be publicly negotiated, accused, denied and regulated before the channel audience.",
+      "status": "interpretive_claim_supported_by_log_exchange"
     },
     {
-      "claim": "The channel functioned as an arena where desire, loyalty, rivalry and male social codes could become public speech acts.",
-      "status": "interpretive_claim_supported_by_log_excerpt"
+      "claim": "The channel functioned as an arena where desire, loyalty, rivalry, rejection and male social codes could become public speech acts.",
+      "status": "interpretive_claim_supported_by_log_exchange"
     },
     {
       "claim": "The expression 'furar meu olho' indicates that participants could recognize implied romantic claims or informal boundaries around another participant's romantic interest.",
       "status": "interpretive_claim_supported_by_slang_context"
+    },
+    {
+      "claim": "The expression 'tomar toco' indicates that romantic rejection itself could be used as public ammunition in channel rivalry and masculine provocation.",
+      "status": "interpretive_claim_supported_by_slang_context"
     }
   ],
   "analyticalReading": {
-    "shortLabel": "public romantic rivalry regulation",
-    "description": "This line illustrates a public complaint about a participant allegedly pursuing or interfering with another participant's romantic interest. The value of the excerpt lies in showing that Canal #barra was not only a conversation space: it was an audience-mediated social field where desire, jealousy, male loyalty, rivalry and informal romantic boundaries could be publicly performed and challenged.",
-    "presenceModelRelevance": "The excerpt supports the IRC-Web-Presence model by showing romantic rivalry being negotiated live through public speech before the channel audience.",
-    "socialCodeRelevance": "The slang 'furar meu olho' points to a known Brazilian social code: a friend or acquaintance is expected not to undermine another person's romantic pursuit. The public complaint makes that code visible inside the channel.",
+    "shortLabel": "public romantic rivalry and rebuttal",
+    "description": "This exchange illustrates a public complaint about a participant allegedly pursuing or interfering with another participant's romantic interest, followed by a provocative rebuttal. The value of the exchange lies in showing that Canal #barra was not only a conversation space: it was an audience-mediated social field where desire, jealousy, rejection, male loyalty, rivalry and informal romantic boundaries could be publicly performed, challenged and mocked.",
+    "presenceModelRelevance": "The excerpt supports the IRC-Web-Presence model by showing romantic rivalry being negotiated live through accusation and rebuttal before the channel audience.",
+    "socialCodeRelevance": "The slang 'furar meu olho' points to a known Brazilian social code: a friend or acquaintance is expected not to undermine another person's romantic pursuit. The response using 'tomar toco' turns romantic rejection into a counterattack, making masculine status and desirability part of the public dispute.",
+    "climateRelevance": "The exchange helps document a 'pega-pega' climate: romantic pursuit, rivalry, accusation, rejection, provocation and status defense were not only private events but could become public channel performances.",
     "personalRelevanceNote": "The archive curator reports having personally experienced similar dynamics in the Canal #barra social field; that personal memory should be treated separately as founder testimony, not as independent proof of this specific log event.",
     "notAUniversalClaim": true
   },
@@ -66,22 +92,22 @@
   },
   "limitations": [
     "The exact annex/page location still needs full indexing.",
-    "This single excerpt should not be generalized to all romantic interactions in Canal #barra.",
+    "This single exchange should not be generalized to all romantic interactions in Canal #barra.",
     "The excerpt does not identify the third party or prove the underlying romantic facts.",
-    "The record documents a public accusation/complaint, not an independently verified account of what Pedrinho{RJ} did.",
+    "The record documents a public accusation and rebuttal, not an independently verified account of what either participant did.",
     "The curator's personal experience of similar dynamics is contextual testimony and should not be merged with the log excerpt as direct evidence."
   ],
   "methodologyAlignment": {
     "evidenceLevel": "external_academic_log_excerpt_pending_exact_indexing",
     "doesNotUpgradeInterpretationToFact": true,
-    "preservesVerbatimSourceLine": true,
+    "preservesVerbatimSourceLines": true,
     "separatesEvidenceFromAnalysis": true,
     "supportsIwpPresenceLayer": true
   },
   "documentGeneration": {
     "includeInPublicManifest": true,
     "language": "en",
-    "sectionTitle": "Romantic Rivalry and Public Social Regulation",
+    "sectionTitle": "Romantic Rivalry, Rejection Slang and Public Social Regulation",
     "documentOrder": 73
   }
 }
