@@ -1,0 +1,79 @@
+{
+  "id": "homosocial-status-amplification-uff-annex-002-v1",
+  "type": "social_dynamics_evidence_record",
+  "version": 1,
+  "project": "Canal Barra Historical Evidence Registry",
+  "evidenceCategory": "presence_status_and_nickname_mythmaking",
+  "sourceContext": {
+    "sourceType": "university_study_annex_log_excerpt",
+    "institution": "Universidade Federal Fluminense",
+    "documentYear": 2004,
+    "sourceLabel": "UFF 2004 material, Annex 2 / IRC log excerpt",
+    "exactLocationStatus": "pending_full_page_or_annex_indexing",
+    "sourceIndependence": "external_academic_source"
+  },
+  "logExcerpt": {
+    "timestamp": "00:25",
+    "speakerNickname": "VaNZaN",
+    "targetNickname": "Biano-",
+    "verbatimLine": "[00:25] <VaNZaN> \u0002\u000309,01Biano- é a pica doce do canal",
+    "language": "pt-BR",
+    "containsExplicitSexualSlang": true,
+    "interpretationWarning": "The explicit slang is preserved only as historical evidence of channel social dynamics, not for humorous or sensational use."
+  },
+  "indexedNicknames": [
+    "VaNZaN",
+    "Biano-"
+  ],
+  "claimsSupported": [
+    {
+      "claim": "The Canal #barra archive contains university-preserved evidence of public banter between recurring nicknames.",
+      "status": "supported_by_external_academic_log_excerpt_pending_exact_annex_indexing"
+    },
+    {
+      "claim": "Public joking could operate as peer status amplification inside the channel.",
+      "status": "interpretive_claim_supported_by_log_excerpt"
+    },
+    {
+      "claim": "Male participants could promote other male nicknames through humor, exaggeration and sexualized banter before the broader channel audience.",
+      "status": "interpretive_claim_supported_by_log_excerpt_and_recurrence_context_pending_full_indexing"
+    },
+    {
+      "claim": "Nickname-level mythmaking was produced through live presence and public recognition, not only through technical access roles such as Operator, Master or Founder.",
+      "status": "interpretive_claim_supported_by_log_excerpt"
+    }
+  ],
+  "analyticalReading": {
+    "shortLabel": "homosocial status amplification",
+    "description": "This line is not catalogued as mere vulgar humor. It illustrates a mechanism of public nickname mythmaking: one long-term male participant publicly elevates another nickname through exaggerated sexualized banter in the live channel arena. The value of the excerpt lies in showing peer-driven status amplification, intimacy among recurring users and real-time reputation production before the wider channel audience.",
+    "presenceModelRelevance": "The excerpt supports the IRC-Web-Presence model by showing reputation being produced live, through public performance and audience visibility inside the channel.",
+    "fraternityRelevance": "The excerpt helps explain the climate of male fraternity in the channel: long-term users could publicly promote one another through joking, exaggeration and shared familiarity.",
+    "notAUniversalClaim": true
+  },
+  "privacy": {
+    "privacyTier": "nickname_level_only",
+    "civilIdentityLinked": false,
+    "sensitiveDataIncluded": false,
+    "doNotInferCivilIdentity": true,
+    "publicRawPrivateIdentifiersIncluded": false
+  },
+  "limitations": [
+    "The exact annex/page location still needs full indexing.",
+    "This single excerpt should not be generalized to all Canal #barra interactions.",
+    "The line should be interpreted with recurrence context: the involved nicknames are understood by the archive as long-term participants, but that recurrence should be source-indexed separately.",
+    "The excerpt does not prove that women were passive participants; it only supports analysis of public status performance before a mixed channel audience."
+  ],
+  "methodologyAlignment": {
+    "evidenceLevel": "external_academic_log_excerpt_pending_exact_indexing",
+    "doesNotUpgradeInterpretationToFact": true,
+    "preservesVerbatimSourceLine": true,
+    "separatesEvidenceFromAnalysis": true,
+    "supportsIwpPresenceLayer": true
+  },
+  "documentGeneration": {
+    "includeInPublicManifest": true,
+    "language": "en",
+    "sectionTitle": "Public Banter and Nickname Mythmaking",
+    "documentOrder": 70
+  }
+}
