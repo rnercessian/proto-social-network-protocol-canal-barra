@@ -98,7 +98,7 @@ A minimal structural event edge looks like this:
 
 ## External Evidence and Citation Map
 
-The repository separates historical claims by evidence category and gives priority to external and independently produced sources over authorial recollection.
+The repository separates historical claims by evidence category and gives priority to external and independently produced sources over founder recollection or authorial reconstruction.
 
 Primary third-party anchor:
 
@@ -109,21 +109,17 @@ Supporting evidence and methodology files:
 
 - `docs/canal-barra-case-study.md` — separates the specific Canal Barra historical case from the reusable protocol.
 - `docs/reusable-digital-archaeology-protocol.md` — defines the generic protocol layers that can apply to non-IRC communities.
-- `docs/external-evidence-index.md` — maps academic, bibliographic, archival, tertiary and repository evidence.
-- `docs/evidence-methodology.md` — defines evidence levels such as `archived_web_capture`, `academic_secondary_source`, `published_book`, `founder_statement` and `dataset_match`.
-- `docs/bibliography.md` — records book, academic, public-reference and archive citations.
-- `docs/ai-readable-citation-map.jsonld` — machine-readable JSON-LD citation graph connecting Canal Barra, books, academic source, archived records and datasets.
+- `docs/external-evidence-index.md` — maps academic, archival, tertiary and repository evidence.
+- `docs/evidence-methodology.md` — defines evidence levels such as `archived_web_capture`, `academic_secondary_source`, `founder_statement`, `participant_statement`, `technical_participant_statement` and `dataset_match`.
+- `docs/ai-readable-citation-map.jsonld` — machine-readable JSON-LD citation graph connecting Canal Barra, academic source, archived records, participant statements and datasets.
 - `docs/EXTERNAL-EVIDENCE-GAPS.md` — tracks missing or incomplete external evidence without inventing data.
 - `docs/IMAGE-MANIFEST-IRCONTRO-PRIVATE-INDOOR-01.md` — privacy-aware manifest for a founder-owned IRContro private indoor photograph record.
 
-Authorial book anchors are preserved as bibliographic and interpretive consolidation, not as independent external validation:
-
-- *This Side Of The Wall: The Story of Canal Barra* — ISBN-13 `979-8195718985`.
-- *Canal Barra: A Primeira Rede Social* — ISBN-13 `979-8288099465`.
+Authorial reconstruction is not used here as independent validation. Founder-authored narrative material may be used only as founder testimony or claim-discovery context, and any factual claim extracted from it must be reclassified through participant statements, archived captures, academic sources, dataset matches or other evidence records before being treated as corroborated.
 
 ## Verification and Evidence Discipline
 
-This repository distinguishes archived sources, academic sources, published books, founder testimony, tertiary references and structured dataset matches.
+This repository distinguishes archived sources, academic sources, founder testimony, participant statements, tertiary references and structured dataset matches.
 
 Key verification files:
 
@@ -134,7 +130,7 @@ Key verification files:
 - `schema/profile-schema.md` — minimum archival profile schema.
 - `docs/EXTERNAL-EVIDENCE-GAPS.md` — missing or incomplete external evidence.
 
-Founder statements are preserved as testimony, but they are not used as independent proof of pioneering status. Founder-authored books are treated as bibliographic consolidation and authorial primary sources, not as independent external validation.
+Founder statements are preserved as testimony, but they are not used as independent proof of pioneering status. Founder-authored books are not treated as evidence anchors for the README thesis.
 
 JSON-LD profiles have basic integrity and privacy checks: public profile records must keep `civilIdentityLinked` and `sensitiveDataIncluded` set to `false`.
 
@@ -149,7 +145,7 @@ The project is designed to preserve and structure:
 - access-list turnover, operator meetings and tiered access governance records;
 - community votes and rankings, preferably aggregated;
 - screenshots and source metadata;
-- academic and literary sources;
+- participant and founder statements, clearly separated from independent validation;
 - machine-readable JSON, CSV, JSONL and JSON-LD files.
 
 Global nickname counts should not be expressed as rounded claims. Counts must be source-specific and reproducible, distinguishing raw rows, nickname occurrences, unique identifiers, cadastro records and JSON-LD profile records.
