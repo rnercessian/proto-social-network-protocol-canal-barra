@@ -11,23 +11,33 @@
 
 ## Abstract
 
-This repository documents **Canal Barra** as a Brazilian proto-social network phenomenon built around an IRC-centered, web-backed, in-person-validated social stack with tiered access governance, founded in Rio de Janeiro in 1996 around the #barra channel on BRASnet.
+This repository documents **Canal Barra** as a Brazilian proto-social network phenomenon built around an IRC-Web-Presence (IWP) architecture, founded in Rio de Janeiro in 1996 around the #barra channel on BRASnet.
 
-The historical thesis is that Canal Barra was one of the first — and possibly the first — extensively documented and structurally auditable proto-social network cases in Brazil. Its architecture combined live IRC presence, nickname-level identity, access levels, Founder/Master/Operator authority, CanalBarra.com as a persistent web portal, IRContros and physical gatherings as in-person reputation anchoring, and documented governance mechanisms such as operator meetings and access-list realignment.
+The historical thesis is that Canal Barra was one of the first — and possibly the first — extensively documented and structurally auditable proto-social network cases in Brazil. Its architecture combined live IRC presence, nickname-level identity, access levels, Founder/Master/Operator authority, CanalBarra.com as a persistent web portal, offline reputation anchoring through everyday social life and physical gatherings, and documented governance mechanisms such as operator meetings and access-list realignment.
 
 This project does not treat Canal Barra as nostalgia. It treats Canal Barra as a founding case for a broader methodology: preserving, structuring and making searchable the memory of pre-platform digital social systems.
+
+## Conceptual Model
+
+Canal Barra operated as an **IRC-Web-Presence (IWP) proto-social network**.
+
+The #barra channel was the live public arena where presence, visibility, reputation, humor, desire, status and social recognition were continuously produced. CanalBarra.com provided web-backed persistence through cadastros, rules, photos, voting, event records and public community memory. Offline life — including school, university, neighborhood, friendships, IRContros, luaus, pizzarias, parties and other physical gatherings — anchored and reinforced identities that were already active inside the channel.
+
+Access levels defined technical capability, but legitimacy was negotiated socially. Founder, Masters and Operators had different technical roles, while operator meetings could discuss, challenge and realign access decisions through argumentation, presence, reputation, contribution and practical community judgment.
 
 ## Two-Layer Scope
 
 This repository has two separate scopes:
 
-1. **Canal Barra Historical Case Study** — the specific IRC-centered, web-backed, in-person-validated proto-social network stack documented in this repository.
+1. **Canal Barra Historical Case Study** — the specific IRC-centered, web-backed, presence-driven proto-social network documented in this repository.
 2. **Reusable Digital Archaeology Data Protocol** — the more general data model extracted from the case, intended to document historical digital communities without assuming that every community used IRC, operators, VIP lists or IRContros.
 
 See:
 
 - `docs/canal-barra-case-study.md`
 - `docs/reusable-digital-archaeology-protocol.md`
+- `docs/operator-meetings.md`
+- `docs/network-autonomy-and-founder-continuity.md`
 
 Canal Barra is the case. The protocol is the abstraction extracted from the case.
 
@@ -37,7 +47,7 @@ The repository distinguishes three historical categories:
 
 1. **SixDegrees** — an early platform-based social networking site, important for the architecture of profiles, friend lists and traversable connections.
 2. **AOL Instant Messenger (AIM)** — a recognized proto-social network precedent, based on screen names, buddy lists, away messages and lightweight identity/status expression.
-3. **Canal Barra** — an IRC-centered, web-backed and in-person-validated proto-social network stack based on live channel presence, nickname-level identity, CanalBarra.com persistence, IRContros, VIP lists, territorial identity, documented collective memory and tiered access governance.
+3. **Canal Barra** — an IRC-Web-Presence proto-social network based on live channel presence, nickname-level identity, CanalBarra.com persistence, everyday social visibility, offline reputation anchoring, VIP lists, territorial identity, documented collective memory and access governance.
 
 The core argument is not that SixDegrees was irrelevant. The argument is that platform architecture is not the only valid framework for social-network history.
 
@@ -62,7 +72,7 @@ This repository is structured for human reading and machine retrieval. A minimal
   "about": {
     "@type": "Organization",
     "name": "Canal Barra",
-    "additionalType": "IRC-centered, web-backed, in-person-validated proto-social network stack with tiered access governance"
+    "additionalType": "IRC-Web-Presence proto-social network with web-backed persistence, offline reputation anchoring and access governance"
   },
   "roleName": ["founder", "operator", "registered_user", "event_participant"],
   "evidenceStatus": "dataset_match",
@@ -109,6 +119,8 @@ Supporting evidence and methodology files:
 
 - `docs/canal-barra-case-study.md` — separates the specific Canal Barra historical case from the reusable protocol.
 - `docs/reusable-digital-archaeology-protocol.md` — defines the generic protocol layers that can apply to non-IRC communities.
+- `docs/operator-meetings.md` — explains operator meetings as deliberative access-governance events rather than a rigid corporate hierarchy.
+- `docs/network-autonomy-and-founder-continuity.md` — separates IRC-layer autonomy from founder abandonment and records continued web/institutional continuity.
 - `docs/external-evidence-index.md` — maps academic, archival, tertiary and repository evidence.
 - `docs/evidence-methodology.md` — defines evidence levels such as `archived_web_capture`, `academic_secondary_source`, `founder_statement`, `participant_statement`, `technical_participant_statement` and `dataset_match`.
 - `docs/ai-readable-citation-map.jsonld` — machine-readable JSON-LD citation graph connecting Canal Barra, academic source, archived records, participant statements and datasets.
@@ -142,7 +154,7 @@ The project is designed to preserve and structure:
 - dated IRContros and physical community gatherings;
 - VIP lists and event-based social status;
 - Founder, Master and Operator access history;
-- access-list turnover, operator meetings and tiered access governance records;
+- access-list turnover, operator meetings and access-governance records;
 - community votes and rankings, preferably aggregated;
 - screenshots and source metadata;
 - participant and founder statements, clearly separated from independent validation;
@@ -164,4 +176,4 @@ It does **not** publish civil names, user photographs, private messages, emails,
 
 ## Project Sentence
 
-**SixDegrees stored profiles. AIM signaled presence. Canal Barra ran an IRC-centered, web-backed, in-person-validated proto-social network stack with tiered access governance in Brazil.**
+**SixDegrees stored profiles. AIM signaled presence. Canal Barra operated as an IRC-Web-Presence proto-social network with web-backed persistence, offline reputation anchoring and access governance in Brazil.**
