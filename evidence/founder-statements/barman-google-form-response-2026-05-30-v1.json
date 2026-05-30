@@ -1,0 +1,247 @@
+{
+  "id": "barman-google-form-response-2026-05-30-v1",
+  "type": "founder_statement",
+  "version": 1,
+  "project": "Canal Barra Historical Evidence Registry",
+  "participantNickname": "BarMan",
+  "collectionMethod": "google_form",
+  "collectionTimestamp": "2026-05-30T18:29:29+01:00",
+  "language": "pt-BR",
+  "privacyTier": "nickname_level_email_private",
+  "civilIdentityLinked": false,
+  "sensitiveDataIncluded": false,
+  "emailPublished": false,
+  "rawCsvPublished": false,
+  "rawCsvHeldOffRepository": true,
+  "rawCsvContainsConfidentialEmail": true,
+  "rawCsvSha256": "ce4b1898ae3c1a38f9185ae421913a607f65576ac095dd33fc2a5932239a36b0",
+  "consent": {
+    "participantAuthorizedUse": true,
+    "consentTextSummary": "Founder authorized public use of these responses as founder_statement, without publication of email, telephone or private data.",
+    "acknowledgedNotIndependentEvidence": true,
+    "privateContactPublished": false
+  },
+  "coreFounderClaims": [
+    {
+      "claim": "Canal Barra should not be reduced to IRC-only because CanalBarra.com held user photos, thoughts and messages for the channel's community.",
+      "responseSummary": "The IRC-only description omits the website where people left photos, thoughts and messages for the channel community.",
+      "evidenceStatus": "founder_statement",
+      "theme": "anti_irc_only"
+    },
+    {
+      "claim": "The #barra IRC channel was the live core of the ecosystem, comparable to a real-time timeline without algorithmic filtering.",
+      "responseSummary": "The IRC channel was the flagship/live core; with cable internet, users increasingly stayed online in the channel.",
+      "evidenceStatus": "founder_statement",
+      "theme": "live_irc_core"
+    },
+    {
+      "claim": "CanalBarra.com maintained cadastros, rules, operator lists and user messaging, functioning as a web persistence layer.",
+      "responseSummary": "The website maintained cadastros, made rules and operator lists explicit, and allowed message exchange among users.",
+      "evidenceStatus": "founder_statement",
+      "theme": "web_backed_persistence"
+    },
+    {
+      "claim": "CanalBarra.com was a safer place than the disputed IRC topic for official Canal Barra agenda information and also hosted best-cadastro voting.",
+      "responseSummary": "Because the #barra topic was disputed, the website was a safer official information surface for Canal Barra agenda and voting.",
+      "evidenceStatus": "founder_statement",
+      "theme": "official_web_surface"
+    },
+    {
+      "claim": "Physical gatherings strengthened belonging and encouraged more civil behavior in the IRC environment.",
+      "responseSummary": "IRContros, luaus, parties and physical meetings tightened bonds, created belonging and encouraged people to behave more civilly in IRC.",
+      "evidenceStatus": "founder_statement",
+      "theme": "in_person_reputation_anchoring"
+    },
+    {
+      "claim": "Canal Barra is best understood as a social ecosystem, including IRC, site, ICQ side contact, cadastros, social memory and physical encounters.",
+      "responseSummary": "The founder describes Canal Barra as a social ecosystem rather than merely an IRC channel with a homepage.",
+      "evidenceStatus": "founder_statement",
+      "theme": "iwp_model"
+    },
+    {
+      "claim": "The Xoom phase was manually updated by the webmaster; the CanalBarra.com domain phase became dynamic in cadastros, voting and messages.",
+      "responseSummary": "The Xoom page was webmaster-updated; under the proper domain, cadastros, voting and messaging became dynamic.",
+      "evidenceStatus": "founder_statement",
+      "theme": "manual_to_dynamic_web_evolution"
+    },
+    {
+      "claim": "The Xoom phase published profile cadastros and IRContro photos.",
+      "responseSummary": "Xoom content included profile cadastros and IRContro photos.",
+      "evidenceStatus": "founder_statement",
+      "theme": "xoom_homepage_memory_layer"
+    },
+    {
+      "claim": "The proper-domain CanalBarra.com phase introduced user-editable cadastro and voting.",
+      "responseSummary": "The CanalBarra.com domain phase allowed voting and user-editable cadastros.",
+      "evidenceStatus": "founder_statement",
+      "theme": "dynamic_web_features"
+    },
+    {
+      "claim": "User profiles perpetuated IRC presence beyond the channel and recorded at least some events.",
+      "responseSummary": "Profiles preserved user presence beyond IRC and helped record events, though not all events were captured.",
+      "evidenceStatus": "founder_statement",
+      "theme": "nickname_to_profile_persistence"
+    },
+    {
+      "claim": "CanalBarra.com helped distinguish events originating from administration from unrelated attempts to use the IRC topic for promotion.",
+      "responseSummary": "The website helped identify administrator-originated events and gave users confidence that other channel users would be present.",
+      "evidenceStatus": "founder_statement",
+      "theme": "event_legitimacy_layer"
+    },
+    {
+      "claim": "CanalBarra.com functioned as a portal for the social life of many IRC users, including programming and sometimes VIP-list coordination through the channel.",
+      "responseSummary": "The website was viewed as a portal for the social life of IRC users; someone looking for something to do in Barra could check the site programming and coordinate via the channel.",
+      "evidenceStatus": "founder_statement",
+      "theme": "web_supported_offline_social_logistics"
+    },
+    {
+      "claim": "Lucas_Rio implemented the ColdFusion and Microsoft Access structure, after which BarMan performed maintenance and improvements.",
+      "responseSummary": "Lucas_Rio implemented ColdFusion with Access; BarMan then maintained and improved the site.",
+      "evidenceStatus": "founder_statement_corresponds_to_lucas_technical_statement",
+      "theme": "dynamic_web_stack"
+    },
+    {
+      "claim": "The installation/configuration of ColdFusion and Microsoft Access made the site more scalable and growth accelerated after that change.",
+      "responseSummary": "The site became more scalable and growth began to accelerate after the technical change.",
+      "evidenceStatus": "founder_statement",
+      "theme": "scalability_claim_pending_metrics"
+    },
+    {
+      "claim": "The Los Angeles work/development experience contributed to the knowledge used in the dynamic web phase.",
+      "responseSummary": "The Los Angeles experience helped teach scalable websites.",
+      "evidenceStatus": "founder_statement_corresponds_to_lucas_technical_statement",
+      "theme": "los_angeles_technical_origin"
+    },
+    {
+      "claim": "Founder, Master and Operator roles existed as access tiers, but OP meetings introduced justification, argumentation and review based on what was good for the channel.",
+      "responseSummary": "Founder could appoint Masters and Operators; Masters could appoint Operators; Operators could voice users. Access choices could be discussed and justified in OP meetings.",
+      "evidenceStatus": "founder_statement",
+      "theme": "tiered_governance_with_collegial_discussion"
+    },
+    {
+      "claim": "The June 1999 operator meeting is important because it shows Canal Barra had become institution-like, with non-unilateral decisions and access levels treated also as rights to argue and opine.",
+      "responseSummary": "The June 1999 OP meeting indicates that decisions were not simply unilateral and that access levels were connected to voice in governance.",
+      "evidenceStatus": "founder_statement_pending_artifact_integration",
+      "theme": "governance_meeting_significance"
+    },
+    {
+      "claim": "Other channels may have had similar elements, and the founder would welcome more well-preserved channels for comparison.",
+      "responseSummary": "Other channels could have had similar elements; more preserved channels would help comparison rather than necessarily weaken the case.",
+      "evidenceStatus": "founder_statement",
+      "theme": "survival_bias_acknowledgment"
+    },
+    {
+      "claim": "The pre-2001 period depends more heavily on founder memory, while Wayback captures help reconstruct later phases.",
+      "responseSummary": "The founder states that the pre-2001 period depends too much on his personal memory, while Wayback helps reconstruct later phases.",
+      "evidenceStatus": "founder_statement",
+      "theme": "methodological_limitation"
+    },
+    {
+      "claim": "The repository should preserve nicknames as public historical identities while keeping hostnames, birth dates, civil names and emails private.",
+      "responseSummary": "Nicknames are treated as public identities; hostnames, birth dates, civil names and emails should remain private.",
+      "evidenceStatus": "founder_statement",
+      "theme": "privacy_policy"
+    }
+  ],
+  "negativeOrLimitingClaims": [
+    {
+      "claim": "CanalBarra.com did not have a modern Facebook-style timeline/feed.",
+      "response": "Não",
+      "evidenceStatus": "founder_statement",
+      "methodologicalValue": "prevents anachronistic Facebook-feed overclaiming"
+    },
+    {
+      "claim": "CanalBarra.com did not automatically create a declared friendship graph like modern platforms.",
+      "response": "Não",
+      "evidenceStatus": "founder_statement",
+      "methodologicalValue": "prevents automated-social-graph overclaiming"
+    },
+    {
+      "claim": "CanalBarra.com did not replace IRC as the center of daily interaction.",
+      "response": "Não",
+      "evidenceStatus": "founder_statement",
+      "methodologicalValue": "keeps IRC as the live core"
+    },
+    {
+      "claim": "CanalBarra.com did not automatically control ChanServ, OPs or BRASnet access lists.",
+      "response": "Não",
+      "evidenceStatus": "founder_statement",
+      "methodologicalValue": "prevents infrastructure-control overclaiming"
+    },
+    {
+      "claim": "Canal Barra was not a profitable commercial platform.",
+      "response": "Não",
+      "evidenceStatus": "founder_statement",
+      "methodologicalValue": "prevents monetization overclaiming"
+    },
+    {
+      "claim": "The founder would avoid defending the technically vulnerable claim that Canal Barra was the first social network at a strict technical level.",
+      "responseSummary": "The strongest vulnerable claim to avoid is 'ser a primeira rede social no nível técnico'.",
+      "evidenceStatus": "founder_statement",
+      "methodologicalValue": "positions the thesis as proto-social-network case rather than overclaiming technical firstness"
+    },
+    {
+      "claim": "Canal Barra was not Facebook before Facebook because it had no feed, algorithm, automated friendship graph, company, investment or global scale.",
+      "responseSummary": "It was a pre-platform social community with IRC, site, cadastros, photos, events, reputation and in-person gatherings.",
+      "evidenceStatus": "founder_statement",
+      "methodologicalValue": "prevents direct Facebook equivalence overclaiming"
+    }
+  ],
+  "ambiguousOrRequiresConfirmation": [
+    {
+      "topic": "site-based user messages",
+      "founderResponseSummary": "Founder states that CanalBarra.com allowed exchange of messages among users.",
+      "status": "founder_statement_only_pending_archival_or_code_confirmation"
+    },
+    {
+      "topic": "best-cadastro voting",
+      "founderResponseSummary": "Founder states that the site had best-cadastro voting.",
+      "status": "founder_statement_only_pending_archival_or_dataset_confirmation"
+    },
+    {
+      "topic": "growth became exponential after ColdFusion/Access",
+      "founderResponseSummary": "Founder states growth became exponential after the dynamic stack.",
+      "status": "requires_metrics_before_quantitative_claim"
+    },
+    {
+      "topic": "Ilha dos Pescadores planned for 3000 people",
+      "founderResponseSummary": "Founder identifies this as a point still needing external confirmation.",
+      "status": "explicitly_pending_external_confirmation"
+    },
+    {
+      "topic": "users web-only never entered IRC",
+      "founderResponseSummary": "Founder identifies web-only users as a key evidence line against IRC-only reading.",
+      "status": "requires dataset or participant confirmation before use as strong claim"
+    },
+    {
+      "topic": "founder withdrawal in second half of 2003",
+      "founderResponseSummary": "This Google Form response does not explicitly confirm or date the founder's withdrawal from direct administration in the second half of 2003.",
+      "status": "not_present_in_this_statement_requires_separate_founder_statement_or_participant_confirmation"
+    }
+  ],
+  "supportedRepositoryThemes": [
+    "anti-IRC-only framing",
+    "IRC as live real-time core",
+    "CanalBarra.com as web-backed persistence layer",
+    "Xoom manual homepage phase",
+    "proper-domain dynamic web phase",
+    "ColdFusion and Microsoft Access stack",
+    "Lucas_Rio technical role",
+    "cadastros, messages, voting and profile persistence",
+    "rules, operators and event legitimacy",
+    "IRContros and in-person reputation anchoring",
+    "tiered governance with collegial operator meetings",
+    "survival bias acknowledgment",
+    "methodological limits of founder memory",
+    "privacy-first nickname-level evidence policy"
+  ],
+  "summaryForUseInThesis": "BarMan's founder statement supports the repository's anti-IRC-only framing while explicitly limiting overclaims. He describes #barra as the live core, CanalBarra.com as the web-backed persistence and official-information layer, and physical gatherings as belonging and reputation reinforcement. He identifies a manual Xoom phase and a later dynamic CanalBarra.com phase with cadastros, voting and messages, linked to Lucas_Rio's ColdFusion/Microsoft Access implementation. He also states what Canal Barra was not: not a modern Facebook-style feed, not an automated friendship graph, not a replacement for IRC, not an automatic ChanServ controller and not a profitable commercial platform. The statement also acknowledges survival-bias and memory limitations, especially for the pre-2001 period.",
+  "methodologicalNote": "This record is a sanitized public metadata extraction from a private Google Forms CSV. The founder email and raw CSV are not published. This record must be used as founder_statement only, not as independent external evidence. Claims requiring archival, dataset or participant confirmation are explicitly marked as pending. The alleged second-half-2003 founder withdrawal is not confirmed in this form and should not be cited from this record.",
+  "recordStatus": "public_sanitized_founder_statement",
+  "documentGeneration": {
+    "includeInPublicManifest": true,
+    "language": "en",
+    "sectionTitle": "BarMan Founder Statement",
+    "documentOrder": 40
+  }
+}
