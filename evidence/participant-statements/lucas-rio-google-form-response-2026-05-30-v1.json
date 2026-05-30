@@ -1,0 +1,221 @@
+{
+  "id": "lucas-rio-google-form-response-2026-05-30-v1",
+  "type": "technical_participant_statement",
+  "version": 1,
+  "project": "Canal Barra Historical Evidence Registry",
+  "participantPublicName": "Lucas Nercessian",
+  "participantNickname": "Lucas_Rio",
+  "collectionMethod": "google_form",
+  "collectionTimestamp": "2026-05-30T16:43:54+01:00",
+  "language": "pt-BR",
+  "privacyTier": "public_name_allowed_email_private",
+  "civilIdentityLinked": true,
+  "sensitiveDataIncluded": false,
+  "emailPublished": false,
+  "rawCsvPublished": false,
+  "rawCsvHeldOffRepository": true,
+  "rawCsvContainsConfidentialEmail": true,
+  "rawCsvSha256": "617367919c6db8d2d14e050fcd844c4a53089c39a1c4944aeab124464372fb88",
+  "consent": {
+    "participantAuthorizedUse": true,
+    "consentTextSummary": "Participant authorized use of answers as technical/historical testimony about CanalBarra.com, without publication of email or private data.",
+    "privateContactPublished": false
+  },
+  "coreConfirmedClaims": [
+    {
+      "claim": "Lucas Nercessian remembers being with Raphael/BarMan when they entered Canal #Barra, found it without owner/operator, and Raphael/BarMan registered it on BRASnet.",
+      "response": "Sim",
+      "evidenceStatus": "participant_statement",
+      "theme": "founding_context"
+    },
+    {
+      "claim": "Canal Barra began with a manual homepage, updated by Raphael/BarMan with pages and photos, and later evolved under the CanalBarra.com domain into a dynamic site with database, user registration and login/modify-cadastro area.",
+      "response": "Sim",
+      "evidenceStatus": "technical_participant_statement",
+      "theme": "web_layer_evolution"
+    },
+    {
+      "claim": "Lucas installed or configured the technical environment that enabled CanalBarra.com to operate dynamically, including ColdFusion and Microsoft Access.",
+      "response": "Sim",
+      "evidenceStatus": "technical_participant_statement",
+      "theme": "dynamic_web_stack"
+    },
+    {
+      "claim": "Before the dynamic phase, the site was mainly a manual homepage updated by Raphael/BarMan; later it gained dynamic functions due to the technical structure installed/configured by Lucas.",
+      "response": "Sim",
+      "evidenceStatus": "technical_participant_statement",
+      "theme": "manual_to_dynamic_transition"
+    },
+    {
+      "claim": "Work/development experience in Los Angeles helped Lucas and Raphael/BarMan learn or consolidate technologies such as ColdFusion and Microsoft Access, later used in the evolution of CanalBarra.com.",
+      "response": "Sim",
+      "evidenceStatus": "technical_participant_statement",
+      "theme": "los_angeles_technical_origin"
+    },
+    {
+      "claim": "After ColdFusion and Microsoft Access installation/configuration, CanalBarra.com supported user registration with photos and descriptions, serving as a people-connection tool.",
+      "responseSummary": "Cadastro de usuários com fotos e descritivo de cada um; ferramenta para conexão de pessoas; prévia do que foi Orkut e Facebook.",
+      "evidenceStatus": "technical_participant_statement",
+      "theme": "profile_like_web_persistence"
+    },
+    {
+      "claim": "The dynamic phase of CanalBarra.com allowed user/nickname registration through the website itself.",
+      "response": "Sim",
+      "evidenceStatus": "technical_participant_statement",
+      "theme": "cadastro"
+    },
+    {
+      "claim": "CanalBarra.com had a login or modify-cadastro area allowing users to alter their own data.",
+      "response": "Sim",
+      "evidenceStatus": "technical_participant_statement",
+      "theme": "login_modify_cadastro"
+    },
+    {
+      "claim": "Users could edit biography, personal description or profile information on the site.",
+      "response": "Sim",
+      "evidenceStatus": "technical_participant_statement",
+      "theme": "profile_biography"
+    },
+    {
+      "claim": "Users could add, change or associate photos with their cadastro/profile on CanalBarra.com.",
+      "response": "Sim",
+      "evidenceStatus": "technical_participant_statement",
+      "theme": "profile_photos"
+    },
+    {
+      "claim": "CanalBarra.com had a page or area with Canal #barra rules.",
+      "response": "Sim",
+      "evidenceStatus": "technical_participant_statement",
+      "theme": "rules_page"
+    },
+    {
+      "claim": "CanalBarra.com published events, parties, IRContros, meeting photos or social records linked to Canal #barra.",
+      "response": "Sim",
+      "evidenceStatus": "technical_participant_statement",
+      "theme": "event_memory"
+    },
+    {
+      "claim": "CanalBarra.com functioned as a web layer linked to the channel, rather than replacing IRC as the center of daily interaction.",
+      "response": "Funcionava como camada web ligada ao canal",
+      "evidenceStatus": "technical_participant_statement",
+      "theme": "iwp_model"
+    },
+    {
+      "claim": "Lucas describes Canal Barra not as merely an IRC channel, but as an ecosystem formed by IRC, website, registrations, photos, events, reputation and gatherings.",
+      "response": "Ecossistema IRC + site + cadastros + fotos + eventos + reputação + encontros",
+      "evidenceStatus": "technical_participant_statement",
+      "theme": "anti_irc_only"
+    },
+    {
+      "claim": "CanalBarra.com made relationships more personal through photos and meetings, doing something IRC alone did not do.",
+      "response": "Deixava a relação mais pessoal, com fotos e encontros.",
+      "evidenceStatus": "technical_participant_statement",
+      "theme": "web_backed_socialization"
+    },
+    {
+      "claim": "CanalBarra.com materialized what were otherwise only IRC nicknames.",
+      "response": "Materializava o que eram apenas nicknames",
+      "evidenceStatus": "technical_participant_statement",
+      "theme": "nickname_to_profile_materialization"
+    },
+    {
+      "claim": "Lucas describes the main function of CanalBarra.com inside the Canal #barra ecosystem as social interaction.",
+      "response": "Interação social",
+      "evidenceStatus": "technical_participant_statement",
+      "theme": "social_function"
+    }
+  ],
+  "negativeOrLimitingClaims": [
+    {
+      "claim": "It would be exaggerated to say that CanalBarra.com made money.",
+      "response": "Que ele dava dinheiro. Porque não dava.",
+      "evidenceStatus": "technical_participant_statement",
+      "methodologicalValue": "prevents monetization overclaiming"
+    }
+  ],
+  "notRememberedOrNotCorroboratedByThisStatement": [
+    {
+      "topic": "site-based messages/contact/interaction between registered users",
+      "response": "Não lembro",
+      "handling": "do_not_use_lucas_statement_as_confirmation"
+    },
+    {
+      "topic": "public operators page",
+      "response": "Não lembro",
+      "handling": "use Wayback/archive evidence if available; do not use this statement as confirmation"
+    },
+    {
+      "topic": "operator page representing status but not granting IRC @",
+      "response": "Não lembro",
+      "handling": "do_not_use_lucas_statement_as_confirmation"
+    },
+    {
+      "topic": "votings/rankings/highlights of profiles",
+      "response": "Não lembro",
+      "handling": "do_not_use_lucas_statement_as confirmation"
+    },
+    {
+      "topic": "guest_hp webchat access to BRASnet versus separate chat",
+      "response": "Não lembro",
+      "handling": "do_not_use_lucas_statement_as_confirmation"
+    },
+    {
+      "topic": "guest_hp as visitor entry point before mIRC/nick registration",
+      "response": "Não lembro",
+      "handling": "do_not_use_lucas_statement_as_confirmation"
+    },
+    {
+      "topic": "database automatically modifying ChanServ or BRASnet access list",
+      "response": "Não lembro",
+      "handling": "do_not_use_lucas_statement_as_confirmation"
+    },
+    {
+      "topic": "login/modify-cadastro not controlling IRC presence automatically",
+      "response": "Não lembro",
+      "handling": "do_not_use_lucas_statement_as_confirmation"
+    },
+    {
+      "topic": "civil-document identity validation in cadastro",
+      "response": "Não lembro",
+      "handling": "do_not_use_lucas_statement_as_confirmation"
+    },
+    {
+      "topic": "whether all social life depended exclusively on official IRContros",
+      "response": "Não lembro",
+      "handling": "do_not_use_lucas_statement_as_confirmation"
+    }
+  ],
+  "ambiguousOrNeedsTechnicalClarification": [
+    {
+      "topic": "timeline_feed_like_feature",
+      "question": "O CanalBarra.com tinha algo parecido com Timeline/Feed do Facebook, em que usuários logados publicavam atualizações contínuas numa área restrita?",
+      "response": "Sim",
+      "interpretation": "This answer should not be used yet to claim a modern Facebook-style timeline/feed. The wording was anachronistic and may have been interpreted broadly as profile-like personal pages, descriptions, photos or interaction. Requires technical clarification before being modeled as a timeline/feed feature.",
+      "handling": "requires_followup_or_archival_confirmation_before_strong_claim"
+    }
+  ],
+  "supportedRepositoryThemes": [
+    "Canal Barra as IWP proto-social network",
+    "web-backed persistence layer",
+    "manual Xoom/homepage phase versus dynamic CanalBarra.com phase",
+    "ColdFusion and Microsoft Access dynamic web stack",
+    "Los Angeles technical origin of web stack expertise",
+    "user/nickname cadastro",
+    "login/modificar cadastro",
+    "profile/biography editing",
+    "profile photos",
+    "rules page",
+    "events, IRContros and social-memory publication",
+    "nickname-to-profile materialization",
+    "anti-IRC-only characterization"
+  ],
+  "summaryForUseInThesis": "Lucas Nercessian confirms that Canal Barra should not be reduced to IRC-only. According to his technical participant statement, Canal Barra evolved from a manual homepage updated by Raphael/BarMan into CanalBarra.com, a dynamic ColdFusion/Microsoft Access website whose environment he installed or configured. The dynamic site supported user/nickname cadastro, login/modify-cadastro, profile/biography information and photos, and published rules, events, IRContros and social records. Lucas characterizes Canal Barra as an ecosystem of IRC, site, cadastros, photos, events, reputation and gatherings, and states that CanalBarra.com materialized what were otherwise only nicknames.",
+  "methodologicalNote": "This record is a sanitized public metadata extraction from a private Google Forms CSV. The participant email and raw CSV are not published. Answers marked as 'Não lembro' are explicitly not used as corroboration. The timeline/feed-like answer is preserved as an ambiguity requiring technical clarification and should not be overclaimed.",
+  "recordStatus": "public_sanitized_technical_participant_statement",
+  "documentGeneration": {
+    "includeInPublicManifest": true,
+    "language": "en",
+    "sectionTitle": "Lucas_Rio Technical Participant Statement",
+    "documentOrder": 50
+  }
+}
