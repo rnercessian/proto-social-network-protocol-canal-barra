@@ -1,0 +1,80 @@
+{
+  "id": "nickname-status-message-ride-request-uff-annex-002-v1",
+  "type": "social_dynamics_evidence_record",
+  "version": 1,
+  "project": "Canal Barra Historical Evidence Registry",
+  "evidenceCategory": "presence_status_and_public_need_broadcast",
+  "sourceContext": {
+    "sourceType": "university_study_annex_log_excerpt",
+    "institution": "Universidade Federal Fluminense",
+    "documentYear": 2004,
+    "sourceLabel": "UFF 2004 material, Annex 2 / IRC log excerpt",
+    "exactLocationStatus": "pending_full_page_or_annex_indexing",
+    "sourceIndependence": "external_academic_source"
+  },
+  "logExcerpt": {
+    "timestamp": "18:46",
+    "eventType": "nickname_change",
+    "oldNickname": "SpIcE`GiRL",
+    "newNickname": "kem`ker`Mi`dar`CaroNa",
+    "verbatimLine": "[18:46] *** SpIcE`GiRL agora é kem`ker`Mi`dar`CaroNa",
+    "language": "pt-BR",
+    "translationNote": "The new nickname roughly means 'who wants to give me a ride'."
+  },
+  "indexedNicknames": [
+    "SpIcE`GiRL",
+    "kem`ker`Mi`dar`CaroNa"
+  ],
+  "claimsSupported": [
+    {
+      "claim": "A nickname change could function as a public status message inside the live IRC channel.",
+      "status": "supported_by_external_academic_log_excerpt_pending_exact_annex_indexing"
+    },
+    {
+      "claim": "The channel audience could be treated as socially useful enough for a participant to broadcast a momentary practical need through the nickname itself.",
+      "status": "interpretive_claim_supported_by_log_excerpt"
+    },
+    {
+      "claim": "Canal #barra operated as a persistent virtual home/community arena, where presence and trust made practical requests visible to a known audience.",
+      "status": "interpretive_claim_supported_by_log_excerpt_and_context_pending_full_indexing"
+    },
+    {
+      "claim": "Nickname-level identity in IRC was fluid enough to communicate mood, need, request or social positioning in real time.",
+      "status": "supported_by_log_event_type_nickname_change"
+    }
+  ],
+  "analyticalReading": {
+    "shortLabel": "nickname as public request/status message",
+    "description": "This log line shows a participant changing nickname from a stable identity marker to a temporary public request for a ride. The value of the excerpt lies in showing how IRC nicknames could operate not only as identifiers but also as live status messages addressed to the channel audience.",
+    "presenceModelRelevance": "The excerpt supports the IRC-Web-Presence model by showing the channel as a live public arena where immediate practical needs could be broadcast through presence itself.",
+    "communityTrustRelevance": "The request implies more than raw audience size. It suggests a persistent community field where the participant expected enough visibility, familiarity or trust for a practical request to make sense inside the channel.",
+    "virtualHomeRelevance": "The nickname change supports analysis of Canal #barra as a recurring virtual home: a place where temporary needs, humor, status, identity and social utility could be displayed to a known public.",
+    "notAUniversalClaim": true
+  },
+  "privacy": {
+    "privacyTier": "nickname_level_only",
+    "civilIdentityLinked": false,
+    "sensitiveDataIncluded": false,
+    "doNotInferCivilIdentity": true,
+    "publicRawPrivateIdentifiersIncluded": false
+  },
+  "limitations": [
+    "The exact annex/page location still needs full indexing.",
+    "This single excerpt should not be generalized to all nickname changes in Canal #barra.",
+    "The excerpt does not prove that the request was fulfilled.",
+    "The excerpt does not by itself prove the size of the audience; it supports the interpretation that the participant treated the channel as socially useful and visible."
+  ],
+  "methodologyAlignment": {
+    "evidenceLevel": "external_academic_log_excerpt_pending_exact_indexing",
+    "doesNotUpgradeInterpretationToFact": true,
+    "preservesVerbatimSourceLine": true,
+    "separatesEvidenceFromAnalysis": true,
+    "supportsIwpPresenceLayer": true
+  },
+  "documentGeneration": {
+    "includeInPublicManifest": true,
+    "language": "en",
+    "sectionTitle": "Nickname as Public Status Message",
+    "documentOrder": 71
+  }
+}
