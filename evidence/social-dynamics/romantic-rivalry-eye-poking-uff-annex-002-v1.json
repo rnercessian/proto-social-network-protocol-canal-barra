@@ -1,7 +1,7 @@
 {
   "id": "romantic-rivalry-eye-poking-uff-annex-002-v1",
   "type": "social_dynamics_evidence_record",
-  "version": 3,
+  "version": 4,
   "project": "Canal Barra Historical Evidence Registry",
   "evidenceCategory": "presence_status_and_romantic_rivalry_regulation",
   "sourceContext": {
@@ -51,6 +51,12 @@
       "literalTranslation": "to take a stump/block",
       "contextualMeaning": "Brazilian colloquial expression meaning to be rejected, turned down or refused by someone in a romantic or sexual approach; roughly 'to get rejected' or 'to be shot down'.",
       "archiveUse": "The phrase is interpreted as a public rebuttal in which Pedrinho{RJ} challenges the accusation by claiming he was never rejected by a woman associated with GV."
+    },
+    {
+      "term": "pegar cocô",
+      "literalTranslation": "to pick up/take feces",
+      "contextualMeaning": "Very coarse Brazilian slang in this context implying that the speaker claims to be involved with unattractive or low-status women. It is self-deprecating and misogynistic language, preserved here only to document the social logic of the exchange.",
+      "archiveUse": "The phrase helps frame GV's accusation: even if he presents his own romantic targets as low-status, he still accuses Pedrinho{RJ} of trying to interfere with them."
     }
   ],
   "indexedNicknames": [
@@ -71,6 +77,10 @@
       "status": "interpretive_claim_supported_by_log_exchange"
     },
     {
+      "claim": "The exchange can be read as a bundled rivalry performance: an accusation that one male participant repeatedly interferes with another's romantic field, followed by a counterclaim about rejection and desirability.",
+      "status": "interpretive_claim_supported_by_log_exchange"
+    },
+    {
       "claim": "The channel functioned as an arena where desire, loyalty, rivalry, rejection and male social codes could become public speech acts.",
       "status": "interpretive_claim_supported_by_log_exchange"
     },
@@ -84,10 +94,11 @@
     }
   ],
   "analyticalReading": {
-    "shortLabel": "public romantic rivalry and rapid rebuttal",
-    "description": "This exchange illustrates a public complaint about a participant allegedly pursuing or interfering with another participant's romantic interest, followed by a provocative rebuttal in the same timestamped minute. The value of the exchange lies in showing that Canal #barra was not only a conversation space: it was an audience-mediated social field where desire, jealousy, rejection, male loyalty, rivalry and informal romantic boundaries could be publicly performed, challenged and mocked in real time.",
+    "shortLabel": "public romantic rivalry, bundled desirability and rapid rebuttal",
+    "description": "This exchange illustrates a public complaint about a participant allegedly pursuing or interfering with another participant's romantic field, followed by a provocative rebuttal in the same timestamped minute. The value of the exchange lies in showing that Canal #barra was not only a conversation space: it was an audience-mediated social field where desire, jealousy, rejection, male loyalty, rivalry and informal romantic boundaries could be publicly performed, challenged and mocked in real time.",
     "presenceModelRelevance": "The excerpt supports the IRC-Web-Presence model by showing romantic rivalry being negotiated live through accusation and rebuttal before the channel audience, with same-minute response dynamics.",
     "socialCodeRelevance": "The slang 'furar meu olho' points to a known Brazilian social code: a friend or acquaintance is expected not to undermine another person's romantic pursuit. The response using 'tomar toco' turns romantic rejection into a counterattack, making masculine status and desirability part of the public dispute.",
+    "bundledRivalryRelevance": "The exchange can be read as a crude 'who gets one gets two' dynamic: the accusation suggests that pursuing a woman associated with one male participant also pulls the other male participant into a public rivalry field. GV's coarse self-deprecating line lowers the status of his own romantic targets while still accusing Pedrinho{RJ} of interfering with them; Pedrinho{RJ}'s rebuttal then shifts the frame to rejection and desirability.",
     "climateRelevance": "The exchange helps document a 'pega-pega' climate: romantic pursuit, rivalry, accusation, rejection, provocation and status defense were not only private events but could become rapid public channel performances.",
     "personalRelevanceNote": "The archive curator reports having personally experienced similar dynamics in the Canal #barra social field; that personal memory should be treated separately as founder testimony, not as independent proof of this specific log event.",
     "notAUniversalClaim": true
@@ -105,6 +116,7 @@
     "The excerpt does not identify the third party or prove the underlying romantic facts.",
     "The record documents a public accusation and rebuttal, not an independently verified account of what either participant did.",
     "Same-minute timestamps support rapid public response but do not establish exact second-level latency.",
+    "The phrase 'pego cocô' is preserved as evidence of crude social language and misogynistic status framing, not endorsed by the archive.",
     "The curator's personal experience of similar dynamics is contextual testimony and should not be merged with the log excerpt as direct evidence."
   ],
   "methodologyAlignment": {
