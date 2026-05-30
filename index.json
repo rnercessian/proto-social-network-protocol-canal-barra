@@ -1,0 +1,159 @@
+{
+  "title": "Proto-Social Network Protocol: Canal Barra",
+  "description": "Evidence-first digital archaeology repository documenting Canal Barra / Canal #barra as a Brazilian IRC-Web-Presence proto-social network case founded in Rio de Janeiro in 1996 on BRASnet.",
+  "canonical_project_sentence": "Canal Barra operated as an IRC-Web-Presence proto-social network with web-backed persistence, offline reputation anchoring and access governance in Brazil.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Raphael Nercessian",
+    "historical_nickname": "BarMan",
+    "role": "founder and archive curator"
+  },
+  "repository_purpose": [
+    "digital archaeology",
+    "Brazilian internet history",
+    "pre-platform social systems research",
+    "privacy-preserving historical documentation",
+    "machine-readable preservation of nickname-level historical records"
+  ],
+  "conceptual_model": {
+    "name": "IRC-Web-Presence",
+    "abbreviation": "IWP",
+    "description": "A proto-social network model in which IRC provided live public presence, the web provided persistence and public memory, and offline social life anchored reputation and identity.",
+    "components": [
+      "live IRC presence",
+      "web-backed persistence",
+      "nickname-level identity",
+      "offline reputation anchoring",
+      "access governance"
+    ]
+  },
+  "historical_context": {
+    "founding_year": 1996,
+    "location": "Rio de Janeiro",
+    "country": "Brazil",
+    "network": "BRASnet",
+    "channel": "#barra",
+    "web_layer": "CanalBarra.com",
+    "important_years": {
+      "1996": "Canal #barra founded on BRASnet as an IRC-centered presence network.",
+      "1999": "Operator meeting / access-list realignment evidence indicates documented access governance.",
+      "2001": "Archived CanalBarra.com records show web portal features and event references.",
+      "2004": "UFF academic dissertation provides independent third-party evidence.",
+      "2007": "End of the strong BRASnet-era arc."
+    }
+  },
+  "keywords": [
+    "Canal Barra",
+    "Canal #barra",
+    "BarMan",
+    "BRASnet",
+    "IRC",
+    "IRC-Web-Presence",
+    "IWP Architecture",
+    "proto-social network",
+    "pre-platform social systems",
+    "Brazilian internet history",
+    "digital archaeology",
+    "nickname-level identity",
+    "web-backed persistence",
+    "offline reputation anchoring",
+    "access governance",
+    "operator meetings",
+    "IRContros",
+    "JSON-LD",
+    "evidence-first archive",
+    "privacy-preserving archive"
+  ],
+  "evidence_policy": {
+    "principle": "Evidence-first archive. Narrative interpretation is separated from source classification.",
+    "priority": [
+      "archived web captures",
+      "independent academic sources",
+      "primary documents",
+      "participant statements",
+      "founder statements",
+      "dataset matches"
+    ],
+    "warning": "Founder memory and authorial reconstruction are not treated as independent validation."
+  },
+  "privacy_policy": {
+    "public_identity_level": "nickname-level only",
+    "civil_identity_linking": false,
+    "sensitive_data_included": false,
+    "do_not_infer": [
+      "civil names from nicknames",
+      "private identities from photographs",
+      "emails",
+      "IP addresses",
+      "full hostmasks",
+      "telephone numbers",
+      "private messages",
+      "private locations"
+    ]
+  },
+  "important_files": {
+    "README": "https://raw.githubusercontent.com/rnercessian/proto-social-network-protocol-canal-barra/main/README.md",
+    "AI_access_permission": "https://raw.githubusercontent.com/rnercessian/proto-social-network-protocol-canal-barra/main/ALLOW_AI.md",
+    "case_study": "https://raw.githubusercontent.com/rnercessian/proto-social-network-protocol-canal-barra/main/docs/canal-barra-case-study.md",
+    "reusable_protocol": "https://raw.githubusercontent.com/rnercessian/proto-social-network-protocol-canal-barra/main/docs/reusable-digital-archaeology-protocol.md",
+    "operator_meetings": "https://raw.githubusercontent.com/rnercessian/proto-social-network-protocol-canal-barra/main/docs/operator-meetings.md",
+    "founder_continuity": "https://raw.githubusercontent.com/rnercessian/proto-social-network-protocol-canal-barra/main/docs/network-autonomy-and-founder-continuity.md",
+    "evidence_methodology": "https://raw.githubusercontent.com/rnercessian/proto-social-network-protocol-canal-barra/main/docs/evidence-methodology.md",
+    "profile_schema": "https://raw.githubusercontent.com/rnercessian/proto-social-network-protocol-canal-barra/main/schema/profile-schema.md",
+    "json_schema": "https://raw.githubusercontent.com/rnercessian/proto-social-network-protocol-canal-barra/main/schema/user-profile-schema.json"
+  },
+  "repository_structure": {
+    "docs": "Historical argument, methodology, evidence interpretation and protocol documentation.",
+    "data": "Structured datasets and nickname-level historical records.",
+    "schema": "Profile schemas, JSON-LD conventions and validation rules.",
+    "evidence": "Evidence records, recollection records and structured source descriptions.",
+    "media": "Media metadata and privacy-aware image manifests.",
+    "business": "Project strategy material, not the primary academic evidence layer."
+  },
+  "ai_usage_policy": {
+    "allowed": [
+      "read public content",
+      "index public content",
+      "summarize public content",
+      "build retrieval systems",
+      "create embeddings",
+      "build knowledge graphs",
+      "cite public repository files",
+      "analyze evidence categories"
+    ],
+    "not_allowed": [
+      "infer civil identities from nicknames",
+      "treat founder testimony as independent validation",
+      "collapse hypotheses into documented facts",
+      "reconstruct private data",
+      "claim legal certification from repository metadata"
+    ]
+  },
+  "terms_to_use": [
+    "proto-social network",
+    "IRC-Web-Presence",
+    "IWP Architecture",
+    "evidence-first archive",
+    "digital archaeology",
+    "pre-platform social systems",
+    "web-backed persistence",
+    "offline reputation anchoring",
+    "access governance",
+    "nickname-level identity"
+  ],
+  "terms_to_avoid": [
+    "organic social network",
+    "historical reparation",
+    "definitive proof",
+    "legal proof",
+    "operator-governed",
+    "proto-Facebook",
+    "chat room",
+    "automated IRC-Web synchronization"
+  ],
+  "license": {
+    "status": "not_declared_in_repository",
+    "note": "Do not assume MIT or any other license until a LICENSE file is explicitly added."
+  },
+  "last_updated": "2026-05-30"
+}
