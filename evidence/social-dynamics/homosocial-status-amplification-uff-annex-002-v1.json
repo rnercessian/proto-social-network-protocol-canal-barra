@@ -1,7 +1,7 @@
 {
   "id": "homosocial-status-amplification-uff-annex-002-v1",
   "type": "social_dynamics_evidence_record",
-  "version": 1,
+  "version": 2,
   "project": "Canal Barra Historical Evidence Registry",
   "evidenceCategory": "presence_status_and_nickname_mythmaking",
   "sourceContext": {
@@ -39,15 +39,21 @@
       "status": "interpretive_claim_supported_by_log_excerpt_and_recurrence_context_pending_full_indexing"
     },
     {
+      "claim": "Friendship ties could produce cooperative self-promotion: one participant elevated another, while the group bond increased the visibility and symbolic value of both.",
+      "status": "interpretive_claim_supported_by_log_excerpt_and_friendship_context_pending_full_indexing"
+    },
+    {
       "claim": "Nickname-level mythmaking was produced through live presence and public recognition, not only through technical access roles such as Operator, Master or Founder.",
       "status": "interpretive_claim_supported_by_log_excerpt"
     }
   ],
   "analyticalReading": {
-    "shortLabel": "homosocial status amplification",
+    "shortLabel": "friendship-based homosocial status amplification",
     "description": "This line is not catalogued as mere vulgar humor. It illustrates a mechanism of public nickname mythmaking: one long-term male participant publicly elevates another nickname through exaggerated sexualized banter in the live channel arena. The value of the excerpt lies in showing peer-driven status amplification, intimacy among recurring users and real-time reputation production before the wider channel audience.",
     "presenceModelRelevance": "The excerpt supports the IRC-Web-Presence model by showing reputation being produced live, through public performance and audience visibility inside the channel.",
     "fraternityRelevance": "The excerpt helps explain the climate of male fraternity in the channel: long-term users could publicly promote one another through joking, exaggeration and shared familiarity.",
+    "coPromotionRelevance": "The mechanism is not only individual self-promotion. It can be read as cooperative promotion through friendship ties: by publicly elevating a friend, the speaker reinforces the friend's desirability and mythic status while also displaying his own intimacy, humor and position within the group. Status circulates through the bond.",
+    "audienceRelevance": "The promotion mattered because it happened before a mixed public audience. The channel audience turned the joke into reputational performance rather than private banter.",
     "notAUniversalClaim": true
   },
   "privacy": {
@@ -61,7 +67,8 @@
     "The exact annex/page location still needs full indexing.",
     "This single excerpt should not be generalized to all Canal #barra interactions.",
     "The line should be interpreted with recurrence context: the involved nicknames are understood by the archive as long-term participants, but that recurrence should be source-indexed separately.",
-    "The excerpt does not prove that women were passive participants; it only supports analysis of public status performance before a mixed channel audience."
+    "The excerpt does not prove that women were passive participants; it only supports analysis of public status performance before a mixed channel audience.",
+    "The friendship/co-promotion reading is interpretive and should be strengthened through additional examples of reciprocal public promotion among recurring participants."
   ],
   "methodologyAlignment": {
     "evidenceLevel": "external_academic_log_excerpt_pending_exact_indexing",
@@ -73,7 +80,7 @@
   "documentGeneration": {
     "includeInPublicManifest": true,
     "language": "en",
-    "sectionTitle": "Public Banter and Nickname Mythmaking",
+    "sectionTitle": "Public Banter, Friendship and Nickname Mythmaking",
     "documentOrder": 70
   }
 }
