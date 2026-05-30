@@ -1,0 +1,116 @@
+{
+  "id": "waterhand-google-form-response-2026-05-29-v1",
+  "type": "participant_statement",
+  "version": 1,
+  "project": "Canal Barra Historical Evidence Registry",
+  "participantNickname": "WaterHand",
+  "collectionMethod": "google_form",
+  "collectionTimestamp": "2026-05-29T21:08:13+01:00",
+  "language": "pt-BR",
+  "privacyTier": "nickname_level_only",
+  "civilIdentityLinked": false,
+  "sensitiveDataIncluded": false,
+  "emailPublished": false,
+  "rawCsvPublished": false,
+  "rawCsvHeldOffRepository": true,
+  "rawCsvContainsConfidentialEmail": true,
+  "rawCsvSha256HeldOffRepository": true,
+  "consent": {
+    "participantAuthorizedNicknameOnlyPublicUse": true,
+    "consentTextSummary": "Participant authorized inclusion of anonymized/pseudonymized data using only the historical nickname.",
+    "privateContactPublished": false
+  },
+  "claims": [
+    {
+      "claim": "WaterHand confirms that he was known as WaterHand in the IRC/BRASnet and Canal #barra context.",
+      "response": "Sim",
+      "evidenceStatus": "participant_statement"
+    },
+    {
+      "claim": "WaterHand confirms that Canal #barra involved real people, persistent nicknames, reputation, in-person gatherings and social life outside the screen.",
+      "response": "Sim",
+      "evidenceStatus": "participant_statement"
+    },
+    {
+      "claim": "WaterHand remembers luaus or in-person gatherings connected to Canal #barra with more than 30 people.",
+      "response": "Sim",
+      "evidenceStatus": "participant_statement"
+    },
+    {
+      "claim": "WaterHand confirms appearing in the Canal #barra luau photograph in a beach chair and wearing sunglasses.",
+      "response": "Sim",
+      "evidenceStatus": "participant_statement",
+      "privacyNote": "This record confirms nickname-level self-recognition only. It does not publish civil identity or unrestricted face-identification data."
+    },
+    {
+      "claim": "WaterHand confirms that the image records a luau or in-person gathering connected to Canal #barra.",
+      "response": "Sim",
+      "evidenceStatus": "participant_statement"
+    },
+    {
+      "claim": "WaterHand confirms that drummer Arruda connected to BarMan's musical circle through WaterHand's relationship with him.",
+      "response": "Sim",
+      "evidenceStatus": "participant_statement"
+    },
+    {
+      "claim": "WaterHand confirms that, in or around 1997, he taught or helped Raphael/BarMan learn HTML.",
+      "response": "Sim",
+      "evidenceStatus": "participant_statement"
+    },
+    {
+      "claim": "WaterHand confirms that this technical relationship contributed to the webmaster culture or early web layer connected to Canal Barra.",
+      "response": "Sim",
+      "evidenceStatus": "participant_statement"
+    },
+    {
+      "claim": "WaterHand does not confirm participation in OP meetings referenced by the archive.",
+      "response": "Não lembro / Não tenho certeza",
+      "evidenceStatus": "participant_statement",
+      "interpretation": "does_not_corroborate_operator_meeting_attendance",
+      "useInThesis": "Do not use this answer to validate the June 1999 OP meeting or the 15 September 2001 OP meeting reference."
+    },
+    {
+      "claim": "WaterHand confirms being present and confirming memories related to the Canal Barra 5th anniversary party at Ilha dos Pescadores.",
+      "response": "Sim",
+      "evidenceStatus": "participant_statement"
+    },
+    {
+      "claim": "WaterHand confirms that, in or around 1997, he and Raphael/BarMan had a technical/work/internship-related experience together at the Instituto de Economia da UFRJ.",
+      "response": "Sim",
+      "evidenceStatus": "participant_statement"
+    }
+  ],
+  "formErrata": {
+    "hasQuestionDateError": true,
+    "affectedQuestionTopic": "OP meeting question",
+    "questionAskedDate": "15 September 2002",
+    "intendedDate": "15 September 2001",
+    "participantResponse": "Não lembro / Não tenho certeza",
+    "impact": "No evidentiary claim is extracted from this answer for OP meeting attendance or OP meeting dating.",
+    "handling": "The raw form is preserved off repository as submitted. The public evidence record documents the date error and excludes this response from OP meeting corroboration."
+  },
+  "supportedRepositoryThemes": [
+    "IWP proto-social network model",
+    "IRC-centered social presence",
+    "in-person reputation anchoring",
+    "luau and IRContro evidence",
+    "early web culture and HTML learning",
+    "Canal Barra web layer formation",
+    "music/cultural network extension",
+    "participant-memory scope discipline"
+  ],
+  "unsupportedOrLimitedThemes": [
+    {
+      "theme": "OP meeting attendance or governance-meeting corroboration",
+      "status": "not_supported_by_this_statement"
+    }
+  ],
+  "methodologicalNote": "This statement is used as participant memory and nickname-level confirmation. It supports WaterHand's personal memory scope regarding Canal #barra social presence, luaus, image self-recognition, early web culture and technical relationships. It does not validate OP meeting records.",
+  "recordStatus": "public_sanitized_participant_statement",
+  "documentGeneration": {
+    "includeInPublicManifest": true,
+    "language": "en",
+    "sectionTitle": "WaterHand Participant Statement",
+    "documentOrder": 60
+  }
+}
