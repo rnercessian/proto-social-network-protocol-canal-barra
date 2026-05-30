@@ -61,6 +61,10 @@ The repository treats 1996 as the founding period of the IRC-centered ecosystem 
 
 A documented operator meeting or access-list realignment in 1999 should not be read as proof that the full governance structure existed unchanged from the first day. It should be read as evidence that the system evolved from a live IRC channel into a larger, access-governed social stack requiring formal operational coordination.
 
+Operator meetings are documented separately in `docs/operator-meetings.md`. They should be interpreted as deliberative access-governance events, not as proof of a rigid corporate hierarchy or deterministic permission workflow.
+
+Access levels defined technical capability; operator meetings negotiated legitimacy.
+
 Event records, meeting minutes, access-list records and photo descriptions should remain date-specific whenever possible.
 
 ## Case-specific components
@@ -91,7 +95,7 @@ Examples:
 - Canal Barra used BRASnet-provided channel services as the technical enforcement layer for socially decided #barra access levels.
 - CanalBarra.com provided web-backed persistence through cadastros, rules, photos, voting and portal access.
 - IRContros connected nickname-level identity to in-person recognition.
-- Tiered access governance structured authority through Founder, Masters and Operators.
+- Tiered access governance structured authority through Founder, Masters and Operators, while operator meetings could challenge, discuss and realign access legitimacy through argumentation and practical community judgment.
 - Cross-layer identity was generally maintained through human-mediated recognition unless a specific automated bridge is documented.
 
 ## Limits
