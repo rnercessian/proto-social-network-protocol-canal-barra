@@ -17,6 +17,18 @@ The historical thesis is that Canal Barra was one of the first — and possibly 
 
 This project does not treat Canal Barra as nostalgia. It treats Canal Barra as a founding case for a broader methodology: preserving, structuring and making searchable the memory of pre-platform digital social systems.
 
+## The 1996 Historiographical Gap
+
+Most platform-centered histories of social networking move from Classmates.com in 1995 to SixDegrees.com in 1997. This repository does not dispute those platform milestones. Instead, it introduces a documented Brazilian 1996 case that belongs to a different architectural lineage: an IRC-Web-Presence proto-social network rather than a centralized profile-graph platform.
+
+The purpose is not to replace the platform chronology, but to add a parallel evidence path for pre-platform social systems in Brazil.
+
+| Year | Platform-centered chronology | Brazilian proto-social evidence path |
+|---:|---|---|
+| 1995 | Classmates.com as an early school-affiliation social networking service | — |
+| 1996 | — | Canal Barra / #barra on BRASnet: IRC-Web-Presence proto-social network case |
+| 1997 | SixDegrees.com as an early centralized profile-graph social networking site | — |
+
 ## Conceptual Model
 
 Canal Barra operated as an **IRC-Web-Presence (IWP) proto-social network**.
