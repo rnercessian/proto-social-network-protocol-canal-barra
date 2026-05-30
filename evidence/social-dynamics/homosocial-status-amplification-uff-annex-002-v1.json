@@ -1,9 +1,9 @@
 {
-  "id": "male-peer-status-amplification-uff-annex-002-v1",
+  "id": "flirtatious-reputation-amplification-uff-annex-002-v1",
   "type": "social_dynamics_evidence_record",
-  "version": 3,
+  "version": 4,
   "project": "Canal Barra Historical Evidence Registry",
-  "evidenceCategory": "presence_status_and_nickname_mythmaking",
+  "evidenceCategory": "presence_status_and_flirtatious_reputation_mythmaking",
   "sourceContext": {
     "sourceType": "university_study_annex_log_excerpt",
     "institution": "Universidade Federal Fluminense",
@@ -18,7 +18,7 @@
       "speakerNickname": "Roooo",
       "targetNickname": "Biano-",
       "verbatimLine": "[00:25] <Roooo> 12,13vc é mto galinha pra minha irmã",
-      "lineFunction": "public_teasing_or_reputation_setup",
+      "lineFunction": "public_teasing_or_flirtatious_reputation_setup",
       "language": "pt-BR",
       "slangNote": "'galinha' is Brazilian slang for a womanizer or someone perceived as excessively flirtatious."
     },
@@ -27,7 +27,7 @@
       "speakerNickname": "VaNZaN",
       "targetNickname": "Biano-",
       "verbatimLine": "[00:25] <VaNZaN> \u0002\u000309,01Biano- é a pica doce do canal",
-      "lineFunction": "public_peer_amplification_or_mythmaking",
+      "lineFunction": "public_amplification_of_flirtatious_reputation",
       "language": "pt-BR",
       "containsExplicitSexualSlang": true,
       "interpretationWarning": "The explicit slang is preserved only as historical evidence of channel social dynamics, not for humorous or sensational use."
@@ -44,20 +44,20 @@
       "status": "supported_by_external_academic_log_excerpt_pending_exact_annex_indexing"
     },
     {
-      "claim": "The Biano- exchange appears as a short public sequence: an initial teasing line frames him as a womanizer, and the following peer amplification line intensifies that reputation into sexualized nickname mythmaking.",
+      "claim": "The Biano- exchange appears as a short public sequence: an initial teasing line frames him as 'galinha' / womanizer, and the following line intensifies that reputation into sexualized nickname mythmaking.",
       "status": "interpretive_claim_supported_by_contextual_exchange"
     },
     {
-      "claim": "Public joking could operate as peer status amplification inside the channel.",
-      "status": "interpretive_claim_supported_by_log_excerpt"
+      "claim": "Public joking could operate as flirtatious reputation amplification inside the channel.",
+      "status": "interpretive_claim_supported_by_contextual_exchange"
     },
     {
-      "claim": "Male participants could promote other male nicknames through humor, exaggeration and sexualized banter before the broader channel audience.",
-      "status": "interpretive_claim_supported_by_log_excerpt_and_recurrence_context_pending_full_indexing"
+      "claim": "Male participants could amplify another male nickname's flirtatious or womanizer reputation through humor, exaggeration and sexualized banter before the broader channel audience.",
+      "status": "interpretive_claim_supported_by_contextual_exchange_and_recurrence_context_pending_full_indexing"
     },
     {
-      "claim": "Friendship ties could produce cooperative self-promotion: one participant elevated another, while the group bond increased the visibility and symbolic value of both.",
-      "status": "interpretive_claim_supported_by_log_excerpt_and_friendship_context_pending_full_indexing"
+      "claim": "Friendship ties could produce cooperative promotion: one participant elevated another, while the group bond increased the visibility and symbolic value of both.",
+      "status": "interpretive_claim_supported_by_contextual_exchange_and_friendship_context_pending_full_indexing"
     },
     {
       "claim": "Nickname-level mythmaking was produced through live presence and public recognition, not only through technical access roles such as Operator, Master or Founder.",
@@ -65,14 +65,14 @@
     }
   ],
   "analyticalReading": {
-    "shortLabel": "friendship-based male peer status amplification",
-    "description": "This sequence is not catalogued as mere vulgar humor. It shows a short public buildup around Biano-: first, Roooo frames him as too much of a womanizer for her sister; then VaNZaN intensifies the frame by publicly elevating him through exaggerated sexualized banter. The value of the excerpt lies in showing peer-driven status amplification, intimacy among recurring users and real-time reputation production before the wider channel audience.",
+    "shortLabel": "flirtatious reputation amplification",
+    "description": "This sequence is not catalogued as mere vulgar humor. It shows a short public buildup around Biano-: first, Roooo frames him as too much of a 'galinha' / womanizer for her sister; then VaNZaN intensifies the frame by publicly elevating him through exaggerated sexualized banter. The value of the excerpt lies in showing how a flirtatious male reputation could be amplified, joked about and mythologized in real time before the wider channel audience.",
     "presenceModelRelevance": "The excerpt supports the IRC-Web-Presence model by showing reputation being produced live, through public performance and audience visibility inside the channel.",
     "fraternityRelevance": "The excerpt helps explain the climate of male fraternity in the channel: long-term users could publicly promote one another through joking, exaggeration and shared familiarity.",
-    "coPromotionRelevance": "The mechanism is not only individual self-promotion. It can be read as cooperative promotion through friendship ties: by publicly elevating a friend, the speaker reinforces the friend's desirability and mythic status while also displaying his own intimacy, humor and position within the group. Status circulates through the bond.",
-    "contextRelevance": "The preceding line matters because it shows that the VaNZaN line was not isolated. It participated in a live pile-on around Biano-'s flirtatious reputation, turning a teasing setup into public mythmaking.",
+    "coPromotionRelevance": "The mechanism is not only individual self-promotion. It can be read as cooperative promotion through friendship ties: by publicly elevating a friend, the speaker reinforces the friend's desirability, flirtatious reputation and mythic status while also displaying his own intimacy, humor and position within the group. Status circulates through the bond.",
+    "contextRelevance": "The preceding line matters because it shows that the VaNZaN line was not isolated. It participated in a live pile-on around Biano-'s 'galinha' reputation, turning a teasing setup into public mythmaking.",
     "audienceRelevance": "The promotion mattered because it happened before a mixed public audience. The channel audience turned the joke into reputational performance rather than private banter.",
-    "terminologyNote": "The archive uses 'male peer status amplification' instead of more specialized academic terms that could be misread outside their technical context.",
+    "terminologyNote": "The preferred analytical term is 'flirtatious reputation amplification' or 'womanizer-reputation mythmaking'. The archive avoids specialized terminology that may be misread outside its academic context.",
     "notAUniversalClaim": true
   },
   "privacy": {
@@ -88,7 +88,7 @@
     "The line should be interpreted with recurrence context: the involved nicknames are understood by the archive as recurring participants, but that recurrence should be source-indexed separately.",
     "The excerpt does not prove that women were passive participants; it only supports analysis of public status performance before a mixed channel audience.",
     "The friendship/co-promotion reading is interpretive and should be strengthened through additional examples of reciprocal public promotion among recurring participants.",
-    "The file path still contains the older term 'homosocial' for continuity of repository history; the preferred terminology inside the record is 'male peer status amplification'."
+    "The file path still contains an older term for continuity of repository history; the preferred terminology inside the record is 'flirtatious reputation amplification'."
   ],
   "methodologyAlignment": {
     "evidenceLevel": "external_academic_log_excerpt_pending_exact_indexing",
@@ -100,7 +100,7 @@
   "documentGeneration": {
     "includeInPublicManifest": true,
     "language": "en",
-    "sectionTitle": "Public Banter, Male Friendship and Nickname Mythmaking",
+    "sectionTitle": "Public Banter, Flirtatious Reputation and Nickname Mythmaking",
     "documentOrder": 70
   }
 }
