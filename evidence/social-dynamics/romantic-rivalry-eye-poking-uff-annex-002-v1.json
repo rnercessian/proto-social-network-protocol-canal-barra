@@ -1,0 +1,87 @@
+{
+  "id": "romantic-rivalry-eye-poking-uff-annex-002-v1",
+  "type": "social_dynamics_evidence_record",
+  "version": 1,
+  "project": "Canal Barra Historical Evidence Registry",
+  "evidenceCategory": "presence_status_and_romantic_rivalry_regulation",
+  "sourceContext": {
+    "sourceType": "university_study_annex_log_excerpt",
+    "institution": "Universidade Federal Fluminense",
+    "documentYear": 2004,
+    "sourceLabel": "UFF 2004 material, Annex 2 / IRC log excerpt",
+    "exactLocationStatus": "pending_full_page_or_annex_indexing",
+    "sourceIndependence": "external_academic_source"
+  },
+  "logExcerpt": {
+    "timestamp": "02:57",
+    "speakerNickname": "GV",
+    "addressedNickname": "Pedrinho{RJ}",
+    "verbatimLine": "[02:57] <GV> pego cocô, mas você cisma em furar meu olho né Pedrinho{RJ} ?",
+    "language": "pt-BR",
+    "containsExplicitSexualSlang": false,
+    "containsColloquialInsultOrSelfDeprecation": true
+  },
+  "slangExplanation": {
+    "term": "furar meu olho",
+    "literalTranslation": "to poke/pierce my eye",
+    "contextualMeaning": "Brazilian colloquial expression meaning to betray, undercut or disrespect someone by pursuing the same romantic/sexual interest, especially someone the speaker is already interested in, seeing, dating or socially associated with.",
+    "archiveUse": "The phrase is interpreted as public complaint about romantic rivalry or mate-poaching behavior within the channel social field."
+  },
+  "indexedNicknames": [
+    "GV",
+    "Pedrinho{RJ}"
+  ],
+  "claimsSupported": [
+    {
+      "claim": "The Canal #barra archive contains university-preserved evidence of public complaint about romantic rivalry inside the channel.",
+      "status": "supported_by_external_academic_log_excerpt_pending_exact_annex_indexing"
+    },
+    {
+      "claim": "Romantic and sexual competition could be publicly negotiated, accused and regulated before the channel audience.",
+      "status": "interpretive_claim_supported_by_log_excerpt"
+    },
+    {
+      "claim": "The channel functioned as an arena where desire, loyalty, rivalry and male social codes could become public speech acts.",
+      "status": "interpretive_claim_supported_by_log_excerpt"
+    },
+    {
+      "claim": "The expression 'furar meu olho' indicates that participants could recognize implied romantic claims or informal boundaries around another participant's romantic interest.",
+      "status": "interpretive_claim_supported_by_slang_context"
+    }
+  ],
+  "analyticalReading": {
+    "shortLabel": "public romantic rivalry regulation",
+    "description": "This line illustrates a public complaint about a participant allegedly pursuing or interfering with another participant's romantic interest. The value of the excerpt lies in showing that Canal #barra was not only a conversation space: it was an audience-mediated social field where desire, jealousy, male loyalty, rivalry and informal romantic boundaries could be publicly performed and challenged.",
+    "presenceModelRelevance": "The excerpt supports the IRC-Web-Presence model by showing romantic rivalry being negotiated live through public speech before the channel audience.",
+    "socialCodeRelevance": "The slang 'furar meu olho' points to a known Brazilian social code: a friend or acquaintance is expected not to undermine another person's romantic pursuit. The public complaint makes that code visible inside the channel.",
+    "personalRelevanceNote": "The archive curator reports having personally experienced similar dynamics in the Canal #barra social field; that personal memory should be treated separately as founder testimony, not as independent proof of this specific log event.",
+    "notAUniversalClaim": true
+  },
+  "privacy": {
+    "privacyTier": "nickname_level_only",
+    "civilIdentityLinked": false,
+    "sensitiveDataIncluded": false,
+    "doNotInferCivilIdentity": true,
+    "publicRawPrivateIdentifiersIncluded": false
+  },
+  "limitations": [
+    "The exact annex/page location still needs full indexing.",
+    "This single excerpt should not be generalized to all romantic interactions in Canal #barra.",
+    "The excerpt does not identify the third party or prove the underlying romantic facts.",
+    "The record documents a public accusation/complaint, not an independently verified account of what Pedrinho{RJ} did.",
+    "The curator's personal experience of similar dynamics is contextual testimony and should not be merged with the log excerpt as direct evidence."
+  ],
+  "methodologyAlignment": {
+    "evidenceLevel": "external_academic_log_excerpt_pending_exact_indexing",
+    "doesNotUpgradeInterpretationToFact": true,
+    "preservesVerbatimSourceLine": true,
+    "separatesEvidenceFromAnalysis": true,
+    "supportsIwpPresenceLayer": true
+  },
+  "documentGeneration": {
+    "includeInPublicManifest": true,
+    "language": "en",
+    "sectionTitle": "Romantic Rivalry and Public Social Regulation",
+    "documentOrder": 73
+  }
+}
