@@ -76,7 +76,7 @@ needs_expansion
 Existing file:
 
 ```text
-docs/PRIMARY-SOURCES.md
+data/processed/indexes/primary-sources.md
 ```
 
 Needs:

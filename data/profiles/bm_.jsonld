@@ -29,8 +29,8 @@
     "reported_channel_operator"
   ],
   "sameAsNicknameInSources": [
-    "docs/uff-2004-index.md",
-    "docs/UFF-2004-NICKNAME-OCCURRENCE-INDEX.md"
+    "evidence/academic-sources/uff-2004-index.md",
+    "data/uff-2004/reported-nickname-occurrence-index.md"
   ],
   "identityBoundary": "BM_ is a separate nickname-level participant and must not be merged with BarMan. No archived Canalbarra.com cadastro profile is currently known for BM_ in this repository.",
   "provenanceRecords": [
@@ -44,7 +44,7 @@
       "reportedOccurrences": 108,
       "extractionMethod": "founder_reported_count_pending_text_audit",
       "verificationStatus": "founder_provided_count_pending_repository_verification",
-      "relatedEvidenceFile": "docs/uff-2004-index.md"
+      "relatedEvidenceFile": "evidence/academic-sources/uff-2004-index.md"
     },
     {
       "@type": "PropertyValue",
@@ -55,7 +55,7 @@
       "extractedClaim": "BM_ is reported as executing operator-level commands in the reproduced Canal Barra logs, including unban/deban behavior. This supports reported_channel_operator status pending exact page or excerpt verification.",
       "extractionMethod": "manual_log_observation_pending_excerpt_mapping",
       "verificationStatus": "pending_repository_verification",
-      "relatedEvidenceFile": "docs/uff-2004-index.md"
+      "relatedEvidenceFile": "evidence/academic-sources/uff-2004-index.md"
     }
   ],
   "historicalRelevance": "BM_ helps document that the UFF-preserved Canal Barra material includes not only nick presence, but also operator-level action inside real-time IRC interaction.",

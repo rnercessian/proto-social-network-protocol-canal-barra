@@ -68,7 +68,7 @@
   "subjectOf": [
     {
       "@type": "ImageObject",
-      "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/docs/IMAGE-MANIFEST-IRCONTRO-PRIVATE-INDOOR-01.md",
+      "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/evidence/photos/ircontros/IMAGE-MANIFEST-IRCONTRO-PRIVATE-INDOOR-01.md",
       "name": "IRContro photo metadata: private indoor group photograph",
       "contentUrl": "media/ircontros/ircontro-private-indoor-01.jpg",
       "description": "Founder-owned historical IRContro group photograph reportedly taken in a private indoor setting associated with Canal Barra participants. The image can be catalogued only with nickname-level and consent-aware safeguards.",
@@ -93,7 +93,7 @@
       "extractedClaim": "Nickname-level profile associated with BarMan appears in an archived Canal Barra cadastro page.",
       "extractionMethod": "manual_archive_review",
       "verificationStatus": "verified_source_url_pending_local_hash",
-      "relatedEvidenceFile": "docs/ARCHIVED-PROFILE-BARMAN-USERID-25-2001.md"
+      "relatedEvidenceFile": "evidence/archived-profiles/ARCHIVED-PROFILE-BARMAN-USERID-25-2001.md"
     },
     {
       "@type": "PropertyValue",
@@ -104,7 +104,7 @@
       "extractedClaim": "BarMan is mapped to governance/access-list evidence in the Canal Barra archive.",
       "extractionMethod": "manual_dataset_mapping",
       "verificationStatus": "repository_dataset_present_pending_source_hash",
-      "relatedEvidenceFile": "docs/PRIMARY-SOURCES.md"
+      "relatedEvidenceFile": "data/processed/indexes/primary-sources.md"
     },
     {
       "@type": "PropertyValue",
@@ -115,7 +115,7 @@
       "extractedClaim": "BarMan is identified as the original founder and recurring IRContro host; scale and private indoor context remain founder-memory unless independently corroborated.",
       "extractionMethod": "manual_founder_deposition",
       "verificationStatus": "pending_external_corroboration",
-      "relatedEvidenceFile": "docs/IMAGE-MANIFEST-IRCONTRO-PRIVATE-INDOOR-01.md"
+      "relatedEvidenceFile": "evidence/photos/ircontros/IMAGE-MANIFEST-IRCONTRO-PRIVATE-INDOOR-01.md"
     }
   ],
   "evidenceStatus": "dataset_match",

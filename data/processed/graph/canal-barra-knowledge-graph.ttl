@@ -168,18 +168,18 @@ cb:WebsiteSocialLayer
 
 cb:HomepageSocialPortal2002
     a schema:DigitalDocument ;
-    schema:name "docs/HOMEPAGE-AS-SOCIAL-PORTAL-2002.md" ;
-    schema:url "docs/HOMEPAGE-AS-SOCIAL-PORTAL-2002.md" .
+    schema:name "evidence/website/wayback-2002/HOMEPAGE-AS-SOCIAL-PORTAL-2002.md" ;
+    schema:url "evidence/website/wayback-2002/HOMEPAGE-AS-SOCIAL-PORTAL-2002.md" .
 
 cb:PrimarySources
     a schema:DigitalDocument ;
-    schema:name "docs/PRIMARY-SOURCES.md" ;
-    schema:url "docs/PRIMARY-SOURCES.md" .
+    schema:name "data/processed/indexes/primary-sources.md" ;
+    schema:url "data/processed/indexes/primary-sources.md" .
 
 cb:ReveillonManifest
     a schema:DigitalDocument ;
-    schema:name "docs/IMAGE-MANIFEST-REVEILLON-2000-2001.md" ;
-    schema:url "docs/IMAGE-MANIFEST-REVEILLON-2000-2001.md" .
+    schema:name "evidence/photos/ircontros/IMAGE-MANIFEST-REVEILLON-2000-2001.md" ;
+    schema:url "evidence/photos/ircontros/IMAGE-MANIFEST-REVEILLON-2000-2001.md" .
 
 cb:ReveillonDataset
     a schema:Dataset ;
@@ -193,8 +193,8 @@ cb:RosaDosVentosDataset
 
 cb:FifthAnniversaryMusic
     a schema:DigitalDocument ;
-    schema:name "docs/FIFTH-ANNIVERSARY-MUSIC-2002.md" ;
-    schema:url "docs/FIFTH-ANNIVERSARY-MUSIC-2002.md" .
+    schema:name "evidence/events/FIFTH-ANNIVERSARY-MUSIC-2002.md" ;
+    schema:url "evidence/events/FIFTH-ANNIVERSARY-MUSIC-2002.md" .
 
 cb:FifthAnniversaryPhotosMetadata
     a schema:Dataset ;

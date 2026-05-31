@@ -53,7 +53,7 @@ This matters because a pasted channel excerpt preserves traces of live IRC inter
 
 | Nickname | Reported occurrences | Evidence context | Verification status | Linked repo record |
 |---|---:|---|---|---|
-| `VaNZaN` | 119 | combined public extract count across short dossier + Anexo 2 chat-log dossier; count still unaudited | founder_provided_count_pending_repository_verification | `docs/ARCHIVED-PROFILE-VANZAN-USERID-40-2002.md`; `data/profiles/vanzan.jsonld` |
+| `VaNZaN` | 119 | combined public extract count across short dossier + Anexo 2 chat-log dossier; count still unaudited | founder_provided_count_pending_repository_verification | `evidence/archived-profiles/ARCHIVED-PROFILE-VANZAN-USERID-40-2002.md`; `data/profiles/vanzan.jsonld` |
 | `BM_` | 108 | combined public extract count across short dossier + Anexo 2 chat-log dossier; count still unaudited | founder_provided_count_pending_repository_verification | `data/profiles/bm_.jsonld` |
 | `Biano` | 80 | combined public extract count across short dossier + Anexo 2 chat-log dossier; count still unaudited | founder_provided_count_pending_repository_verification | TODO |
 
@@ -79,7 +79,7 @@ Even while pending, the counts are useful because they guide future corpus index
 
 ## Related Files
 
-- `docs/UFF-2004-NICKNAME-OCCURRENCE-INDEX.md` — tabular nickname occurrence index.
+- `data/uff-2004/reported-nickname-occurrence-index.md` — tabular nickname occurrence index.
 - `docs/uff-2004-chat-log-excerpts.md` — Anexo 2 log-source mapping and audit rules.
 - `docs/bibliography.md` — bibliographic source record.
 - `docs/evidence-methodology.md` — evidence-type weighting and acceptance criteria.

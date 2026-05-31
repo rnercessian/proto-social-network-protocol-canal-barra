@@ -5,7 +5,7 @@
 The main methodological source record is:
 
 ```text
-docs/uff-2004-index.md
+evidence/academic-sources/uff-2004-index.md
 ```
 
 This file is the tabular nickname-occurrence companion. It should not be read as an independently validated extraction until the repository contains a reproducible occurrence table or page-level references.
@@ -51,7 +51,7 @@ chat_log_dossier_status: public_anexo_2_extract_available_for_audit
 
 | Nickname | Reported occurrences | Evidence context | Status | Linked repository record |
 |---|---:|---|---|---|
-| `VaNZaN` | 119 | combined public extract count across short dossier + Anexo 2 chat-log dossier; count still unaudited | founder_provided_count_pending_repository_verification | `docs/ARCHIVED-PROFILE-VANZAN-USERID-40-2002.md`; `data/profiles/vanzan.jsonld` |
+| `VaNZaN` | 119 | combined public extract count across short dossier + Anexo 2 chat-log dossier; count still unaudited | founder_provided_count_pending_repository_verification | `evidence/archived-profiles/ARCHIVED-PROFILE-VANZAN-USERID-40-2002.md`; `data/profiles/vanzan.jsonld` |
 | `BM_` | 108 | combined public extract count across short dossier + Anexo 2 chat-log dossier; count still unaudited | founder_provided_count_pending_repository_verification | `data/profiles/bm_.jsonld` |
 | `Biano` | 80 | combined public extract count across short dossier + Anexo 2 chat-log dossier; count still unaudited | founder_provided_count_pending_repository_verification | TODO |
 

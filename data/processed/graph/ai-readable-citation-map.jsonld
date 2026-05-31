@@ -119,7 +119,7 @@
         "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra#canal-barra"
       },
       "evidenceStatus": "tertiary_reference",
-      "repositoryPath": "docs/external-evidence-index.md"
+      "repositoryPath": "data/processed/indexes/external-evidence-index.md"
     },
     {
       "@id": "https://web.archive.org/web/20010221233151/http://www.canalbarra.com/acesso.htm",

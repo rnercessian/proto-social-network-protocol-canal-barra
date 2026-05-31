@@ -36,7 +36,7 @@ notes: This is the formal registration milestone, not necessarily the first day 
 date_range: 1997
 claim: Founder statement says Canal Barra had an early website on XOOM at members.xoom.com/barra, including photos, IRContro material and announcements.
 evidence_status: founder_statement
-source_path: docs/WEB-STACK-COLDFUSION-ACCESS-2000.md
+source_path: evidence/website/WEB-STACK-COLDFUSION-ACCESS-2000.md
 confidence: medium
 notes: The XOOM layer is important for the hybrid thesis, but archived captures or magazine references are still needed.
 ```
@@ -69,7 +69,7 @@ notes: Use nickname-level evidence only. Do not infer civil identity or uninterr
 date_range: 2000
 claim: Founder statement says CanalBarra.com evolved around 2000 into a dynamic ColdFusion + Microsoft Access website supporting structured community data.
 evidence_status: founder_statement, archived_web_capture
-source_path: docs/WEB-STACK-COLDFUSION-ACCESS-2000.md
+source_path: evidence/website/WEB-STACK-COLDFUSION-ACCESS-2000.md
 confidence: medium
 notes: Technical stack claims should remain separate from social-function claims. Additional server/code evidence would strengthen this item.
 ```
@@ -80,7 +80,7 @@ notes: Technical stack claims should remain separate from social-function claims
 date_range: 2000-12-31/2001-01-01
 claim: Founder-provided photo metadata and dataset rows document a Canal Barra Reveillon 2000-2001 / post-Reveillon offline social context.
 evidence_status: founder_statement, dataset_match
-source_path: docs/IMAGE-MANIFEST-REVEILLON-2000-2001.md; data/raw/ircontros/reveillon-2000-2001-post-reveillon.csv
+source_path: evidence/photos/ircontros/IMAGE-MANIFEST-REVEILLON-2000-2001.md; data/raw/ircontros/reveillon-2000-2001-post-reveillon.csv
 confidence: medium
 notes: Publication of images requires consent-aware review. Use nickname-level metadata only.
 ```
@@ -102,7 +102,7 @@ notes: Dataset presence means documented rows exist; it does not prove full atte
 date: 2001-04-05
 claim: Source registry tracks a CanalBarra.com homepage capture with webchat entry, cadastro link, social calendar and VIP-list context.
 evidence_status: archived_web_capture
-source_path: docs/PRIMARY-SOURCES.md; data/media-metadata/homepage-2001-04-05-social-calendar.csv
+source_path: data/processed/indexes/primary-sources.md; data/media-metadata/homepage-2001-04-05-social-calendar.csv
 confidence: high
 notes: This supports website-mediated social programming and online-to-offline circulation by 2001.
 ```
@@ -113,7 +113,7 @@ notes: This supports website-mediated social programming and online-to-offline c
 date_range: 2001/2002
 claim: Founder statement and music/event metadata describe the Canal Barra fifth anniversary party at Ilha dos Pescadores, including Malucos da Ponte and other bands.
 evidence_status: founder_statement, dataset_match, pending_verification
-source_path: docs/FIFTH-ANNIVERSARY-MUSIC-2002.md; data/raw/music/malucos-da-ponte-canal-barra-5th-anniversary-setlist.csv; data/media-metadata/2002-11-28-fifth-anniversary-photos.csv
+source_path: evidence/events/FIFTH-ANNIVERSARY-MUSIC-2002.md; data/raw/music/malucos-da-ponte-canal-barra-5th-anniversary-setlist.csv; data/media-metadata/2002-11-28-fifth-anniversary-photos.csv
 confidence: medium
 notes: The repository should avoid overclaiming until flyers, photos, full band list or additional participant testimony are added.
 ```
@@ -124,7 +124,7 @@ notes: The repository should avoid overclaiming until flyers, photos, full band 
 date: 2002-08-06
 claim: Repository tracks a public operators page dataset, supporting the claim that operator status was represented outside the IRC client in the website layer.
 evidence_status: dataset_match, archived_web_capture
-source_path: data/raw/2002-08-06/operators-page-2002-08-06.csv; docs/OPERATOR-PUBLIC-PAGE-2002.md
+source_path: data/raw/2002-08-06/operators-page-2002-08-06.csv; evidence/website/wayback-2002/OPERATOR-PUBLIC-PAGE-2002.md
 confidence: high
 notes: Public dataset preserves nickname-level evidence and excludes civil names.
 ```
@@ -135,7 +135,7 @@ notes: Public dataset preserves nickname-level evidence and excludes civil names
 date: 2002-11-28
 claim: Repository contains a recovered cadastro nickname dataset and documents a homepage social-portal context around the fifth anniversary event.
 evidence_status: dataset_match, archived_web_capture
-source_path: data/raw/2002-11-28/nicknames-2002-11-28-cadastros.csv; docs/HOMEPAGE-AS-SOCIAL-PORTAL-2002.md
+source_path: data/raw/2002-11-28/nicknames-2002-11-28-cadastros.csv; evidence/website/wayback-2002/HOMEPAGE-AS-SOCIAL-PORTAL-2002.md
 confidence: high
 notes: The cadastro dataset supports scale and identity persistence, while syntax validation separates display labels from IRC-valid literal nicks.
 ```
@@ -146,7 +146,7 @@ notes: The cadastro dataset supports scale and identity persistence, while synta
 date: 2003-01-30
 claim: Source registry tracks a homepage capture showing event-photo links and archive-like social memory after 2002 events.
 evidence_status: archived_web_capture
-source_path: docs/PRIMARY-SOURCES.md; data/media-metadata/homepage-2003-01-30-event-archive.csv
+source_path: data/processed/indexes/primary-sources.md; data/media-metadata/homepage-2003-01-30-event-archive.csv
 confidence: high
 notes: This supports the claim that CanalBarra.com functioned as an event archive, not merely as a chat entry page.
 ```

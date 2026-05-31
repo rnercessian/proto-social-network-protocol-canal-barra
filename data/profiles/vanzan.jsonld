@@ -31,9 +31,9 @@
   ],
   "sameAsNicknameInSources": [
     "https://web.archive.org/web/20020125214031/http://www.canalbarra.com/cadastros/user.cfm?userID=40",
-    "docs/ARCHIVED-PROFILE-VANZAN-USERID-40-2002.md",
-    "docs/uff-2004-index.md",
-    "docs/UFF-2004-NICKNAME-OCCURRENCE-INDEX.md"
+    "evidence/archived-profiles/ARCHIVED-PROFILE-VANZAN-USERID-40-2002.md",
+    "evidence/academic-sources/uff-2004-index.md",
+    "data/uff-2004/reported-nickname-occurrence-index.md"
   ],
   "subjectOf": [
     {
@@ -54,7 +54,7 @@
       "extractedClaim": "Nickname-level profile associated with VaNZaN appears in an archived Canal Barra cadastro page, with bairro and public profile comment.",
       "extractionMethod": "manual_archive_transcription",
       "verificationStatus": "verified_source_url_pending_local_hash",
-      "relatedEvidenceFile": "docs/ARCHIVED-PROFILE-VANZAN-USERID-40-2002.md"
+      "relatedEvidenceFile": "evidence/archived-profiles/ARCHIVED-PROFILE-VANZAN-USERID-40-2002.md"
     },
     {
       "@type": "PropertyValue",
@@ -66,7 +66,7 @@
       "reportedOccurrences": 119,
       "extractionMethod": "founder_reported_count_pending_text_audit",
       "verificationStatus": "founder_provided_count_pending_repository_verification",
-      "relatedEvidenceFile": "docs/uff-2004-index.md"
+      "relatedEvidenceFile": "evidence/academic-sources/uff-2004-index.md"
     }
   ],
   "historicalRelevance": "VaNZaN connects archived profile self-presentation, participation beyond Barra da Tijuca as residential geography and reported recurring presence inside UFF-preserved Canal Barra conversation material.",

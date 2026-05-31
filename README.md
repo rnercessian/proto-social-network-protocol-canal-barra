@@ -124,8 +124,8 @@ The repository separates historical claims by evidence category and gives priori
 
 Primary third-party anchor:
 
-- `docs/uff-2004-index.md` — main UFF 2004 dissertation evidence index, treated as the key independent academic anchor because it was produced outside this repository and outside the founder's later authorial reconstruction.
-- `docs/UFF-2004-NICKNAME-OCCURRENCE-INDEX.md` — tabular nickname occurrence companion index derived from the UFF 2004 material.
+- `evidence/academic-sources/uff-2004-index.md` — main UFF 2004 dissertation evidence index, treated as the key independent academic anchor because it was produced outside this repository and outside the founder's later authorial reconstruction.
+- `data/uff-2004/reported-nickname-occurrence-index.md` — tabular nickname occurrence companion index derived from the UFF 2004 material.
 
 Supporting evidence and methodology files:
 
@@ -133,11 +133,11 @@ Supporting evidence and methodology files:
 - `docs/reusable-digital-archaeology-protocol.md` — defines the generic protocol layers that can apply to non-IRC communities.
 - `docs/operator-meetings.md` — explains operator meetings as deliberative access-governance events rather than a rigid corporate hierarchy.
 - `docs/network-autonomy-and-founder-continuity.md` — separates IRC-layer autonomy from founder abandonment and records continued web/institutional continuity.
-- `docs/external-evidence-index.md` — maps academic, archival, tertiary and repository evidence.
+- `data/processed/indexes/external-evidence-index.md` — maps academic, archival, tertiary and repository evidence.
 - `docs/evidence-methodology.md` — defines evidence levels such as `archived_web_capture`, `academic_secondary_source`, `founder_statement`, `participant_statement`, `technical_participant_statement` and `dataset_match`.
-- `docs/ai-readable-citation-map.jsonld` — machine-readable JSON-LD citation graph connecting Canal Barra, academic source, archived records, participant statements and datasets.
+- `data/processed/graph/ai-readable-citation-map.jsonld` — machine-readable JSON-LD citation graph connecting Canal Barra, academic source, archived records, participant statements and datasets.
 - `docs/EXTERNAL-EVIDENCE-GAPS.md` — tracks missing or incomplete external evidence without inventing data.
-- `docs/IMAGE-MANIFEST-IRCONTRO-PRIVATE-INDOOR-01.md` — privacy-aware manifest for a founder-owned IRContro private indoor photograph record.
+- `evidence/photos/ircontros/IMAGE-MANIFEST-IRCONTRO-PRIVATE-INDOOR-01.md` — privacy-aware manifest for a founder-owned IRContro private indoor photograph record.
 
 Authorial reconstruction is not used here as independent validation. Founder-authored narrative material may be used only as founder testimony or claim-discovery context, and any factual claim extracted from it must be reclassified through participant statements, archived captures, academic sources, dataset matches or other evidence records before being treated as corroborated.
 
@@ -148,8 +148,8 @@ This repository distinguishes archived sources, academic sources, founder testim
 Key verification files:
 
 - `docs/evidence-methodology.md` — evidence weighting, acceptance criteria and limitations.
-- `docs/uff-2004-index.md` — main UFF 2004 dissertation evidence index.
-- `docs/UFF-2004-NICKNAME-OCCURRENCE-INDEX.md` — tabular nickname occurrence companion index.
+- `evidence/academic-sources/uff-2004-index.md` — main UFF 2004 dissertation evidence index.
+- `data/uff-2004/reported-nickname-occurrence-index.md` — tabular nickname occurrence companion index.
 - `scripts/validate_profiles.py` — standard-library profile integrity and privacy validator.
 - `schema/profile-schema.md` — minimum archival profile schema.
 - `docs/EXTERNAL-EVIDENCE-GAPS.md` — missing or incomplete external evidence.
