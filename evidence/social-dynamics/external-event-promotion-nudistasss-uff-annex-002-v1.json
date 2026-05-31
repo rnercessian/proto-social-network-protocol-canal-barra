@@ -1,0 +1,88 @@
+{
+  "id": "external-event-promotion-nudistasss-uff-annex-002-v1",
+  "type": "social_dynamics_evidence_record",
+  "version": 1,
+  "project": "Canal Barra Historical Evidence Registry",
+  "evidenceCategory": "presence_status_and_external_audience_capture",
+  "sourceContext": {
+    "sourceType": "irc_log_excerpt",
+    "sourceLabel": "IRC log excerpt, external event promotion context",
+    "exactLocationStatus": "pending_full_log_file_or_annex_indexing",
+    "sourceIndependence": "curator_provided_log_excerpt_pending_source_indexing"
+  },
+  "logExcerpt": {
+    "timestamp": "02:39",
+    "speakerNickname": "Nudistasss",
+    "verbatimLine": "[02:39] <Nudistasss> Estamos organizando um encontro de nudistas e naturistas\nno rio de janeiro...alguma pessoa interessa em participar...só é permitida a\npresença de homens acompanhados",
+    "language": "pt-BR",
+    "eventType": "external_event_promotion",
+    "topic": "nudist/naturist gathering in Rio de Janeiro",
+    "containsAdultOrSensitiveSocialContext": true
+  },
+  "indexedNicknames": [
+    "Nudistasss"
+  ],
+  "claimsSupported": [
+    {
+      "claim": "The Canal #barra channel could be used by non-core or externally oriented users to advertise their own social events to the channel audience.",
+      "status": "interpretive_claim_supported_by_log_excerpt_pending_source_indexing"
+    },
+    {
+      "claim": "The channel functioned as an audience-bearing public space with enough perceived reach for third-party event promotion.",
+      "status": "interpretive_claim_supported_by_log_excerpt"
+    },
+    {
+      "claim": "External promotion attempts should be analytically separated from official Canal Barra events or IRContros.",
+      "status": "methodological_claim_supported_by_event_content"
+    },
+    {
+      "claim": "The line contains internal access framing for the promoted event: men would only be allowed if accompanied.",
+      "status": "supported_by_verbatim_line"
+    }
+  ],
+  "analyticalReading": {
+    "shortLabel": "external event promotion through channel audience",
+    "description": "This excerpt shows a nickname using the live channel to promote an external nudist/naturist gathering in Rio de Janeiro. The value of the excerpt is not the event itself, but the implied use of Canal #barra as a public audience channel: someone outside the habitual social core, or at least acting outside official Canal Barra event structure, attempts to recruit participants through the channel's visibility.",
+    "presenceModelRelevance": "The excerpt supports the IRC-Web-Presence model by showing that live presence created an audience that could be addressed for purposes beyond ordinary conversation, including third-party event promotion.",
+    "audienceRelevance": "The message depends on the channel having enough attention and social density to be useful as an announcement surface.",
+    "boundaryRelevance": "The record helps distinguish official Canal Barra socialization from external actors exploiting or testing the channel as a promotional medium.",
+    "riskOrTrustRelevance": "The curator characterizes the event as dubious. The archive should not present that characterization as fact, but the line's content and recruitment format justify marking the event as external and requiring caution before treating it as legitimate or Canal Barra-endorsed.",
+    "notAUniversalClaim": true
+  },
+  "classification": {
+    "officialCanalBarraEvent": false,
+    "externalPromotion": true,
+    "legitimacyStatus": "unknown_or_unverified",
+    "endorsementByCanalBarra": "not_evidenced",
+    "requiresSeparationFromIRContros": true
+  },
+  "privacy": {
+    "privacyTier": "nickname_level_only",
+    "civilIdentityLinked": false,
+    "sensitiveDataIncluded": false,
+    "doNotInferCivilIdentity": true,
+    "publicRawPrivateIdentifiersIncluded": false
+  },
+  "limitations": [
+    "The exact log source and surrounding context still need indexing.",
+    "The record documents a promotional message, not proof that the event occurred.",
+    "The record does not prove that the speaker was unknown to all channel participants; it only supports an external-promotion reading based on the content and recruitment style.",
+    "The curator's assessment that the event was dubious is preserved as caution, not as an established factual claim.",
+    "The message should not be classified as an official Canal Barra event or IRContro unless independent evidence proves endorsement or organization by Canal Barra participants."
+  ],
+  "methodologyAlignment": {
+    "evidenceLevel": "curator_provided_log_excerpt_pending_full_source_indexing",
+    "doesNotUpgradeInterpretationToFact": true,
+    "preservesVerbatimSourceLine": true,
+    "separatesEvidenceFromAnalysis": true,
+    "supportsIwpPresenceLayer": true,
+    "supportsAudienceCaptureAnalysis": true,
+    "supportsBoundaryBetweenOfficialAndExternalEvents": true
+  },
+  "documentGeneration": {
+    "includeInPublicManifest": true,
+    "language": "en",
+    "sectionTitle": "External Event Promotion and Channel Audience Capture",
+    "documentOrder": 76
+  }
+}
