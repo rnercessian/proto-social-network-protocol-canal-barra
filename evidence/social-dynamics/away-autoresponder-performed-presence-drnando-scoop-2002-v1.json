@@ -1,0 +1,80 @@
+{
+  "id": "away-autoresponder-performed-presence-drnando-scoop-2002-v1",
+  "type": "social_dynamics_evidence_record",
+  "version": 1,
+  "project": "Canal Barra Historical Evidence Registry",
+  "evidenceCategory": "presence_status_and_automated_social_availability_management",
+  "sourceContext": {
+    "sourceType": "irc_log_excerpt",
+    "sourceLabel": "IRC log excerpt, 2002 script/away autoresponder context",
+    "exactLocationStatus": "pending_full_log_file_or_annex_indexing",
+    "sourceIndependence": "curator_provided_log_excerpt_pending_source_indexing"
+  },
+  "logExcerpt": {
+    "timestamp": "02:42",
+    "speakerNickname": "-DrNando-",
+    "verbatimLine": "[02:42] -DrNando- Estou away agora mas sua mensagem será gravada. »¡« Scøøp\nScript 2002 »!« => www.scoop.com.br",
+    "language": "pt-BR",
+    "eventType": "away_autoresponder_message",
+    "scriptName": "Scøøp Script 2002",
+    "referencedUrl": "www.scoop.com.br"
+  },
+  "indexedNicknames": [
+    "-DrNando-"
+  ],
+  "claimsSupported": [
+    {
+      "claim": "The Canal #barra social field included automated away/status messaging that preserved addressability even when a participant was not actively present.",
+      "status": "interpretive_claim_supported_by_log_excerpt_pending_source_indexing"
+    },
+    {
+      "claim": "Away scripts could operate as social availability management tools, informing others that messages would be recorded rather than ignored.",
+      "status": "interpretive_claim_supported_by_log_excerpt"
+    },
+    {
+      "claim": "Performed presence in IRC should not be reduced to active speech; it may include scripted signals of absence, availability, memory and expected response.",
+      "status": "interpretive_claim_supported_by_log_excerpt"
+    },
+    {
+      "claim": "DrNando is curator-identified as a Canal Barra promoter publicly associated with the site; this role attribution requires separate source indexing before being treated as independently verified.",
+      "status": "curator_context_pending_source_indexing"
+    }
+  ],
+  "analyticalReading": {
+    "shortLabel": "automated away presence and social availability management",
+    "description": "This excerpt shows a scripted away/autoresponder message announcing that the participant is away but that incoming messages will be recorded. The line is valuable because it documents a form of performed presence produced through automation: the participant is not actively speaking, yet the script maintains social addressability, reduces the risk of perceived neglect and signals that interaction can continue asynchronously.",
+    "performedPresenceRelevance": "The excerpt supports the concept of performed presence by showing that presence in IRC was not merely online/offline status. It could be communicated by automated messages, away states, scripted replies, message recording and social availability cues.",
+    "socialOrganizationRelevance": "The curator notes that -DrNando- was a Canal Barra promoter, associated with VIP lists and social organization. If separately verified, this would strengthen the reading that scripted tools supported practical social coordination, not just technical customization.",
+    "scriptRelevance": "The reference to Scøøp Script 2002 indicates use of client-side IRC scripting to manage interaction, attention, response expectations and social continuity.",
+    "notAUniversalClaim": true
+  },
+  "privacy": {
+    "privacyTier": "nickname_level_only",
+    "civilIdentityLinked": false,
+    "sensitiveDataIncluded": false,
+    "doNotInferCivilIdentity": true,
+    "publicRawPrivateIdentifiersIncluded": false
+  },
+  "limitations": [
+    "The exact log source and surrounding context still need indexing.",
+    "The excerpt documents an automated away/status message, not the private contents of any recorded messages.",
+    "The claim that -DrNando- was a Canal Barra promoter and managed VIP/social lists is curator-provided context pending independent or archived-source confirmation.",
+    "The record should not infer intention beyond the observable away/autoresponder behavior.",
+    "The referenced external script site is recorded as text in the log excerpt and should be independently archived or verified if used as technical evidence."
+  ],
+  "methodologyAlignment": {
+    "evidenceLevel": "curator_provided_log_excerpt_pending_full_source_indexing",
+    "doesNotUpgradeInterpretationToFact": true,
+    "preservesVerbatimSourceLine": true,
+    "separatesEvidenceFromAnalysis": true,
+    "supportsIwpPresenceLayer": true,
+    "supportsPerformedPresenceAnalysis": true,
+    "supportsLogArchaeology": true
+  },
+  "documentGeneration": {
+    "includeInPublicManifest": true,
+    "language": "en",
+    "sectionTitle": "Away Autoresponders and Performed Presence",
+    "documentOrder": 75
+  }
+}
