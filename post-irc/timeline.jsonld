@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "cb": "https://canalbarra.com/ns#",
+    "corePhenomenonEvidence": "cb:corePhenomenonEvidence",
+    "evidenceRole": "cb:evidenceRole",
+    "localRecord": "cb:localRecord",
+    "representedPeriod": "cb:representedPeriod",
+    "temporalPrecision": "cb:temporalPrecision",
+    "waybackTimestamp": "cb:waybackTimestamp",
+    "postIrcCutoff": "cb:postIrcCutoff",
+    "pendingConfirmation": "cb:pendingConfirmation"
+  },
+  "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/blob/main/post-irc/timeline.jsonld",
+  "@type": "ItemList",
+  "name": "Post-IRC Canal Barra Continuity Timeline",
+  "description": "Machine-readable JSON-LD timeline of Canal Barra continuity records after the core IRC/BRASnet period. This file indexes post-IRC events, projects, organizational activities and web properties by date.",
+  "postIrcCutoff": "2007-05-20",
+  "corePhenomenonEvidence": false,
+  "representedPeriod": {
+    "@type": "DefinedTerm",
+    "name": "Post-IRC Canal Barra continuity",
+    "description": "Records whose represented event, project, organizational activity or web property occurs after 20 May 2007. These records are not direct evidence for the 1996-2007 IRC/BRASnet phenomenon unless explicitly stated."
+  },
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Event",
+        "@id": "cb:post-irc/canal-gyn-2010-2012",
+        "name": "Canal Gyn regional directory",
+        "startDate": "2010",
+        "endDate": "2012",
+        "temporalPrecision": "year_range",
+        "description": "Canal Gyn was a post-IRC regional partner site associated with Canal Barra, using GYN as a locally recognizable reference to Goiânia and operating as a digital directory/guide for commerce, leisure and services.",
+        "evidenceRole": "post_irc_continuity_record",
+        "corePhenomenonEvidence": false,
+        "localRecord": "post-irc/canal-gyn-regional-directory.md",
+        "url": "https://web.archive.org/web/20100927183029/http://www.canalgyn.com.br/",
+        "waybackTimestamp": "20100927183029",
+        "pendingConfirmation": [
+          "Maintainer attribution to Lidia is curator-provided and pending direct confirmation.",
+          "Perl implementation of the directory section is curator-provided technical memory and pending source/code confirmation."
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Event",
+        "@id": "cb:post-irc/canal-barra-directory-blog-portal-2011",
+        "name": "Canal Barra as post-IRC directory/blog portal",
+        "startDate": "2011-09-25",
+        "temporalPrecision": "wayback_capture_date",
+        "description": "By 2011, Canal Barra was operating as a local web portal combining directory categories, blog/news posts, video blocks and advertising space, rather than primarily as an IRC community interface.",
+        "evidenceRole": "post_irc_context_record",
+        "corePhenomenonEvidence": false,
+        "localRecord": null,
+        "url": "https://web.archive.org/web/20110925175736/http://www.canalbarra.com/",
+        "waybackTimestamp": "20110925175736"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Event",
+        "@id": "cb:post-irc/canal-sampa-2011",
+        "name": "Canal Sampa regional portal",
+        "startDate": "2011-10-10",
+        "temporalPrecision": "wayback_capture_date",
+        "description": "Canal Sampa was a post-IRC regional portal associated with Canal Barra. The archived page identifies it as 'o novo portal da Organização Canal Barra Consultoria em Sistemas'.",
+        "evidenceRole": "post_irc_continuity_record",
+        "corePhenomenonEvidence": false,
+        "localRecord": "post-irc/canal-sampa-regional-directory.md",
+        "url": "https://web.archive.org/web/20111010100310/http://canalsampa.com.br/",
+        "waybackTimestamp": "20111010100310"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Event",
+        "@id": "cb:post-irc/film-production-operational-support-2016",
+        "name": "Film production operational support in Rio de Janeiro",
+        "startDate": "2016-02",
+        "temporalPrecision": "month",
+        "description": "A Canal Barra-linked company/network relationship is recorded as contributing operationally to a Brazilian film production in Rio de Janeiro through local relationship capital, location support and production facilitation.",
+        "evidenceRole": "post_irc_continuity_record",
+        "corePhenomenonEvidence": false,
+        "localRecord": "post-irc/film-production-operational-support.md",
+        "pendingConfirmation": [
+          "This record is based on curator-provided text pending source indexing."
+        ]
+      }
+    }
+  ],
+  "pendingPostIrcItems": [
+    {
+      "@type": "Thing",
+      "name": "DBA",
+      "description": "Post-IRC item pending file location, date and summary."
+    },
+    {
+      "@type": "Thing",
+      "name": "Faustao",
+      "description": "Post-IRC item pending file location, date and summary."
+    },
+    {
+      "@type": "Thing",
+      "name": "Johnny Baja",
+      "description": "Post-IRC item pending file location, date and summary."
+    }
+  ]
+}
