@@ -4,6 +4,8 @@
 
 This document records a redacted historical contact between Raphael / BarMan and Globo regarding possible participation in **Domingão do Faustão**.
 
+This record belongs to post-IRC Canal Barra continuity and is not used as direct evidence for the 1996–2007 Canal Barra IRC/BRASnet social phenomenon.
+
 This is not direct evidence for Canal Barra as a social network.
 
 It is relevant as later cultural and professional trajectory context connected to the founder's music ambitions after the Canal Barra / Malucos da Ponte period.

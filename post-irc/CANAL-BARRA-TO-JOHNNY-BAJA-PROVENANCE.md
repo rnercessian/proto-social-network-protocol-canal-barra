@@ -4,6 +4,8 @@
 
 This document records a cautious provenance chain connecting the Canal Barra social ecosystem to later formal music and cinema-rights documentation under the **Johnny Baja** credit identity.
 
+This record belongs to post-IRC Canal Barra continuity and is not used as direct evidence for the 1996–2007 Canal Barra IRC/BRASnet social phenomenon.
+
 The goal is not to claim that Canal Barra directly reached the film industry as an institution.
 
 The goal is to document how a cultural work rooted in the Canal Barra / Malucos da Ponte musical layer later appears in formal phonographic and cinema-related rights contexts.

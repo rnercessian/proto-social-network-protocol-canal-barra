@@ -4,6 +4,8 @@
 
 This document records external leads related to **DBA Engenharia de Sistemas**, a company mentioned in founder statements about later professional web work connected to Globo web properties.
 
+This record belongs to post-IRC Canal Barra continuity and is not used as direct evidence for the 1996–2007 Canal Barra IRC/BRASnet social phenomenon.
+
 This is not direct Canal Barra social-network evidence.
 
 It is professional trajectory context.
