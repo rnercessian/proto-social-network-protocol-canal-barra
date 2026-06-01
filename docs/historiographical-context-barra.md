@@ -52,13 +52,13 @@ For actors, technicians, extras, producers and media workers whose routines depe
 
 This is an interpretive claim, not a census claim. Its value is contextual: after Projac, Barra was no longer only a residential expansion zone. It became adjacent to major audiovisual production infrastructure. That proximity reinforced Barra's association with media, entertainment, aspiration and public visibility during the same broad period in which Canal Barra developed.
 
-## Metropolitan, Downtown and Youth Cultural Infrastructure
+## Metropolitan, Shopping Downtown and Youth Cultural Infrastructure
 
 The Metropolitan concert hall opened in September 1994 at Via Parque Shopping, placing a large-scale live music venue inside Barra's entertainment circuit before Canal Barra reached maturity. Later renamed several times, the venue became one of the major concert spaces in Rio de Janeiro.
 
-Downtown also belongs to the Canal Barra context because it appears in curator memory as a rehearsal or meeting reference for the band Malucos da Ponte. The relevance is not only commercial. Downtown's open-mall format offered a street-like environment inside Barra's shopping-centered culture, making it compatible with informal meetings, rehearsals, food, circulation and youth sociability.
+Shopping Downtown also belongs to the Canal Barra context because it appears in curator memory as a rehearsal or meeting reference for the band Malucos da Ponte. The relevance is not only commercial. Shopping Downtown's open-mall format offered a street-like environment inside Barra's shopping-centered culture, making it compatible with informal meetings, rehearsals, food, circulation and youth sociability.
 
-The exact opening date of Downtown should be confirmed through a primary or institutional source before being treated as a dated fact in this repository. Until then, it should be described cautiously as a late-1990s Barra landmark associated with the offline geography of Canal Barra and Malucos da Ponte.
+The exact opening date of Shopping Downtown should be confirmed through a primary or institutional source before being treated as a dated fact in this repository. Until then, it should be described cautiously as a late-1990s Barra landmark associated with the offline geography of Canal Barra and Malucos da Ponte.
 
 ## What Barra da Tijuca Was in 2007
 
@@ -97,7 +97,7 @@ These events can later be converted into a machine-readable timeline file:
 | 1994-09 | Metropolitan opened at Via Parque Shopping | entertainment infrastructure context |
 | 1995 | Projac / Estúdios Globo inaugurated near Curicica/Jacarepaguá | audiovisual logistics context |
 | 1996 | Canal Barra core period begins | social-network case context |
-| circa 1997 | Downtown emerges as open-mall / meeting and rehearsal context | curator memory + source pending |
+| circa 1997 | Shopping Downtown emerges as open-mall / meeting and rehearsal context | curator memory + source pending |
 | 2007 | Pan American Games use multiple Barra-zone venues | consolidation of Barra as event/metropolitan pole |
 | 2007-05-20 | End of BRASnet / editorial cutoff for core Canal Barra IRC period | Canal Barra core-period cutoff |
 
@@ -109,5 +109,5 @@ These events can later be converted into a machine-readable timeline file:
 - Estúdios Globo / Projac: public media-history sources identify the complex as inaugurated in 1995 and located between Curicica and Jacarepaguá.
 - Metropolitan / Qualistage: public venue-history sources identify the September 1994 opening at Via Parque Shopping.
 - Jardim Oceânico: public neighborhood descriptions identify its eastern Barra position, main roads and street-level commercial/gastronomic character.
-- Downtown: public descriptions identify it as Rio's first open mall and a late-1990s Barra landmark; exact primary opening record still needs confirmation.
+- Shopping Downtown: public descriptions identify it as Rio's first open mall and a late-1990s Barra landmark; exact primary opening record still needs confirmation.
 - Pan American Games 2007: public sports-history sources identify the Barra venue zone and its major facilities.
