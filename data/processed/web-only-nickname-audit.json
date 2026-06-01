@@ -1,0 +1,61 @@
+{
+  "id": "web-only-nickname-irc-compatibility-audit-v1",
+  "type": "technical_audit_result",
+  "method": "strict_irc_nickname_syntax_check",
+  "methodological_note": "Invalidity under strict IRC nickname rules does not prove the person never used IRC. It proves only that the exact web-registered nickname belongs to a web/social identity namespace not reducible to IRC nickname syntax.",
+  "founder_context": "The founder states that some users with web-registered nicknames incompatible with IRC/NickServ rules still communicated through the CanalBarra.com internal messaging service. This is treated as curator/founder context pending independent source indexing.",
+  "results": [
+    {
+      "nickname": "#*GOHN.BARRA#*",
+      "strict_irc_valid": false,
+      "invalid_reasons": [
+        "contains_forbidden_or_nonstandard_chars:#*.",
+        "invalid_first_character_for_strict_irc",
+        "does_not_match_strict_irc_nickname_pattern"
+      ],
+      "interpretation": "exact_web_nickname_is_incompatible_with_strict_irc_and_supports_web_identity_namespace_claim"
+    },
+    {
+      "nickname": "*>ALOHA<*",
+      "strict_irc_valid": false,
+      "invalid_reasons": [
+        "contains_forbidden_or_nonstandard_chars:*<>",
+        "invalid_first_character_for_strict_irc",
+        "does_not_match_strict_irc_nickname_pattern"
+      ],
+      "interpretation": "exact_web_nickname_is_incompatible_with_strict_irc_and_supports_web_identity_namespace_claim"
+    },
+    {
+      "nickname": "=====->ŠÑÎÞË® - KßÇÅ",
+      "strict_irc_valid": false,
+      "invalid_reasons": [
+        "contains_space",
+        "contains_non_ascii_or_extended_character",
+        "contains_forbidden_or_nonstandard_chars:=>",
+        "invalid_first_character_for_strict_irc",
+        "does_not_match_strict_irc_nickname_pattern"
+      ],
+      "interpretation": "exact_web_nickname_is_incompatible_with_strict_irc_and_supports_web_identity_namespace_claim"
+    },
+    {
+      "nickname": ">>>>--> HULK <--<<<<",
+      "strict_irc_valid": false,
+      "invalid_reasons": [
+        "contains_space",
+        "contains_forbidden_or_nonstandard_chars:<= >",
+        "invalid_first_character_for_strict_irc",
+        "does_not_match_strict_irc_nickname_pattern"
+      ],
+      "interpretation": "exact_web_nickname_is_incompatible_with_strict_irc_and_supports_web_identity_namespace_claim"
+    },
+    {
+      "nickname": "s@r@do",
+      "strict_irc_valid": false,
+      "invalid_reasons": [
+        "contains_forbidden_or_nonstandard_chars:@",
+        "does_not_match_strict_irc_nickname_pattern"
+      ],
+      "interpretation": "exact_web_nickname_is_incompatible_with_strict_irc_and_supports_web_identity_namespace_claim"
+    }
+  ]
+}
