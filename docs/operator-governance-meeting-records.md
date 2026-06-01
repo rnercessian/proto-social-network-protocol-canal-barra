@@ -19,7 +19,7 @@ No additional operator meetings should be inferred from this file unless support
 
 ## The Dual Meeting Record
 
-### Meeting 1: Attendance, Status, and Handwritten Administrative Marks
+### Meeting 1: Attendance, Consultation, and Administrative Review
 
 The first documented operator meeting record is significant because it shows Canal Barra's administrative layer leaving a physical paper trail.
 
@@ -28,33 +28,18 @@ The artifact contains evidence of:
 * operator nicknames;
 * real-world meeting attendance;
 * handwritten markings and updates;
-* the relationship between physical attendance and digital operator status.
+* discussion around operator status and channel access;
+* the relationship between physical participation, group opinion, and digital operator status.
 
-#### Negaum's Annotations
+The document should not be read as a purely mechanical attendance sheet. Its importance is broader: it shows that Canal Barra governance took into account the opinions of people involved in the channel's daily operation.
 
-The physical document includes handwritten annotations associated, according to curator memory and document review, with the operator **Negaum**.
-
-These markings are relevant because they show that the meeting record was not merely a passive list. It was actively handled, updated, and administratively marked by a participant inside the operator structure.
-
-Until formal documentation is added to the archive, this file treats those marks as curator-attributed handwriting evidence rather than externally certified proof.
-
-#### The Waterhand Absence Mark
-
-The document contains a handwritten crossing mark over the nickname **Waterhand**.
-
-The current interpretation is that Waterhand was absent from the physical meeting and that the mark reflected non-attendance. However, the mark did not automatically revoke his digital operator status.
-
-This distinction is important:
-
-* absence from the physical meeting was recorded;
-* physical absence did not necessarily erase accumulated trust, hierarchy, or technical status;
-* operator governance combined social presence, prior authority, and digital privilege rather than applying a purely mechanical attendance rule.
-
-This makes the document strong evidence of a hybrid governance system: social, technical, territorial, and documentary.
+The meeting record therefore supports the view that operator status was not only a technical permission. It was also a socially negotiated position inside a living community.
 
 ### Meeting 2: Separate Governance Event
 
 The second documented operator meeting record should be treated as its own governance event, not as an appendix to the first.
+
+Together, the two records show that Canal Barra's operator structure was reviewed through collective discussion and administrative follow-up. Changes to the access list were not necessarily performed instantly during the physical meetings. The evidence indicates that access-list changes were made in the following weeks, after the meetings and after the governance discussions had been absorbed into channel administration.
 
 Current metadata still requires human-curated completion, including:
 
@@ -76,8 +61,10 @@ The operator meeting records support several core claims about Canal Barra:
 1. **Persistent identity:** participants were known through stable nicknames connected to real people and physical meetings.
 2. **Status hierarchy:** operator status was socially meaningful and administratively managed.
 3. **Hybrid governance:** authority existed both inside IRC infrastructure and outside it, through meetings, documents, annotations, and social recognition.
-4. **Offline continuity:** Canal Barra's digital life was not isolated from physical social life.
-5. **Documentary trace:** the channel generated paper evidence of governance, not only memories or screenshots.
+4. **Collective consultation:** governance took into account the opinions of people involved in the channel, rather than relying only on unilateral technical control.
+5. **Delayed administrative execution:** changes to the access list could be implemented in the weeks following the meetings, showing a distinction between deliberation and later technical update.
+6. **Offline continuity:** Canal Barra's digital life was not isolated from physical social life.
+7. **Documentary trace:** the channel generated paper evidence of governance, not only memories or screenshots.
 
 ## Current Documentation Status
 
@@ -97,6 +84,7 @@ The current evidentiary status is therefore:
 * It does not infer administrative decisions where the document does not support them.
 * It distinguishes between curator memory, physical evidence, and formally authenticated evidence.
 * It avoids claiming external certainty until formal documentation is available.
+* It avoids unnecessary identification of individuals when the evidentiary point can be stated at the governance level.
 
 ## Related Evidence To Add
 
