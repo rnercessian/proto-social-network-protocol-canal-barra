@@ -33,7 +33,7 @@ The purpose is not to replace the platform chronology, but to add a parallel evi
 
 Canal Barra operated as an **IRC-Web-Presence (IWP) proto-social network**.
 
-The #barra channel was the live public arena where presence, visibility, reputation, humor, desire, status and social recognition were continuously produced. CanalBarra.com provided web-backed persistence through user registrations, rules, photos, voting, event records and public community memory. Offline life — including school, university, neighborhood, friendships, IRContros (in-person IRC meetups), beach gatherings, pizzeria gatherings, parties and other physical gatherings — anchored and reinforced identities that were already active inside the channel.
+The #barra channel was the live public arena where presence, visibility, reputation, humor, desire, status and social recognition were continuously produced. CanalBarra.com gave that live culture a persistent web layer through user registrations, rules, photos, voting, event records and public community memory. Offline life — school, university, neighborhood ties, friendships, IRContros (in-person IRC meetups), beach outings, pizzeria meetups, parties and other face-to-face encounters — anchored those nicknames in real bodies, places and relationships.
 
 Access levels defined technical capability, but legitimacy was negotiated socially. Founder, Masters and Operators had different technical roles, while operator meetings could discuss, challenge and realign access decisions through argumentation, presence, reputation, contribution and practical community judgment.
 
