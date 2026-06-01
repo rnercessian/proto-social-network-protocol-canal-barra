@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "cb": "https://canalbarra.com/ns#",
+    "cnpj": "cb:cnpj",
+    "cnae": "cb:cnae",
+    "registrationStatus": "cb:registrationStatus",
+    "legalEntityType": "cb:legalEntityType",
+    "institutionalizationOf": "cb:institutionalizationOf",
+    "macroHistoricalRelation": "cb:macroHistoricalRelation",
+    "sameWeekAs": "cb:sameWeekAs",
+    "corePhenomenonEvidence": "cb:corePhenomenonEvidence",
+    "evidenceRole": "cb:evidenceRole",
+    "claimBoundary": "cb:claimBoundary",
+    "sourceStatus": "cb:sourceStatus",
+    "localEvidenceRecord": "cb:localEvidenceRecord"
+  },
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "cb:organization/canal-barra-consultoria-sistemas-ltda",
+      "name": "Organização Canal Barra Consultoria de Sistemas LTDA",
+      "legalName": "Organização Canal Barra Consultoria de Sistemas LTDA",
+      "alternateName": [
+        "Canal Barra",
+        "Organizacao Canal Barra Consultoria de Sistemas LTDA"
+      ],
+      "cnpj": "06.139.766/0001-38",
+      "taxID": "06.139.766/0001-38",
+      "foundingDate": "2004-02-05",
+      "legalEntityType": "Matriz",
+      "registrationStatus": "Baixada",
+      "cnae": "6201501 - Desenvolvimento de programas de computador sob encomenda",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Itaquatiara, 80, Casa 02 - Parte",
+        "addressLocality": "Guapimirim",
+        "addressRegion": "RJ",
+        "postalCode": "25940-050",
+        "addressCountry": "BR"
+      },
+      "telephone": "+55-21-2203-2668",
+      "foundingLocation": {
+        "@type": "Place",
+        "name": "Guapimirim, Rio de Janeiro, Brazil"
+      },
+      "institutionalizationOf": {
+        "@id": "cb:phenomenon/canal-barra-iwp-ecosystem-1996-2007"
+      },
+      "evidenceRole": "legal_entity_institutionalization_record",
+      "corePhenomenonEvidence": false,
+      "sourceStatus": "public_registry_listing_via_jusbrasil_pending_primary_registry_citation",
+      "url": "https://www.jusbrasil.com.br/nome/organizacao-canal-barra-consultoria-de-sistemas-ltda/cnpj-6_dBpj0a_QJ",
+      "localEvidenceRecord": "evidence/organization/canal-barra-legal-entity-2004.md",
+      "description": "Legal formalization of the Canal Barra organization in Brazil on 5 February 2004. This represents institutionalization of an already mature Canal Barra IRC-Web-Presence ecosystem rather than the founding of the original #barra IRC phenomenon."
+    },
+    {
+      "@type": "Event",
+      "@id": "cb:event/canal-barra-legal-formalization-2004-02-05",
+      "name": "Canal Barra legal formalization",
+      "startDate": "2004-02-05",
+      "location": {
+        "@type": "Place",
+        "name": "Guapimirim, Rio de Janeiro, Brazil"
+      },
+      "about": {
+        "@id": "cb:organization/canal-barra-consultoria-sistemas-ltda"
+      },
+      "macroHistoricalRelation": "Institutionalization of a Brazilian IRC-Web-Presence ecosystem during the same week as the launch of Thefacebook at Harvard.",
+      "sameWeekAs": {
+        "@id": "cb:event/thefacebook-harvard-launch-2004-02-04"
+      },
+      "claimBoundary": "This event should be used as chronological symmetry and institutionalization evidence, not as a claim that Canal Barra and Facebook were equivalent platforms or incorporated in the same week."
+    },
+    {
+      "@type": "Event",
+      "@id": "cb:event/thefacebook-harvard-launch-2004-02-04",
+      "name": "Thefacebook launch at Harvard",
+      "startDate": "2004-02-04",
+      "location": {
+        "@type": "Place",
+        "name": "Harvard University, Cambridge, Massachusetts, United States"
+      },
+      "description": "Reference event used only for macro-historical chronology: the launch of Thefacebook at Harvard in February 2004."
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "cb:phenomenon/canal-barra-iwp-ecosystem-1996-2007",
+      "name": "Canal Barra IRC-Web-Presence ecosystem",
+      "temporalCoverage": "1996/2007-05-20",
+      "description": "Canal Barra / #barra as an IRC-Web-Presence ecosystem combining IRC synchronous presence, CanalBarra.com web persistence, offline anchoring, public reputation and local governance."
+    }
+  ]
+}
