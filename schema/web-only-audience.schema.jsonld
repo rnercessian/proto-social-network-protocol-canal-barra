@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "cb": "https://canalbarra.com/ns#",
+    "strictIrcValid": "cb:strictIrcValid",
+    "ircCompatibilityAudit": "cb:ircCompatibilityAudit",
+    "invalidIrcReasons": "cb:invalidIrcReasons",
+    "identityNamespace": "cb:identityNamespace",
+    "webOnlyAudienceClaim": "cb:webOnlyAudienceClaim",
+    "webFirstParticipation": "cb:webFirstParticipation",
+    "coreClaimStrength": "cb:coreClaimStrength",
+    "statisticalClaimAllowed": "cb:statisticalClaimAllowed",
+    "founderContext": "cb:founderContext",
+    "pendingConfirmation": "cb:pendingConfirmation",
+    "archivedProfileUrl": "cb:archivedProfileUrl",
+    "waybackTimestamp": "cb:waybackTimestamp",
+    "webReputationSignal": "cb:webReputationSignal",
+    "reportedVotes": "cb:reportedVotes",
+    "reportedVoteContext": "cb:reportedVoteContext",
+    "reportedNeighborhood": "cb:reportedNeighborhood"
+  },
+  "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/blob/main/schema/web-only-audience.schema.jsonld",
+  "@type": "DefinedTermSet",
+  "name": "Web-Only / Web-First Audience Metadata Schema",
+  "description": "JSON-LD vocabulary extension for describing web-layer identity evidence in the Canal Barra archive, especially web-registered nicknames that are not reducible to strict IRC nickname syntax.",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "cb:WebIdentityAuditRecord",
+      "name": "WebIdentityAuditRecord",
+      "description": "A metadata record describing whether a CanalBarra.com web-registered nickname is compatible with conservative IRC nickname syntax. The record supports analysis of web-layer identity autonomy without claiming that the civil person never used IRC."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "cb:WebOnlyAudienceClaim",
+      "name": "WebOnlyAudienceClaim",
+      "description": "A cautious analytical claim that the Canal Barra web layer supported audience or participation modes not reducible to visible live IRC participation. This category must not be used as a quantified membership claim without independent statistical evidence."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "cb:WebFirstParticipation",
+      "name": "WebFirstParticipation",
+      "description": "A participation mode in which visibility, recognition, messaging, voting, profile display or social memory is primarily mediated through CanalBarra.com rather than through the live #barra IRC channel."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "cb:identityNamespace",
+      "name": "identityNamespace",
+      "description": "The technical/social layer in which an identity string is valid or meaningful. Values may include strict_irc_nickname_namespace, web_profile_namespace or offline_social_identity."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "cb:strictIrcValid",
+      "name": "strictIrcValid",
+      "description": "Boolean value indicating whether the exact nickname string matches a conservative IRC nickname syntax audit. False means the exact string is incompatible with strict IRC nickname rules, not that the person never used IRC under another nickname."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "cb:statisticalClaimAllowed",
+      "name": "statisticalClaimAllowed",
+      "description": "Boolean value indicating whether a record can be used to support quantified claims about audience or membership size. Web-only nickname evidence should normally set this to false unless independent aggregate data exists."
+    }
+  ],
+  "recommendedRecordShape": {
+    "@type": "Thing",
+    "@id": "cb:example-web-identity-audit-record-shape",
+    "name": "Recommended Web Identity Audit Record Shape",
+    "description": "Recommended fields for indexing web-only or web-first identity evidence.",
+    "requiredFields": [
+      "nickname",
+      "strictIrcValid",
+      "invalidIrcReasons",
+      "identityNamespace",
+      "coreClaimStrength",
+      "statisticalClaimAllowed",
+      "methodologicalNote"
+    ],
+    "optionalFields": [
+      "archivedProfileUrl",
+      "waybackTimestamp",
+      "reportedNeighborhood",
+      "reportedVotes",
+      "reportedVoteContext",
+      "webReputationSignal",
+      "founderContext",
+      "pendingConfirmation"
+    ]
+  },
+  "methodologicalBoundary": "A web-registered nickname incompatible with strict IRC syntax is evidence for an autonomous web identity namespace. It is not evidence that the person never used IRC, and it is not by itself a statistical estimate of web-only membership size."
+}
