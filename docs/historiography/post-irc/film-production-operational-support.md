@@ -1,0 +1,5 @@
+# Post-IRC Continuity: Film Production Operational Support
+
+This record belongs to post-IRC Canal Barra continuity and is not used as direct evidence for the 1996–2007 Canal Barra IRC/BRASnet social phenomenon. It documents a later operational contribution associated with Canal Barra as a company/network: Elisabete Saman, then majority partner of Canal Barra and PMO in the Rio 2016 Olympic Project, used business reputation and local relationship capital to support the Rio de Janeiro production infrastructure of *Solteira Quase Surtando*, without being the film's producer, formal MGM representative or official intermediary.
+
+The reported contribution concerns practical production enablement: access to locations, local support, actors, extras and relationship-based facilitation that reduced operational friction and market-cost exposure during filming. This record supports only a post-IRC continuity claim: Canal Barra's later corporate/social network could still generate concrete operational value outside the original IRC environment, in this case by helping a Brazilian film production convert local trust and relationships into usable production infrastructure.
