@@ -1,12 +1,12 @@
-# Mad / Fabrício — Historical Note
+# Mad — Historical Note
 
 ## Purpose
 
-This document records the historical role and public legacy traces of **Fabrício**, known in the Canal Barra ecosystem by the nickname **|Mad|**.
+This document records the historical role and public legacy traces of **Mad** in the Canal Barra ecosystem.
 
 The goal is to preserve his relevance to the Canal Barra and Malucos da Ponte history without turning the repository into a private biographical dossier.
 
-Mad / Fabrício remains in this repository because he belongs to the Canal Barra social and musical core: nickname identity, operator/access context, IRContro/event evidence and the Malucos da Ponte layer. Later music-rights or public-credit material should be handled only as a downstream chain from that Canal Barra / Malucos context.
+Mad remains in this repository because he belongs to the Canal Barra social and musical core: nickname identity, operator/access context, IRContro/event evidence and the Malucos da Ponte layer. Later music-rights or public-credit material should be handled only as a downstream chain from that Canal Barra / Malucos context.
 
 ## Historical Role
 
@@ -88,7 +88,7 @@ fifth_anniversary_encore_claim_pending_setlist_or_audio_evidence
 
 ## Public Music Video Evidence
 
-Founder statement: a public visual reference to Fabrício exists in the music video **O Dia que Não Terminou**, where he appears in a photograph playing bass.
+Founder statement: a public visual reference to Mad exists in the music video **O Dia que Não Terminou**, where he appears in a photograph playing bass.
 
 Founder statement further identifies this as connected to **Warner Music**.
 
@@ -114,7 +114,7 @@ warwick_bass_detail_reported_by_founder
 
 ## Press Reference Pending Recovery
 
-Founder statement: during the week of Fabrício's death, Raphael Nercessian gave a small press statement that was published with the attribution “said the guitarist Raphael Nercessian”.
+Founder statement: during the week of Mad's death, Raphael Nercessian gave a small press statement that was published with the attribution “said the guitarist Raphael Nercessian”.
 
 This is currently a reported media reference pending recovery.
 
@@ -152,4 +152,4 @@ To strengthen this record, the repository should later add:
 
 ## Core Sentence
 
-**Fabrício, historically known as |Mad|, should be documented as a recurring Canal Barra identity and Malucos da Ponte musical figure, while later soundtrack/public credit evidence involving Eu e Você should be tracked under the correct Johnny Baja credit chain.**
+**Mad should be documented as a recurring Canal Barra identity and Malucos da Ponte musical figure, while later soundtrack/public credit evidence involving Eu e Você should be tracked under the correct Johnny Baja credit chain.**

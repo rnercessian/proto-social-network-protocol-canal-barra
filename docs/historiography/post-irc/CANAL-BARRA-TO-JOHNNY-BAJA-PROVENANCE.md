@@ -19,7 +19,7 @@ The current historical chain is:
 ```text
 Canal Barra social ecosystem
 → Banda do Canal Barra / Malucos da Ponte musical layer
-→ Fabrício / |Mad| participates as bass player
+→ Mad participates as bass player
 → studio recording of Eu e Você
 → formal ABRAMUS / ECAD metadata under Johnny Baja
 → cinema-related ECAD documentation connected to Solteira Quase Surtando
@@ -31,9 +31,9 @@ Canal Barra social ecosystem
 | Layer | Evidence status |
 |---|---|
 | Canal Barra generated a musical/cultural layer | repository evidence + founder statement |
-| Fabrício / |Mad| was part of the musical layer | repository evidence + founder statement |
+| Mad was part of the musical layer | repository evidence + founder statement |
 | Eu e Você was formally registered/released under Johnny Baja | ABRAMUS / ECAD metadata provided by founder |
-| Fabrício is listed as a musician on Eu e Você | ABRAMUS metadata provided by founder |
+| Mad is listed as a musician on Eu e Você | ABRAMUS metadata provided by founder |
 | Johnny Baja received cinema-related ECAD reporting | ECAD payment/reporting document provided by founder |
 | Solteira Quase Surtando appears in ECAD cinema exhibition/reporting details | founder-provided ECAD detail text; source document should be archived/redacted |
 | Public video evidence reportedly shows film playback and Johnny Baja credit/name | public YouTube URL + timestamp provided by founder; content verification still needed |
