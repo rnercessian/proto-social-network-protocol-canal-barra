@@ -56,6 +56,24 @@
         "does_not_match_strict_irc_nickname_pattern"
       ],
       "interpretation": "exact_web_nickname_is_incompatible_with_strict_irc_and_supports_web_identity_namespace_claim"
+    },
+    {
+      "nickname": "***B!@***",
+      "strict_irc_valid": false,
+      "invalid_reasons": [
+        "contains_forbidden_or_nonstandard_chars:@*",
+        "invalid_first_character_for_strict_irc",
+        "does_not_match_strict_irc_nickname_pattern"
+      ],
+      "interpretation": "exact_web_nickname_is_incompatible_with_strict_irc_and_supports_web_identity_namespace_claim",
+      "webProfileEvidence": {
+        "archivedUrl": "https://web.archive.org/web/20021223021828/http://www.canalbarra.com/cadastros/user.cfm?userID=1933",
+        "waybackTimestamp": "20021223021828",
+        "reportedNeighborhood": "Ilha do Governador",
+        "reportedVotes": 6,
+        "reportedVoteContext": "melhor cadastro"
+      },
+      "additionalInterpretation": "This example strengthens the web identity namespace claim because the archived profile combines an IRC-incompatible nickname with web-visible geographic metadata and reputation voting on CanalBarra.com."
     }
   ]
 }
