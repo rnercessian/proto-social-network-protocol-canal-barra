@@ -11,7 +11,7 @@
 
 ## Abstract
 
-This repository documents **Canal Barra** as a Brazilian proto-social network phenomenon built around an IRC-Web-Presence (IWP) architecture, founded in Rio de Janeiro in 1996 around the #barra channel on BRASnet.
+This repository documents **Canal Barra** as a Brazilian proto-social network phenomenon built around an IRC-Web-Presence (IWP) architecture, founded in Rio de Janeiro in 1996 around the #barra channel on BRASnet, deeply rooted in the local youth culture of the Barra da Tijuca neighborhood to establish its strong territorial identity.
 
 The historical thesis is that Canal Barra was one of the first — and possibly the first — extensively documented and structurally auditable proto-social network cases in Brazil. Its architecture combined live IRC presence, nickname-level identity, access levels, Founder/Master/Operator authority, CanalBarra.com as a persistent web portal, offline reputation anchoring through everyday social life and physical gatherings, and documented governance mechanisms such as operator meetings and access-list realignment.
 
@@ -33,7 +33,7 @@ The purpose is not to replace the platform chronology, but to add a parallel evi
 
 Canal Barra operated as an **IRC-Web-Presence (IWP) proto-social network**.
 
-The #barra channel was the live public arena where presence, visibility, reputation, humor, desire, status and social recognition were continuously produced. CanalBarra.com provided web-backed persistence through cadastros, rules, photos, voting, event records and public community memory. Offline life — including school, university, neighborhood, friendships, IRContros, luaus, pizzarias, parties and other physical gatherings — anchored and reinforced identities that were already active inside the channel.
+The #barra channel was the live public arena where presence, visibility, reputation, humor, desire, status and social recognition were continuously produced. CanalBarra.com provided web-backed persistence through user registrations, rules, photos, voting, event records and public community memory. Offline life — including school, university, neighborhood, friendships, IRContros (in-person IRC meetups), beach gatherings, pizzeria gatherings, parties and other physical gatherings — anchored and reinforced identities that were already active inside the channel.
 
 Access levels defined technical capability, but legitimacy was negotiated socially. Founder, Masters and Operators had different technical roles, while operator meetings could discuss, challenge and realign access decisions through argumentation, presence, reputation, contribution and practical community judgment.
 
@@ -172,7 +172,7 @@ The project is designed to preserve and structure:
 - participant and founder statements, clearly separated from independent validation;
 - machine-readable JSON, CSV, JSONL and JSON-LD files.
 
-Global nickname counts should not be expressed as rounded claims. Counts must be source-specific and reproducible, distinguishing raw rows, nickname occurrences, unique identifiers, cadastro records and JSON-LD profile records.
+Global nickname counts should not be expressed as rounded claims. Counts must be source-specific and reproducible, distinguishing raw rows, nickname occurrences, unique identifiers, registration records and JSON-LD profile records.
 
 ## Protocol Generalization Rule
 
