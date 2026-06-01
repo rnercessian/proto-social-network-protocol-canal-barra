@@ -106,6 +106,7 @@ def main() -> None:
         "=====->ŠÑÎÞË® - KßÇÅ",
         ">>>>--> HULK <--<<<<",
         "s@r@do",
+        "***B!@***",
     ]
 
     print(json.dumps(audit_many(nicknames), ensure_ascii=False, indent=2))
