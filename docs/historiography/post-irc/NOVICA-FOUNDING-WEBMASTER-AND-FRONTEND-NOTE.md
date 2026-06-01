@@ -4,6 +4,8 @@
 
 This document records a later-but-relevant web-history reference involving Raphael Nercessian / BarMan and NOVICA.
 
+This record belongs to post-IRC Canal Barra continuity and is not used as direct evidence for the 1996-2007 Canal Barra IRC/BRASnet social phenomenon.
+
 This is not direct evidence that Canal Barra was a social network.
 
 It is relevant as founder web trajectory context: the same person who built and operated early Canal Barra web infrastructure was later publicly remembered as NOVICA's founding webmaster.
@@ -14,6 +16,12 @@ Founder-provided Forbes article:
 
 ```text
 https://www.forbes.com/sites/johngreathouse/2020/11/25/black-friday-gifts-with-meaning-this-entrepreneur-has-generated-over-100m-for-indigenous-artisans/
+```
+
+Forbes article date:
+
+```text
+2020-11-25
 ```
 
 In the article, NOVICA cofounder Roberto Milk refers to Raphael Nercessian as a **founding webmaster** of NOVICA.
@@ -64,9 +72,11 @@ This source may help document:
 ```text
 forbes_article_reference
 third_party_public_reference
+forbes_article_date_2020_11_25
 founder_chronology_correction
 option_certificate_image_provided_by_founder
 documentary_evidence_metadata_extracted
+post_irc_continuity_record
 external_verification_needed_for_exact_three_week_frontend_timeline
 not_direct_canal_barra_social_network_evidence
 founder_web_trajectory_context

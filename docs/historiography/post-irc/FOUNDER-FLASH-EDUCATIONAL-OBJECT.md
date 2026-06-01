@@ -4,6 +4,8 @@
 
 This document records a later multimedia/educational production lead connected to Raphael / BarMan.
 
+This record belongs to post-IRC Canal Barra continuity and is not used as direct evidence for the 1996-2007 Canal Barra IRC/BRASnet social phenomenon.
+
 This is not direct evidence that Canal Barra was a social network.
 
 It is relevant as technical and multimedia trajectory context: the same founder who worked with early web/community infrastructure later produced an educational animated video using Macromedia Flash, a tool that required specialized web-animation skills at the time.
@@ -14,6 +16,12 @@ Founder-provided URL:
 
 ```text
 https://educapes.capes.gov.br/handle/capes/450740
+```
+
+Founder-provided date:
+
+```text
+2008-06-20
 ```
 
 Founder statement: the work was an educational animated video created with **Macromedia Flash**, at a time when this was technically difficult, and it was later included as an educational object in an institutional repository.
@@ -33,8 +41,10 @@ This source may help document:
 
 ```text
 external_url_provided_by_founder
+founder_provided_date_2008_06_20
 content_verification_pending
 institutional_classification_pending
+post_irc_continuity_record
 not_direct_canal_barra_social_network_evidence
 technical_and_multimedia_trajectory_context
 ```
