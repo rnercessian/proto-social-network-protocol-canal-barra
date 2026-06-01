@@ -1,8 +1,23 @@
 # Canal Barra Legal Entity: 2004 Institutionalization
 
-This record documents the legal formalization of **Organização Canal Barra Consultoria de Sistemas LTDA**, CNPJ **06.139.766/0001-38**, in Rio de Janeiro, with a reported foundation date of **6 February 2004**.
+This record documents the legal formalization of **Organização Canal Barra Consultoria de Sistemas LTDA**, CNPJ **06.139.766/0001-38**, with a public registry listing showing an opening date of **5 February 2004**.
 
 This record should be treated as organizational/institutional evidence, not as proof of a new social-network launch in 2004. The relevant historical point is that Canal Barra was already a mature IRC-Web-Presence (IWP) ecosystem by the time it was formalized as a Brazilian legal entity. The corporate registration indicates institutionalization of an existing community/portal/network structure rather than the creation of the original #barra phenomenon.
+
+## Public Registry Details
+
+Source page provided by the curator: `https://www.jusbrasil.com.br/nome/organizacao-canal-barra-consultoria-de-sistemas-ltda/cnpj-6_dBpj0a_QJ`
+
+Reported fields on the Jusbrasil page:
+
+- CNPJ: 06.139.766/0001-38
+- Type: Matriz
+- Opening date: 2004-02-05
+- Registration status: Baixada
+- CNAE: 6201501 - Desenvolvimento de programas de computador sob encomenda
+- Capital social: R$0,00
+- Location: Rua Itaquatiara, 80, Casa 02 - Parte, Centro, Guapimirim - RJ, 25940-050
+- Contact listed on source: (21) 2203-2668
 
 ## Macro-Historical Note
 
@@ -15,11 +30,14 @@ The comparison is useful as a chronological symmetry, not as a claim of equivale
 - Evidence type: organizational / legal entity record
 - Entity: Organização Canal Barra Consultoria de Sistemas LTDA
 - CNPJ: 06.139.766/0001-38
-- Reported foundation date: 2004-02-06
-- Location: Rio de Janeiro, Brazil
+- Reported opening date: 2004-02-05
+- Registry status: Baixada
+- Legal type: Matriz
+- CNAE: 6201501 - Desenvolvimento de programas de computador sob encomenda
+- Location: Guapimirim, Rio de Janeiro, Brazil
 - Relation to core phenomenon: institutionalization of an existing Canal Barra ecosystem
 - Direct evidence for 1996 founding: no
-- Direct evidence for 2004 institutionalization: yes, pending formal registry citation
+- Direct evidence for 2004 institutionalization: yes, pending formal primary registry citation
 - Use in historiography: chronological symmetry with Thefacebook launch week; not platform equivalence
 
 ## Recommended Wording
