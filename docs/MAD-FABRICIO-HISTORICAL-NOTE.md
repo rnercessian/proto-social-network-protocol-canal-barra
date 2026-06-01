@@ -6,6 +6,8 @@ This document records the historical role and public legacy traces of **Fabríci
 
 The goal is to preserve his relevance to the Canal Barra and Malucos da Ponte history without turning the repository into a private biographical dossier.
 
+Mad / Fabrício remains in this repository because he belongs to the Canal Barra social and musical core: nickname identity, operator/access context, IRContro/event evidence and the Malucos da Ponte layer. Later music-rights or public-credit material should be handled only as a downstream chain from that Canal Barra / Malucos context.
+
 ## Historical Role
 
 Founder statement and existing repository records connect **|Mad|** to multiple layers of the Canal Barra ecosystem:

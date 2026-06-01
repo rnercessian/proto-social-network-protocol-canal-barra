@@ -8,6 +8,8 @@ Founder statement: in the same year when the UFF monograph documented Canal Barr
 
 This helps explain why the founder may have been absent from some contemporary documentation of Canal Barra while still being active in a broader cultural circuit connected to the community.
 
+This record remains in the Canal Barra corpus only because it is framed as Canal Barra / Malucos da Ponte circulation, not as a general personal travel or music-career biography. Zal remains relevant here because he had Canal Barra cadastro context, knew Mad / Fabrício, and helps document the extension of Canal Barra's fame, social reach and cultural network beyond the immediate IRC core.
+
 ## Reported 2004 Circuit
 
 Founder statement identifies the following locations as part of that 2004 circulation:

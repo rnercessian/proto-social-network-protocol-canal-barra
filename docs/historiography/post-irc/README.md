@@ -8,6 +8,8 @@ This boundary is based on the represented historical object, not only on file cr
 
 Post-IRC records are not used as direct evidence for the 1996-2007 Canal Barra IRC/BRASnet social phenomenon unless explicitly stated. They document later uses of the Canal Barra name, company structure, network effects, web presence, regional directory experiments, cultural/operational support and other afterlife developments.
 
+Post-IRC material remains in this repository only when it documents continuity, comparison, impact, historiographical context, participants, regional channels, social capital, or cultural chains materially connected to Canal #barra / IRC / BRASnet. Material that only documents Raphael Nercessian's broader personal, professional, educational, institutional, or media trajectory belongs outside this Canal Barra evidence corpus.
+
 ## Classification Rule
 
 Use `docs/historiography/post-irc/` for records where the represented activity occurred after **20 May 2007**, including:
@@ -18,7 +20,7 @@ Use `docs/historiography/post-irc/` for records where the represented activity o
 - revived Canal Barra initiatives;
 - later uses of Canal Barra social capital;
 - cultural, operational or institutional support records;
-- founder-adjacent continuity only when the Canal Barra name, company, network or social capital is materially involved.
+- founder-adjacent continuity only when the Canal Barra name, company, participants, network effects or social capital are materially involved.
 
 Do not use this directory for:
 

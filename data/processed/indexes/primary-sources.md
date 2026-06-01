@@ -92,7 +92,6 @@ Current examples:
 2002/2003 homepage screenshots
 ABRAMUS / ECAD music-work metadata
 ECAD cinema-rights documentation
-NOVICA option certificate image
 ```
 
 ## Missing or Unstable Archive Captures

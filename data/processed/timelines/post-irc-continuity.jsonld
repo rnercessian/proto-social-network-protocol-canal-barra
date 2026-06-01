@@ -27,54 +27,6 @@
       "position": 1,
       "item": {
         "@type": "Event",
-        "@id": "cb:post-irc/faustao-contact-2008",
-        "name": "Founder contact with Domingão do Faustão",
-        "startDate": "2008-06-15",
-        "endDate": "2008-06-28",
-        "temporalPrecision": "email_thread_dates",
-        "description": "A redacted founder-provided email thread records contact with Globo regarding possible participation in Domingão do Faustão. The record is media-access and professional/cultural trajectory context, not direct evidence for Canal Barra as a 1996-2007 social network.",
-        "evidenceRole": "post_irc_continuity_record",
-        "corePhenomenonEvidence": false,
-        "localRecord": "docs/historiography/post-irc/FOUNDER-FAUSTAO-CONTACT-2008.md"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "item": {
-        "@type": "CreativeWork",
-        "@id": "cb:post-irc/founder-flash-educational-object-2008",
-        "name": "Founder Flash educational object",
-        "startDate": "2008-06-20",
-        "temporalPrecision": "founder_provided_date",
-        "description": "A founder-provided eduCAPES URL and date record a later educational multimedia object connected to Raphael / BarMan, reportedly produced with Macromedia Flash. This is technical and multimedia trajectory context after the core IRC/BRASnet period, not direct evidence for Canal Barra as a 1996-2007 social network.",
-        "evidenceRole": "post_irc_technical_multimedia_trajectory_record",
-        "corePhenomenonEvidence": false,
-        "localRecord": "docs/historiography/post-irc/FOUNDER-FLASH-EDUCATIONAL-OBJECT.md",
-        "url": "https://educapes.capes.gov.br/handle/capes/450740"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "item": {
-        "@type": "Organization",
-        "@id": "cb:post-irc/dba-external-identity-lead",
-        "name": "DBA Engenharia de Sistemas external identity lead",
-        "startDate": "2008",
-        "temporalPrecision": "reported_professional_context_year",
-        "description": "DBA Engenharia de Sistemas is recorded as a post-IRC professional-context lead connected to founder statements about later web work with Globo properties. The local record treats the LinkedIn/company identity lead as verification context for the founder's later professional trajectory, not as direct Canal Barra evidence.",
-        "evidenceRole": "post_irc_professional_context_record",
-        "corePhenomenonEvidence": false,
-        "localRecord": "docs/historiography/post-irc/DBA-EXTERNAL-IDENTITY-LEADS.md",
-        "url": "https://www.linkedin.com/company/dba/about/"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "item": {
-        "@type": "Event",
         "@id": "cb:post-irc/canal-gyn-2010-2012",
         "name": "Canal Gyn regional directory",
         "startDate": "2010",
@@ -90,7 +42,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5,
+      "position": 2,
       "item": {
         "@type": "Event",
         "@id": "cb:post-irc/canal-barra-directory-blog-portal-2011",
@@ -107,7 +59,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 6,
+      "position": 3,
       "item": {
         "@type": "Event",
         "@id": "cb:post-irc/canal-sampa-2011",
@@ -124,7 +76,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 7,
+      "position": 4,
       "item": {
         "@type": "Event",
         "@id": "cb:post-irc/film-production-operational-support-2016",
@@ -139,7 +91,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 8,
+      "position": 5,
       "item": {
         "@type": "CreativeWork",
         "@id": "cb:post-irc/johnny-baja-eu-e-voce-2019-2021",
@@ -157,22 +109,6 @@
           "name": "Eu e Você ABRAMUS redacted metadata",
           "url": "data/processed/music-works/eu-e-voce-abramus-redacted.csv"
         }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 9,
-      "item": {
-        "@type": "CreativeWork",
-        "@id": "cb:post-irc/novica-founding-webmaster-forbes-reference-2020",
-        "name": "NOVICA founding webmaster and first front-end reference",
-        "startDate": "2020-11-25",
-        "temporalPrecision": "forbes_article_date",
-        "description": "A 2020 Forbes article quotes NOVICA cofounder Roberto Milk referring to Raphael Nercessian as NOVICA's founding webmaster. The local record also preserves founder chronology context and metadata from a founder-provided 1999 NOVICA option certificate image. This is founder web-trajectory context, not direct evidence for Canal Barra as a 1996-2007 social network.",
-        "evidenceRole": "post_irc_founder_web_trajectory_record",
-        "corePhenomenonEvidence": false,
-        "localRecord": "docs/historiography/post-irc/NOVICA-FOUNDING-WEBMASTER-AND-FRONTEND-NOTE.md",
-        "url": "https://www.forbes.com/sites/johngreathouse/2020/11/25/black-friday-gifts-with-meaning-this-entrepreneur-has-generated-over-100m-for-indigenous-artisans/"
       }
     }
   ]

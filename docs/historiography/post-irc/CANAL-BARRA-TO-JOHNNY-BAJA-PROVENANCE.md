@@ -10,6 +10,8 @@ The goal is not to claim that Canal Barra directly reached the film industry as 
 
 The goal is to document how a cultural work rooted in the Canal Barra / Malucos da Ponte musical layer later appears in formal phonographic and cinema-related rights contexts.
 
+Johnny Baja is a later credit and rights identity. It should be treated as a post-IRC cultural chain derived from Canal Barra / Malucos da Ponte memory and music work, not as an institution of Canal Barra itself.
+
 ## Provenance Chain
 
 The current historical chain is:
