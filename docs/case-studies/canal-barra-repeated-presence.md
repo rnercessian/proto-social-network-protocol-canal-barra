@@ -1,5 +1,5 @@
 ---
-title: Canal Barra: Repeated Presence, Public Reputation and Pre-Platform Sociability in Brazilian IRC
+title: "Canal Barra: Repeated Presence, Public Reputation and Pre-Platform Sociability in Brazilian IRC"
 layout: default
 ---
 
