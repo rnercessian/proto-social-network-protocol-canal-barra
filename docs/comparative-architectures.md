@@ -92,8 +92,6 @@ AIM is therefore useful as contrast. It shows that “presence” alone is not e
 | Public performance | Limited by directory/profile format | Central: public channel dialogue before a known audience | Limited by profile and graph interaction | Mostly private or semi-private |
 | Main historical value | Early web-based social affiliation service | Documented Brazilian IWP proto-social network | Canonical profile-graph ancestor | Major instant-messaging presence system |
 
-The territorial and sociolinguistic meaning of the name `#barra` is treated in [`docs/historiographical-context-barra.md`](historiographical-context-barra.md), where it belongs as cultural context rather than as a platform-architecture comparison.
-
 ## Why this comparison matters
 
 The comparison changes the historical question.
