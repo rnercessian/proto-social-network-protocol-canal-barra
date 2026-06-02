@@ -92,19 +92,7 @@ AIM is therefore useful as contrast. It shows that “presence” alone is not e
 | Public performance | Limited by directory/profile format | Central: public channel dialogue before a known audience | Limited by profile and graph interaction | Mostly private or semi-private |
 | Main historical value | Early web-based social affiliation service | Documented Brazilian IWP proto-social network | Canonical profile-graph ancestor | Major instant-messaging presence system |
 
-## The territorial ambiguity of “Barra”
-
-The name #barra was not culturally neutral.
-
-For Rio de Janeiro participants familiar with Barra da Tijuca, “Barra” pointed to a specific urban and social territory: beach-facing, car-oriented, commercially expanding, condominium-based, aspirational and strongly associated with late-1990s youth circulation.
-
-For Brazilian users outside that context, the word could carry other associations. In Portuguese, expressions such as “segurar uma barra”, “passar por uma barra” or “barra pesada” evoke difficulty, burden, trouble, danger or a socially heavy situation.
-
-This ambiguity matters because the channel name encoded local knowledge. To insiders, #barra meant territorial belonging. To outsiders, it could appear opaque or even negative before the local meaning was understood.
-
-This should not be overstated as formal governance. It is better described as an involuntary sociolinguistic filter: the name itself helped distinguish those who immediately recognized the territory from those who did not.
-
-In this sense, #barra was not just a label. It was a cultural coordinate.
+The territorial and sociolinguistic meaning of the name `#barra` is treated in [`docs/historiographical-context-barra.md`](historiographical-context-barra.md), where it belongs as cultural context rather than as a platform-architecture comparison.
 
 ## Why this comparison matters
 
