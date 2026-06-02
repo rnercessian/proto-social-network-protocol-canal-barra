@@ -12,7 +12,8 @@ This site is the public reading layer of the repository. The repository preserve
 ## Start here
 
 - [Canal Barra Historical Case Study](canal-barra-case-study.html) — technical-historical definition of the Canal Barra case.
-- [Canal Barra: presença repetida, reputação pública e sociabilidade pré-plataforma](case-studies/canal-barra-presenca-repetida.html) — long narrative case study in Portuguese.
+- [Canal Barra: Repeated Presence, Public Reputation and Pre-Platform Sociability](case-studies/canal-barra-repeated-presence.html) — long international case study in English.
+- [Canal Barra: presença repetida, reputação pública e sociabilidade pré-plataforma](case-studies/canal-barra-presenca-repetida.html) — original long narrative case study in Portuguese.
 - [Comparative Architectures](comparative-architectures.html) — Classmates.com, Canal Barra, SixDegrees.com and AIM compared as different social architectures.
 - [Reusable Digital Archaeology Data Protocol](reusable-digital-archaeology-protocol.html) — portable archival protocol extracted from the Canal Barra case.
 - [Evidence Methodology](evidence-methodology.html) — evidence levels, source weighting and uncertainty handling.
