@@ -19,6 +19,38 @@ This means:
 - IRContros, luaus, parties and other physical gatherings anchored nickname-level identity and reputation in person.
 - Access and continuity were structured through Founder, Masters and Operators, with access-list management, operator turnover and governance records.
 
+## The channel name as cultural coordinate
+
+The name `#barra` was not culturally neutral.
+
+For Rio de Janeiro participants familiar with Barra da Tijuca, "Barra" pointed to a specific urban and social territory: beach-facing, car-oriented, commercially expanding, condominium-based, aspirational and strongly associated with late-1990s youth circulation.
+
+For Brazilian users outside that context, the word could carry other associations. In Portuguese, expressions such as "segurar uma barra", "passar por uma barra" or "barra pesada" evoke difficulty, burden, trouble, danger or a socially heavy situation.
+
+This ambiguity matters because the channel name encoded local knowledge. To insiders, `#barra` meant territorial belonging. To outsiders, it could appear opaque or even negative before the local meaning was understood.
+
+This should not be overstated as formal governance. It is better described as an involuntary sociolinguistic filter: the name itself helped distinguish those who immediately recognized the territory from those who did not.
+
+In this sense, `#barra` was not just a label. It was a cultural coordinate.
+
+## Affinity anchor, not only residence
+
+The territorial identity of Canal Barra should not be reduced to literal residence inside Barra da Tijuca.
+
+Many participants could identify with the channel's social world without living in Barra itself. Some circulated through the neighborhood for school, university, shopping, beach life, rehearsals, friendships, parties or relationships. Others could be temporarily distant — including people abroad, on exchange programs or outside Rio de Janeiro — while still using `#barra` as a familiar social anchor.
+
+This distinction matters because the community was territorial without being merely residential. Barra functioned as a symbolic and affective coordinate: a place people recognized, desired, visited, remembered or used as a reference point for belonging. The channel's local density came from identification with a social proposition, not from a strict address requirement.
+
+In this sense, Canal Barra was capable of translocal participation. A user did not need to be physically present in Barra every day to remain socially connected to the group. Repeated nickname presence, remembered interactions, web records, photographs, event memory and mutual recognition allowed participants to maintain belonging across distance.
+
+The stronger formulation is therefore:
+
+```text
+Canal Barra was anchored in Barra da Tijuca, but it was not limited to Barra da Tijuca residents.
+```
+
+Its geography operated as an affinity anchor rather than a closed territorial border.
+
 ## Infrastructure boundary
 
 Canal Barra did not own or operate the underlying BRASnet IRC server infrastructure.
