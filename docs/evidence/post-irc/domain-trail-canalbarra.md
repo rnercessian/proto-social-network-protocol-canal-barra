@@ -56,16 +56,16 @@ In other words, even after the channel’s strongest social phase had passed, th
 
 ## Historical Domain Infrastructure Trail
 
-```text
-187.45.193.215 — Brazil — Locaweb Serviços de Internet SA — 2011-09-08
-50.116.64.0 — Phoenix, United States — UNIFIEDLAYER-AS-1 — 2014-01-31
-192.185.213.204 — Vinhedo, Brazil — NETWORK-SOLUTIONS-HOSTING — 2014-11-17
-8.5.1.10 — Dallas, United States — LEVEL3 — 2015-11-14
-13.248.243.5 — United States — AMAZON-02 — 2024-07-24
-76.223.105.230 — United States — AMAZON-02 — 2024-07-24
-149.28.80.63 — Los Angeles, United States — AS-CHOOPA — 2026-05-05
-Current hosting record — Amsterdam, Netherlands — AS-CHOOPA — 2026-06-03 — IP withheld for operational security
-```
+| Date | Historical record | Location | Network / Provider | Note |
+|---|---:|---|---|---|
+| 2011-09-08 | `187.45.193.215` | Brazil | Locaweb Serviços de Internet SA | Historical hosting record |
+| 2014-01-31 | `50.116.64.0` | Phoenix, United States | UNIFIEDLAYER-AS-1 | Historical hosting record |
+| 2014-11-17 | `192.185.213.204` | Vinhedo, Brazil | NETWORK-SOLUTIONS-HOSTING | Historical hosting record |
+| 2015-11-14 | `8.5.1.10` | Dallas, United States | LEVEL3 | Historical hosting record |
+| 2024-07-24 | `13.248.243.5` | United States | AMAZON-02 | Historical hosting record |
+| 2024-07-24 | `76.223.105.230` | United States | AMAZON-02 | Historical hosting record |
+| 2026-05-05 | `149.28.80.63` | Los Angeles, United States | AS-CHOOPA | Historical hosting record |
+| 2026-06-03 | Current hosting record | Amsterdam, Netherlands | AS-CHOOPA | IP withheld for operational security |
 
 ---
 
