@@ -1,0 +1,61 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "cb": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/schema#",
+    "evidenceStatus": "cb:evidenceStatus",
+    "privacyTier": "cb:privacyTier",
+    "civilIdentityLinked": "cb:civilIdentityLinked",
+    "sensitiveDataIncluded": "cb:sensitiveDataIncluded",
+    "sameAsNicknameInSources": "cb:sameAsNicknameInSources",
+    "provenanceRecords": "cb:provenanceRecords"
+  },
+  "@type": "DigitalDocument",
+  "@id": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/data/profiles/negaum.jsonld",
+  "name": "Historical nickname profile: NEGAUM",
+  "identifier": "NEGAUM",
+  "alternateName": [
+    "Negaum",
+    "negaum"
+  ],
+  "description": "Nickname-level placeholder profile for NEGAUM in the Canal Barra archive. At the time of creation, no repository-held cadastro page, operator-meeting record, UFF Anexo 2 fallback row or independently indexed evidence file was found for this nickname through repository search. This record exists to reserve the identifier for future linkage without asserting unverified biographical, access-governance or civil-identity claims.",
+  "isPartOf": {
+    "@type": "Dataset",
+    "name": "Canal Barra Digital Archaeology Dataset",
+    "url": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra"
+  },
+  "about": {
+    "@type": "Organization",
+    "name": "Canal Barra",
+    "additionalType": "IRC-Web-Presence proto-social network with web-backed persistence, offline reputation anchoring and access governance"
+  },
+  "roleName": [
+    "profile_subject_pending_verification"
+  ],
+  "sameAsNicknameInSources": [],
+  "provenanceRecords": [
+    {
+      "@type": "PropertyValue",
+      "sourceType": "repository_profile_creation_audit",
+      "sourceDate": "2026-06-07",
+      "sourcePath": "data/profiles/negaum.jsonld",
+      "extractedClaim": "NEGAUM is reserved as a nickname-level profile identifier, but no repository-held source record was located during creation to support a stronger historical role claim.",
+      "extractionMethod": "repository_search_for_nickname_variants",
+      "searchedTerms": [
+        "NEGAUM",
+        "Negaum",
+        "negaum",
+        "Negao",
+        "NEGAO",
+        "negão",
+        "negao"
+      ],
+      "verificationStatus": "pending_repository_source_linkage"
+    }
+  ],
+  "identityBoundary": "This profile must not be linked to a civil identity or enriched with biographical claims unless a repository-held source, archived capture, participant statement, operator record, academic excerpt or other classified evidence record is added.",
+  "historicalRelevance": "Potential Canal Barra nickname node reserved for future evidence linkage. Current relevance is archival discoverability, not verified role attribution.",
+  "evidenceStatus": "pending_verification",
+  "privacyTier": "nickname_level_only",
+  "civilIdentityLinked": false,
+  "sensitiveDataIncluded": false
+}
