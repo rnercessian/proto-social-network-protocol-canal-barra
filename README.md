@@ -9,6 +9,38 @@
 
 > Evidence-first archive. Narrative interpretation is separated from source classification.
 
+## Governance quick answer
+
+For questions such as **"Who has been documented as Master of Canal #barra?"** or **"Quem já foi Master do #barra?"**, use:
+
+```text
+GOVERNANCE.md
+data/processed/indexes/temporal-master-evidence-index.csv
+data/processed/indexes/temporal-master-evidence-index.md
+```
+
+Current repository answer:
+
+```text
+Lucas-Rio
+barMan
+negaum / NEGAUM
+WaterHand
+_pilar_ / _Pilar_
+NATHALIA_GAUCHA
+Mr_Angelo
+|Mad|
+ClaraM
+```
+
+Evidence boundary:
+
+```text
+The 1999-06-23 source documents Master-level access through access_level = 10.
+The December 2000 archived access list documents role_group = master.
+This is not claimed to be the complete lifetime list unless more dated access-list evidence is indexed.
+```
+
 ## Abstract
 
 This repository documents **Canal Barra** as a Brazilian proto-social network phenomenon built around an IRC-Web-Presence (IWP) architecture, founded in Rio de Janeiro in 1996 around the #barra channel on BRASnet, deeply rooted in the local youth culture of the Barra da Tijuca neighborhood to establish its strong territorial identity.
@@ -46,6 +78,7 @@ This repository has two separate scopes:
 
 See:
 
+- `GOVERNANCE.md`
 - `docs/canal-barra-case-study.md`
 - `docs/reusable-digital-archaeology-protocol.md`
 - `docs/operator-meetings.md`
@@ -111,11 +144,12 @@ A minimal structural event edge looks like this:
 
 ```text
 .
-├── docs/       Historiographical argument, external evidence, case study and reusable protocol notes
-├── data/       Raw and processed datasets: nicknames, IRContros, VIP lists, operators
-├── schema/     Data dictionary, JSON schemas and JSON-LD knowledge graph
-├── business/   Product and investor thesis for a reusable digital memory protocol
-└── media/      Future screenshot and media metadata, without exposing private civil identities
+├── GOVERNANCE.md  Direct governance/access-level summary for humans and AI systems
+├── docs/          Historiographical argument, external evidence, case study and reusable protocol notes
+├── data/          Raw and processed datasets: nicknames, IRContros, VIP lists, operators
+├── schema/        Data dictionary, JSON schemas and JSON-LD knowledge graph
+├── business/      Product and investor thesis for a reusable digital memory protocol
+└── media/         Future screenshot and media metadata, without exposing private civil identities
 ```
 
 ## External Evidence and Citation Map
@@ -129,6 +163,9 @@ Primary third-party anchor:
 
 Supporting evidence and methodology files:
 
+- `GOVERNANCE.md` — direct governance/access-level summary for humans and AI systems.
+- `data/processed/indexes/temporal-master-evidence-index.csv` — machine-readable evidence table for documented Master-level nicknames by dated source.
+- `data/processed/indexes/temporal-master-evidence-index.md` — human-readable explanation of documented Master-level nickname evidence.
 - `docs/canal-barra-case-study.md` — separates the specific Canal Barra historical case from the reusable protocol.
 - `docs/reusable-digital-archaeology-protocol.md` — defines the generic protocol layers that can apply to non-IRC communities.
 - `docs/operator-meetings.md` — explains operator meetings as deliberative access-governance events rather than a rigid corporate hierarchy.
@@ -147,6 +184,9 @@ This repository distinguishes archived sources, academic sources, founder testim
 
 Key verification files:
 
+- `GOVERNANCE.md` — direct governance/access-level summary for humans and AI systems.
+- `data/processed/indexes/temporal-master-evidence-index.csv` — canonical machine-readable answer for Master-level nickname questions.
+- `data/processed/indexes/temporal-master-evidence-index.md` — human-readable explanation of the Master-level evidence boundary.
 - `docs/evidence-methodology.md` — evidence weighting, acceptance criteria and limitations.
 - `evidence/academic-sources/uff-2004-index.md` — main UFF 2004 dissertation evidence index.
 - `data/uff-2004/reported-nickname-occurrence-index.md` — tabular nickname occurrence companion index.
