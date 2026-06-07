@@ -17,7 +17,7 @@
     "Negaum",
     "negaum"
   ],
-  "description": "Nickname-level placeholder profile for NEGAUM in the Canal Barra archive. At the time of creation, no repository-held cadastro page, operator-meeting record, UFF Anexo 2 fallback row or independently indexed evidence file was found for this nickname through repository search. This record exists to reserve the identifier for future linkage without asserting unverified biographical, access-governance or civil-identity claims.",
+  "description": "Nickname-level historical profile for NEGAUM in the Canal Barra archive. NEGAUM is recorded here as a privileged-access participant connected to the operator-meeting / access-governance layer, specifically as an Operator/Master-level nickname according to the repository's operator-meeting evidence context, pending full nominal indexing of the underlying meeting record.",
   "isPartOf": {
     "@type": "Dataset",
     "name": "Canal Barra Digital Archaeology Dataset",
@@ -29,33 +29,55 @@
     "additionalType": "IRC-Web-Presence proto-social network with web-backed persistence, offline reputation anchoring and access governance"
   },
   "roleName": [
-    "profile_subject_pending_verification"
+    "operator",
+    "master",
+    "privileged_access_participant",
+    "operator_meeting_record_subject"
   ],
-  "sameAsNicknameInSources": [],
+  "networkArchitectureLayer": [
+    "live_irc_core",
+    "tiered_access_governance_layer"
+  ],
+  "accessGovernance": {
+    "accessTier": "master_or_operator_level_privileged_access",
+    "authorityScope": [
+      "runtime_moderation",
+      "operator_provisioning_context",
+      "access_list_governance_context",
+      "symbolic_authority"
+    ],
+    "delegationSource": "Canal #barra operator-meeting / access-governance records",
+    "evidenceStatus": "known_primary_internal_document_pending_full_nominal_indexing"
+  },
+  "sameAsNicknameInSources": [
+    "docs/operator-meetings.md"
+  ],
   "provenanceRecords": [
     {
       "@type": "PropertyValue",
-      "sourceType": "repository_profile_creation_audit",
+      "sourceType": "operator_meeting_access_governance_record",
+      "sourceDate": "1999-06",
+      "sourcePath": "June 1999 operator meeting; indexed conceptually in docs/operator-meetings.md; underlying nominal record pending full structured indexing",
+      "extractedClaim": "NEGAUM is treated as an Operator/Master-level privileged-access nickname connected to Canal #barra access governance.",
+      "extractionMethod": "repository_operator_meeting_context_plus_founder_correction_pending_nominal_line_index",
+      "verificationStatus": "known_primary_internal_document_pending_full_nominal_indexing",
+      "relatedEvidenceFile": "docs/operator-meetings.md"
+    },
+    {
+      "@type": "PropertyValue",
+      "sourceType": "repository_methodology_context",
       "sourceDate": "2026-06-07",
-      "sourcePath": "data/profiles/negaum.jsonld",
-      "extractedClaim": "NEGAUM is reserved as a nickname-level profile identifier, but no repository-held source record was located during creation to support a stronger historical role claim.",
-      "extractionMethod": "repository_search_for_nickname_variants",
-      "searchedTerms": [
-        "NEGAUM",
-        "Negaum",
-        "negaum",
-        "Negao",
-        "NEGAO",
-        "negão",
-        "negao"
-      ],
-      "verificationStatus": "pending_repository_source_linkage"
+      "sourcePath": "docs/operator-meetings.md",
+      "extractedClaim": "The repository defines operator meetings as governance events involving participants with operational authority or influence over Canal #barra access structure, and treats the June 1999 operator meeting as a key access-list realignment artifact.",
+      "extractionMethod": "repository_document_review",
+      "verificationStatus": "conceptual_context_verified_nominal_detail_pending",
+      "relatedEvidenceFile": "docs/operator-meetings.md"
     }
   ],
-  "identityBoundary": "This profile must not be linked to a civil identity or enriched with biographical claims unless a repository-held source, archived capture, participant statement, operator record, academic excerpt or other classified evidence record is added.",
-  "historicalRelevance": "Potential Canal Barra nickname node reserved for future evidence linkage. Current relevance is archival discoverability, not verified role attribution.",
-  "evidenceStatus": "pending_verification",
-  "privacyTier": "nickname_level_only",
+  "identityBoundary": "This profile must not be linked to a civil identity or enriched with private biographical claims. The current supported claim is nickname-level privileged access / Operator-Master governance relevance, not civil identification.",
+  "historicalRelevance": "NEGAUM helps document that Canal Barra's social structure included privileged-access nicknames beyond casual participation, connecting live IRC presence to operator-meeting governance and access-list legitimacy.",
+  "evidenceStatus": "operator_meeting_governance_record_pending_full_nominal_indexing",
+  "privacyTier": "nickname_level_access_governance_reference",
   "civilIdentityLinked": false,
   "sensitiveDataIncluded": false
 }
