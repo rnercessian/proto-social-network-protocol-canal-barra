@@ -1,0 +1,104 @@
+display_nickname,lookup_nickname,source,match_type,confidence,notes
+_C_a_R_o_L__CaRpEtA,_C_a_R_o_L__CaRpEtA,uff_2004_anexo_2,exact,high,Observed in Anexo 2 live conversation
+_joao_henriques_,_joao_henriques_,uff_2004_anexo_2,exact,high,Join line
+_Layne_,_Layne_,uff_2004_anexo_2,exact,high,Join line
+_Rambo_19,_Rambo_19,uff_2004_anexo_2,exact,high,Visible in dialogue/script formatting
+_Rambo_19,Rambo_19,uff_2004_anexo_2,variant,medium,Same base nickname without leading underscore
+Agent-86,Agent-86,uff_2004_anexo_2,exact,high,Join line
+anabiaaaa,anabiaaaa,uff_2004_anexo_2,exact,high,Message line
+Biano,fui-embora,uff_2004_anexo_2,explicit_nick_change,high,Log shows fui-embora agora e Biano-
+Biano,Biano-,uff_2004_anexo_2,explicit_nick_change,high,Canonicalized by removing temporary trailing dash
+Biano,Biano[CHICLETEEEEEEEEEEE],uff_2004_anexo_2,explicit_nick_change,high,Chiclete joke variant collapsed under Biano
+Binha-_-,Binha-_-,uff_2004_anexo_2,exact,high,Message lines
+BM_,BM_,uff_2004_anexo_2,exact,high,Topic setter operator mode and message lines
+Bodyboard_21,Bodyboard_21,uff_2004_anexo_2,exact,high,Message/status-script line
+BPM_OFF,BPM_OFF,uff_2004_anexo_2,exact,high,Music/status-script line
+br0d,br0d,uff_2004_anexo_2,exact,high,Message line
+Bruce_RJ,Bruce_RJ,uff_2004_anexo_2,exact,high,Quit/join lines
+CaFaJeStE_24_Rj,CaFaJeStE_24_Rj,uff_2004_anexo_2,exact,high,Music/status-script line
+CaroliNa-27,CaroliNa-27,uff_2004_anexo_2,exact,high,Lag-test/action line
+cArGa,cArGa[BiChO`RuIm],uff_2004_anexo_2,status_variant,high,Mechanical suffix/status variation
+cArGa,cArGa[vB],uff_2004_anexo_2,status_variant,high,Mechanical suffix/status variation
+cArGa,cArGa[y2k],uff_2004_anexo_2,status_variant,high,Mechanical suffix/status variation
+cArGa,[vB]cArGa,uff_2004_anexo_2,status_variant,high,Mechanical prefix/status variation
+DaNieL_BaRra,DaNieL_BaRra,uff_2004_anexo_2,exact,high,Message and voice-mode lines
+Dani18-rindoMUITO-sozinha,Dani18-rindoMUITO-sozinha,uff_2004_anexo_2,exact,high,Message and mode lines
+DDeXTerr,DDeXTerr,uff_2004_anexo_2,exact,high,Music/status-script line
+DrNando,DrNando,uff_2004_anexo_2,exact,high,Away/script and mention
+DrNando,-DrNando-,uff_2004_anexo_2,variant,medium,Same base nickname with decorative dashes
+ErV|nHA,ErV|nHA,uff_2004_anexo_2,exact,high,Mentioned in addressed message
+esprock,esprock,uff_2004_anexo_2,exact,high,Part line
+Fabio__,Fabio__,uff_2004_anexo_2,exact,high,Away line
+Garoto_de_programa_-rj-_,Garoto_de_programa_-rj-_,uff_2004_anexo_2,exact,high,Voice-mode line
+Gatinhu_,Gatinhu_,uff_2004_anexo_2,exact,high,Join line
+GiZeLLe,GiZeLLe,uff_2004_anexo_2,exact,high,Quit line includes nick and user ident
+GiZeLLe,GiZeLLe_Ic,uff_2004_anexo_2,host_or_ident_variant,medium,Canonical kept as visible nick
+GiZeLLe,Gizelle_Ic,uff_2004_anexo_2,case_variant,medium,Lowercase/case-normalized search fallback
+GiZeLLe,gizelle_ic,uff_2004_anexo_2,case_variant,medium,Lowercase search fallback
+Guigo_diretoria,guigo_diretoria,uff_2004_anexo_2,exact,high,Explicit away/off-style nick family
+Guigo_diretoria,guigOFF_diretoria,uff_2004_anexo_2,status_variant,high,OFF-style variant collapsed
+guto_barra,guto_barra,uff_2004_anexo_2,exact,high,Quit line
+LadY_of_hipHop,LadY_of_hipHop,uff_2004_anexo_2,exact,high,Message/status-script line
+Lelo_Jpa,Lelo_Jpa,uff_2004_anexo_2,exact,high,Canonical nickname
+Lelo_Jpa,Lelo_Jpa_tel,uff_2004_anexo_2,status_variant,high,Telephone/away suffix collapsed
+Lelo_Jpa,Lelo_Jpa_odeia_X9,uff_2004_anexo_2,status_variant,high,X9 joke/status suffix collapsed
+Lindinha_barra,Lindinha_barra,uff_2004_anexo_2,exact,high,Quit line
+loirinha____,loirinha____,uff_2004_anexo_2,exact,high,Join line
+LUA,LUA||Xou`Muito`Maix`Eu||,uff_2004_anexo_2,possible_variant,low,Similar LUA-style status nick family needs human confirmation
+LUA,Lua||XuPer`In`Up||,uff_2004_anexo_2,possible_variant,low,Similar LUA-style status nick family needs human confirmation
+Mak__Copa,Mak__Copa,uff_2004_anexo_2,exact,high,Join/message line
+malha,malha[out],uff_2004_anexo_2,status_variant,high,Out suffix collapsed
+malhado-Rj,malhado-Rj,uff_2004_anexo_2,exact,high,Join line
+ManuzinhaXuperLove,Rindo`Horrores,uff_2004_anexo_2,explicit_nick_change,high,Log shows Rindo`Horrores agora e ManuzinhaXuperLove
+ManuzinhaXuperLove,ManuzinhaXuperLove,uff_2004_anexo_2,exact,high,Canonical after explicit nick change
+Mateus_Barra_22,Mateus_Barra_22,uff_2004_anexo_2,exact,high,Join/message line
+medico-jpa,medico-jpa,uff_2004_anexo_2,exact,high,Join line
+MErendA-[RJ],MErendA-[RJ],uff_2004_anexo_2,exact,high,Join/part line
+Miagui_RJ,Miagui_RJ,uff_2004_anexo_2,exact,high,Quit line
+Nerd24Hs,_vivian_,uff_2004_anexo_2,explicit_nick_change,high,Log shows _vivian_ agora e Nerd24Hs
+Nerd24Hs,Nerd24Hs,uff_2004_anexo_2,exact,high,Canonical after explicit nick change
+ninabarra-25,ninabarra-25,uff_2004_anexo_2,exact,high,Join/part line
+Nudistasss,Nudistasss,uff_2004_anexo_2,exact,high,Join/kick line
+o_mais_feio,o_mais_feio,uff_2004_anexo_2,exact,high,Part line
+os-olhos,os-olhos,uff_2004_anexo_2,exact,high,Message line
+P01,P01,uff_2004_anexo_2,exact,high,Message/part/quit lines
+Pedrinho{RJ},Pedrinho{RJ},uff_2004_anexo_2,exact,high,Message mode and kick lines
+Pepeia,Pepeia,uff_2004_anexo_2,exact,high,Message line
+Pit-bull,Pit-bull,uff_2004_anexo_2,exact,high,Join/message line
+Playboy_barra,nukando_a_galera_barra,uff_2004_anexo_2,explicit_nick_change,high,Explicit nick change
+Playboy_barra,Playboy_barra,uff_2004_anexo_2,exact,high,Canonical after explicit nick change
+Playmobil_RJ,Playmobil_RJ,uff_2004_anexo_2,exact,high,Explicitly appears before change to Toulouse_RJ
+Playmobil_RJ,Toulouse_RJ,uff_2004_anexo_2,explicit_nick_change,medium,Grouped in MD inventory but may be separate public display identity depending search policy
+Qu3lzinh4__JPA,Qu3lzinh4__JPA,uff_2004_anexo_2,exact,high,Canonical kept as logged
+Qu3lzinh4__JPA,Quelzinh4__JPA,uff_2004_anexo_2,formatting_variant,medium,Script/color formatting may visually split nick
+QuIkSiLvEr_zsul__,QuIkSiLvEr_zsul__,uff_2004_anexo_2,exact,high,Join line
+RaFa_RoiF,RaFa_RoiF,uff_2004_anexo_2,exact,high,Quit line
+RaPhAElluS,RaPhAElluS,uff_2004_anexo_2,exact,high,Message/action lines
+R-eNaTo_O,R-eNaTo_O[cHeGaNdO-dO-MaRaCa],uff_2004_anexo_2,status_variant,high,Status suffix collapsed
+Roooo,Roooo,uff_2004_anexo_2,exact,high,Message lines
+R-Caruso,R-Caruso,uff_2004_anexo_2,exact,high,Message line
+R3pTiL3,R3pTiL3}},uff_2004_anexo_2,decorative_variant,medium,Braces treated as decoration/noise unless later confirmed
+Sarada_42-RJ,Sarada_42-RJ-Away,uff_2004_anexo_2,status_variant,high,Away suffix collapsed
+SHARK_RIO,SHARK_RIO[26_HJ][OFFz],uff_2004_anexo_2,status_variant,high,Age/date/off suffix collapsed
+SUFOCADOR,SUFOCADOR,uff_2004_anexo_2,exact,high,Voice-mode line
+SUPERHOMEM-RJ,SUPERHOMEM-RJ,uff_2004_anexo_2,exact,high,Message and mode lines
+tchetchelo,tchetchelo_MuiToCurioSo,uff_2004_anexo_2,explicit_nick_change,high,Explicit nick change
+tchetchelo,tchetchelo_Anestesiado,uff_2004_anexo_2,explicit_nick_change,high,Explicit nick change
+Thati_-RJ,Thati_-RJ,uff_2004_anexo_2,exact,high,Canonical nickname family
+Thati_-RJ,thåtï_-®j,uff_2004_anexo_2,possible_stylized_variant,low,Stylized nick family needs human confirmation
+Thiffany,Thiffany,uff_2004_anexo_2,exact,high,Message lines
+TO_NERDANDO_AKI,TO_NERDANDO_AKI[FLUmeio`off],uff_2004_anexo_2,status_variant,high,Status suffix collapsed
+TO-NEM_AI,To_Nem_Aii,uff_2004_anexo_2,explicit_nick_change,high,Explicit nick change
+TO-NEM_AI,TO-NEM_AI,uff_2004_anexo_2,exact,high,Canonical after explicit nick change
+Tom_del0nge_182,Tom_del0nge_182,uff_2004_anexo_2,exact,high,Message/mention lines
+Toulouse_RJ,Toulouse_RJ,uff_2004_anexo_2,exact,high,Canonical nickname
+Toulouse_RJ,Toulouse_RJ|OFF|,uff_2004_anexo_2,status_variant,high,Off suffix collapsed
+Tuna_,Tuna_,uff_2004_anexo_2,exact,high,Join/message/kick lines
+tunazuda,tunazuda,uff_2004_anexo_2,exact,high,Message line
+VaNZaN,VaNZaN,uff_2004_anexo_2,exact,high,Canonical nickname
+VaNZaN,VaNZaN[CHICLETAO],uff_2004_anexo_2,explicit_nick_change,high,Chiclete joke variant collapsed under VaNZaN
+VaNZaN,GV,uff_2004_anexo_2,explicit_nick_change,high,Log shows VaNZaN agora e GV
+valente,valente,uff_2004_anexo_2,exact,high,Message line
+VouSozinhaMesmoPraAxeJurney,VouSozinhaMesmoPraAxeJurney,uff_2004_anexo_2,exact,high,Quit line
+XEIHZ,XEIHZ,uff_2004_anexo_2,exact,high,Message/status-script line
+ZoIo_AzUl_SuRf_RoCk,ZoIo_AzUl_SuRf_RoCk,uff_2004_anexo_2,exact,high,Quit line
