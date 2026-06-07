@@ -52,7 +52,7 @@ Evidence status: archived_web_capture
 | `NEGAUM` | master | 2000-12 | `cb_access_200012_003` |
 | `_Pilar_` | master | 2000-12 | `cb_access_200012_004` |
 | `Mr_Angelo` | master | 2000-12 | `cb_access_200012_005` |
-| `|Mad|` | master | 2000-12 | `cb_access_200012_006` |
+| `\|Mad\|` | master | 2000-12 | `cb_access_200012_006` |
 | `ClaraM` | master | 2000-12 | `cb_access_200012_007` |
 
 ## Interpretation boundary
