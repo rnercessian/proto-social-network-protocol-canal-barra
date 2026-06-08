@@ -41,11 +41,23 @@ This does not reduce Canal Barra to sex. It explains why the system expanded bey
 
 ## Native vocabulary: farpado and farpacao
 
-One remembered native term from the Canal Barra social environment is `farpado`, with `farpacao` used to describe the act or dynamic around it.
+The terms `farpado` and `farpacao` belong to the remembered native vocabulary of the Canal Barra social environment and are also present in dated raw event material.
 
-The terms should be treated as community vocabulary rather than generic internet slang. In this context, they point to a sharp style of approach, pursuit, provocation or sexually charged social maneuvering around desired people inside the channel's youth circuit.
+A relevant source is:
 
-Because this vocabulary is currently preserved as participant/founder memory unless additional dated records are indexed, it should be used carefully: as evidence of the community's remembered language and atmosphere, not as a universal technical category of IRC.
+```text
+data/raw/ircontros/infolink-micha-farpacao-2001-02-21.csv
+```
+
+That file indexes a 2001 Meli Melo party photo set titled `Farpação`, preserved through a Wayback timestamp and external Infolink hosting, with notes classifying the term as period slang related to flirtation and people who `pegam geral`.
+
+The word `farpado` should be understood through the image of `arame farpado` — barbed wire. In the native logic of the circuit, a `farpado` was the opposite of a `liso`.
+
+`Liso` meant someone who did not catch, mark, scratch or affect anyone romantically or sexually: someone who did not `pegar ninguem`.
+
+`Farpado`, by contrast, implied someone socially and erotically effective: a person whose presence was not smooth, neutral or harmless, but capable of catching attention, leaving marks, producing pursuit, attraction, rivalry or consequences.
+
+`Farpacao` named the broader dynamic around that style of pursuit and affective-sexual circulation. It should be preserved as community vocabulary, not translated into a generic technical category and not treated as moral judgment.
 
 ## Founder paradox: power without intimate freedom
 
