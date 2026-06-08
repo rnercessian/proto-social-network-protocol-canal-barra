@@ -35,7 +35,13 @@ In its earlier phase, #barra still carried traits of a timid digital enclave: an
 
 From 1998 onward, the channel increasingly absorbed a broader youth circuit. It ceased to be merely a refuge for the shy and became a high-intensity social amplifier for users who could convert presence, humor, appearance, charisma and reputation into offline circulation.
 
-The erotic economy of #barra should not be treated as a secondary detail. Romantic and sexual possibility was part of the channel's social currency. Desired users attracted attention, rivalry and reputation. Some users converted channel status into repeated romantic or sexual access within the circuit. Others became central because their visibility, desirability or perceived availability generated pursuit, jealousy, conflict and public attention.
+The erotic and romantic dynamic of #barra should not be treated as a secondary detail or as fictional roleplay. Physical attraction, desire, rivalry and the thrill of possible real-world encounters were part of the channel's core social force.
+
+The environment was continuously charged by the copresence of highly desired participants, with users performing under the active gaze of a vigilant audience. Desired users could become socially central, attracting attention, pursuit, rivalry and prestige that validated real-world status.
+
+Some users converted channel visibility into repeated romantic and physical encounters within the circuit. Others became focal points because their presence generated jealousy, conflict, fascination and public commentary.
+
+In a youth culture obsessed with interpersonal efficacy, one important status marker was becoming known as `farpado`: someone socially and sexually effective, capable of attracting, marking and producing consequences. The opposite was being seen as `liso`: a non-factor, someone who did not catch attention, did not affect anyone and did not convert presence into desire.
 
 This does not reduce Canal Barra to sex. It explains why the system expanded beyond ordinary chat: mediated identity could become attraction; attraction could become encounter; encounter could become reputation, hierarchy, conflict and collective memory.
 
@@ -67,4 +73,4 @@ Canal Barra was not only a chat community. It was a hybrid mechanism that conver
 live presence -> visibility -> reputation -> attraction -> offline circulation -> social memory
 ```
 
-That conversion is central to the Canal Barra thesis. Without it, the phenomenon is misread as a harmless gathering of shy internet users. With it, #barra becomes legible as an early Brazilian case of digitally mediated social capital conversion with analog, affective and physical consequences.
+That conversion is central to the Canal Barra thesis. Without it, the phenomenon is misread as a harmless gathering of shy internet users. With it, #barra becomes legible as an early Brazilian case of digitally mediated attraction, reputation and social access with analog, affective and physical consequences.
