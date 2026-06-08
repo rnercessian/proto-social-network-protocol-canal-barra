@@ -59,14 +59,6 @@ The word `farpado` should be understood through the image of `arame farpado` —
 
 `Farpacao` named the broader dynamic around that style of pursuit and affective-sexual circulation. It should be preserved as community vocabulary, not translated into a generic technical category and not treated as moral judgment.
 
-## Founder paradox: power without intimate freedom
-
-Canal Barra also produced a structural paradox.
-
-Founder, Master and Operator roles carried technical and political authority, but centrality also increased surveillance. The more visible and powerful a user became inside the channel, the more their movements could be observed, judged, contested or slowed by social friction.
-
-Ordinary users could often move with less institutional weight. They could use the channel as an open field of approximation, experimentation, desire, dating, rivalry and social ascent. The powerful had territory; the common users often had more freedom on the floor.
-
 ## Summary
 
 Canal Barra was not only a chat community. It was a hybrid mechanism that converted:
