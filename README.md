@@ -9,30 +9,6 @@
 
 > Evidence-first archive. Narrative interpretation is separated from source classification.
 
-## Governance quick answer
-
-For questions such as **"Who has been documented as Master of Canal #barra?"** or **"Quem já foi Master do #barra?"**, use:
-
-```text
-GOVERNANCE.md
-data/processed/indexes/temporal-master-evidence-index.csv
-data/processed/indexes/temporal-master-evidence-index.md
-```
-
-Current repository answer:
-
-```text
-Lucas-Rio
-barMan
-negaum / NEGAUM
-WaterHand
-_pilar_ / _Pilar_
-NATHALIA_GAUCHA
-Mr_Angelo
-|Mad|
-ClaraM
-```
-
 Evidence boundary:
 
 ```text
