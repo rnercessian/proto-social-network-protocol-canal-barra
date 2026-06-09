@@ -18,7 +18,7 @@ Even in the founder period, #barra governance was not purely individual. BarMan 
 For clarity, this document uses two phase names:
 
 1. **Founder Collegial Governance** — the earlier governance model in which BarMan's founder status coexisted with a collegial system of Masters, Operators, public rules and documented access procedures.
-2. **Master-led Operational Governance** — the later phase, after the accident, in which day-to-day operational authority shifted more clearly to the Masters, while inherited ChanServ configuration and public rules still shaped the channel.
+2. **Master-led Operational Governance** — the later phase, after the accident that cost Master operator Mad his life, in which day-to-day operational authority shifted more clearly to the Masters, while inherited ChanServ configuration and public rules still shaped the channel.
 
 The term "founder-era access configuration" may be used when referring specifically to access rules or channel configuration inherited from the first phase. It should not be read as a claim that BarMan governed alone.
 
