@@ -53,6 +53,22 @@ and:
 
 These lines should not be counted as `ChanServ +o` grants to `Pedrinho{RJ}`. They show a different mechanism: an attempted operator elevation followed by automatic ChanServ enforcement. In practical terms, the service allowed the channel to reject operator status for someone not authorized in the access configuration.
 
+## Founder infrastructural presence
+
+The absence of visible writing activity by `BarMan` in later #barra logs should not automatically be interpreted as a complete power vacuum.
+
+The UFF log extract shows that active users could attempt to grant operator status to a third-party nickname, and that ChanServ could immediately remove that status when the target nickname was not authorized by the registered channel's access configuration.
+
+This is evidence of infrastructural continuity: part of the founder-era governance remained embedded in the channel's ChanServ configuration. Even without constant visible participation by the founder in the live conversation, the registered-channel access rules could still protect #barra against unauthorized operator elevation.
+
+The stronger interpretation is therefore:
+
+```text
+BarMan's absence from visible chat activity did not necessarily mean the disappearance of founder governance. Part of that governance persisted as channel configuration enforced by ChanServ.
+```
+
+This should be framed carefully. The extract supports the presence of active access-list enforcement during the observed session. Broader claims about the final day of BRASnet, the full lifetime of the configuration, or uniqueness in Brazilian internet history require additional dated evidence.
+
 ## Methodological interpretation
 
 This evidence supports a layered reading of Canal Barra identity and authority:
