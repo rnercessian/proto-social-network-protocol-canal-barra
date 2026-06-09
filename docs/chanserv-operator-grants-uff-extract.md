@@ -1,31 +1,41 @@
 # ChanServ Operator Grants in the UFF Log Extract
 
-This document records nicknames that are visibly granted operator status by `ChanServ` in the UFF 2004 Canal Barra log extract.
+This document records operator-status evidence visible in the UFF 2004 Canal Barra log extract.
 
-The scope is intentionally narrow.
+The scope is intentionally narrow. It separates four different kinds of evidence:
 
-Included:
+1. service-applied operator grants by `ChanServ`;
+2. user-issued temporary operator grants;
+3. ChanServ removals of unauthorized temporary operator status;
+4. concrete abuse committed during a temporary operator window.
+
+## Source governance rule
+
+A Canal Barra rules page preserved from November 2002 explicitly prohibited taking or receiving Op without being registered in the access list:
+
+```text
+Pegar Op sem estar cadastrado na lista de acesso.
+```
+
+The same rules instructed operators to route Op requests to the official operator page instead of improvising privilege grants inside the channel:
+
+```text
+Se vierem pedir Op, encaminhe o usuário para a página de Operadores do canal #Barra: http://www.canalbarra.com/operadores/.
+```
+
+The rules for Masters also stated that ChanServ changes should be documented on the Canal Barra website and that Masters should seek approval from other Masters when giving or removing Op.
+
+This matters because the 2004 UFF log extract does not show a merely abstract rule. It shows the exact risk behind that rule becoming real in the live channel.
+
+## Observed ChanServ +o grants
+
+Included in this section:
 
 ```text
 *** ChanServ escolheu os modos: +o <nickname>
 ```
 
-Excluded from the grant list, but methodologically relevant:
-
-```text
-*** <nickname> escolheu os modos: +o <nickname>
-*** ChanServ escolheu os modos: -o <nickname>
-```
-
-This distinction matters because a `ChanServ +o` line is direct IRC-layer evidence that the BRASnet service recognized and applied operator status to a nickname at that moment. It is not inferred from CanalBarra.com cadastro records.
-
-A `ChanServ -o` line after a user attempts to give operator status should be interpreted separately. In the Canal Barra context, it is evidence of channel-protection enforcement: ChanServ removed operator status from a nickname that was not authorized to keep it according to the registered channel's access configuration.
-
-The exact BRASnet option name should not be asserted here unless a BRASnet help record or services configuration record is found. In IRC services documentation, this behavior corresponds to the general ChanServ model for registered/protected channels: channel ownership and operator rights are maintained through founder designation, access lists or xOP lists, and ChanServ can automatically remove operator status from users who are not authorized to hold it.
-
-Founder interpretation: this enforcement behavior reflects security settings left in place by BarMan to protect #barra from unauthorized operator elevation, takeover or misuse. The log lines therefore matter not only as revocations, but as evidence that the channel's access-list protection was still active in the live IRC layer.
-
-## Observed ChanServ +o grants
+A `ChanServ +o` line is direct IRC-layer evidence that the BRASnet service recognized and applied operator status to a nickname at that moment. It is not inferred from CanalBarra.com cadastro records.
 
 | Nickname receiving +o | Time shown in extract | Raw evidence line | Evidence type | Notes |
 |---|---:|---|---|---|
@@ -42,7 +52,7 @@ According to the founder's recollection, `BM_` and `Nerd24Hs` were not part of t
 The evidence must be separated by type:
 
 - `Nerd24Hs`: the observed line says `ChanServ` granted `+o`. This proves service-applied operator status at that moment, but it does not by itself identify who added `Nerd24Hs` to the relevant access configuration.
-- `BM_`: the observed sequence shows `BM_` issuing `+o` commands to `Pedrinho{RJ}`. That means `BM_` had mode-setting capability at that moment, but the extract shown here does not identify who gave `BM_` that capability.
+- `BM_`: the observed sequence shows `BM_` repeatedly issuing `+o` commands to `Pedrinho{RJ}`. Because ChanServ does not appear to remove `BM_`'s own operator status in that sequence, `BM_` should be treated as having recognized operator capability at that moment. The problem is therefore not that `BM_` was visibly a non-operator, but that `BM_` appears to have used operator capability in a way that violated Canal Barra's public governance rule against Op outside the access list.
 
 The open investigative question is therefore:
 
@@ -62,11 +72,9 @@ To answer that, the full log corpus should be searched backward for lines such a
 
 Without such provenance lines, the responsible grantor should remain unknown.
 
-## Access-list enforcement and temporary abuse window
+## Rule violation and realized reputational risk
 
-The extract also contains repeated operator-elevation attempts made by active users, followed by ChanServ removals.
-
-Example sequence:
+The extract contains repeated temporary operator grants from `BM_` to `Pedrinho{RJ}`, immediately followed by ChanServ removals:
 
 ```text
 [02:34] *** BM_ escolheu os modos: +o Pedrinho{RJ}
@@ -79,9 +87,9 @@ Example sequence:
 [02:34] *** ChanServ escolheu os modos: -o Pedrinho{RJ}
 ```
 
-This should not be counted as a `ChanServ +o` grant to `Pedrinho{RJ}`. It shows a different mechanism: repeated user-issued operator elevation followed by automatic ChanServ enforcement.
+This should not be counted as a `ChanServ +o` grant to `Pedrinho{RJ}`. It shows a different mechanism: a recognized operator repeatedly granting temporary Op to a nickname that ChanServ would not allow to keep operator status.
 
-The same sequence also reveals the limit of the protection. Even though ChanServ removed the unauthorized operator status, `Pedrinho{RJ}` appears to have had enough temporary operator capability to perform disruptive actions before or around enforcement:
+The risk anticipated by the 2002 rules materialized in the same sequence. Even though ChanServ removed the unauthorized operator status, `Pedrinho{RJ}` appears to have had enough temporary operator capability to perform disruptive actions:
 
 ```text
 [02:34] *** Pedrinho{RJ} escolheu os modos: +b *!*@<redacted-hostmask>
@@ -90,15 +98,19 @@ The same sequence also reveals the limit of the protection. Even though ChanServ
 
 Therefore the evidence should not be described as a security system that fully prevented abuse. It is more precise to say that the access-list protection was reactive: it removed unauthorized operator status, but it did not necessarily prevent a short-lived operator window from being used to ban or kick another participant.
 
-This matters historically because an unjustified ban or kick could damage the public image of the channel. The observed disorder was initiated by repeated `+o` attempts from `BM_`, while the visible disruptive action was executed by `Pedrinho{RJ}` after receiving temporary operator status.
+This was not merely a technical issue. It was a governance and reputation issue. An unjustified ban or kick could generate resentment and dissatisfaction among users, and that resentment would likely fall on the visible authority structure of the channel: Operators, Masters and Founder.
 
-`BM_` should not be described as an access-list operator solely because he appears issuing mode changes in this sequence. The relevant distinction is between visible mode-setting activity and recognized operator authorization in the registered channel access configuration.
+The central interpretation is:
+
+```text
+The rule existed to prevent improvised operator power from becoming public abuse. In the UFF extract, that risk concretely materialized.
+```
 
 ## Reactive moderation and latency exploit
 
 The 2004 extract reveals a moderation paradox that remains recognizable in later platform governance: automated enforcement can be strict and still arrive after damage has already occurred.
 
-ChanServ appears to remove unauthorized operator status rapidly, but the log sequence shows that the interval between an illegal `+o` and the service's `-o` response could still be used to perform disruptive actions. This should be described as a temporary operator window or latency exploit, not as proof that the security model failed completely.
+ChanServ appears to remove unauthorized operator status rapidly, but the log sequence shows that the interval between an unauthorized temporary `+o` and the service's `-o` response could still be used to perform disruptive actions. This should be described as a temporary operator window or latency exploit, not as proof that the security model failed completely.
 
 The current extract supports repeated mode commands and rapid abuse of temporary operator status. It does not, by itself, prove that the commands were executed by automation or that the interval was measured in milliseconds. Those claims require additional technical evidence.
 
@@ -133,9 +145,10 @@ This evidence supports a layered reading of Canal Barra identity and authority:
 - CanalBarra.com cadastro records document the web layer.
 - IRContros and photo/event records document the physical-social layer.
 - `ChanServ +o` lines document the live IRC governance layer.
-- `ChanServ -o` lines after unauthorized `+o` attempts document live channel-protection enforcement.
+- user-issued `+o` followed by `ChanServ -o` documents live access-list enforcement.
 - user-issued `+o` followed by ban/kick behavior documents a temporary abuse window in the live IRC layer.
-- operator-related events should be interpreted through provenance: being seen issuing mode commands is not the same as being part of the registered access list.
+- operator-related events should be interpreted through provenance: being seen issuing mode commands is not the same as being part of the founder-era access list.
+- the 2002 rules show that unauthorized or improvised Op was a known governance risk before the 2004 extract.
 
 Therefore, an operator may be technically visible in the IRC layer even if that nickname is absent from a CanalBarra.com cadastro dataset. Conversely, a nickname may appear in a user-issued `+o` attempt without being recognized by ChanServ as authorized to keep operator status.
 
@@ -148,13 +161,19 @@ The UFF log extract contains nickname-level IRC evidence of operator grants appl
 and:
 
 ```text
-The UFF log extract also contains nickname-level IRC evidence of ChanServ removing operator status from a nickname after an attempted operator elevation, consistent with registered-channel access-list enforcement.
+The UFF log extract also contains nickname-level IRC evidence of ChanServ removing operator status from a nickname after a temporary operator elevation, consistent with registered-channel access-list enforcement.
 ```
 
 and:
 
 ```text
 The same extract shows that reactive enforcement did not necessarily prevent short-lived misuse of temporary operator status.
+```
+
+and:
+
+```text
+The same extract shows a public governance risk anticipated by the Canal Barra rules becoming concrete through ban/kick abuse.
 ```
 
 and:
@@ -191,7 +210,7 @@ data/processed/indexes/chanserv-access-enforcement-uff-extract.csv
 with an event type such as:
 
 ```text
-chanserv_operator_removal_after_unauthorized_grant
+chanserv_operator_removal_after_temporary_grant
 ```
 
 The temporary abuse sequence should also be indexed separately, for example:
@@ -203,7 +222,7 @@ data/processed/indexes/temporary-operator-abuse-uff-extract.csv
 with event types such as:
 
 ```text
-user_repeated_operator_grant_attempt
+recognized_operator_temporary_op_grant
 temporary_operator_ban_set
 temporary_operator_kick
 ```
