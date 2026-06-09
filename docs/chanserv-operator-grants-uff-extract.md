@@ -2,12 +2,13 @@
 
 This document records operator-status evidence visible in the UFF 2004 Canal Barra log extract.
 
-The scope is intentionally narrow. It separates four different kinds of evidence:
+The scope is intentionally narrow. It separates five different kinds of evidence:
 
 1. service-applied operator grants by `ChanServ`;
 2. user-issued temporary operator grants;
 3. ChanServ removals of unauthorized temporary operator status;
-4. concrete abuse committed during a temporary operator window.
+4. concrete abuse committed during a temporary operator window;
+5. the distinction between Op-level mode power and Master-level access-list authority.
 
 ## Governance phase terminology
 
@@ -58,19 +59,21 @@ A `ChanServ +o` line is direct IRC-layer evidence that the BRASnet service recog
 
 ## Operator privilege provenance question
 
-The extract raises a separate provenance question: who originally placed certain nicknames in a position to receive or exercise operator status?
+The extract raises separate provenance questions: who enabled certain nicknames to hold registered operator capability, and who had authority to modify the access list itself?
 
-According to founder recollection, `BM_` and `Nerd24Hs` were not part of the #barra access list during the Founder Collegial Governance phase. If that recollection is correct, their later appearance in operator-related log activity suggests post-founder access drift, temporary operator delegation, or access-list modification by someone else with sufficient privileges.
+According to founder recollection, `BM_` and `Nerd24Hs` were not part of the #barra access list during the Founder Collegial Governance phase. If that recollection is correct, their later appearance in operator-related log activity suggests post-founder access drift, later Op-level registration, temporary operator delegation, or access-list modification by someone else with sufficient privileges.
 
 The evidence must be separated by type:
 
 - `Nerd24Hs`: the observed line says `ChanServ` granted `+o`. This proves service-applied operator status at that moment, but it does not by itself identify who added `Nerd24Hs` to the relevant access configuration.
-- `BM_`: the observed sequence shows `BM_` repeatedly issuing `+o` commands to `Pedrinho{RJ}`. Because ChanServ does not appear to remove `BM_`'s own operator status in that sequence, `BM_` should be treated as having recognized operator capability at that moment. The problem is therefore not that `BM_` was visibly a non-operator, but that `BM_` appears to have used operator capability in a way that violated Canal Barra's public governance rule against Op outside the access list.
+- `BM_`: the observed sequence shows `BM_` repeatedly issuing live `+o` mode commands to `Pedrinho{RJ}`. Because ChanServ does not appear to remove `BM_`'s own operator status in that sequence, `BM_` should be treated as having recognized operator capability at that moment. However, the form of his action matters: he is using channel mode power, not documented ChanServ access-list authority.
 
-The open investigative question is therefore:
+The open investigative questions are therefore:
 
 ```text
-Who granted or enabled operator capability for BM_ and Nerd24Hs after the founder-era access configuration?
+Who enabled Op-level capability for BM_ after the Founder Collegial Governance phase?
+Who enabled ChanServ-applied operator status for Nerd24Hs?
+Which Master-level actor, if any, modified the access list to make those later capabilities possible?
 ```
 
 To answer that, the full log corpus should be searched backward for lines such as:
@@ -84,6 +87,31 @@ To answer that, the full log corpus should be searched backward for lines such a
 ```
 
 Without such provenance lines, the responsible grantor should remain unknown.
+
+## Op-level mode power versus Master-level access authority
+
+The `BM_` sequence should not be read as evidence that `BM_` was a Master.
+
+The opposite interpretation is stronger: because `BM_` repeatedly tried to give temporary Op through live `+o` mode commands, he appears to be operating from Op-level mode power rather than Master-level access-list authority.
+
+In the Canal Barra hierarchy, an Operator-level user could hold Op in the live channel and issue temporary mode changes. But the authority to shape who belonged in the access list — the durable governance layer behind ChanServ recognition — belonged to the higher governance structure, especially Masters and Founder-linked configuration.
+
+Therefore the `BM_` behavior is best interpreted as:
+
+```text
+A recognized Op-level user attempting to simulate or extend access-list power through repeated temporary +o mode grants.
+```
+
+That is why the episode is institutionally serious. `BM_` was not merely breaking etiquette. He was using level-5 style live operator power to pressure a boundary that belonged to Master-level governance and the registered access list.
+
+The core distinction is:
+
+```text
++o in the live channel is temporary mode power.
+Access-list registration is durable governance authority.
+```
+
+The log shows `BM_` exercising the first. It does not show him legitimately holding the second.
 
 ## Rule violation and realized reputational risk
 
@@ -177,6 +205,7 @@ This evidence supports a layered reading of Canal Barra identity and authority:
 - user-issued `+o` followed by `ChanServ -o` documents live access-list enforcement.
 - user-issued `+o` followed by ban/kick behavior documents a temporary abuse window in the live IRC layer.
 - operator-related events should be interpreted through provenance: being seen issuing mode commands is not the same as being part of the founder-era access list.
+- the `BM_` sequence distinguishes temporary Op-level mode power from durable Master-level access-list authority.
 - the 2002 rules show that unauthorized or improvised Op was a known governance risk before the 2004 extract.
 - operator suitability in Founder Collegial Governance depended on moral trust and public responsibility, not money or status performance.
 
@@ -210,6 +239,12 @@ and:
 
 ```text
 The same extract raises an unresolved operator-provenance question: who enabled BM_ and Nerd24Hs to hold or exercise operator capability after the founder-era access configuration?
+```
+
+and:
+
+```text
+The same extract shows BM_ exercising Op-level temporary mode power, not documented Master-level authority over the access list.
 ```
 
 and:
