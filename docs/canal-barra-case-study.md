@@ -16,7 +16,7 @@ This means:
 
 - #barra on BRASnet was the live IRC core.
 - CanalBarra.com acted as the web portal and persistence layer.
-- `guest_hp` acted as a web-to-IRC entry point from the site into the live channel experience.
+- `guest_hp` — understood as the guest entry from the home page — acted as a web-to-IRC entry point from the site into the live channel experience.
 - IRContros, luaus, parties and other physical gatherings anchored nickname-level identity and reputation in person.
 - Access and continuity were structured through Founder, Masters and Operators, with access-list management, operator turnover and governance records.
 
@@ -68,7 +68,7 @@ This distinction matters:
 - ChanServ provided BRASnet-side channel access enforcement for registered channels.
 - #barra provided the live social core.
 - CanalBarra.com provided web-backed persistence and portal access.
-- `guest_hp` provided a practical bridge from the website into the live IRC channel experience.
+- `guest_hp` provided a practical bridge from the home page into the live IRC channel experience.
 - IRContros and gatherings provided in-person identity and reputation anchoring.
 - Founder/Master/Operator roles provided tiered access governance.
 
@@ -77,6 +77,8 @@ In short: the governance decisions belonged to the Canal Barra social system; th
 ## Web-to-IRC entry point: guest_hp
 
 The existence of `guest_hp` is the key technical integration that should not be confused with a unified database integration between IRC and CanalBarra.com.
+
+The name `guest_hp` should be read as `guest` from the home page: a visitor-oriented entry point launched from the site home page.
 
 `guest_hp` functioned as a practical website-to-channel bridge. From CanalBarra.com, a visitor could open a webchat-style entry point, historically remembered as a modal or guest window, and see or enter the live #barra environment without first installing, configuring or understanding mIRC.
 
@@ -87,7 +89,7 @@ Many visitors likely only tested the feature briefly. Others, however, could mov
 The correct interpretation is therefore limited and specific:
 
 ```text
-CanalBarra.com and #barra were not synchronized through a single user database, but the website did provide a direct access path into the live channel through guest_hp.
+CanalBarra.com and #barra were not synchronized through a single user database, but the website did provide a direct access path from the home page into the live channel through guest_hp.
 ```
 
 ## Coupling and state synchronization
@@ -131,7 +133,7 @@ The following terms are Canal Barra-specific or IRC-specific and should not be a
 - VIP lists
 - IRContros
 - CanalBarra.com cadastros
-- guest_hp webchat entry
+- guest_hp home-page webchat entry
 - operator meetings
 - access-list realignment
 
@@ -144,7 +146,7 @@ Examples:
 - Canal Barra used IRC channel presence as its live social core over the BRASnet substrate.
 - Canal Barra used BRASnet-provided channel services as the technical enforcement layer for socially decided #barra access levels.
 - CanalBarra.com provided web-backed persistence through cadastros, rules, photos, voting and portal access.
-- `guest_hp` provided a low-friction route from CanalBarra.com into the live #barra channel experience.
+- `guest_hp` provided a low-friction route from the CanalBarra.com home page into the live #barra channel experience.
 - IRContros connected nickname-level identity to in-person recognition.
 - Tiered access governance structured authority through Founder, Masters and Operators, while operator meetings could challenge, discuss and realign access legitimacy through argumentation and practical community judgment.
 - Cross-layer identity was generally maintained through human-mediated recognition unless a specific automated bridge is documented.
