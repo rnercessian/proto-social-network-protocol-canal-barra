@@ -9,6 +9,19 @@ The scope is intentionally narrow. It separates four different kinds of evidence
 3. ChanServ removals of unauthorized temporary operator status;
 4. concrete abuse committed during a temporary operator window.
 
+## Governance phase terminology
+
+This repository should avoid describing Canal Barra governance as a single-person "BarMan administration".
+
+Even in the founder period, #barra governance was not purely individual. BarMan held founder status and played a central role, but the channel operated through a collegial structure involving Masters, Operators, access lists, public rules, topic discipline, ChanServ configuration and website-based accountability.
+
+For clarity, this document uses two phase names:
+
+1. **Founder Collegial Governance** — the earlier governance model in which BarMan's founder status coexisted with a collegial system of Masters, Operators, public rules and documented access procedures.
+2. **Master-led Operational Governance** — the later phase, after the accident, in which day-to-day operational authority shifted more clearly to the Masters, while inherited ChanServ configuration and public rules still shaped the channel.
+
+The term "founder-era access configuration" may be used when referring specifically to access rules or channel configuration inherited from the first phase. It should not be read as a claim that BarMan governed alone.
+
 ## Source governance rule
 
 A Canal Barra rules page preserved from November 2002 explicitly prohibited taking or receiving Op without being registered in the access list:
@@ -47,7 +60,7 @@ A `ChanServ +o` line is direct IRC-layer evidence that the BRASnet service recog
 
 The extract raises a separate provenance question: who originally placed certain nicknames in a position to receive or exercise operator status?
 
-According to the founder's recollection, `BM_` and `Nerd24Hs` were not part of the #barra access list during BarMan's active administration of the channel. If that recollection is correct, their later appearance in operator-related log activity suggests post-founder access drift, temporary operator delegation, or access-list modification by someone else with sufficient privileges.
+According to founder recollection, `BM_` and `Nerd24Hs` were not part of the #barra access list during the Founder Collegial Governance phase. If that recollection is correct, their later appearance in operator-related log activity suggests post-founder access drift, temporary operator delegation, or access-list modification by someone else with sufficient privileges.
 
 The evidence must be separated by type:
 
@@ -106,6 +119,22 @@ The central interpretation is:
 The rule existed to prevent improvised operator power from becoming public abuse. In the UFF extract, that risk concretely materialized.
 ```
 
+## Operator suitability and moral trust
+
+Under Founder Collegial Governance, operator status was not a commodity, prize or social trophy. Money, bravado, appearance and public status display were not supposed to buy authority in #barra.
+
+Op was a trust role. It required restraint, accountability, respect for public rules, moral judgment and the ability to exercise power without vanity or abuse.
+
+This matters when reading the UFF extract. A public self-description by `Pedrinho{RJ}` at `02:37` combines physical bragging and wealth display. That line should not be treated as a civil identity claim or as personal gossip. It is relevant only as behavioral context. In the same observed session, `Pedrinho{RJ}` receives temporary Op, sets a ban and kicks a user.
+
+From the Founder Collegial Governance perspective, that public conduct profile would not have supported operator suitability. Canal Barra authority was not supposed to be purchased or performed through wealth display, physical bragging or status theatrics. It was supposed to be earned through trust, responsibility, moderation discipline and moral restraint.
+
+The careful interpretation is:
+
+```text
+In Canal Barra's Founder Collegial Governance logic, operator legitimacy depended on moral trust and public responsibility, not money, bravado or status performance.
+```
+
 ## Reactive moderation and latency exploit
 
 The 2004 extract reveals a moderation paradox that remains recognizable in later platform governance: automated enforcement can be strict and still arrive after damage has already occurred.
@@ -128,12 +157,12 @@ The absence of visible writing activity by `BarMan` in later #barra logs should 
 
 The UFF log extract shows that active users could attempt to grant operator status to a third-party nickname, and that ChanServ could remove that status when the target nickname was not authorized by the registered channel's access configuration.
 
-This is evidence of infrastructural continuity: part of the founder-era governance remained embedded in the channel's ChanServ configuration. Even without constant visible participation by the founder in the live conversation, the registered-channel access rules could still react against unauthorized operator elevation.
+This is evidence of infrastructural continuity: part of the Founder Collegial Governance phase remained embedded in the channel's ChanServ configuration. Even without constant visible participation by the founder in the live conversation, the registered-channel access rules could still react against unauthorized operator elevation.
 
 The stronger interpretation is therefore:
 
 ```text
-BarMan's absence from visible chat activity did not necessarily mean the disappearance of founder governance. Part of that governance persisted as channel configuration enforced by ChanServ.
+BarMan's absence from visible chat activity did not necessarily mean the disappearance of founder-linked governance. Part of that governance persisted as channel configuration enforced by ChanServ.
 ```
 
 This should be framed carefully. The extract supports the presence of active access-list enforcement during the observed session, but it also shows that enforcement was not perfect: a temporary operator window could still allow disruptive actions before full containment. Broader claims about the final day of BRASnet, the full lifetime of the configuration, or uniqueness in Brazilian internet history require additional dated evidence.
@@ -149,6 +178,7 @@ This evidence supports a layered reading of Canal Barra identity and authority:
 - user-issued `+o` followed by ban/kick behavior documents a temporary abuse window in the live IRC layer.
 - operator-related events should be interpreted through provenance: being seen issuing mode commands is not the same as being part of the founder-era access list.
 - the 2002 rules show that unauthorized or improvised Op was a known governance risk before the 2004 extract.
+- operator suitability in Founder Collegial Governance depended on moral trust and public responsibility, not money or status performance.
 
 Therefore, an operator may be technically visible in the IRC layer even if that nickname is absent from a CanalBarra.com cadastro dataset. Conversely, a nickname may appear in a user-issued `+o` attempt without being recognized by ChanServ as authorized to keep operator status.
 
@@ -180,6 +210,12 @@ and:
 
 ```text
 The same extract raises an unresolved operator-provenance question: who enabled BM_ and Nerd24Hs to hold or exercise operator capability after the founder-era access configuration?
+```
+
+and:
+
+```text
+The same extract provides behavioral context for why operator suitability, under Founder Collegial Governance, depended on moral trust rather than money, bravado or public status display.
 ```
 
 These claims should not be expanded into civil identity claims or into claims that every operator appears in website registration data.
