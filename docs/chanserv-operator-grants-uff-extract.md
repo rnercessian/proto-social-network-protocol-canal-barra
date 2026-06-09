@@ -65,6 +65,22 @@ This matters historically because an unjustified ban or kick could damage the pu
 
 `BM_` should not be described as an access-list operator solely because he appears issuing mode changes in this sequence. The relevant distinction is between visible mode-setting activity and recognized operator authorization in the registered channel access configuration.
 
+## Reactive moderation and latency exploit
+
+The 2004 extract reveals a moderation paradox that remains recognizable in later platform governance: automated enforcement can be strict and still arrive after damage has already occurred.
+
+ChanServ appears to remove unauthorized operator status rapidly, but the log sequence shows that the interval between an illegal `+o` and the service's `-o` response could still be used to perform disruptive actions. This should be described as a temporary operator window or latency exploit, not as proof that the security model failed completely.
+
+The current extract supports repeated mode commands and rapid abuse of temporary operator status. It does not, by itself, prove that the commands were executed by automation or that the interval was measured in milliseconds. Those claims require additional technical evidence.
+
+The careful formulation is:
+
+```text
+The UFF log extract shows reactive moderation under latency pressure: ChanServ removed unauthorized operator status, but a short-lived operator window still allowed ban/kick actions before containment.
+```
+
+This makes the sequence historically important. It shows that Canal Barra was not a simple chat room with casual moderation; it operated a live governance layer where automated access-list enforcement, human misuse, rapid privilege escalation and public reputational risk interacted in real time.
+
 ## Founder infrastructural presence
 
 The absence of visible writing activity by `BarMan` in later #barra logs should not automatically be interpreted as a complete power vacuum.
