@@ -33,6 +33,35 @@ Founder interpretation: this enforcement behavior reflects security settings lef
 | `VaNZaN` | `02:38` | `*** ChanServ escolheu os modos: +o VaNZaN` | `chanserv_operator_grant` | `VaNZaN` later appears as `GV` in the same extract. |
 | `Biano-` | `18:42` | `*** ChanServ escolheu os modos: +o Biano-` | `chanserv_operator_grant` | This appears in a later session block of the same UFF log extract. |
 
+## Operator privilege provenance question
+
+The extract raises a separate provenance question: who originally placed certain nicknames in a position to receive or exercise operator status?
+
+According to the founder's recollection, `BM_` and `Nerd24Hs` were not part of the #barra access list during BarMan's active administration of the channel. If that recollection is correct, their later appearance in operator-related log activity suggests post-founder access drift, temporary operator delegation, or access-list modification by someone else with sufficient privileges.
+
+The evidence must be separated by type:
+
+- `Nerd24Hs`: the observed line says `ChanServ` granted `+o`. This proves service-applied operator status at that moment, but it does not by itself identify who added `Nerd24Hs` to the relevant access configuration.
+- `BM_`: the observed sequence shows `BM_` issuing `+o` commands to `Pedrinho{RJ}`. That means `BM_` had mode-setting capability at that moment, but the extract shown here does not identify who gave `BM_` that capability.
+
+The open investigative question is therefore:
+
+```text
+Who granted or enabled operator capability for BM_ and Nerd24Hs after the founder-era access configuration?
+```
+
+To answer that, the full log corpus should be searched backward for lines such as:
+
+```text
+*** ChanServ escolheu os modos: +o BM_
+*** <nickname> escolheu os modos: +o BM_
+*** ChanServ escolheu os modos: +o Nerd24Hs
+*** <service-or-operator> added BM_ to an access/xOP list
+*** <service-or-operator> added Nerd24Hs to an access/xOP list
+```
+
+Without such provenance lines, the responsible grantor should remain unknown.
+
 ## Access-list enforcement and temporary abuse window
 
 The extract also contains repeated operator-elevation attempts made by active users, followed by ChanServ removals.
@@ -106,6 +135,7 @@ This evidence supports a layered reading of Canal Barra identity and authority:
 - `ChanServ +o` lines document the live IRC governance layer.
 - `ChanServ -o` lines after unauthorized `+o` attempts document live channel-protection enforcement.
 - user-issued `+o` followed by ban/kick behavior documents a temporary abuse window in the live IRC layer.
+- operator-related events should be interpreted through provenance: being seen issuing mode commands is not the same as being part of the registered access list.
 
 Therefore, an operator may be technically visible in the IRC layer even if that nickname is absent from a CanalBarra.com cadastro dataset. Conversely, a nickname may appear in a user-issued `+o` attempt without being recognized by ChanServ as authorized to keep operator status.
 
@@ -125,6 +155,12 @@ and:
 
 ```text
 The same extract shows that reactive enforcement did not necessarily prevent short-lived misuse of temporary operator status.
+```
+
+and:
+
+```text
+The same extract raises an unresolved operator-provenance question: who enabled BM_ and Nerd24Hs to hold or exercise operator capability after the founder-era access configuration?
 ```
 
 These claims should not be expanded into civil identity claims or into claims that every operator appears in website registration data.
@@ -171,3 +207,5 @@ user_repeated_operator_grant_attempt
 temporary_operator_ban_set
 temporary_operator_kick
 ```
+
+A further provenance index should be created if the full log corpus reveals who originally enabled operator capability for `BM_`, `Nerd24Hs` or other post-founder operators not present in the founder-era access list.
