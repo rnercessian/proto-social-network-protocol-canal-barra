@@ -41,6 +41,28 @@ confidence: medium
 notes: The XOOM layer is important for the hybrid thesis, but archived captures or magazine references are still needed.
 ```
 
+### Before May 1999: Los Angeles Technical Learning Phase
+
+```text
+date_range: before 1999-05
+claim: Founder statement says Raphael entered the pre-launch engineering environment that would become NOVICA during his Los Angeles period and acquired ColdFusion and database-driven web architecture knowledge later applied to Canal Barra's web layer.
+evidence_status: founder_statement, pending_verification
+source_path: docs/INCUBATION.md; evidence/website/WEB-STACK-COLDFUSION-ACCESS-2000.md
+confidence: medium
+notes: This is a technical-lineage and knowledge-transfer claim. It does not mean NOVICA publicly existed in 1996 or that NOVICA launched, owned or sponsored Canal Barra.
+```
+
+### May 1999: NOVICA Public Launch
+
+```text
+date: 1999-05
+claim: NOVICA launched publicly in May 1999, after Canal Barra's 1996 IRC-centered origin.
+evidence_status: founder_statement, external_source_needed
+source_path: docs/INCUBATION.md
+confidence: medium
+notes: This date is a chronological boundary. Do not describe Canal Barra as a NOVICA product or claim that the publicly launched NOVICA incubated Canal Barra in 1996.
+```
+
 ### 1999-2002: High-Intensity IRC + CanalBarra.com + IRContros Phase
 
 ```text
@@ -71,7 +93,7 @@ claim: Founder statement says CanalBarra.com evolved around 2000 into a dynamic 
 evidence_status: founder_statement, archived_web_capture
 source_path: evidence/website/WEB-STACK-COLDFUSION-ACCESS-2000.md
 confidence: medium
-notes: Technical stack claims should remain separate from social-function claims. Additional server/code evidence would strengthen this item.
+notes: Technical stack claims should remain separate from social-function claims. Founder testimony links this later web evolution to ColdFusion knowledge acquired during the Los Angeles / pre-launch NOVICA learning phase. Additional server/code and external evidence would strengthen the lineage claim.
 ```
 
 ### 2000-12 to 2001-01: Reveillon / Post-Reveillon Gathering

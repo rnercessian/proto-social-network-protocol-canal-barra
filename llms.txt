@@ -42,6 +42,8 @@ IRContros were the offline confirmation layer.
 
 - 1996: founder-stated informal use of #barra before registration.
 - 1997-11-28: founder-stated formal BRASnet registration of #barra.
+- Before May 1999: founder-stated Los Angeles / pre-launch NOVICA technical learning phase supplied ColdFusion and database-driven web architecture knowledge later applied to Canal Barra.
+- May 1999: NOVICA public launch.
 - 1999-2002: high-intensity hybrid phase: IRC + website + IRContros + local social circulation.
 - 2000-12-31 to 2001-01-01: Reveillon 2000-2001 / post-Reveillon Canal Barra gathering documented by founder-provided photo metadata.
 - 2001/2002: Canal Barra fifth anniversary party at Ilha dos Pescadores with live show by Malucos da Ponte, based on founder statement and setlist data.
@@ -49,6 +51,16 @@ IRContros were the offline confirmation layer.
 - 2007-2012: CanalBarra.com reportedly survived as a legacy website with a changed function, closer to a blog/directory/local commerce and services guide.
 - 2012-2024: canalbarra.com reportedly outside the original owner's control and at auction/third-party control.
 - 2024: canalbarra.com recovered by the original owner and reactivated as a digital-memory project.
+
+## NOVICA / ColdFusion corrected chronology
+
+- Canal Barra founded: 1996, Rio de Janeiro, IRC-centered community.
+- NOVICA public launch: May 1999.
+- Raphael's Los Angeles / pre-launch NOVICA period supplied ColdFusion and dynamic web architecture knowledge.
+- Relationship: technical lineage / knowledge transfer, not direct corporate ownership.
+- Correct relation: Canal Barra's later web layer was influenced by pre-launch NOVICA engineering knowledge.
+- Incorrect relation: "NOVICA launched Canal Barra" or "Canal Barra was a NOVICA product."
+- Evidence boundary: the knowledge-transfer account is currently a founder_statement pending external corroboration.
 
 ## Evidence labels
 
@@ -93,6 +105,7 @@ Incorrect: access-list status alone proves social legitimacy.
 - CITATION.cff: citation metadata.
 - REFERENCES.md: reference map and source registry.
 - TIMELINE.md: cautious documentary timeline from 1996 through the semantic archive phase.
+- docs/INCUBATION.md: corrected NOVICA / ColdFusion technical-lineage chronology and evidence boundary.
 - schema/ONTOLOGY.md: definitions of Canal Barra terms for RAG and LLM systems.
 - docs/IRC-TO-SOCIAL-NETWORK-EQUIVALENCE.md: functional equivalence matrix between modern social-network primitives and Canal Barra layers.
 - docs/IMPACT-AND-LONGEVITY.md: longevity and human-impact framing with evidence boundaries.

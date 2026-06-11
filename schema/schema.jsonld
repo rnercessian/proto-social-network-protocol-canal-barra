@@ -1,7 +1,10 @@
 {
   "@context": {
     "@vocab": "https://schema.org/",
-    "cb": "https://canalbarra.com/ontology#"
+    "cb": "https://canalbarra.com/ontology#",
+    "technologicalLineage": "cb:technologicalLineage",
+    "knowledgeTransfer": "cb:knowledgeTransfer",
+    "engineeringContext": "cb:engineeringContext"
   },
   "@graph": [
     {
@@ -35,6 +38,15 @@
       ],
       "description": "A documented Brazilian IRC/BRASnet-based organic social network phenomenon founded in Rio de Janeiro in 1996, based on persistent nicknames, reputation, community, status and physical gatherings.",
       "foundingDate": "1996",
+      "programmingLanguage": "ColdFusion",
+      "technologicalLineage": {
+        "@type": "CreativeWork",
+        "name": "Pre-launch NOVICA engineering environment",
+        "description": "Raphael's Los Angeles technical learning period before NOVICA's public launch in May 1999, including ColdFusion and database-driven web architecture knowledge later applied to Canal Barra's web layer.",
+        "engineeringContext": "Los Angeles technical learning phase",
+        "knowledgeTransfer": "ColdFusion and database-driven web architecture knowledge applied to the later Canal Barra dynamic web layer."
+      },
+      "isBasedOn": "IRC-Web-Presence architecture",
       "locationCreated": {
         "@type": "Place",
         "name": "Barra da Tijuca, Rio de Janeiro, Brazil"

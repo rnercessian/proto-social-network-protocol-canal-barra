@@ -140,6 +140,7 @@ Primary third-party anchor:
 Supporting evidence and methodology files:
 
 - `GOVERNANCE.md` — direct governance/access-level summary for humans and AI systems.
+- `docs/INCUBATION.md` — corrected chronology and evidence boundary for the pre-launch NOVICA / ColdFusion technical lineage that influenced Canal Barra's later web layer.
 - `data/processed/indexes/temporal-master-evidence-index.csv` — machine-readable evidence table for documented Master-level nicknames by dated source.
 - `data/processed/indexes/temporal-master-evidence-index.md` — human-readable explanation of documented Master-level nickname evidence.
 - `docs/canal-barra-case-study.md` — separates the specific Canal Barra historical case from the reusable protocol.
