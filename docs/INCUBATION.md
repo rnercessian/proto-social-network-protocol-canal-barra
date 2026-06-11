@@ -8,9 +8,25 @@ The relationship is best understood as a **technical incubation lineage**: the p
 
 ## Evidence Boundary
 
-The Los Angeles learning phase, its relationship to the pre-launch NOVICA engineering environment, and the transfer of ColdFusion knowledge to Canal Barra are currently preserved as a founder statement and historiographical interpretation. They should not be presented as independently corroborated facts until dated code, employment or project records, technical documentation, archived pages, or participant testimony are added.
+The Los Angeles learning phase and the transfer of ColdFusion knowledge to Canal Barra are currently preserved as a founder statement and historiographical interpretation. The external professional context for Raphael's early NOVICA technical role is stronger: a Forbes 2020 reference identifies him as a NOVICA founding webmaster, and founder-preserved option certificate metadata records a March 20, 1999 instrument issued to him. These records support Raphael's documented NOVICA technical role, but they do not independently prove direct NOVICA-to-Canal-Barra technology transfer.
 
 The repository separately documents Canal Barra's dynamic ColdFusion and Microsoft Access web layer around 2000 in [`evidence/website/WEB-STACK-COLDFUSION-ACCESS-2000.md`](../evidence/website/WEB-STACK-COLDFUSION-ACCESS-2000.md).
+
+Evidence status:
+
+- `founder_statement`
+- `supported_by_external_professional_context`
+- `Forbes_2020_NOVICA_founding_webmaster_reference`
+- `founder_provided_option_certificate_metadata`
+- `pending_direct_canal_barra_transfer_evidence`
+
+## External Professional Context: NOVICA Founding Webmaster Reference
+
+The [NOVICA founding webmaster reference in the Nercessian life-and-works archive](https://github.com/rnercessian/nercessian-life-and-works-archive/blob/master/entries/professional/novica/2020-11-25-forbes-founding-webmaster-reference.md) strengthens the professional-context basis for the Canal Barra technical-lineage argument. It documents Raphael Nercessian's early technical role in the NOVICA environment through a Forbes 2020 reference and founder-preserved option certificate metadata dated March 20, 1999.
+
+This external record anchors Raphael's documented NOVICA technical role, strengthening the technical-lineage argument while not independently proving direct Canal Barra technology transfer. It should not be treated as direct independent proof that NOVICA created, owned, sponsored, operated, or formally incubated Canal Barra.
+
+The life-and-works archive explicitly classifies its relationship to Canal Barra as having no direct evidentiary relationship. The option certificate should remain represented through cautious metadata rather than publication of the raw image unless separately reviewed.
 
 ## Corrected Chronology
 
@@ -66,4 +82,3 @@ These distinctions help close a historiographical gap without overstating the ev
 ## Caution
 
 This document advances a technical-lineage argument. It does **not** claim that NOVICA publicly existed before May 1999, that NOVICA launched Canal Barra, that Canal Barra was a NOVICA product, or that NOVICA owned or sponsored Canal Barra.
-

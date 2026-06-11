@@ -3,7 +3,11 @@
     "schema": "https://schema.org/",
     "cb": "https://github.com/rnercessian/proto-social-network-protocol-canal-barra/schema#",
     "evidenceStatus": "cb:evidenceStatus",
-    "repositoryPath": "cb:repositoryPath"
+    "repositoryPath": "cb:repositoryPath",
+    "externalProfessionalContext": "cb:externalProfessionalContext",
+    "technicalLineageContext": "cb:technicalLineageContext",
+    "supportsProfessionalRole": "cb:supportsProfessionalRole",
+    "knowledgeTransferClaimContext": "cb:knowledgeTransferClaimContext"
   },
   "@graph": [
     {
@@ -157,6 +161,19 @@
       },
       "evidenceStatus": "dataset_match",
       "repositoryPath": "data/profiles/barman.jsonld"
+    },
+    {
+      "@id": "https://github.com/rnercessian/nercessian-life-and-works-archive/blob/master/entries/professional/novica/2020-11-25-forbes-founding-webmaster-reference.md",
+      "@type": "schema:DigitalDocument",
+      "schema:name": "NOVICA Founding Webmaster, First Front-End and Option Certificate Note",
+      "schema:datePublished": "2020-11-25",
+      "schema:url": "https://github.com/rnercessian/nercessian-life-and-works-archive/blob/master/entries/professional/novica/2020-11-25-forbes-founding-webmaster-reference.md",
+      "externalProfessionalContext": true,
+      "supportsProfessionalRole": "Raphael Nercessian's documented early NOVICA technical role",
+      "technicalLineageContext": "Strengthens the professional-context basis for the Canal Barra technical-lineage argument.",
+      "knowledgeTransferClaimContext": "Does not independently prove direct NOVICA-to-Canal-Barra technology transfer.",
+      "evidenceStatus": "founder_statement; supported_by_external_professional_context; Forbes_2020_NOVICA_founding_webmaster_reference; founder_provided_option_certificate_metadata; pending_direct_canal_barra_transfer_evidence",
+      "repositoryPath": "docs/INCUBATION.md"
     }
   ]
 }

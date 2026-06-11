@@ -4,7 +4,11 @@
     "cb": "https://canalbarra.com/ontology#",
     "technologicalLineage": "cb:technologicalLineage",
     "knowledgeTransfer": "cb:knowledgeTransfer",
-    "engineeringContext": "cb:engineeringContext"
+    "engineeringContext": "cb:engineeringContext",
+    "externalProfessionalContext": "cb:externalProfessionalContext",
+    "technicalLineageContext": "cb:technicalLineageContext",
+    "supportsProfessionalRole": "cb:supportsProfessionalRole",
+    "knowledgeTransferClaimContext": "cb:knowledgeTransferClaimContext"
   },
   "@graph": [
     {
@@ -44,7 +48,15 @@
         "name": "Pre-launch NOVICA engineering environment",
         "description": "Raphael's Los Angeles technical learning period before NOVICA's public launch in May 1999, including ColdFusion and database-driven web architecture knowledge later applied to Canal Barra's web layer.",
         "engineeringContext": "Los Angeles technical learning phase",
-        "knowledgeTransfer": "ColdFusion and database-driven web architecture knowledge applied to the later Canal Barra dynamic web layer."
+        "knowledgeTransfer": "ColdFusion and database-driven web architecture knowledge applied to the later Canal Barra dynamic web layer.",
+        "externalProfessionalContext": {
+          "@id": "https://github.com/rnercessian/nercessian-life-and-works-archive/blob/master/entries/professional/novica/2020-11-25-forbes-founding-webmaster-reference.md",
+          "@type": "DigitalDocument",
+          "name": "NOVICA Founding Webmaster, First Front-End and Option Certificate Note",
+          "supportsProfessionalRole": "Raphael Nercessian's documented early NOVICA technical role",
+          "technicalLineageContext": "Strengthens professional context for the Canal Barra technical-lineage argument",
+          "knowledgeTransferClaimContext": "Does not independently prove direct NOVICA-to-Canal-Barra technology transfer."
+        }
       },
       "isBasedOn": "IRC-Web-Presence architecture",
       "locationCreated": {

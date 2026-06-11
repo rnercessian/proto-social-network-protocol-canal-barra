@@ -46,10 +46,10 @@ notes: The XOOM layer is important for the hybrid thesis, but archived captures 
 ```text
 date_range: before 1999-05
 claim: Founder statement says Raphael entered the pre-launch engineering environment that would become NOVICA during his Los Angeles period and acquired ColdFusion and database-driven web architecture knowledge later applied to Canal Barra's web layer.
-evidence_status: founder_statement, pending_verification
-source_path: docs/INCUBATION.md; evidence/website/WEB-STACK-COLDFUSION-ACCESS-2000.md
+evidence_status: founder_statement, supported_by_external_professional_context, Forbes_2020_NOVICA_founding_webmaster_reference, founder_provided_option_certificate_metadata, pending_direct_canal_barra_transfer_evidence
+source_path: docs/INCUBATION.md; REFERENCES.md; evidence/website/WEB-STACK-COLDFUSION-ACCESS-2000.md
 confidence: medium
-notes: This is a technical-lineage and knowledge-transfer claim. It does not mean NOVICA publicly existed in 1996 or that NOVICA launched, owned or sponsored Canal Barra.
+notes: External professional context supports Raphael's early NOVICA technical role, but direct NOVICA-to-Canal-Barra technology transfer remains unproven. It does not mean NOVICA publicly existed in 1996 or that NOVICA launched, owned or sponsored Canal Barra.
 ```
 
 ### May 1999: NOVICA Public Launch

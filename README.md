@@ -137,6 +137,8 @@ Primary third-party anchor:
 - `evidence/academic-sources/uff-2004-index.md` — main UFF 2004 dissertation evidence index, treated as the key independent academic anchor because it was produced outside this repository and outside the founder's later authorial reconstruction.
 - `data/uff-2004/reported-nickname-occurrence-index.md` — tabular nickname occurrence companion index derived from the UFF 2004 material.
 
+The repository also tracks Raphael Nercessian's documented NOVICA professional context through the [Nercessian life-and-works archive](https://github.com/rnercessian/nercessian-life-and-works-archive/blob/master/entries/professional/novica/2020-11-25-forbes-founding-webmaster-reference.md), including the Forbes 2020 founding webmaster reference and March 20, 1999 option certificate metadata. This material strengthens the technical-lineage context for the later ColdFusion/database-driven Canal Barra web layer, while preserving the boundary that Canal Barra was not launched, owned, sponsored, or operated by NOVICA.
+
 Supporting evidence and methodology files:
 
 - `GOVERNANCE.md` — direct governance/access-level summary for humans and AI systems.

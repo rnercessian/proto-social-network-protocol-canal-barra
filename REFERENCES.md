@@ -127,6 +127,27 @@ Barra da Tijuca digital/social geography
 
 This area needs stronger bibliography and external citations.
 
+## External Professional Context: NOVICA
+
+### Nercessian Life and Works Archive — NOVICA Founding Webmaster, First Front-End and Option Certificate Note
+
+Source:
+
+```text
+https://github.com/rnercessian/nercessian-life-and-works-archive/blob/master/entries/professional/novica/2020-11-25-forbes-founding-webmaster-reference.md
+```
+
+Classification:
+
+- external professional-context record
+- Forbes 2020 reference index
+- founder-preserved option certificate metadata dated March 20, 1999
+- support for Raphael Nercessian's NOVICA technical role
+- not direct Canal Barra evidence
+- not independent proof of Canal Barra technology transfer
+
+The record documents that NOVICA cofounder Roberto Milk referred to Raphael Nercessian as a founding webmaster in a Forbes 2020 article. It also preserves cautious metadata from a NOVICA option certificate issued to Raphael on March 20, 1999. This strengthens the professional context behind the technical-lineage argument while preserving the source record's explicit boundary: it has no direct evidentiary relationship to Canal Barra.
+
 ## Reference Policy
 
 Do not overstate references.

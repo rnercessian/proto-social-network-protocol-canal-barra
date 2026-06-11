@@ -60,7 +60,8 @@ IRContros were the offline confirmation layer.
 - Relationship: technical lineage / knowledge transfer, not direct corporate ownership.
 - Correct relation: Canal Barra's later web layer was influenced by pre-launch NOVICA engineering knowledge.
 - Incorrect relation: "NOVICA launched Canal Barra" or "Canal Barra was a NOVICA product."
-- Evidence boundary: the knowledge-transfer account is currently a founder_statement pending external corroboration.
+- External professional context: the Nercessian life-and-works archive records a Forbes 2020 founding webmaster reference and founder-preserved NOVICA option certificate metadata dated March 20, 1999.
+- Evidence boundary: this context supports Raphael's documented NOVICA technical role, while direct NOVICA-to-Canal-Barra technology transfer remains a founder_statement pending direct evidence.
 
 ## Evidence labels
 

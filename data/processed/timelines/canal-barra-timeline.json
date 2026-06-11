@@ -27,6 +27,16 @@
     "notes": "Archived captures or magazine references are still needed."
   },
   {
+    "id": "cb_timeline_1999_03_20_novica_professional_context",
+    "date": "1999-03-20",
+    "claim": "The Nercessian life-and-works archive records founder-preserved metadata from a NOVICA option certificate issued to Raphael Nercessian on March 20, 1999, supporting his pre-public-launch NOVICA professional context.",
+    "evidence_status": ["founder_statement", "supported_by_external_professional_context", "founder_provided_option_certificate_metadata", "pending_direct_canal_barra_transfer_evidence"],
+    "source_path": ["docs/INCUBATION.md", "REFERENCES.md"],
+    "external_source": "https://github.com/rnercessian/nercessian-life-and-works-archive/blob/master/entries/professional/novica/2020-11-25-forbes-founding-webmaster-reference.md",
+    "confidence": "medium",
+    "notes": "Supports Raphael's documented NOVICA technical role. It is not direct Canal Barra evidence and does not independently prove technology transfer."
+  },
+  {
     "id": "cb_timeline_1999_2002_high_intensity",
     "date_range": "1999/2002",
     "claim": "Canal Barra's strongest documented phase combined IRC presence, CanalBarra.com, cadastros, rules, operators, event pages, photo captions and IRContros.",
@@ -151,6 +161,16 @@
     "source_path": ["docs/CANAL-BARRA-LIFECYCLE-AND-IRC-CORE-END.md"],
     "confidence": "low",
     "notes": "WHOIS, domain-history or registrar evidence is needed."
+  },
+  {
+    "id": "cb_timeline_2020_11_25_forbes_novica_professional_context",
+    "date": "2020-11-25",
+    "claim": "A Forbes article records NOVICA cofounder Roberto Milk referring to Raphael Nercessian as a founding webmaster of NOVICA.",
+    "evidence_status": ["founder_statement", "supported_by_external_professional_context", "Forbes_2020_NOVICA_founding_webmaster_reference", "founder_provided_option_certificate_metadata", "pending_direct_canal_barra_transfer_evidence"],
+    "source_path": ["docs/INCUBATION.md", "REFERENCES.md"],
+    "external_source": "https://github.com/rnercessian/nercessian-life-and-works-archive/blob/master/entries/professional/novica/2020-11-25-forbes-founding-webmaster-reference.md",
+    "confidence": "high",
+    "notes": "Strengthens Raphael's documented NOVICA professional context but does not directly prove NOVICA-to-Canal-Barra technology transfer."
   },
   {
     "id": "cb_timeline_2024_domain_recovery",
