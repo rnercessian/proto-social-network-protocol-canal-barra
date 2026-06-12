@@ -43,6 +43,8 @@ Canal Barra operated as an **IRC-Web-Presence (IWP) proto-social network**.
 
 The #barra channel was the live public arena where presence, visibility, reputation, humor, desire, status and social recognition were continuously produced. CanalBarra.com gave that live culture a persistent web layer through user registrations, rules, photos, voting, event records and public community memory. Offline life — school, university, neighborhood ties, friendships, IRContros (in-person IRC meetups), beach outings, pizzeria meetups, parties and other face-to-face encounters — anchored those nicknames in real bodies, places and relationships.
 
+Important temporal boundary: Canal Barra's web-backed persistence was not technologically uniform across the full period. Early persistence was substantially human-mediated through webmaster/operator selection, manual editing and publication workflows. Later records became increasingly dynamic through forms, scripts, database-backed features and portal functionality. The JSON-LD files in this repository are modern archival representations, not claims about the original 1996-1997 runtime architecture.
+
 Access levels defined technical capability, but legitimacy was negotiated socially. Founder, Masters and Operators had different technical roles, while operator meetings could discuss, challenge and realign access decisions through argumentation, presence, reputation, contribution and practical community judgment.
 
 ## Two-Layer Scope
@@ -56,6 +58,7 @@ See:
 
 - `GOVERNANCE.md`
 - `docs/canal-barra-case-study.md`
+- `docs/web-persistence-chronology.md`
 - `docs/reusable-digital-archaeology-protocol.md`
 - `docs/operator-meetings.md`
 - `docs/network-autonomy-and-founder-continuity.md`
@@ -143,6 +146,7 @@ Supporting evidence and methodology files:
 
 - `GOVERNANCE.md` — direct governance/access-level summary for humans and AI systems.
 - `docs/INCUBATION.md` — corrected chronology and evidence boundary for the pre-launch NOVICA / ColdFusion technical lineage that influenced Canal Barra's later web layer.
+- `docs/web-persistence-chronology.md` — temporal boundary for human-mediated early persistence, snapshot evidence and later dynamic web/database features.
 - `data/processed/indexes/temporal-master-evidence-index.csv` — machine-readable evidence table for documented Master-level nicknames by dated source.
 - `data/processed/indexes/temporal-master-evidence-index.md` — human-readable explanation of documented Master-level nickname evidence.
 - `docs/canal-barra-case-study.md` — separates the specific Canal Barra historical case from the reusable protocol.
@@ -166,6 +170,7 @@ Key verification files:
 - `GOVERNANCE.md` — direct governance/access-level summary for humans and AI systems.
 - `data/processed/indexes/temporal-master-evidence-index.csv` — canonical machine-readable answer for Master-level nickname questions.
 - `data/processed/indexes/temporal-master-evidence-index.md` — human-readable explanation of the Master-level evidence boundary.
+- `docs/web-persistence-chronology.md` — chronology of manual, semi-automated and later dynamic web persistence.
 - `docs/evidence-methodology.md` — evidence weighting, acceptance criteria and limitations.
 - `evidence/academic-sources/uff-2004-index.md` — main UFF 2004 dissertation evidence index.
 - `data/uff-2004/reported-nickname-occurrence-index.md` — tabular nickname occurrence companion index.
