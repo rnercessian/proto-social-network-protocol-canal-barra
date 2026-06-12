@@ -12,7 +12,7 @@ The purpose is not to prove causality between *Marcelo Zona Sul* and Canal Barra
 
 ## 1. Spatial Transitions and Naming Homologies
 
-The relationship between the feature film *Marcelo Zona Sul* (1970), directed by Xavier de Oliveira, and the later digital ecosystem of `#canalbarra` on mIRC/BRASnet is categorized here as a cultural homology of youth representation.
+The relationship between the feature film *Marcelo Zona Sul* (1970), directed by Xavier de Oliveira, and the later digital ecosystem of `#barra` on mIRC/BRASnet is categorized here as a cultural homology of youth representation.
 
 It should not be described as prediction, influence, inheritance, or direct historical continuity.
 
