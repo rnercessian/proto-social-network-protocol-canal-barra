@@ -1,0 +1,130 @@
+name: Build Markdown PDF Artifact
+
+on:
+  push:
+    branches:
+      - pdf-build-workflow-12
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Python dependencies
+        run: python -m pip install --upgrade reportlab
+
+      - name: Build PDF from Markdown files
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from reportlab.pdfgen import canvas
+          from reportlab.lib.pagesizes import A4
+          from reportlab.pdfbase import pdfmetrics
+          from reportlab.pdfbase.ttfonts import TTFont
+          from reportlab.lib.units import cm
+          import textwrap
+          import datetime
+
+          out_dir = Path('artifact')
+          out_dir.mkdir(exist_ok=True)
+          out_pdf = out_dir / 'canal-barra-all-markdown.pdf'
+          md_files = sorted(p for p in Path('.').rglob('*.md') if '.git' not in p.parts and 'artifact' not in p.parts)
+
+          page_w, page_h = A4
+          left = 1.4 * cm
+          right = 1.4 * cm
+          top = 1.35 * cm
+          bottom = 1.25 * cm
+          line_h = 10.2
+          pdfmetrics.registerFont(TTFont('DejaVuMono', '/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf'))
+          pdfmetrics.registerFont(TTFont('DejaVuMonoBold', '/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf'))
+
+          c = canvas.Canvas(str(out_pdf), pagesize=A4)
+          page_no = 1
+          y = page_h - top
+
+          def footer():
+              c.setFont('DejaVuMono', 7)
+              c.drawRightString(page_w - right, 0.65 * cm, f'page {page_no}')
+
+          def new_page():
+              global page_no, y
+              footer()
+              c.showPage()
+              page_no += 1
+              y = page_h - top
+
+          def ensure(lines=1):
+              if y - lines * line_h < bottom:
+                  new_page()
+
+          def draw_line(text='', font='DejaVuMono', size=8.2):
+              global y
+              ensure(1)
+              c.setFont(font, size)
+              c.drawString(left, y, text.replace('\t', '    ')[:220])
+              y -= line_h
+
+          def wrap_and_draw(text, width=105, font='DejaVuMono', size=7.1):
+              if text == '':
+                  draw_line('', font, size)
+                  return
+              chunks = textwrap.wrap(text.replace('\t', '    '), width=width, replace_whitespace=False, drop_whitespace=False, break_long_words=True, break_on_hyphens=False) or ['']
+              for chunk in chunks:
+                  draw_line(chunk, font, size)
+
+          c.setFont('DejaVuMonoBold', 17)
+          c.drawString(left, y, 'Canal Barra Repository')
+          y -= 24
+          c.setFont('DejaVuMonoBold', 13)
+          c.drawString(left, y, 'All Markdown Files Export')
+          y -= 22
+          c.setFont('DejaVuMono', 8.5)
+          c.drawString(left, y, f'Generated: {datetime.datetime.utcnow().isoformat(timespec="seconds")} UTC')
+          y -= 16
+          c.drawString(left, y, f'Markdown files: {len(md_files)}')
+          y -= 24
+          draw_line('This PDF contains every *.md file found in the repository checkout.', 'DejaVuMono', 8)
+          draw_line('Each section begins with the repository path of the source file.', 'DejaVuMono', 8)
+          y -= 8
+          draw_line('INDEX', 'DejaVuMonoBold', 10)
+          for p in md_files:
+              wrap_and_draw(str(p), width=105, font='DejaVuMono', size=7.2)
+          new_page()
+
+          for idx, path in enumerate(md_files, start=1):
+              ensure(8)
+              c.setFont('DejaVuMonoBold', 11)
+              c.drawString(left, y, '=' * 92)
+              y -= 12
+              wrap_and_draw(f'FILE {idx}/{len(md_files)}: {path}', width=92, font='DejaVuMonoBold', size=9)
+              c.setFont('DejaVuMonoBold', 11)
+              c.drawString(left, y, '=' * 92)
+              y -= 14
+              try:
+                  text = path.read_text(encoding='utf-8', errors='replace')
+              except Exception as exc:
+                  text = f'[READ ERROR: {exc}]'
+              for line in text.splitlines():
+                  wrap_and_draw(line)
+              y -= 12
+
+          footer()
+          c.save()
+          print(f'Wrote {out_pdf} with {len(md_files)} markdown files')
+          PY
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: canal-barra-all-markdown-pdf
+          path: artifact/canal-barra-all-markdown.pdf
