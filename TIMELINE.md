@@ -29,7 +29,7 @@ claim: Founder recalls classmate Marcos gave him the nickname Johnny at UFRJ Pra
 evidence_status: founder_statement; contemporaneous_corroboration_pending
 source_path: docs/ORIGIN-1996-1997-AND-BARMAN-NICKNAME.md
 confidence: founder_recollection
-notes: The sequence is not yet dated by surviving IRC or GeoCities artifacts.
+notes: A GeoCities capture is now preserved for 1999-01-27 showing the #Bar-do-Johnnie name and a BarMan photo caption. This does not date the sequence itself to 1997; seek earlier IRC/GeoCities records.
 ```
 
 ### 1997-11-28: Formal #barra Registration
@@ -74,6 +74,16 @@ evidence_status: founder_statement, external_source_needed
 source_path: docs/INCUBATION.md
 confidence: medium
 notes: This date is a chronological boundary. Do not describe Canal Barra as a NOVICA product or claim that the publicly launched NOVICA incubated Canal Barra in 1996.
+```
+
+### 1999-01-27: GeoCities #Bar-do-Johnnie archived page
+
+```text
+date: 1999-01-27
+claim: A Wayback snapshot of http://www.geocities.com/SoHo/Coffeehouse/2521/ visibly promotes #Bar-do-Johnnie as a BRASnet IRC channel; a photo caption includes the nickname BarMan alongside Lucas-Rio and Paulista. The site invites nickname/photo submissions and advertises chat, photo/voting, and ICQ links.
+evidence_status: archived_web_capture; screenshot_visual_review; underlying_html_pending
+source_path: evidence/website/geocities/GEOCITIES-BAR-DO-JOHNNIE-1999-01-27.md
+notes: Dated existence of a promotional web page; not proof of 1997 website creation, active IRC channels on 1999-01-27, image identities, a published voter database, relative safety, or efficacy.
 ```
 
 ### 1999-2002: High-Intensity IRC + CanalBarra.com + IRContros Phase

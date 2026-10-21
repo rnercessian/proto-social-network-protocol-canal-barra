@@ -59,6 +59,10 @@ The 1998 photograph illustrates a historical #barra beach gathering; it is **not
 
 WaterHand confirmed his own presence in the photograph and the #barra luau context through an [archive-collected participant response, 2026-05-29](https://github.com/rnercessian/proto-social-network-protocol-canal-barra/blob/main/evidence/participant-statements/waterhand-google-form-response-2026-05-29-v1.json). This is **participant testimony**, not independent academic validation or proof that anyone was safe. The [photo evidence record](https://github.com/rnercessian/proto-social-network-protocol-canal-barra/blob/main/evidence/photos/ircontros/photo-evidence-canal-barra-luau-waterhand-001-v1.json) preserves attribution boundaries.
 
+## Early web practice: photograph and nickname contributions
+
+A [27 January 1999 GeoCities snapshot](../evidence/website/geocities/GEOCITIES-BAR-DO-JOHNNIE-1999-01-27.md) advertises `#Bar-do-Johnnie` chat access, IRC/BRASnet participation, an invitation to send **nick and photo**, and **“Fotos e votação”** navigation. This independently archived **page content** illustrates a human-mediated web presentation and recruitment practice with nickname-level identity before the mature CanalBarra.com portal. Its connection to the subsequent #barra community is supported by a BarMan nickname photo caption and the founder's recollection, **not** by direct evidence of a measured network effect. Do not use it as a retention, safety or offline-conversion metric.
+
 ## Three analytical dimensions
 
 **Institutional inputs or conditions:** rules, Masters/Operators, stable nicknames, IRC and website infrastructure.

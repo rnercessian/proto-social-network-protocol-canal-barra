@@ -25,6 +25,10 @@ Early Canal Barra persistence should therefore be treated as a mixture of:
 - manually selected or manually published traces;
 - later dynamic web records where specifically documented.
 
+## Dated early-web anchor: GeoCities, 27 January 1999
+
+A [Wayback capture](https://web.archive.org/web/19990127194854/http://www.geocities.com/SoHo/Coffeehouse/2521/), visually reviewed from the founder-supplied screenshot, documents a **GeoCities page promoting #Bar-do-Johnnie** by 1999-01-27. The page presents a chat entry, photo captions including BarMan / Lucas-Rio / Paulista, photo/voting navigation, nick/photo contribution invitation, ICQ references and Barra da Tijuca territorial context. This is **contemporary documentation of a separate GeoCities web layer**, not proof that these features belonged to `CanalBarra.com`, operated in 1997, or produced measurable social outcomes. Original HTML/hrefs and broken images require independent retrieval. See [evidence record](../evidence/website/geocities/GEOCITIES-BAR-DO-JOHNNIE-1999-01-27.md).
+
 ## Human-Mediated Persistence Layer (1996-1997)
 
 For the earliest period, the default model is human-mediated persistence.
