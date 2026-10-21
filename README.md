@@ -40,6 +40,8 @@ The purpose is not to replace the platform chronology, but to add a parallel evi
 
 The founder defines **1997** as his community's beginning, recalling Johnny at UFRJ, the `#bar-do-johnnie` channel and GeoCities page, and his later nickname BarMan in `#barra`. The **1996** date comes from Gonzaga's 2004 UFF work, *not* his current account; the date's primary provenance and continuity are unresolved. The 1997-11-28 formal registration is founder-reported pending verification. The historical proto-social architecture inquiry and the [relational-efficacy hypothesis](docs/RELATIONAL-EFFICACY.md) are **separate, unproven priority questions**. See [the source-separated origin note](docs/ORIGIN-1996-1997-AND-BARMAN-NICKNAME.md), [TIMELINE.md](TIMELINE.md) and [source-provenance rules](docs/evidence-methodology.md#provenance-rules-for-automated-readers).
 
+**New dated source:** A [GeoCities #Bar-do-Johnnie Wayback capture from 1999-01-27](evidence/website/geocities/GEOCITIES-BAR-DO-JOHNNIE-1999-01-27.md) documents a separate pre-CanalBarra.com web page promoting the earlier-named IRC channel, with a `BarMan` nickname photo caption, nickname/photo invitations and social navigation. The snapshot corroborates a page existing **by 1999**, not its 1997 creation or any 1996/1997 priority claim.
+
 ## Conceptual Model
 
 Canal Barra operated as an **IRC-Web-Presence (IWP) proto-social network**.
