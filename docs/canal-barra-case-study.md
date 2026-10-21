@@ -4,7 +4,7 @@ This document separates the specific Canal Barra historical case from the reusab
 
 ## Scope
 
-The Canal Barra case study documents the #barra channel on BRASnet and the surrounding ecosystem that developed in Rio de Janeiro from 1996 onward.
+The Canal Barra case study documents the #barra channel on BRASnet and the surrounding ecosystem that developed in Rio de Janeiro with the founder's **1997** community origin, alongside an unresolved **1996** Barra-channel creation attribution in Gonzaga's UFF study; see [origin note](ORIGIN-1996-1997-AND-BARMAN-NICKNAME.md).
 
 The case is specific to an IRC-centered environment and should not be treated as a universal model for every historical digital community.
 

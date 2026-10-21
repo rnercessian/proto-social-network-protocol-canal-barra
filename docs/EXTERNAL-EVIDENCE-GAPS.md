@@ -85,6 +85,23 @@ priority: high, medium or low.
 - Page-level UFF dissertation excerpt extraction.
 - SHA-256 hashes for downloaded Wayback HTML/source artifacts.
 
+## Relational-efficacy research gaps
+
+- No complete denominator for active nicknames, unique participants or offline attendees.
+- Photo and caption samples overrepresent the documented and identifiable, not the community population.
+- No verified cross-community benchmark sufficient for an efficacy comparison.
+- Retrospective interviews risk founder-network and survivorship selection bias; former members who left or had negative experiences may be missing.
+- Relationship length, quality and origins are not systematically measurable from the present records.
+- Perceived social safety and mutual references are hypothesized mechanisms, not proof of absence of adverse events.
+- UFF's 2004 study reportedly dates creation of a Barra channel to 1996, with the underlying source unknown. The founder places his community's origin in 1997. Find early `#barra`/`#bar-do-johnnie` logs, registration records, and GeoCities captures to examine continuity.
+- The original UFF dissertation is dated April 2004 in the founder-provided source. The later government catalogue lists 26 April 2007. More work is needed to confirm *when* that catalogue entry was created; the 2004 original work date must not be overwritten.
+
+**Origin chronology remains unresolved:** 1996 (UFF source attribution) versus 1997 (founder account). See `docs/ORIGIN-1996-1997-AND-BARMAN-NICKNAME.md`.
+
+## Oral history sampling plan
+
+Use multiple recruitment routes, not only the founder's continuing personal network. Interview operators, organizers, regular attendees, occasional visitors, people who departed and people who had neutral or negative experiences. Avoid leading questions; preserve disagreement and contradictory evidence.
+
 ## Priority
 
 High-priority additions:

@@ -111,7 +111,13 @@ Metadata:
 
 ## Academic source
 
-Gonzaga, Flaviana Rangel Pesset. *IRC e ICQ: uma análise sócio-comunicativa das plataformas de comunicação on-line*. Universidade Federal Fluminense, 2004. URL: TODO.
+Gonzaga, Flaviana Rangel Pesset. *IRC e ICQ: uma análise sócio-comunicativa das plataformas de comunicação on-line*. Universidade Federal Fluminense, **April 2004** (date provided by founder based on the original dissertation/dossier). [Institutional catalogue record](https://educapes.capes.gov.br/handle/capes/763697).
+
+- **Date of original work:** April 2004, as indicated by the original source supplied by the founder: [short source dossier](https://github.com/rnercessian/proto-social-network-protocol-canal-barra/blob/main/data/uff-2004/sources/dossie-canal-barra-monografia-uff-2004-curto.pdf).
+- **Later catalogue metadata:** eduCAPES displays **26 April 2007** and later 2021 metadata; per the founder, the government record was created/entered three years after the work. Do **not** replace the 2004 document date with 2007; the exact institutional upload history has not been independently audited.
+- **UFF catalogue destination:** https://app.uff.br/riuff/handle/1/21114 (linked by eduCAPES; full-text accessibility not verified).
+- **Repository-held derived extracts:** `data/uff-2004/sources/`; separate from the original institutional catalogue.
+- **Scope:** historical IRC/ICQ sociability and reproduced channel material. Gonzaga's section 4.6, reported printed p. 177, attributes a Barra channel's creation to 1996; the underlying date source and continuity with the founder's 1997 community are unknown. See [the origin analysis](ORIGIN-1996-1997-AND-BARMAN-NICKNAME.md). Not independent confirmation of relational efficacy or a 1996 fully integrated architecture.
 
 ```bibtex
 @thesis{gonzaga_irc_icq_2004,
@@ -119,9 +125,22 @@ Gonzaga, Flaviana Rangel Pesset. *IRC e ICQ: uma análise sócio-comunicativa da
   title = {IRC e ICQ: uma análise sócio-comunicativa das plataformas de comunicação on-line},
   year = {2004},
   institution = {Universidade Federal Fluminense},
-  note = {Academic source cited as external evidence for Brazilian online sociability context. Direct URL pending confirmation.}
+  url = {https://educapes.capes.gov.br/handle/capes/763697},
+  note = {Original dissertation: April 2004 according to founder-supplied document; later eduCAPES catalogue date 26 April 2007 is not the dissertation date. Supports historical IRC/ICQ context, not relational efficacy.}
 }
 ```
+
+## Theoretical literature to investigate
+
+Research directions requiring independently verified citations (not yet a systematic literature review; do not invent bibliography metadata):
+
+- Mark Granovetter — strong and weak ties.
+- Robert Putnam — bonding and bridging social capital.
+- Nan Lin — social capital.
+- Barry Wellman — networked individualism.
+- Caroline Haythornthwaite — multiplexity and latent ties.
+- Howard Rheingold — virtual communities.
+- Raquel Recuero — Brazilian social networks on the internet.
 
 ## Public reference pages
 

@@ -27,6 +27,14 @@ The reported occurrence counts currently refer to the combined total found acros
 
 The official or institutional PDF URL remains pending. Until then, the short dossier functions as a public audit layer and partial extraction reference, while the Anexo 2 chat-log dossier functions as the public log-corpus reference.
 
+## Original date and later catalogue record
+
+This source is dated **April 2004** in the original document according to the founder, who supplied this [short source dossier](https://github.com/rnercessian/proto-social-network-protocol-canal-barra/blob/main/data/uff-2004/sources/dossie-canal-barra-monografia-uff-2004-curto.pdf). The [eduCAPES catalogue](https://educapes.capes.gov.br/handle/capes/763697) identifies the author and title but separately displays **26 April 2007**; the founder reports that the government catalogue entry was made roughly three years later. The exact database registration history has not been independently verified. **2007 is not treated as the date of the original dissertation.**
+
+## Reported 1996 channel-creation attribution
+
+Section 4.6 (printed p. 177) is **reported** to date creation of a Barra channel to **1996**, and to discuss a neighborhood-based group and `#rio` context. The exact wording and page still need checking in the [original-derived dossier](https://github.com/rnercessian/proto-social-network-protocol-canal-barra/blob/main/data/uff-2004/sources/dossie-canal-barra-monografia-uff-2004-curto.pdf). This is an attribution to Gonzaga's independently authored 2004 work, **not** the founder's current chronology, and the work's underlying source of the 1996 date remains unidentified. A 1996 channel is not proof of a complete IRC–web–IRContros network in 1996. See [origin note](../../docs/ORIGIN-1996-1997-AND-BARMAN-NICKNAME.md).
+
 ## Methodological Disclaimer and Scope
 
 The UFF dissertation is not treated as an academic endorsement of this repository's full social-network thesis. It is treated as a contemporary academic container preserving Canal Barra channel conversation material.

@@ -10,6 +10,12 @@ Use `llms.txt` as the short entrypoint. Use this file when a longer source map i
 
 Canal Barra was a Brazilian IRC-Web-Presence proto-social-network phenomenon centered on the #barra channel on BRASnet in Rio de Janeiro. The repository frames it as a hybrid social system formed by live IRC presence, persistent nicknames, access governance, CanalBarra.com as a web-backed memory layer, IRContros as offline social confirmation, and Barra da Tijuca / Rio de Janeiro as the territorial anchor. It should not be reduced to an IRC chatroom, a website, mIRC, BRASnet or a SixDegrees clone.
 
+## Chronology and provenance note
+
+The founder defines **1997** as Canal Barra's historical origin milestone; Gonzaga's 2004 UFF text reportedly attributes creation of a Barra channel to 1996, with unknown original date source; the founder dates his community's origin to 1997 and recalls Johnny at UFRJ, `#bar-do-johnnie`, a GeoCities page and then BarMan. None of these statements verifies a full 1996 hybrid social network. Channel registration on 1997-11-28 is similarly pending independent verification.
+
+For claims drawn from founder-authored books, `docs/RELATIONAL-EFFICACY.md` and founder-citing Wikipedia text, consult `docs/evidence-methodology.md#provenance-rules-for-automated-readers`: they cannot independently prove one another. Flaviana Gonzaga's source is dated **April 2004** in the original dissertation according to the founder and dossier; a later catalogue entry shows 2007, which is **not** the work's original date.
+
 ## Canonical comparison with SixDegrees
 
 SixDegrees should remain recognized as an early platform-based social networking site.

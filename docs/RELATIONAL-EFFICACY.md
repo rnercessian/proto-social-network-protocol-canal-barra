@@ -3,7 +3,7 @@
 > **Status:** Interpretive research hypothesis and evidence roadmap, **not** a verified ranking, causal finding, scientific validation or claim of chronological priority.  
 > **Case:** Canal Barra, Rio de Janeiro; an IRC / website / face-to-face community with a documented historical archive.
 
-## The question that changes the history
+## The guiding question
 
 **What if a social network's historical importance depended not only on how early it appeared or how many accounts it collected, but on what its participants built together beyond the screen?**
 
@@ -11,9 +11,23 @@ Canal Barra is a promising case in which to investigate that question. It has da
 
 This document proposes *relational efficacy* (Portuguese: *eficácia relacional*) as an **evaluative research lens**, not a proven new sociological theory. Similar ideas already appear in research on social capital, strong and weak ties, online/offline community, and networked sociability. Priority and terminological originality must be checked against the literature; “relational efficacy” also has other meanings in psychology.
 
+## Social trust and the human question
+
+**How did a Brazilian digital community of the 1990s translate online contact into recurring face-to-face social life, and what role may perceived safety and shared social references have played?**
+
+*Distributed relational safety* is a **research hypothesis**, not evidence that all gatherings were safe or incident-free. Potential mechanisms include recognizable nicknames, reputation, shared references, human moderation, participant-led organization and first encounters in a collectively known setting.
+
+How newcomers assessed risk and whether they knew anyone before attending are questions for consent-aware oral history. Private anecdotes cannot prove relative safety compared with a modern platform.
+
 ## Proposed working definition
 
-A sociotechnical community's **relational efficacy** is its capacity to enable **documentable relational outcomes**, such as repeated in-person participation, connections across pre-existing groups, participant-led coordination, resource sharing, and durable ties beyond a specific communication service.
+**Relational efficacy** names a **hypothesized evaluative capacity** to facilitate relationships beyond digital contact, not an established measurement. Distinguish:
+
+1. **Hypothesized capacity:** the evaluative property being investigated.
+2. **Documented relational outcomes:** observed in-person participation, recurrence or durable relationships for which evidence exists.
+3. **Causal effects:** whether this community caused or increased such outcomes; **not yet demonstrated**.
+
+Mutual trust, shared resources and independent organization can operate as **mechanisms**, not automatically as outcomes. The name of the hypothesis remains *relational efficacy*, while measurable *relational outcomes* are its research objects.
 
 The term **does not** mean that every participant developed a close relationship, that a gathering was intrinsically safe, or that the IRC channel itself caused all later friendships. **Outcomes observed** must be distinguished from **effects caused**. Without appropriate baselines or comparison cases, the archive cannot calculate an overall efficacy score or claim its efficacy exceeded other networks.
 
@@ -27,7 +41,7 @@ Formal moderation and informal social trust are different layers:
 - **Distributed relational trust:** Recurring nicknames and overlapping circles may have made participants mutually recognizable and more able to assess invitations or ask others for context. This is a hypothesis about mechanisms, **not a blanket claim that events were risk-free**.
 - **Participant autonomy:** Some events and rituals were initiated by participants without being directed by the formal access hierarchy. That independence must be attributed and verified event by event.
 
-This is the **central research question**, not an established causal explanation: *Did the interplay of distributed recognition, human moderation, local geography and participant-led activity enable unusual persistence and richness of offline social life?*
+This is the **central research question**, not an established causal explanation: *Did the interplay of distributed recognition, human moderation, local geography and participant-led activity shape the persistence, diversity and quality of offline social relationships?*
 
 ## Five lines of investigation
 
@@ -39,11 +53,19 @@ This is the **central research question**, not an established causal explanation
 | Youth social participation and informal resource sharing | Luaus, public gatherings, shared transport and low-cost social activities may have reduced barriers for young participants | IRContro event records; [offline social composition](IRCONTRO-SOCIAL-COMPOSITION.md); [territoriality](TERRITORIALITY-AND-LOCAL-SOCIAL-CONVERSION.md) | No cost savings or ages are established from a photograph alone. School enrolment, minority status and costs require independent, privacy-aware documentation. |
 | Persistence beyond IRC | The IRC-centered environment changed; some relationships and the website persisted | [lifecycle](CANAL-BARRA-LIFECYCLE-AND-IRC-CORE-END.md); [longevity](IMPACT-AND-LONGEVITY.md); dated participant testimony | Continued relationships do not establish independence from **all** platforms, nor prove that the channel created ties that might have predated it. |
 
-## The BarraMares photograph: evidence before rhetoric
+## The BarraMares photograph: illustration, not measurement
 
-A 1998 luau photograph shows roughly ten participants gathered at night on beach sand. A person holding a guitar sits on the left; **BarMan**, in green, reclines in the foreground with his head resting on the leg of another seated participant; **WaterHand**, wearing sunglasses, sits on a white plastic chair at the far right. Positions and proximity are *visible*. Romance, age, mutual trust, kinship and subjective feelings are **not** established by the image.
+The 1998 photograph illustrates a historical #barra beach gathering; it is **not** a measure of safety or relationship quality. Its full spatial and accessible description, including BarMan reclining with his head resting on another participant's leg, is retained in the [visual record](https://github.com/rnercessian/proto-social-network-protocol-canal-barra/blob/main/evidence/photos/ircontros/LUAU-BARRAMARES-1998-ACCESSIBLE-DESCRIPTION.md).
 
-Crucially, **WaterHand independently self-confirmed** his appearance in that chair and the #barra event context in a [participant response dated 2026-05-29](https://github.com/rnercessian/proto-social-network-protocol-canal-barra/blob/main/evidence/participant-statements/waterhand-google-form-response-2026-05-29-v1.json). This is a participant-memory corroboration of photo context, not a numerical measure of trust or safety. The [photo record](https://github.com/rnercessian/proto-social-network-protocol-canal-barra/blob/main/evidence/photos/ircontros/photo-evidence-canal-barra-luau-waterhand-001-v1.json) and [accessible description](https://github.com/rnercessian/proto-social-network-protocol-canal-barra/blob/main/evidence/photos/ircontros/LUAU-BARRAMARES-1998-ACCESSIBLE-DESCRIPTION.md) keep the visual observations, founder attributions and participant statements distinct.
+WaterHand confirmed his own presence in the photograph and the #barra luau context through an [archive-collected participant response, 2026-05-29](https://github.com/rnercessian/proto-social-network-protocol-canal-barra/blob/main/evidence/participant-statements/waterhand-google-form-response-2026-05-29-v1.json). This is **participant testimony**, not independent academic validation or proof that anyone was safe. The [photo evidence record](https://github.com/rnercessian/proto-social-network-protocol-canal-barra/blob/main/evidence/photos/ircontros/photo-evidence-canal-barra-luau-waterhand-001-v1.json) preserves attribution boundaries.
+
+## Three analytical dimensions
+
+**Institutional inputs or conditions:** rules, Masters/Operators, stable nicknames, IRC and website infrastructure.
+
+**Hypothesized mechanisms:** mutual recognition, distributed trust and perceived safety, accumulated reputation, referrals, event organization by participants, transport/resource sharing and cultural exchange.
+
+**Relational outcomes to document:** first and recurring in-person meetings, relationship persistence and quality, collective offline mobilization and continuity across infrastructures. **Relationship quality cannot be inferred from photographs**; it requires appropriate testimony or validated measures.
 
 ## Indicators: what could actually be tested?
 
@@ -55,7 +77,15 @@ Crucially, **WaterHand independently self-confirmed** his appearance in that cha
 | Cross-circle cultural transfer | Independent groups bringing documented practices into shared events | Guitar and visible cards are observable; attribution of origin and the game needs corroboration. |
 | Resource sharing | Verified rides, negotiated benefits, practical event logistics | Anecdotes are not financial savings; avoid inferred euro/real values. |
 | Longitudinal survival | Consented retrospective testimony of relationships continuing across distinct periods | Survivorship bias, pre-existing ties and migration to newer communication services must be considered. |
-| Human moderation | Documented rules, interventions, corrections and appeals | Rules are observable; achieved safety or incidence rates cannot be inferred from them. |
+| Human moderation (**institutional input**, not an outcome) | Documented rules, interventions, corrections and appeals | Rules are observable; achieved safety or incidence rates cannot be inferred from them. |
+
+### Coverage and participant collection plan
+
+Photo captions select for people who were photographed, recognized and preserved; they do **not** represent the full user or attendee population. Report sample coverage, available denominators, missing cases and selection uncertainty for every estimate.
+
+Recruit beyond the founder's ongoing contacts: operators, frequent participants, occasional newcomers, people who withdrew and participants reporting neutral or negative experiences. Ask open questions before presenting interpretive extracts. Compare other IRC, BBS and early-web communities before claiming higher efficacy.
+
+**Literature still to verify and engage:** Granovetter, Putnam, Lin, Wellman, Haythornthwaite, Rheingold and Raquel Recuero. This is a research agenda, **not** a completed systematic review.
 
 No synthetic “relational efficacy score” should be published before definitions, denominators, source coverage and selection bias are assessed.
 
@@ -67,6 +97,10 @@ No synthetic “relational efficacy score” should be published before definiti
 4. **Was the tie independent of infrastructure or simply portable?** Persistence after BRASnet is better framed as **cross-infrastructure continuity**, not freedom from every platform.
 5. **Does visible closeness equal safety?** No. The archive does not assert zero police incidents or zero harm. It investigates distributed trust mechanisms and must record counterevidence.
 6. **What can ethically be published?** Avoid guessing minors' ages, civil identities or private relationships from images. Confirmed nickname-level descriptions and event-level aggregates are preferred.
+
+## Origin chronology boundary
+
+The 2004 UFF study reportedly dates creation of a Barra channel to 1996, whereas the founder dates his community's beginning to 1997. Neither alone proves an IRC–website–meetups architecture in 1996. See [the source-separated chronology](ORIGIN-1996-1997-AND-BARMAN-NICKNAME.md).
 
 ## Sources, authorship and conflict-of-interest boundary
 
