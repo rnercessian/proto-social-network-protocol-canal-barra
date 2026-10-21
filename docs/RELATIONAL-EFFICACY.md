@@ -63,6 +63,10 @@ WaterHand confirmed his own presence in the photograph and the #barra luau conte
 
 A [27 January 1999 GeoCities snapshot](../evidence/website/geocities/GEOCITIES-BAR-DO-JOHNNIE-1999-01-27.md) advertises `#Bar-do-Johnnie` chat access, IRC/BRASnet participation, an invitation to send **nick and photo**, and **“Fotos e votação”** navigation. This independently archived **page content** illustrates a human-mediated web presentation and recruitment practice with nickname-level identity before the mature CanalBarra.com portal. Its connection to the subsequent #barra community is supported by a BarMan nickname photo caption and the founder's recollection, **not** by direct evidence of a measured network effect. Do not use it as a retention, safety or offline-conversion metric.
 
+## Two dated cultural events, not just social meetings
+
+The [CanalBarra.com/banda archive](../evidence/events/IRCONTROS-CLUBE-CARIOCA-FESTIVAL-BANDA-2000.md) contains a public invitation for the **29 October 2000** festival performance at Clube Carioca (Rua Jardim Botânico, 650), a retrospective thank-you referencing the **15 October 2000** first performance, an eight-song announcement and a procedure for coordinating entry from web communication to venue. The year and reported audience of approximately 200 and unsuccessful qualifying result come from founder testimony; the **03 March 2001** Wayback timestamp is a capture date. These are **two separate cultural IRContro entries**, evidence of invitation and claimed activity, **not** a measured conversion of IRC participants or a causal validation of relational efficacy.
+
 ## Three analytical dimensions
 
 **Institutional inputs or conditions:** rules, Masters/Operators, stable nicknames, IRC and website infrastructure.
