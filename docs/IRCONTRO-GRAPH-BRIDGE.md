@@ -59,7 +59,7 @@ The channel created identities that crossed the screen and returned with more so
 
 ## Event-level classification — musical IRContros
 
-The [two Banda do Canal Barra appearances, 15 and 29 October 2000](../evidence/events/IRCONTROS-CLUBE-CARIOCA-FESTIVAL-BANDA-2000.md), are indexed as **separate cultural IRContros** because a community-affiliated music initiative publicly invited people from the web to an offline venue. The first is recalled in the second concert's archived invitation; the second is directly advertised there. This classification **does not prove** that IRC-channel users attended, nor does an announced setlist establish performance. The [chronological index](IRCONTROS-DOCUMENTADOS-CRONOLOGIA.md) records them individually alongside other events including the **2002 Fifth Anniversary**.
+The [two Banda do Canal Barra appearances, 15 and 29 October 2000](../evidence/events/CLUBE-CARIOCA-MUSICAL-IRCONTROS-2000.md), are indexed as **separate cultural IRContros** because a community-affiliated music initiative publicly invited people from the web to an offline venue. The first is recalled in the second concert's archived invitation; the second is directly advertised there. This classification **does not prove** that IRC-channel users attended, nor does an announced setlist establish performance. The [chronological index](DOCUMENTED-IRCONTROS-CHRONOLOGY.md) records them individually alongside other events including the **2002 Fifth Anniversary**.
 
 ## Evidence Types
 

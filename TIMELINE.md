@@ -127,7 +127,7 @@ date: 2000-10-15 (Sunday)
 claim: The archived CanalBarra.com/banda festival invitation says the band's first festival presentation occurred on 15 October; founder confirms the year 2000.
 venue: Clube Carioca, Rua Jardim Botânico 650, Jardim Botânico, Rio de Janeiro (same-festival venue attribution; exact first-night location not independently audited).
 evidence_status: contemporaneous_web_retrospective_reference, founder_statement_for_year
-source_path: evidence/events/IRCONTROS-CLUBE-CARIOCA-FESTIVAL-BANDA-2000.md; data/raw/ircontros/clube-carioca-banda-canal-barra-festival-2000.csv; docs/IRCONTROS-DOCUMENTADOS-CRONOLOGIA.md
+source_path: evidence/events/CLUBE-CARIOCA-MUSICAL-IRCONTROS-2000.md; data/raw/ircontros/clube-carioca-banda-canal-barra-festival-2000.csv; docs/DOCUMENTED-IRCONTROS-CHRONOLOGY.md
 notes: A distinct music-related IRContro entry; exact setlist, attendance, competitive result and attendance by #barra participants are unverified.
 ```
 
@@ -139,7 +139,7 @@ date: 2000-10-29 (Sunday)
 claim: Archived festival notice advertises the band's second appearance / first elimination round, eight original songs and public invitation; founder dates it to 2000, estimates roughly 200 in the audience and recalls elimination from the live-CD selection.
 venue: Clube Carioca, Rua Jardim Botânico 650, Jardim Botânico, Rio de Janeiro.
 evidence_status: archived_web_capture_for_promotion; founder_statement_for_year_attendance_outcome
-source_path: evidence/events/IRCONTROS-CLUBE-CARIOCA-FESTIVAL-BANDA-2000.md; data/raw/ircontros/clube-carioca-banda-canal-barra-festival-2000.csv; data/raw/music/banda-canal-barra-festival-2000-repertorio-anunciado.csv; docs/IRCONTROS-DOCUMENTADOS-CRONOLOGIA.md
+source_path: evidence/events/CLUBE-CARIOCA-MUSICAL-IRCONTROS-2000.md; data/raw/ircontros/clube-carioca-banda-canal-barra-festival-2000.csv; data/raw/music/banda-canal-barra-festival-2000-announced-repertoire.csv; docs/DOCUMENTED-IRCONTROS-CHRONOLOGY.md
 notes: Outcome and estimated attendance are founder testimony, not an official festival result; this is a distinct event from both 15 October and the 2002 fifth-anniversary party.
 ```
 

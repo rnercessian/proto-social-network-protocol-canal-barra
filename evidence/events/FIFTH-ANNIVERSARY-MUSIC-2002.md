@@ -2,7 +2,7 @@
 
 ## Separate predecessor events — 15 and 29 October 2000
 
-The **Banda do Canal Barra performed two festival appearances** associated with the Clube Carioca, documented retrospectively and prospectively on an archived 2001 website announcement. They are **two distinct musical IRContros** indexed at the same chronological level as this 2002 fifth-anniversary celebration, **not this same event**. See [the separate Clube Carioca dossier](IRCONTROS-CLUBE-CARIOCA-FESTIVAL-BANDA-2000.md) and [the IRContros chronological index](../../docs/IRCONTROS-DOCUMENTADOS-CRONOLOGIA.md). The eight original compositions announced for October 2000 are not to be conflated with the founder-provided 15-item 2002 anniversary setlist.
+The **Banda do Canal Barra performed two festival appearances** associated with the Clube Carioca, documented retrospectively and prospectively on an archived 2001 website announcement. They are **two distinct musical IRContros** indexed at the same chronological level as this 2002 fifth-anniversary celebration, **not this same event**. See [the separate Clube Carioca dossier](CLUBE-CARIOCA-MUSICAL-IRCONTROS-2000.md) and [the IRContros chronological index](../../docs/DOCUMENTED-IRCONTROS-CHRONOLOGY.md). The eight original compositions announced for October 2000 are not to be conflated with the founder-provided 15-item 2002 anniversary setlist.
 
 ## Source Context
 

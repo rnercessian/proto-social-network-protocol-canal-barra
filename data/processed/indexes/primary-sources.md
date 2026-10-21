@@ -22,7 +22,7 @@ A source may prove that a page, event, rule, list or credit existed. It does not
 - **Source status:** screenshot-inspected Wayback replay; screenshot SHA-256 `e4b49c3f4201f114db2fcfa94ee3fdc79dfca0b159c91205fed26853482eae50`. HTML not separately extracted.
 - **Page observations:** Festival de Bandas do Clube Carioca, Rua Jardim Botânico 650, invitation to support the band; 8 original songs listed; captioned photos name BarMan, Mad and Arrudabatera; financial/email/phone details excluded from public transcription.
 - **Limits:** promotion/thanks are page evidence; ~200 crowd and elimination from CD competition are founder recollections; playing the announced 8 songs and the full audience composition are not independently verified.
-- **Records:** [two separate musical IRContros](../../evidence/events/IRCONTROS-CLUBE-CARIOCA-FESTIVAL-BANDA-2000.md), [chronological index](../../docs/IRCONTROS-DOCUMENTADOS-CRONOLOGIA.md), [event CSV](../../data/raw/ircontros/clube-carioca-banda-canal-barra-festival-2000.csv).
+- **Records:** [two separate musical IRContros](../../evidence/events/CLUBE-CARIOCA-MUSICAL-IRCONTROS-2000.md), [chronological index](../../docs/DOCUMENTED-IRCONTROS-CHRONOLOGY.md), [event CSV](../../data/raw/ircontros/clube-carioca-banda-canal-barra-festival-2000.csv).
 
 ### 2001-04-05 — Canal Barra homepage / social calendar
 

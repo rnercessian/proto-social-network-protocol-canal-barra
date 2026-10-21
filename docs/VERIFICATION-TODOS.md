@@ -18,7 +18,7 @@ Open questions, participant prompts, follow-up items and collection tasks belong
 
 ## Clube Carioca cultural IRContros — 15 and 29 October 2000
 
-- Two distinct events are now catalogued in [the chronological IRContros index](docs/IRCONTROS-DOCUMENTADOS-CRONOLOGIA.md), not as a single festival occasion or as the 2002 Fifth Anniversary.
+- Two distinct events are now catalogued in [the chronological IRContros index](docs/DOCUMENTED-IRCONTROS-CHRONOLOGY.md), not as a single festival occasion or as the 2002 Fifth Anniversary.
 - **Source-backed:** archived `canalbarra.com/banda/` page thanks attendees for 15 October and advertises a second performance/eliminatory on 29 October, eight original songs, Clube Carioca Rua Jardim Botânico 650.
 - **Founder testimony:** both dates occurred in 2000; the page was first published shortly before the second performance; the band's activity resumed after Los Angeles; the 29 October crowd numbered around 200; the band did not advance to recording a live CD.
 - **To verify:** original publication date; independent event poster, result, attendance, 15 October venue and repertory actually played; whether participants from the IRC community were present. Do not infer from public promotion alone.
