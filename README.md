@@ -42,7 +42,7 @@ The founder defines **1997** as his community's beginning, recalling Johnny at U
 
 **New dated source:** A [GeoCities #Bar-do-Johnnie Wayback capture from 1999-01-27](evidence/website/geocities/GEOCITIES-BAR-DO-JOHNNIE-1999-01-27.md) documents a separate pre-CanalBarra.com web page promoting the earlier-named IRC channel, with a `BarMan` nickname photo caption, nickname/photo invitations and social navigation. The snapshot corroborates a page existing **by 1999**, not its 1997 creation or any 1996/1997 priority claim.
 
-**Two cultural IRContros, documented separately:** the Banda do Canal Barra appeared in the [Clube Carioca festival on 15 and 29 October 2000](evidence/events/IRCONTROS-CLUBE-CARIOCA-FESTIVAL-BANDA-2000.md) (historical year from founder; announcement preserved by Wayback in March 2001). Both dates have independent entries in the [IRContros chronological index](docs/IRCONTROS-DOCUMENTADOS-CRONOLOGIA.md) and in [TIMELINE.md](TIMELINE.md), at the same indexing level as the 2002 fifth-anniversary party. The second show's audience (~200) and elimination are retrospective founder statements.
+**Two cultural IRContros, documented separately:** the Banda do Canal Barra appeared in the [Clube Carioca festival on 15 and 29 October 2000](evidence/events/CLUBE-CARIOCA-MUSICAL-IRCONTROS-2000.md) (historical year from founder; announcement preserved by Wayback in March 2001). Both dates have independent entries in the [IRContros chronological index](docs/DOCUMENTED-IRCONTROS-CHRONOLOGY.md) and in [TIMELINE.md](TIMELINE.md), at the same indexing level as the 2002 fifth-anniversary party. The second show's audience (~200) and elimination are retrospective founder statements.
 
 ## Conceptual Model
 

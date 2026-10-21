@@ -65,7 +65,7 @@ A [27 January 1999 GeoCities snapshot](../evidence/website/geocities/GEOCITIES-B
 
 ## Two dated cultural events, not just social meetings
 
-The [CanalBarra.com/banda archive](../evidence/events/IRCONTROS-CLUBE-CARIOCA-FESTIVAL-BANDA-2000.md) contains a public invitation for the **29 October 2000** festival performance at Clube Carioca (Rua Jardim Botânico, 650), a retrospective thank-you referencing the **15 October 2000** first performance, an eight-song announcement and a procedure for coordinating entry from web communication to venue. The year and reported audience of approximately 200 and unsuccessful qualifying result come from founder testimony; the **03 March 2001** Wayback timestamp is a capture date. These are **two separate cultural IRContro entries**, evidence of invitation and claimed activity, **not** a measured conversion of IRC participants or a causal validation of relational efficacy.
+The [CanalBarra.com/banda archive](../evidence/events/CLUBE-CARIOCA-MUSICAL-IRCONTROS-2000.md) contains a public invitation for the **29 October 2000** festival performance at Clube Carioca (Rua Jardim Botânico, 650), a retrospective thank-you referencing the **15 October 2000** first performance, an eight-song announcement and a procedure for coordinating entry from web communication to venue. The year and reported audience of approximately 200 and unsuccessful qualifying result come from founder testimony; the **03 March 2001** Wayback timestamp is a capture date. These are **two separate cultural IRContro entries**, evidence of invitation and claimed activity, **not** a measured conversion of IRC participants or a causal validation of relational efficacy.
 
 ## Three analytical dimensions
 

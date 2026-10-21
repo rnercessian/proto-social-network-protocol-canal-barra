@@ -114,9 +114,9 @@
       "founder_statement_for_year"
     ],
     "source_path": [
-      "evidence/events/IRCONTROS-CLUBE-CARIOCA-FESTIVAL-BANDA-2000.md",
+      "evidence/events/CLUBE-CARIOCA-MUSICAL-IRCONTROS-2000.md",
       "data/raw/ircontros/clube-carioca-banda-canal-barra-festival-2000.csv",
-      "docs/IRCONTROS-DOCUMENTADOS-CRONOLOGIA.md"
+      "docs/DOCUMENTED-IRCONTROS-CHRONOLOGY.md"
     ],
     "confidence": "medium",
     "notes": "Sunday; first of TWO individually indexed cultural IRContros. Actual setlist, crowd and result unverified. Same-festival venue address not corroborated for first night."
@@ -130,10 +130,10 @@
       "founder_statement_for_year_attendance_and_elimination"
     ],
     "source_path": [
-      "evidence/events/IRCONTROS-CLUBE-CARIOCA-FESTIVAL-BANDA-2000.md",
+      "evidence/events/CLUBE-CARIOCA-MUSICAL-IRCONTROS-2000.md",
       "data/raw/ircontros/clube-carioca-banda-canal-barra-festival-2000.csv",
-      "data/raw/music/banda-canal-barra-festival-2000-repertorio-anunciado.csv",
-      "docs/IRCONTROS-DOCUMENTADOS-CRONOLOGIA.md"
+      "data/raw/music/banda-canal-barra-festival-2000-announced-repertoire.csv",
+      "docs/DOCUMENTED-IRCONTROS-CHRONOLOGY.md"
     ],
     "confidence": "medium",
     "notes": "Sunday; crowd size (~200) and outcome are retrospective founder account; source shows a pre-event call, not an official outcome. Distinct from 15 Oct and 2002 fifth anniversary."
