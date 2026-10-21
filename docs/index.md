@@ -16,6 +16,8 @@ This site is the public reading layer of the repository. The repository preserve
 - [Canal Barra: presença repetida, reputação pública e sociabilidade pré-plataforma](case-studies/canal-barra-presenca-repetida.html) — original long narrative case study in Portuguese.
 - [Comparative Architectures](comparative-architectures.html) — Classmates.com, Canal Barra, SixDegrees.com and AIM compared as different social architectures.
 - [Reusable Digital Archaeology Data Protocol](reusable-digital-archaeology-protocol.html) — portable archival protocol extracted from the Canal Barra case.
+- [Relational Efficacy: A Historical Research Hypothesis](RELATIONAL-EFFICACY.html) — an evidence-linked inquiry into human moderation, participant-led activity, distributed trust and relational outcomes; **not a validated ranking or pioneering claim**.
+- [1998 BarraMares luau: accessible photo description](https://github.com/rnercessian/proto-social-network-protocol-canal-barra/blob/main/evidence/photos/ircontros/LUAU-BARRAMARES-1998-ACCESSIBLE-DESCRIPTION.md) — detailed visual description and WaterHand's confirmed nickname-level self-recognition.
 - [Evidence Methodology](evidence-methodology.html) — evidence levels, source weighting and uncertainty handling.
 - [External Evidence Gaps](EXTERNAL-EVIDENCE-GAPS.html) — explicit open gaps and verification priorities.
 

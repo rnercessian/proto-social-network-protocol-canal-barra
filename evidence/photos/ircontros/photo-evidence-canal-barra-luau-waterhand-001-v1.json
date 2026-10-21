@@ -4,21 +4,36 @@
   "version": 1,
   "project": "Canal Barra Historical Evidence Registry",
   "evidenceCategory": "ircontro_photo_description",
-  "eventContext": "Canal #barra luau",
+  "eventContext": "Canal #barra luau; beach in front of BarraMares (founder-provided location)",
   "locationType": "beach_sand",
   "photoFileInRepository": false,
   "imageHostedOutsideRepository": true,
   "imageReferenceUrl": "https://raphaelnercessian.com/uploads/luau-do-canal-barra.jpg",
-  "publicDescription": "Photograph preserved outside the repository showing a nighttime luau associated with Canal #barra. The group appears seated informally on the beach sand, with a guitar visible in the scene, reinforcing the social, face-to-face and musical nature of encounters organized or inspired by the channel outside IRC/BRASnet.",
+  "publicDescription": "Accessible visual observation: Flash-lit nighttime gathering of roughly ten people on beach sand. On the left a person holds a guitar; BarMan, in green, reclines at the center foreground with his head visibly resting on a seated participant's leg; another person sits behind her; WaterHand sits at the far right in a white plastic chair wearing dark sunglasses. The founder attributes the guitarist to Ace, described as a #rio operator (role and identification not independently verified). The photograph does not establish ages, relationships, safety or event leadership. Read the long-form accessible description at evidence/photos/ircontros/LUAU-BARRAMARES-1998-ACCESSIBLE-DESCRIPTION.md.",
   "indexedNicknames": [
     {
       "publicName": "WaterHand",
-      "identificationStatus": "author_recollection_pending_peer_response"
+      "identificationStatus": "corroborated_by_peer",
+      "sourcePath": "evidence/participant-statements/waterhand-google-form-response-2026-05-29-v1.json",
+      "verificationNote": "Participant explicitly confirmed appearing in the luau photograph in a beach chair wearing sunglasses and confirmed the Canal #barra event context."
+    },
+    {
+      "publicName": "BarMan",
+      "identificationStatus": "founder_identification",
+      "visualLocator": "Green shirt, reclining across central foreground"
+    },
+    {
+      "publicName": "Ace",
+      "identificationStatus": "founder_attribution_pending_verification",
+      "visualLocator": "Guitar holder at left foreground",
+      "roleNote": "Founder says operator of #rio; not a claim established by the image"
     }
   ],
   "verificationStatus": {
-    "status": "unverified",
-    "todoReference": "docs/VERIFICATION-TODOS.md#waterhand--canal-barra-luau-photograph"
+    "status": "corroborated_by_peer",
+    "sourcePath": "evidence/participant-statements/waterhand-google-form-response-2026-05-29-v1.json",
+    "scope": "WaterHand's own nickname-level presence in the beach-chair/sunglasses position and the association with a Canal #barra luau are confirmed by his 2026-05-29 questionnaire; other identifications, date and venue depend on founder attribution.",
+    "otherIdentifications": "not_independently_verified"
   },
   "privacy": {
     "privatePhotoPublishedInRepository": false,
@@ -26,13 +41,17 @@
     "civilNamePublished": false,
     "privateContact": "held_off_repository",
     "sensitiveDataIncluded": false,
-    "civilIdentityLinked": false
+    "civilIdentityLinked": false,
+    "nickNameOnlyPublicUseAuthorizedByParticipant": true,
+    "photoPublicationPermissionNotInferred": true
   },
-  "recordStatus": "author_recollection_pending_peer_response",
+  "recordStatus": "corroborated_by_peer",
   "documentGeneration": {
     "includeInPublicManifest": true,
     "language": "en",
     "sectionTitle": "Canal #barra Luau Photograph",
     "documentOrder": 10
-  }
+  },
+  "historicalDate": "1998-07/08 (approximate founder attribution; exact date unverified)",
+  "accessibleDescriptionPath": "evidence/photos/ircontros/LUAU-BARRAMARES-1998-ACCESSIBLE-DESCRIPTION.md"
 }

@@ -10,13 +10,6 @@ Open questions, participant prompts, follow-up items and collection tasks belong
 
 ## Current open items
 
-### WaterHand — Canal #barra luau photograph
-
-- Ask WaterHand whether he appears in the luau photograph indexed by the archive.
-- Ask whether the photograph is related to a Canal #barra luau or face-to-face gathering.
-- Ask whether a public textual description may mention his nickname in connection with the event.
-- Keep the image itself outside the repository unless explicit permission exists.
-
 ### WaterHand — large Canal #barra luaus
 
 - WaterHand informally remembered luaus with more than 30 people.
@@ -47,6 +40,16 @@ Open questions, participant prompts, follow-up items and collection tasks belong
 - Wayback evidence supports that the homepage showed a webchat entry with `guest_hp` as the nick value.
 - BarMan recalls personally guiding `guest_hp` visitors toward mIRC/IRC, nickname registration and persistent identity.
 - Further peer corroboration may be collected, but the archived interface, author recollection and interpretation must remain separated.
+
+## Resolved verification items
+
+### WaterHand — Canal #barra luau photograph
+
+- **Resolved 2026-05-29:** In the sanitized participant questionnaire, WaterHand confirmed he appears in the indexed photograph wearing sunglasses and sitting in a beach chair; he also confirmed the image is a Canal #barra luau or related gathering.
+- **Source:** `evidence/participant-statements/waterhand-google-form-response-2026-05-29-v1.json`.
+- **Public text:** The participant authorized public use of the historical nickname in pseudonymized data. No right to republish everyone's identifiable faces is inferred.
+- **Photo record now points to this source:** `evidence/photos/ircontros/photo-evidence-canal-barra-luau-waterhand-001-v1.json`.
+- Other identities and the exact date remain subject to their own evidence checks; do not reopen the self-recognition question without cause.
 
 ## Status vocabulary
 

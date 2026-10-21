@@ -20,6 +20,16 @@ Founder statement: the images belong to the Canal Barra Reveillon 2000-2001 / po
 
 This material is important because it documents a ritualized offline layer of the Canal Barra community: users could spend the formal New Year moment with family and then continue the night or early year cycle with the Canal Barra group.
 
+## Accessible Visual Description — top-right panel in a mixed-event collage
+
+**Image location:** Top-right photograph of the founder-provided six-panel collage indexed in `data/media-metadata/physical-meetings-photo-collage.csv`. The composite includes **different occasions**: this panel must not be assigned the dates or participants of the BarraMares 1998 luau or Pizzaria Raul images.
+
+**Accessible description (what is visibly present):** Nighttime group photograph, cropped relatively close to several people leaning toward the camera. Faces and shoulders fill most of the image. Several participants smile broadly; one figure near the upper middle opens the mouth in a playful expression and lifts both hands above or behind the head. Participants rest shoulders and arms close together. Many wear light-coloured clothing, while some garments look distinctly blue or pinkish under the flash. A person with curly hair leans in at the right edge. The dark background contains small bright points. This is a visually lively group pose, not evidence of any specific relationship among the people shown.
+
+**Founder-supplied identification:** The founder confirms that this **top-right panel is a Canal Barra Réveillon photograph**, attributed to 2000–2001, and describes the participants as dressed in white for the celebration. That historical context is a **founder statement**. Visual colour appearance in a photographed print may differ from memory or the original clothes. Do not identify individual faces from the nickname list below without independent matching evidence and consent.
+
+**Limits:** The image alone does not prove a date, ages, personal relationships, a safe environment or the participants' exact names. Permission to archive a pseudonymous textual description does not authorize open publication of all identifiable faces.
+
 ## Historical Interpretation
 
 The photos support the broader thesis that Canal Barra was not only a nightly IRC meeting point.
