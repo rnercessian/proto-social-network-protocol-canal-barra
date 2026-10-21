@@ -45,7 +45,7 @@
     "nickNameOnlyPublicUseAuthorizedByParticipant": true,
     "photoPublicationPermissionNotInferred": true
   },
-  "recordStatus": "participant_photo_recognition_confirmed",
+  "recordStatus": "corroborated_by_peer",
   "documentGeneration": {
     "includeInPublicManifest": true,
     "language": "en",
