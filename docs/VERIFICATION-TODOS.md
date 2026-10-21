@@ -24,6 +24,12 @@ Open questions, participant prompts, follow-up items and collection tasks belong
 - **To verify:** original publication date; independent event poster, result, attendance, 15 October venue and repertory actually played; whether participants from the IRC community were present. Do not infer from public promotion alone.
 - Never publish private participant/contact remarks or sensitive payment/contact details from the archived advertisement.
 
+### Cadê? / Yahoo Brasil IRC directory — February 2005
+
+- **Recorded 2026-10-21:** [Wayback snapshot](https://web.archive.org/web/20050204083431/http://br.cade.dir.yahoo.com/Internet/Bate_Papo_e_Foruns/IRC/Canais/) transcribed by founder, with separate `#Bar-do-Johnnie` and `#Barra` listings. See [catalogue evidence](../evidence/website/directories/CADE-YAHOO-IRC-CHANNELS-2005-02-04.md).
+- Verify exact catalogue text and listing hrefs in original HTML; find earlier/later snapshots that can bound directory publication dates.
+- Avoid treating directory membership as confirmation of live IRC use, original website creation date or relational outcomes.
+
 ## Current open items
 
 ### WaterHand — large Canal #barra luaus

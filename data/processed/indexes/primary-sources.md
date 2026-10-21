@@ -24,6 +24,14 @@ A source may prove that a page, event, rule, list or credit existed. It does not
 - **Limits:** promotion/thanks are page evidence; ~200 crowd and elimination from CD competition are founder recollections; playing the announced 8 songs and the full audience composition are not independently verified.
 - **Records:** [two separate musical IRContros](../../evidence/events/CLUBE-CARIOCA-MUSICAL-IRCONTROS-2000.md), [chronological index](../../docs/DOCUMENTED-IRCONTROS-CHRONOLOGY.md), [event CSV](../../data/raw/ircontros/clube-carioca-banda-canal-barra-festival-2000.csv).
 
+### 2005-02-04 — Cadê? / Yahoo Brasil IRC-channel directory
+
+- **Archive:** https://web.archive.org/web/20050204083431/http://br.cade.dir.yahoo.com/Internet/Bate_Papo_e_Foruns/IRC/Canais/
+- **Source evidence:** founder copied the directory text for `#Bar-do-Johnnie - Brasnet` and `#Barra`, each with a separate original website address. Full HTML could not be retrieved in this session.
+- **Listings:** GeoCities `SoHo/Coffeehouse/2521/` for `#Bar-do-Johnnie`; `www.canalbarra.com` for `#Barra`. Both mention photographs of users and IRContros, and the #Barra listing advertises `cadastros` and `mural`.
+- **Limit:** Wayback date is catalogue snapshot date, not listing creation, live IRC-channel or domain-registration date. The provenance of each description is unknown.
+- **Record:** [archived external directory](../../evidence/website/directories/CADE-YAHOO-IRC-CHANNELS-2005-02-04.md).
+
 ### 2001-04-05 — Canal Barra homepage / social calendar
 
 Source context:

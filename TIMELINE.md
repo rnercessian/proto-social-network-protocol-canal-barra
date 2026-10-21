@@ -231,6 +231,16 @@ confidence: medium
 notes: This is a historical interpretation that needs stronger external corroboration through participant testimony, traffic logs or references to BRASnet/platform migration.
 ```
 
+### 2005-02-04: Separate Cadê?/Yahoo directory entries for #Bar-do-Johnnie and #Barra
+
+```text
+date: 2005-02-04
+claim: An archived Brazilian IRC channel directory contains separate listings for #Bar-do-Johnnie (GeoCities) and #Barra (CanalBarra.com). The catalogue describes user/IRContro photos at both destinations and #Barra cadastros/mural.
+evidence_status: archived_directory_listing_founder_transcription; source_html_pending
+source_path: evidence/website/directories/CADE-YAHOO-IRC-CHANNELS-2005-02-04.md
+notes: Wayback capture date, not directory submission, ChanServ registration, active IRC usage or domain creation. Directory descriptions may have originated with a submitter.
+```
+
 ### 2007-05-20: BRASnet Shutdown / End of Original IRC Core
 
 ```text
