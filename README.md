@@ -44,6 +44,8 @@ The founder defines **1997** as his community's beginning, recalling Johnny at U
 
 **Two cultural IRContros, documented separately:** the Banda do Canal Barra appeared in the [Clube Carioca festival on 15 and 29 October 2000](evidence/events/CLUBE-CARIOCA-MUSICAL-IRCONTROS-2000.md) (historical year from founder; announcement preserved by Wayback in March 2001). Both dates have independent entries in the [IRContros chronological index](docs/DOCUMENTED-IRCONTROS-CHRONOLOGY.md) and in [TIMELINE.md](TIMELINE.md), at the same indexing level as the 2002 fifth-anniversary party. The second show's audience (~200) and elimination are retrospective founder statements.
 
+**External discovery evidence:** the [Cadê?/Yahoo Brasil IRC directory archive dated February 4, 2005](evidence/website/directories/CADE-YAHOO-IRC-CHANNELS-2005-02-04.md) separately lists `#Bar-do-Johnnie` (GeoCities) and `#Barra` (CanalBarra.com). Both publicly advertise user/IRContro photographs, and the #Barra description mentions **cadastros** and **mural**. Directory copy is preserved as founder-transcribed, pending original HTML inspection; the capture does not prove that either IRC channel was active in 2005.
+
 ## Conceptual Model
 
 Canal Barra operated as an **IRC-Web-Presence (IWP) proto-social network**.

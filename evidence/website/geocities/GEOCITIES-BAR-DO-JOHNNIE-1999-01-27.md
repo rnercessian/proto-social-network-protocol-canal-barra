@@ -45,6 +45,10 @@ This archive is **not** the later domain `canalbarra.com`. It is a separate GeoC
 
 **UFF 1996 conflict remains open:** This capture cannot confirm or refute Flaviana Gonzaga's reported 1996 creation date for a `#barra` channel. It proves neither that this `#barra` is the same as, nor different from, a possible 1996 `#barra`.
 
+## External discovery listing from 2005
+
+In a [Cadê?/Yahoo Brasil February 4, 2005 archive](../directories/CADE-YAHOO-IRC-CHANNELS-2005-02-04.md), `#Bar-do-Johnnie - Brasnet` is separately listed at this GeoCities address, while `#Barra` is listed at CanalBarra.com. The 2005 entry supports **public directory discoverability**, not simultaneous IRC channel activity, active page maintenance or a directory submission date.
+
 ## Reproducibility and follow-up
 
 1. Retrieve the original 1999 **HTML response and link hrefs** (Wayback's plain document or CDX listing), separately from the 2026 screenshot of the replay. Preserve source URL, capture timestamp and content hash.

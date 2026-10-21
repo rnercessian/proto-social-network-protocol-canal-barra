@@ -25,6 +25,10 @@ The reported formal BRASnet registration on **1997-11-28** remains **founder tes
 
 A founder-supplied screenshot of [a Wayback capture of GeoCities #Bar-do-Johnnie](https://web.archive.org/web/19990127194854/http://www.geocities.com/SoHo/Coffeehouse/2521/) shows the older named channel advertised on a page preserved **1999-01-27**. The page includes readable photo-caption text **“BarMan Lucas-Rio e Paulista”** and invites nick/photo submissions. This **corroborates the existence of the named web layer by January 1999** and a period use of the nickname BarMan, while not confirming the page's 1997 creation, the full classroom nickname story or simultaneous 1999 IRC-channel activity. See the [evidence record](../evidence/website/geocities/GEOCITIES-BAR-DO-JOHNNIE-1999-01-27.md). The GeoCities page should not be conflated with the later CanalBarra.com website.
 
+## Two separate public directory entries in 2005
+
+The [Cadê?/Yahoo Brasil archived directory](../evidence/website/directories/CADE-YAHOO-IRC-CHANNELS-2005-02-04.md) shows `#Bar-do-Johnnie - Brasnet` (linked to GeoCities) and `#Barra` (linked to CanalBarra.com) as **separate catalogue entries** in its February 4, 2005 capture. This is independent hosting of two public web identities, although the directory descriptions' underlying authorship remains unknown. It **does not establish** that both IRC channels remained active or were listed continuously in 2005, and it does not resolve the 1996/1997 chronology conflict.
+
 ## Open questions
 
 It is not yet established whether Gonzaga's 1996 date is mistaken, describes an earlier channel with the same name but different participants, or uses a different definition of creation. Those are competing **possibilities**, not findings. The continuity of people and channel governance is more important than reuse of a nickname.
