@@ -11,7 +11,8 @@ Open questions, participant prompts, follow-up items and collection tasks belong
 ## 1996/1997 origin question
 
 - Verify the UFF section 4.6 printed p. 177 creation-year passage and identify its evidence source if possible.
-- Seek earliest dated IRC logs for `#barra` and `#bar-do-johnnie`, registration records, and GeoCities captures.
+- **Partly resolved 2026-10-21:** A Wayback snapshot from 1999-01-27 now anchors a #Bar-do-Johnnie GeoCities page and a BarMan nickname photo caption. [Evidence record](../evidence/website/geocities/GEOCITIES-BAR-DO-JOHNNIE-1999-01-27.md).
+- Seek earlier dated IRC logs for `#barra` and `#bar-do-johnnie`, registration records, any 1997 GeoCities captures, and original 1999 HTML to verify link targets and possible 'barzito' text.
 - With consent, request recollections about Johnny at UFRJ in 1997/2 and the question about the BarMan from participants who witnessed them.
 - Do not name privately discussed potential interviewees in public tasks.
 
