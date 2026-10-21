@@ -5,7 +5,7 @@ layout: default
 
 # Canal Barra Digital Archaeology
 
-**Canal Barra** was a Brazilian IRC-Web-Presence proto-social network system centered on the `#barra` channel on BRASnet, CanalBarra.com, recurring nickname identity, access governance, public memory and offline social conversion in Rio de Janeiro, with a founder-defined **1997 origin milestone** and earlier informal IRC activity reported for 1996.
+**Canal Barra** was a Brazilian IRC-Web-Presence proto-social network system centered on the `#barra` channel on BRASnet, CanalBarra.com, recurring nickname identity, access governance, public memory and offline social conversion in Rio de Janeiro, with a founder-defined **1997 community origin** and Gonzaga's disputed **1996** channel-creation attribution (UFF, 2004).
 
 This site is the public reading layer of the repository. The repository preserves the evidence; this GitHub Pages layer helps humans, search engines and AI systems find the main arguments, case studies and structured documentation.
 
@@ -16,6 +16,7 @@ This site is the public reading layer of the repository. The repository preserve
 - [Canal Barra: presença repetida, reputação pública e sociabilidade pré-plataforma](case-studies/canal-barra-presenca-repetida.html) — original long narrative case study in Portuguese.
 - [Comparative Architectures](comparative-architectures.html) — Classmates.com, Canal Barra, SixDegrees.com and AIM compared as different social architectures.
 - [Reusable Digital Archaeology Data Protocol](reusable-digital-archaeology-protocol.html) — portable archival protocol extracted from the Canal Barra case.
+- [Canal Barra origins: the 1996/1997 question](ORIGIN-1996-1997-AND-BARMAN-NICKNAME.html) — separates academic dating from the founder's nickname chronology.
 - [Relational Efficacy: A Historical Research Hypothesis](RELATIONAL-EFFICACY.html) — an evidence-linked inquiry into human moderation, participant-led activity, distributed trust and relational outcomes; **not a validated ranking or pioneering claim**.
 - [1998 BarraMares luau: accessible photo description](https://github.com/rnercessian/proto-social-network-protocol-canal-barra/blob/main/evidence/photos/ircontros/LUAU-BARRAMARES-1998-ACCESSIBLE-DESCRIPTION.md) — detailed visual description and WaterHand's confirmed nickname-level self-recognition.
 - [Evidence Methodology](evidence-methodology.html) — evidence levels, source weighting and uncertainty handling.
@@ -36,14 +37,14 @@ Barra da Tijuca = territorial and affinity anchor
 
 The central claim is not that Canal Barra was identical to later platform social networks. It was not. The central claim is that Canal Barra represents a documented Brazilian lineage of pre-platform social networking: not a school directory, not a profile graph, but a live IRC-Web-Presence community with web memory, local identity and offline social conversion.
 
-## Why the 1997 case matters
+## 1996/1997: distinct historical sources
 
-Most platform-centered histories emphasize Classmates.com (1995) and SixDegrees.com (1997). Canal Barra can be studied as a different IRC-web-offline architecture. Its founder defines 1997 as the origin milestone; 1996 informal-use reports do not establish an earlier launch or priority.
+Most platform-centered histories emphasize Classmates.com (1995) and SixDegrees.com (1997). Canal Barra can be studied as a different IRC-web-offline architecture. Its founder dates his community to 1997; a 2004 UFF study attributes creation of a Barra channel to 1996, without establishing its source or continuity with the later IRC–website–meetups system.
 
 ```text
 1995 — Classmates.com: school-affiliation directory logic
-1996 — founder-reported informal IRC antecedent; founding status unverified
-1997 — Canal Barra founder-defined origin milestone; registration reported 1997-11-28 (not independently verified)
+1996 — UFF (2004) reports creation of Barra channel; primary source and continuity unknown
+1997 — founder's community origin; Johnny at UFRJ → `#bar-do-johnnie` / GeoCities → BarMan; registration reportedly 1997-11-28
 1997 — SixDegrees.com: profile-graph logic
 1997 — AIM: private buddy-list presence
 ```

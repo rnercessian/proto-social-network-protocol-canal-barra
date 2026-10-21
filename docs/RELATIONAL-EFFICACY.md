@@ -17,7 +17,7 @@ This document proposes *relational efficacy* (Portuguese: *eficácia relacional*
 
 *Distributed relational safety* is a **research hypothesis**, not evidence that all gatherings were safe or incident-free. Potential mechanisms include recognizable nicknames, reputation, shared references, human moderation, participant-led organization and first encounters in a collectively known setting.
 
-The founder reports (1) that participants only rarely arrived at luaus wholly alone but sometimes did so and (2) that in 2026 a person declined a proposed TikTok matchmaking live due to fear of abduction. Both are contextual, founder-provided episodes, **not** data establishing relative safety of Canal Barra or any current platform.
+How newcomers assessed risk and whether they knew anyone before attending are questions for consent-aware oral history. Private anecdotes cannot prove relative safety compared with a modern platform.
 
 ## Proposed working definition
 
@@ -97,6 +97,10 @@ No synthetic “relational efficacy score” should be published before definiti
 4. **Was the tie independent of infrastructure or simply portable?** Persistence after BRASnet is better framed as **cross-infrastructure continuity**, not freedom from every platform.
 5. **Does visible closeness equal safety?** No. The archive does not assert zero police incidents or zero harm. It investigates distributed trust mechanisms and must record counterevidence.
 6. **What can ethically be published?** Avoid guessing minors' ages, civil identities or private relationships from images. Confirmed nickname-level descriptions and event-level aggregates are preferred.
+
+## Origin chronology boundary
+
+The 2004 UFF study reportedly dates creation of a Barra channel to 1996, whereas the founder dates his community's beginning to 1997. Neither alone proves an IRC–website–meetups architecture in 1996. See [the source-separated chronology](ORIGIN-1996-1997-AND-BARMAN-NICKNAME.md).
 
 ## Sources, authorship and conflict-of-interest boundary
 

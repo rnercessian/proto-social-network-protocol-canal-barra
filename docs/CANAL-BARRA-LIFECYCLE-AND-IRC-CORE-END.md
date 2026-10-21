@@ -33,20 +33,21 @@ Because CanalBarra.com reportedly continued online until around 2012, although w
 
 ## Lifecycle Phases
 
-### 1. Informal IRC use before registration — 1996 to 28 November 1997
+### 1. Contested origin: academic 1996 versus founder 1997
 
-Founder statement: #barra was already being used in 1996, before formal registration.
+Gonzaga's 2004 UFF work reportedly dates creation of a Barra channel to 1996 (section 4.6, printed p. 177; the underlying source is unknown), while the founder defines **1997** as the beginning of his community, after his nickname Johnny at UFRJ and the creation of `#bar-do-johnnie` and a GeoCities page. See [source-separated chronology](ORIGIN-1996-1997-AND-BARMAN-NICKNAME.md).
 
 This phase should be described as:
 
 ```text
-informal channel use / pre-registration phase
+contested 1996 academic channel-creation attribution versus 1997 founder community origin
 ```
 
 Evidence status:
 
 ```text
-founder_statement
+academic_secondary_source_with_unknown_date_origin
+founder_statement_for_1997
 needs_archival_or_log_confirmation
 ```
 

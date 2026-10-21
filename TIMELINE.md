@@ -4,21 +4,32 @@
 
 This timeline gives LLMs, RAG systems and human reviewers a cautious chronological map of the Canal Barra evidence.
 
-It does not claim that Canal Barra was technically equivalent to later platform social-networking sites. It documents Canal Barra as a Brazilian hybrid IRC + web + offline meetup social system whose founder-defined origin milestone is **1997**, with a separate 1996 informal-use report and a later IRC-layer end needing further source checks.
+It does not claim that Canal Barra was technically equivalent to later platform social-networking sites. It documents Canal Barra as a Brazilian hybrid IRC + web + offline meetup social system whose founder-defined origin milestone is **1997**, alongside Gonzaga's separate 1996 channel-creation attribution and a later IRC-layer end needing source checks.
 
-**Date rule:** Preserve separate categories for reported 1996 personal/IRC antecedents, founder-defined **1997** Canal Barra historical origin, founder-reported formal registration on **1997-11-28**, and later web-layer development. These are not interchangeable events or independent claims of priority.
+**Date rule:** Attribute the **1996** creation claim to the 2004 UFF source (original basis unknown), **not** to the founder. The founder's account sets **1997** as the beginning of his community and records Johnny at UFRJ, `#bar-do-johnnie`, GeoCities and the subsequent BarMan nickname. Formal registration **1997-11-28** is still uncorroborated founder testimony. These are not interchangeable events or independent claims of priority.
 
 ## Timeline Records
 
-### 1996: Reported informal prehistory (not established Canal Barra origin)
+### 1996: UFF attribution of channel creation
 
 ```text
 date_range: 1996
-claim: Founder statement says #barra was already being used socially before formal BRASnet channel registration.
-evidence_status: founder_statement
-source_path: docs/CANAL-BARRA-LIFECYCLE-AND-IRC-CORE-END.md
-confidence: medium
-notes: This is an unverified antecedent; the founder defines 1997 as Canal Barra's origin milestone. It is not proven to be a 1996 full IRC-Web-Presence network. IRC logs, ChanServ or external corroboration remain desirable.
+claim: Gonzaga's UFF work (original April 2004) reportedly attributes creation of a Barra channel to 1996 in section 4.6, printed p. 177.
+evidence_status: academic_secondary_source; underlying_year_source_unknown; passage_pending_direct_review
+source_path: evidence/academic-sources/uff-2004-index.md; docs/ORIGIN-1996-1997-AND-BARMAN-NICKNAME.md
+confidence: contested
+notes: NOT the founder's own creation-date claim. No continuity or full hybrid IRC-Web-Presence system in 1996 is established.
+```
+
+### 1997: Founder account — Johnny and BarMan
+
+```text
+date_range: second semester 1997 onward
+claim: Founder recalls classmate Marcos gave him the nickname Johnny at UFRJ Praia Vermelha (Produção Editorial); he registered #bar-do-johnnie and made a GeoCities page, then adopted BarMan after IRC users asked where the BarMan was.
+evidence_status: founder_statement; contemporaneous_corroboration_pending
+source_path: docs/ORIGIN-1996-1997-AND-BARMAN-NICKNAME.md
+confidence: founder_recollection
+notes: The sequence is not yet dated by surviving IRC or GeoCities artifacts.
 ```
 
 ### 1997-11-28: Formal #barra Registration
@@ -58,7 +69,7 @@ notes: External professional context supports Raphael's early NOVICA technical r
 
 ```text
 date: 1999-05
-claim: NOVICA launched publicly in May 1999, after the founder-reported 1996 antecedent and founder-defined 1997 Canal Barra milestone.
+claim: NOVICA launched publicly in May 1999, after Gonzaga's 1996 channel-creation attribution and the founder-defined 1997 Canal Barra milestone.
 evidence_status: founder_statement, external_source_needed
 source_path: docs/INCUBATION.md
 confidence: medium

@@ -19,26 +19,26 @@ This is not claimed to be the complete lifetime list unless more dated access-li
 
 ## Abstract
 
-This repository documents **Canal Barra** as a Brazilian proto-social network phenomenon built around an IRC-Web-Presence (IWP) architecture, with a founder-defined **1997** origin milestone for #barra on BRASnet in Rio de Janeiro, deeply rooted in the local youth culture of the Barra da Tijuca neighborhood to establish its strong territorial identity.
+This repository documents **Canal Barra** as a Brazilian proto-social network phenomenon built around an IRC-Web-Presence (IWP) architecture, in Rio de Janeiro, with the founder defining **1997** as the community's beginning while Gonzaga's 2004 UFF work reports an earlier Barra channel creation in **1996**, deeply rooted in the local youth culture of the Barra da Tijuca neighborhood to establish its strong territorial identity.
 
 The historical thesis investigates Canal Barra as an early, structurally auditable Brazilian proto-social-network case; **chronological priority remains unproven**. Its architecture combined live IRC presence, nickname-level identity, access levels, Founder/Master/Operator authority, CanalBarra.com as a persistent web portal, offline reputation anchoring through everyday social life and physical gatherings, and documented governance mechanisms such as operator meetings and access-list realignment.
 
 This project does not treat Canal Barra as nostalgia. It treats Canal Barra as a founding case for a broader methodology: preserving, structuring and making searchable the memory of pre-platform digital social systems.
 
-## Historical milestones: the 1997 Canal Barra origin and earlier IRC antecedents
+## Historical milestones: UFF's 1996 and the founder's 1997
 
-Most platform-centered histories of social networking move from Classmates.com in 1995 to SixDegrees.com in 1997. This repository does not dispute those platform milestones. Instead, it investigates a Brazilian case with a founder-defined 1997 milestone and reported earlier IRC antecedents that belongs to a different architectural lineage: an IRC-Web-Presence proto-social network rather than a centralized profile-graph platform.
+Most platform-centered histories of social networking move from Classmates.com in 1995 to SixDegrees.com in 1997. This repository does not dispute those platform milestones. Instead, it investigates a Brazilian case with a founder-defined 1997 milestone and the UFF's contested 1996 creation date that belongs to a different architectural lineage: an IRC-Web-Presence proto-social network rather than a centralized profile-graph platform.
 
 The purpose is not to replace the platform chronology, but to add a parallel evidence path for pre-platform social systems in Brazil.
 
 | Year | Platform-centered chronology | Brazilian proto-social evidence path |
 |---:|---|---|
 | 1995 | Classmates.com as an early school-affiliation social networking service | — |
-| 1996 | — | Reported informal IRC antecedents; not independently verified as the founding of the full Canal Barra system. |
+| 1996 | — | Gonzaga (UFF, 2004, §4.6, reported p. 177) attributes a Barra-channel creation to 1996; her underlying source and membership continuity are unknown. |
 | 1997 | — | Canal Barra origin milestone defined by founder; formal BRASnet registration reported as 1997-11-28 (pending archival verification). |
 | 1997 | SixDegrees.com as an early centralized profile-graph social networking site | — |
 
-The founder defines **1997 as Canal Barra's origin milestone**, distinct from informal IRC activity reported for 1996. The formal-registration date 1997-11-28 is also a founder account pending ChanServ evidence. The historical proto-social architecture inquiry and the [relational-efficacy hypothesis](docs/RELATIONAL-EFFICACY.md) are **separate, unproven priority questions**. See [TIMELINE.md](TIMELINE.md) and [source-provenance rules](docs/evidence-methodology.md#provenance-rules-for-automated-readers).
+The founder defines **1997** as his community's beginning, recalling Johnny at UFRJ, the `#bar-do-johnnie` channel and GeoCities page, and his later nickname BarMan in `#barra`. The **1996** date comes from Gonzaga's 2004 UFF work, *not* his current account; the date's primary provenance and continuity are unresolved. The 1997-11-28 formal registration is founder-reported pending verification. The historical proto-social architecture inquiry and the [relational-efficacy hypothesis](docs/RELATIONAL-EFFICACY.md) are **separate, unproven priority questions**. See [the source-separated origin note](docs/ORIGIN-1996-1997-AND-BARMAN-NICKNAME.md), [TIMELINE.md](TIMELINE.md) and [source-provenance rules](docs/evidence-methodology.md#provenance-rules-for-automated-readers).
 
 ## Conceptual Model
 
