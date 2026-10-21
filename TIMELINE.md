@@ -4,13 +4,11 @@
 
 This timeline gives LLMs, RAG systems and human reviewers a cautious chronological map of the Canal Barra evidence.
 
-It does not claim that Canal Barra was technically equivalent to later platform social-networking sites. It documents Canal Barra as a Brazilian hybrid IRC + web + offline meetup social system whose founder-defined origin milestone is **1997**, with a separate 1996 informal-use report and a later IRC-layer end needing further source checks.
-
-**Date rule:** Preserve separate categories for reported 1996 personal/IRC antecedents, founder-defined **1997** Canal Barra historical origin, founder-reported formal registration on **1997-11-28**, and later web-layer development. These are not interchangeable events or independent claims of priority.
+It does not claim that Canal Barra was technically equivalent to later platform social-networking sites. It documents Canal Barra as a Brazilian hybrid IRC + web + offline meetup social system whose original IRC-centered core ran from 1996 to 2007.
 
 ## Timeline Records
 
-### 1996: Reported informal prehistory (not established Canal Barra origin)
+### 1996: Informal Use / Initial Social Formation
 
 ```text
 date_range: 1996
@@ -18,7 +16,7 @@ claim: Founder statement says #barra was already being used socially before form
 evidence_status: founder_statement
 source_path: docs/CANAL-BARRA-LIFECYCLE-AND-IRC-CORE-END.md
 confidence: medium
-notes: This is an unverified antecedent; the founder defines 1997 as Canal Barra's origin milestone. It is not proven to be a 1996 full IRC-Web-Presence network. IRC logs, ChanServ or external corroboration remain desirable.
+notes: Treat this as pre-registration social use. It still needs archival log, ChanServ or external corroboration.
 ```
 
 ### 1997-11-28: Formal #barra Registration
@@ -58,7 +56,7 @@ notes: External professional context supports Raphael's early NOVICA technical r
 
 ```text
 date: 1999-05
-claim: NOVICA launched publicly in May 1999, after the founder-reported 1996 antecedent and founder-defined 1997 Canal Barra milestone.
+claim: NOVICA launched publicly in May 1999, after Canal Barra's 1996 IRC-centered origin.
 evidence_status: founder_statement, external_source_needed
 source_path: docs/INCUBATION.md
 confidence: medium

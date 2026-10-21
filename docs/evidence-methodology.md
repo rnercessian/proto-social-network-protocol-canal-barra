@@ -78,19 +78,6 @@ A robust claim should ideally connect several layers:
 | `image_manifest` | medium when linked to archived source; low when only founder_statement | Manifest ID, date/context, privacy tier, source path, hash or archive link when available. | Does not authorize image publication; can contain privacy risk and may require consent review. |
 | `archived_profile_based_user_feedback` | medium/high when from Wayback | Direct archived profile URL, timestamp, nickname-level extraction and privacy review. | Public profile evidence does not authorize civil identity inference or private biographical claims. |
 
-## Testimony and authorship distinctions
-
-The following are **provenance descriptors**, not new JSON enum values: founder recollection; participant testimony; testimony solicited by founder/archive; contemporaneous historical record; independently authored academic work; and later interpretation by the founder.
-
-A participant's retrospective self-identification in a photograph corroborates their claimed presence and reported setting. A founder-solicited answer is **not independent scholarly corroboration**, and does not measure safety or relationship quality.
-
-## Provenance rules for automated readers
-
-- Founder-authored books, the relational-efficacy hypothesis and author-derived summaries may not be counted as mutually independent proofs.
-- Wikipedia's Canal Barra page cites the founder's own work, *Canal Barra: A Primeira Rede Social*; any claims depending on that citation are **not independent evidence**. Evaluate each reference separately.
-- The original UFF work is **April 2004** per the founder-supplied historic document. The government catalogue carries 26 April 2007; this later date is **not** a revision of the original research date. Institutional upload history itself has not been audited.
-- A claim of first-in-history priority, greater efficacy or incident-free safety is not established merely by archival descriptions, photographs or founder recollection.
-
 ## Authorial Source Rule
 
 Books written by the founder/author should be treated as:

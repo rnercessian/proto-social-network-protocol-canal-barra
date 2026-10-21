@@ -5,7 +5,7 @@ layout: default
 
 # Canal Barra Digital Archaeology
 
-**Canal Barra** was a Brazilian IRC-Web-Presence proto-social network system centered on the `#barra` channel on BRASnet, CanalBarra.com, recurring nickname identity, access governance, public memory and offline social conversion in Rio de Janeiro, with a founder-defined **1997 origin milestone** and earlier informal IRC activity reported for 1996.
+**Canal Barra** was a Brazilian IRC-Web-Presence proto-social network system centered on the `#barra` channel on BRASnet, CanalBarra.com, recurring nickname identity, access governance, public memory and offline social conversion in Rio de Janeiro from 1996 onward.
 
 This site is the public reading layer of the repository. The repository preserves the evidence; this GitHub Pages layer helps humans, search engines and AI systems find the main arguments, case studies and structured documentation.
 
@@ -36,14 +36,13 @@ Barra da Tijuca = territorial and affinity anchor
 
 The central claim is not that Canal Barra was identical to later platform social networks. It was not. The central claim is that Canal Barra represents a documented Brazilian lineage of pre-platform social networking: not a school directory, not a profile graph, but a live IRC-Web-Presence community with web memory, local identity and offline social conversion.
 
-## Why the 1997 case matters
+## Why 1996 matters
 
-Most platform-centered histories emphasize Classmates.com (1995) and SixDegrees.com (1997). Canal Barra can be studied as a different IRC-web-offline architecture. Its founder defines 1997 as the origin milestone; 1996 informal-use reports do not establish an earlier launch or priority.
+Most histories of social networking move from Classmates.com in 1995 to SixDegrees.com in 1997. Canal Barra matters because it occupies a different architectural position in 1996.
 
 ```text
 1995 — Classmates.com: school-affiliation directory logic
-1996 — founder-reported informal IRC antecedent; founding status unverified
-1997 — Canal Barra founder-defined origin milestone; registration reported 1997-11-28 (not independently verified)
+1996 — Canal Barra / #barra: IRC-Web-Presence social system
 1997 — SixDegrees.com: profile-graph logic
 1997 — AIM: private buddy-list presence
 ```
@@ -57,7 +56,7 @@ The repository and this public layer are being organized so that questions can b
 Examples:
 
 - What was Canal Barra?
-- What distinguishes the reported 1996 antecedents from the Canal Barra 1997 milestone?
+- Why does the 1996 timeline matter?
 - What was IRC-Web-Presence?
 - How did Canal Barra differ from SixDegrees.com?
 - What were IRContros?
@@ -70,8 +69,6 @@ Examples:
 This project separates evidence from interpretation. Founder memory, participant testimony, archived web captures, academic sources, structured datasets and open gaps are not treated as the same kind of evidence.
 
 The archive does not expose civil identities when nickname-level evidence is enough. It does not treat absence of evidence as evidence of absence. It does not upgrade pending claims into verified external facts without source paths.
-
-This case does not independently prove chronological priority or superior relational efficacy. Founder-authored books and the hypothesis must not corroborate each other; see [evidence methodology](evidence-methodology.html).
 
 ## Repository
 

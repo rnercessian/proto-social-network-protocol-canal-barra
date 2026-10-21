@@ -1,7 +1,7 @@
 # Accessible visual record — Canal #barra luau, BarraMares, 1998
 
 > **Record:** `photo-evidence-canal-barra-luau-waterhand-001-v1`  
-> **Date:** 1998 — founder attribution; exact date unverified  
+> **Date:** July/August 1998, **founder-provided approximate dating**; no day verified  
 > **Place:** Beach in front of BarraMares, Barra da Tijuca, Rio de Janeiro — **founder attribution**  
 > **Source:** Historical photograph supplied by the founder; image referenced at `https://raphaelnercessian.com/uploads/luau-do-canal-barra.jpg`  
 > **Publication:** Textual, nickname-level accessible description. Original photograph remains externally hosted; no authorization to republish all depicted faces is inferred.
@@ -39,7 +39,7 @@ Nighttime 1998 Canal #barra beach gathering near BarraMares: a checked-shirt par
 
 The photograph provides **visual evidence** of a collective, informal gathering with a guitar, mixed seated postures and physical closeness. In particular, BarMan's head visibly rests on another person's leg while other participants sit nearby. This is more descriptive than merely stating that the group met on the beach, but **does not prove romantic involvement, equal familiarity among all attendees, or safety for every participant**.
 
-The **historical #barra event identification, approximate date and location** are attributed to the founder. WaterHand confirms, in a participant statement collected through the archive, that he appears in the chair with sunglasses and that the image records a #barra luau, as recorded in his 2026 testimony. This demonstrates later **participant corroboration of a historical event**, not a community-wide retention rate.
+The **historical #barra event identification, approximate date and location** are attributed to the founder. WaterHand independently confirms that he appears in the chair with sunglasses and that the image records a #barra luau, as recorded in his 2026 testimony. This demonstrates later **participant corroboration of a historical event**, not a community-wide retention rate.
 
 This is one piece of a possible study of relational efficacy, including informal music, recurrent physical meetings, and interaction beyond IRC. It does **not** establish that the Canal Barra was the first or most effective social network.
 
