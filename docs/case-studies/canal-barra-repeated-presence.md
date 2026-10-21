@@ -23,6 +23,8 @@ Related documents:
 - [`evidence/academic-sources/uff-2004-index.md`](../../evidence/academic-sources/uff-2004-index.md) — UFF 2004 academic source index.
 - [`data/processed/indexes/primary-sources.md`](../../data/processed/indexes/primary-sources.md) — primary source and capture registry.
 
+> **Provenance note added 2026-10-21 (original prose preserved):** Gonzaga's UFF study (original April 2004, §4.6, reported printed p. 177) attributes a channel's creation to 1996; the underlying date source is unknown. The founder dates his community to 1997 and recalls a Johnny nickname at UFRJ (1997/2), registering `#bar-do-johnnie` and a GeoCities page, and later using BarMan in `#barra`. The 2026 narrative below is not proof of a complete 1996 IRC–web–offline architecture. See [origin note](../ORIGIN-1996-1997-AND-BARMAN-NICKNAME.md).
+
 ## 1. The missing year of 1996
 
 The most repeated history of social networking often jumps from 1995 to 1997. In 1995, Classmates.com appears as a milestone in digital sociability organized around school ties. In 1997, SixDegrees.com appears as the classic reference for platforms based on profiles, explicit user connections and centralized social graphs. Between those two points, however, there is an uncomfortable year: 1996.

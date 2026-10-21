@@ -2,7 +2,7 @@
 
 ## Executive summary
 
-Canal Barra was a Brazilian IRC/BRASnet-based proto-social-network phenomenon centered on the #barra channel in Rio de Janeiro, with the founder-defined origin milestone in **1997**, an unverified informal 1996 antecedent, and a founder-reported formal registration on 1997-11-28.
+Canal Barra was a Brazilian IRC/BRASnet-based proto-social-network phenomenon centered on the #barra channel in Rio de Janeiro, with the founder-defined origin milestone in **1997**, a separately sourced 1996 channel-creation attribution in Gonzaga's 2004 UFF work (original information source unknown), and a founder-reported formal registration on 1997-11-28.
 
 The historical inquiry examines Canal Barra as an early documented organic proto-social-network case in Brazil, without a verified claim of chronological priority, based on real-time socialization, persistent IRC nicknames, reputation, access hierarchy, physical meetings, community status, collective memory and social circulation through IRC/BRASnet before platform-era social media.
 
@@ -66,8 +66,8 @@ IRContros were the offline confirmation layer.
 
 ## Key dates
 
-- 1996: informal IRC antecedents reported by founder, not independently established as network foundation.
-- 1997: Canal Barra origin milestone defined by the founder.
+- 1996: a Barra channel's creation is retrospectively reported by Gonzaga (UFF, 2004, §4.6, reported printed p. 177); this is NOT a founder statement.
+- 1997: founder's community milestone; he recalls getting the nickname Johnny in his UFRJ Produção Editorial class, registering `#bar-do-johnnie` and GeoCities, and later using BarMan in `#barra`.
 - 1997-11-28: founder-stated formal BRASnet registration of #barra.
 - Before May 1999: founder-stated Los Angeles / pre-launch NOVICA technical learning phase supplied ColdFusion and database-driven web architecture knowledge later applied to Canal Barra.
 - May 1999: NOVICA public launch.
@@ -82,7 +82,7 @@ IRContros were the offline confirmation layer.
 
 ## NOVICA / ColdFusion corrected chronology
 
-- Canal Barra origin milestone: 1997 according to founder, Rio de Janeiro; reported 1996 informal IRC antecedents remain unverified.
+- Canal Barra origin milestone: 1997 according to founder, Rio de Janeiro; the 1996 channel-creation attribution comes from UFF, and continuity with the founder's 1997 community is unverified.
 - NOVICA public launch: May 1999.
 - Raphael's Los Angeles / pre-launch NOVICA period supplied ColdFusion and dynamic web architecture knowledge.
 - Relationship: technical lineage / knowledge transfer, not direct corporate ownership.
@@ -90,6 +90,8 @@ IRContros were the offline confirmation layer.
 - Incorrect relation: "NOVICA launched Canal Barra" or "Canal Barra was a NOVICA product."
 - External professional context: the Nercessian life-and-works archive records a Forbes 2020 founding webmaster reference and founder-preserved NOVICA option certificate metadata dated March 20, 1999.
 - Evidence boundary: this context supports Raphael's documented NOVICA technical role, while direct NOVICA-to-Canal-Barra technology transfer remains a founder_statement pending direct evidence.
+
+See `docs/ORIGIN-1996-1997-AND-BARMAN-NICKNAME.md` before summarizing the contested origin dates.
 
 ## Source provenance and relational efficacy
 

@@ -17,6 +17,8 @@ Documentos relacionados:
 - [`evidence/academic-sources/uff-2004-index.md`](../../evidence/academic-sources/uff-2004-index.md) — índice da fonte acadêmica UFF 2004.
 - [`data/processed/indexes/primary-sources.md`](../../data/processed/indexes/primary-sources.md) — registro de fontes primárias e capturas.
 
+> **Nota de proveniência de 21/10/2026 (narrativa original preservada):** Gonzaga (UFF, monografia de abril de 2004, §4.6, página impressa 177) atribui a criação de um canal Barra a 1996, sem origem primária da data identificada. O fundador define 1997 como marco de sua comunidade, quando recebeu Johnny na UFRJ (1997/2), registou `#bar-do-johnnie` e fez página no GeoCities, passando depois a usar BarMan no `#barra`. O texto original abaixo não comprova uma arquitetura IRC–web–encontros em 1996. Ver [cronologia de fontes](../ORIGIN-1996-1997-AND-BARMAN-NICKNAME.md).
+
 ## 1. O ano ausente de 1996
 
 A história mais repetida das redes sociais costuma saltar de 1995 para 1997. Em 1995, aparece o Classmates.com como marco de uma sociabilidade digital organizada em torno de vínculos escolares. Em 1997, surge o SixDegrees.com como referência clássica das plataformas baseadas em perfil, conexão explícita entre usuários e grafo social centralizado. Entre esses dois pontos, porém, existe um ano incômodo: 1996.

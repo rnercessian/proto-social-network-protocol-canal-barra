@@ -117,7 +117,7 @@ Gonzaga, Flaviana Rangel Pesset. *IRC e ICQ: uma análise sócio-comunicativa da
 - **Later catalogue metadata:** eduCAPES displays **26 April 2007** and later 2021 metadata; per the founder, the government record was created/entered three years after the work. Do **not** replace the 2004 document date with 2007; the exact institutional upload history has not been independently audited.
 - **UFF catalogue destination:** https://app.uff.br/riuff/handle/1/21114 (linked by eduCAPES; full-text accessibility not verified).
 - **Repository-held derived extracts:** `data/uff-2004/sources/`; separate from the original institutional catalogue.
-- **Scope:** historical IRC/ICQ sociability and reproduced channel material, not academic confirmation of relational efficacy, general safety or priority.
+- **Scope:** historical IRC/ICQ sociability and reproduced channel material. Gonzaga's section 4.6, reported printed p. 177, attributes a Barra channel's creation to 1996; the underlying date source and continuity with the founder's 1997 community are unknown. See [the origin analysis](ORIGIN-1996-1997-AND-BARMAN-NICKNAME.md). Not independent confirmation of relational efficacy or a 1996 fully integrated architecture.
 
 ```bibtex
 @thesis{gonzaga_irc_icq_2004,

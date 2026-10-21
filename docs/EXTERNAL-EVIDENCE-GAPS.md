@@ -93,8 +93,10 @@ priority: high, medium or low.
 - Retrospective interviews risk founder-network and survivorship selection bias; former members who left or had negative experiences may be missing.
 - Relationship length, quality and origins are not systematically measurable from the present records.
 - Perceived social safety and mutual references are hypothesized mechanisms, not proof of absence of adverse events.
-- Registration date and 1996 antecedents require dated IRC/ChanServ evidence; founder-defined 1997 origin is a distinct milestone.
+- UFF's 2004 study reportedly dates creation of a Barra channel to 1996, with the underlying source unknown. The founder places his community's origin in 1997. Find early `#barra`/`#bar-do-johnnie` logs, registration records, and GeoCities captures to examine continuity.
 - The original UFF dissertation is dated April 2004 in the founder-provided source. The later government catalogue lists 26 April 2007. More work is needed to confirm *when* that catalogue entry was created; the 2004 original work date must not be overwritten.
+
+**Origin chronology remains unresolved:** 1996 (UFF source attribution) versus 1997 (founder account). See `docs/ORIGIN-1996-1997-AND-BARMAN-NICKNAME.md`.
 
 ## Oral history sampling plan
 

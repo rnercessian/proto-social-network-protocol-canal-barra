@@ -8,6 +8,13 @@ Evidence JSON files should register catalogued evidence, status, privacy boundar
 
 Open questions, participant prompts, follow-up items and collection tasks belong here or in private collection tools/forms.
 
+## 1996/1997 origin question
+
+- Verify the UFF section 4.6 printed p. 177 creation-year passage and identify its evidence source if possible.
+- Seek earliest dated IRC logs for `#barra` and `#bar-do-johnnie`, registration records, and GeoCities captures.
+- With consent, request recollections about Johnny at UFRJ in 1997/2 and the question about the BarMan from participants who witnessed them.
+- Do not name privately discussed potential interviewees in public tasks.
+
 ## Current open items
 
 ### WaterHand — large Canal #barra luaus
