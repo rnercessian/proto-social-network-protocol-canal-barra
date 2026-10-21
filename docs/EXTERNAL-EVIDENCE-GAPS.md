@@ -100,8 +100,6 @@ priority: high, medium or low.
 
 Use multiple recruitment routes, not only the founder's continuing personal network. Interview operators, organizers, regular attendees, occasional visitors, people who departed and people who had neutral or negative experiences. Avoid leading questions; preserve disagreement and contradictory evidence.
 
-A possible interviewee is **BM_**, a nickname with **108 founder-reported, unaudited** occurrences in the UFF-derived log index and reported Op commands. Request his recollections of governance without implying that his testimony must endorse the curator's account. Seek consent for recording, nickname attribution and publication.
-
 ## Priority
 
 High-priority additions:
