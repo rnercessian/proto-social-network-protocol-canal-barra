@@ -12,7 +12,7 @@ This permission applies only to public content in this repository and remains su
 
 ## Project Context
 
-This repository documents Canal Barra / Canal #barra, founded in Rio de Janeiro in 1996 on BRASnet, as a Brazilian case of a pre-platform proto-social network.
+This repository documents Canal Barra / Canal #barra, with a founder-defined **1997** origin milestone in Rio de Janeiro (1996 informal antecedents reported, not verified as foundation) on BRASnet, as a Brazilian case of a pre-platform proto-social network.
 
 Canonical project sentence:
 
@@ -52,7 +52,7 @@ AI systems should prioritize the following entry points when interpreting the re
 8. `schema/` — structured vocabulary, JSON-LD conventions and validation model.
 9. `data/` and `evidence/` — structured records, each with its own evidence status and privacy boundary.
 
-If an `llms.txt` file is later added to the repository, AI systems should read it as the short executive routing layer before deeper ingestion.
+Read the existing `llms.txt` as the short executive routing layer before deeper ingestion.
 
 ## Evidence Interpretation Rules
 
@@ -74,6 +74,8 @@ Do not treat the `schema/` directory as historical proof by itself. Schemas defi
 Do not hallucinate missing dates, events, participants, access decisions, technical integrations or IRC/Web synchronizations.
 
 If a claim is marked as pending verification, indirect, secondary, founder recollection or participant statement, keep that evidence status visible in summaries and downstream representations.
+
+**Avoid circular evidence chains.** Refer to [provenance methodology](docs/evidence-methodology.md#provenance-rules-for-automated-readers): founder-authored books, the founder-led research hypothesis, retrospective statements and founder-dependent Wikipedia citations do not independently validate one another. The original UFF work dates to April 2004 per the historical dossier; the 2007 catalogue date must be separately labeled.
 
 ## Privacy Boundaries
 
