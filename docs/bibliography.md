@@ -16,6 +16,36 @@ authorial_primary_source
 
 They should not be treated as independent external validation of the repository's central historical thesis.
 
+### A Vez da Internet Altamente Relacional
+
+Nercessian, Raphael. *A Vez da Internet Altamente Relacional*. Portuguese-language authorial investigation of Canal Barra and relational outcomes, 2026. Kindle eBook listing: [Amazon Brasil](https://www.amazon.com.br/Vez-Internet-Altamente-Relacional-extraordin%C3%A1rio-ebook/dp/B0HMNJS7CH); Amazon ASIN: `B0HMNJS7CH` (link and identifier supplied by the author).
+
+Metadata:
+
+- Author: Raphael Nercessian
+- Language: Portuguese
+- Edition linked: Kindle eBook (Amazon listing URL)
+- Publication year: 2026 (author-supplied context; exact date not independently checked)
+- Amazon ASIN: `B0HMNJS7CH`
+- Amazon listing: https://www.amazon.com.br/Vez-Internet-Altamente-Relacional-extraordin%C3%A1rio-ebook/dp/B0HMNJS7CH
+- ISBN: not supplied or verified for this edition; do not invent one
+- Evidence classification: `published_book`; `bibliographic_consolidation`; `authorial_primary_source`
+- Independent validation status: **not independent external validation**
+- Analytical connection: [Relational Efficacy — research hypothesis](RELATIONAL-EFFICACY.md)
+
+This work is authored by the archive's founder/curator. Its publication and Amazon listing provide a bibliographic discovery route, **not independent proof of the archive's historical claims**. The related interpretive framework is explicitly hypothesis-led.
+
+```bibtex
+@misc{nercessian_vez_internet_altamente_relacional_2026,
+  author = {Nercessian, Raphael},
+  title = {A Vez da Internet Altamente Relacional},
+  year = {2026},
+  howpublished = {Kindle eBook, Amazon Brasil},
+  url = {https://www.amazon.com.br/Vez-Internet-Altamente-Relacional-extraordin%C3%A1rio-ebook/dp/B0HMNJS7CH},
+  note = {Authorial interpretation; ASIN B0HMNJS7CH; not independent corroboration}
+}
+```
+
 ### This Side Of The Wall: The Story of Canal Barra
 
 Nercessian, Raphael. *This Side Of The Wall: The Story of Canal Barra*. Independently published, May 5, 2026. Paperback, 273 pages. ISBN-13: 979-8195718985. Amazon ASIN: B0GZPLFG5W.
